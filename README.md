@@ -2,6 +2,8 @@
 
 [@digital-go-jp/design-tokens](https://www.npmjs.com/package/@digital-go-jp/design-tokens) を使った Tailwind CSS の Theme Plugin。
 
+[![npm version](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin.svg)](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin)
+
 ### インストール
 
 ```

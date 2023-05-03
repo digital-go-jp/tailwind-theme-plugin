@@ -1,4 +1,4 @@
-# Tailwind Config
+# Tailwind Theme Plugin
 
 [@digital-go-jp/design-tokens](https://www.npmjs.com/package/@digital-go-jp/design-tokens) を使った Tailwind CSS の Theme Plugin。
 

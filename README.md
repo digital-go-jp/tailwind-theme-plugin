@@ -37,9 +37,3 @@ $ npm install
 ```
 $ npm run build
 ```
-
-### Publish
-
-```
-$ npm publish --access=public
-```

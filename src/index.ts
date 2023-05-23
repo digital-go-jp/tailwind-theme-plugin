@@ -89,16 +89,6 @@ const daPlugin = plugin(() => {}, {
           divider: tokens.Color.Light.Border.Divider.value,
           field: tokens.Color.Light.Border.Field.value,
         },
-        text: {
-          body: tokens.Color.Light.Text.Body.value,
-          description: tokens.Color.Light.Text.Description.value,
-          placeholder: tokens.Color.Light.Text.Placeholder.value,
-          'on-fill': tokens.Color.Light.Text['On Fill'].value,
-          link: tokens.Color.Light.Text.Link.value,
-          visited: tokens.Color.Light.Text.Visited.value,
-          alert: tokens.Color.Light.Text.Alert.value,
-          disabled: tokens.Color.Light.Text.Disabled.value,
-        },
         dark: {
           icon: {
             label: tokens.Color.Dark.Icon.Label.value,
@@ -115,16 +105,6 @@ const daPlugin = plugin(() => {}, {
             primary: tokens.Color.Dark.Chart.Primary.value,
             secondary: tokens.Color.Dark.Chart.Secondary.value,
           },
-          text: {
-            body: tokens.Color.Dark.Text.Body.value,
-            description: tokens.Color.Dark.Text.Description.value,
-            placeholder: tokens.Color.Dark.Text.Placeholder.value,
-            'on-fill': tokens.Color.Dark.Text['On Fill'].value,
-            link: tokens.Color.Dark.Text.Link.value,
-            visited: tokens.Color.Dark.Text.Visited.value,
-            alert: tokens.Color.Dark.Text.Alert.value,
-            disabled: tokens.Color.Dark.Text.Disabled.value,
-          },
           border: {
             alert: tokens.Color.Dark.Border.Alert.value,
             selected: tokens.Color.Dark.Border.Selected.value,
@@ -135,25 +115,63 @@ const daPlugin = plugin(() => {}, {
           },
         },
       },
+      textColor: {
+        body: tokens.Color.Light.Text.Body.value,
+        description: tokens.Color.Light.Text.Description.value,
+        placeholder: tokens.Color.Light.Text.Placeholder.value,
+        'on-fill': tokens.Color.Light.Text['On Fill'].value,
+        link: tokens.Color.Light.Text.Link.value,
+        visited: tokens.Color.Light.Text.Visited.value,
+        alert: tokens.Color.Light.Text.Alert.value,
+        disabled: tokens.Color.Light.Text.Disabled.value,
+        dark: {
+          text: {
+            body: tokens.Color.Dark.Text.Body.value,
+            description: tokens.Color.Dark.Text.Description.value,
+            placeholder: tokens.Color.Dark.Text.Placeholder.value,
+            'on-fill': tokens.Color.Dark.Text['On Fill'].value,
+            link: tokens.Color.Dark.Text.Link.value,
+            visited: tokens.Color.Dark.Text.Visited.value,
+            alert: tokens.Color.Dark.Text.Alert.value,
+            disabled: tokens.Color.Dark.Text.Disabled.value,
+          },
+        },
+      },
       backgroundColor: {
         primary: tokens.Color.Light.Background.Primary.value,
         secondary: tokens.Color.Light.Background.Secondary.value,
         tertiary: tokens.Color.Light.Background.Tertiary.value,
         button: {
-          normal: tokens.Color.Light.Button.Normal.value,
-          active: tokens.Color.Light.Button.Active.value,
-          hover: tokens.Color.Light.Button.Hover.value,
-          disabled: tokens.Color.Light.Button.Disabled.value,
+          primary: {
+            normal: tokens.Color.Light.Button.Normal.value,
+            active: tokens.Color.Light.Button.Active.value,
+            hover: tokens.Color.Light.Button.Hover.value,
+            disabled: tokens.Color.Light.Button.Disabled.value,
+          },
+          secondary: {
+            normal: 'transparent',
+            active: tokens.Color.Primitive.Sea[50].value,
+            hover: tokens.Color.Primitive.Sea[50].value,
+            disabled: 'transparent',
+          },
+          tertiary: {
+            normal: 'transparent',
+            active: 'transparent',
+            hover: 'transparent',
+            disabled: 'transparent',
+          },
         },
         dark: {
           primary: tokens.Color.Dark.Background.Primary.value,
           secondary: tokens.Color.Dark.Background.Secondary.value,
           tertiary: tokens.Color.Dark.Background.Tertiary.value,
           button: {
-            normal: tokens.Color.Dark.Button.Normal.value,
-            active: tokens.Color.Dark.Button.Active.value,
-            hover: tokens.Color.Dark.Button.Hover.value,
-            disabled: tokens.Color.Dark.Button.Disabled.value,
+            primary: {
+              normal: tokens.Color.Dark.Button.Normal.value,
+              active: tokens.Color.Dark.Button.Active.value,
+              hover: tokens.Color.Dark.Button.Hover.value,
+              disabled: tokens.Color.Dark.Button.Disabled.value,
+            },
           },
         },
       },
@@ -164,6 +182,14 @@ const daPlugin = plugin(() => {}, {
         disabled: tokens.Color.Light.Border.Disabled.value,
         divider: tokens.Color.Light.Border.Divider.value,
         field: tokens.Color.Light.Border.Field.value,
+        button: {
+          secondary: {
+            normal: tokens.Color.Light.Button.Normal.value,
+            active: tokens.Color.Light.Button.Active.value,
+            hover: tokens.Color.Light.Button.Hover.value,
+            disabled: 'transparent',
+          },
+        },
         dark: {
           alert: tokens.Color.Dark.Border.Alert.value,
           selected: tokens.Color.Dark.Border.Selected.value,
@@ -172,6 +198,10 @@ const daPlugin = plugin(() => {}, {
           divider: tokens.Color.Dark.Border.Divider.value,
           field: tokens.Color.Dark.Border.Field.value,
         },
+      },
+      outlineColor: {
+        button: tokens.Color.Light.Border.Focused.value,
+        input: tokens.Color.Light.Border.Focused.value,
       },
       fontSize: {
         'heading-2xl': [

@@ -105,14 +105,6 @@ const daPlugin = plugin(() => {}, {
             primary: tokens.Color.Dark.Chart.Primary.value,
             secondary: tokens.Color.Dark.Chart.Secondary.value,
           },
-          border: {
-            alert: tokens.Color.Dark.Border.Alert.value,
-            selected: tokens.Color.Dark.Border.Selected.value,
-            focused: tokens.Color.Dark.Border.Focused.value,
-            disabled: tokens.Color.Dark.Border.Disabled.value,
-            divider: tokens.Color.Dark.Border.Divider.value,
-            field: tokens.Color.Dark.Border.Field.value,
-          },
         },
       },
       textColor: {

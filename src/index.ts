@@ -116,17 +116,33 @@ const daPlugin = plugin(() => {}, {
         visited: tokens.Color.Light.Text.Visited.value,
         alert: tokens.Color.Light.Text.Alert.value,
         disabled: tokens.Color.Light.Text.Disabled.value,
-        dark: {
-          text: {
-            body: tokens.Color.Dark.Text.Body.value,
-            description: tokens.Color.Dark.Text.Description.value,
-            placeholder: tokens.Color.Dark.Text.Placeholder.value,
-            'on-fill': tokens.Color.Dark.Text['On Fill'].value,
-            link: tokens.Color.Dark.Text.Link.value,
-            visited: tokens.Color.Dark.Text.Visited.value,
-            alert: tokens.Color.Dark.Text.Alert.value,
-            disabled: tokens.Color.Dark.Text.Disabled.value,
+        button: {
+          primary: {
+            normal: tokens.Color.Light.Text['On Fill'].value,
+            disabled: tokens.Color.Light.Button.Disabled.value,
           },
+          secondary: {
+            normal: tokens.Color.Light.Button.Normal.value,
+            active: tokens.Color.Light.Button.Active.value,
+            hover: tokens.Color.Light.Button.Hover.value,
+            disabled: tokens.Color.Light.Button.Disabled.value,
+          },
+          tertiary: {
+            normal: tokens.Color.Light.Button.Normal.value,
+            active: tokens.Color.Light.Button.Active.value,
+            hover: tokens.Color.Light.Button.Hover.value,
+            disabled: tokens.Color.Light.Button.Disabled.value,
+          },
+        },
+        dark: {
+          body: tokens.Color.Dark.Text.Body.value,
+          description: tokens.Color.Dark.Text.Description.value,
+          placeholder: tokens.Color.Dark.Text.Placeholder.value,
+          'on-fill': tokens.Color.Dark.Text['On Fill'].value,
+          link: tokens.Color.Dark.Text.Link.value,
+          visited: tokens.Color.Dark.Text.Visited.value,
+          alert: tokens.Color.Dark.Text.Alert.value,
+          disabled: tokens.Color.Dark.Text.Disabled.value,
         },
       },
       backgroundColor: {

@@ -23,17 +23,3 @@ $ npm install @digital-go-jp/tailwind-theme-plugin
     plugins: [require('@digital-go-jp/tailwind-theme-plugin')],
 }
 ```
-
-## 以下開発者向け
-
-### Setup
-
-```
-$ npm install
-```
-
-### Build
-
-```
-$ npm run build
-```

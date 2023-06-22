@@ -195,7 +195,7 @@ const daPlugin = plugin(() => {}, {
             normal: tokens.Color.Light.Button.Normal.value,
             active: tokens.Color.Light.Button.Active.value,
             hover: tokens.Color.Light.Button.Hover.value,
-            disabled: tokens.Color.Light.Button.Disabled,
+            disabled: tokens.Color.Light.Button.Disabled.value,
           },
         },
         dark: {

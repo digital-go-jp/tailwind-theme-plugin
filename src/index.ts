@@ -195,7 +195,7 @@ const daPlugin = plugin(() => {}, {
             normal: tokens.Color.Light.Button.Normal.value,
             active: tokens.Color.Light.Button.Active.value,
             hover: tokens.Color.Light.Button.Hover.value,
-            disabled: 'transparent',
+            disabled: tokens.Color.Light.Button.Disabled,
           },
         },
         dark: {
@@ -392,6 +392,10 @@ const daPlugin = plugin(() => {}, {
         sm: tokens.BorderRadius.sm.value,
         md: tokens.BorderRadius.md.value,
         lg: tokens.BorderRadius.lg.value,
+      },
+      screens: {
+        tablet: '521px',
+        desktop: '961px',
       },
     },
   },

@@ -12,7 +12,7 @@ jobs:
           node-version: 18.13.0
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-      - run: npm run transform
+      - run: npm run build
       - run: npm publish --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

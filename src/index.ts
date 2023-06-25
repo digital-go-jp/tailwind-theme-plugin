@@ -397,6 +397,11 @@ const daPlugin = plugin(() => {}, {
         tablet: '521px',
         desktop: '961px',
       },
+      listStyleType: {
+        'lower-latin': 'lower-latin',
+        circle: 'circle',
+        square: 'square',
+      }
     },
   },
 });

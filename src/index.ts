@@ -17,6 +17,9 @@ const daPlugin = plugin(() => {}, {
           700: tokens.Color.Primitive.Sea[700].value,
           800: tokens.Color.Primitive.Sea[800].value,
           900: tokens.Color.Primitive.Sea[900].value,
+          1000: tokens.Color.Primitive.Sea[1000].value,
+          1100: tokens.Color.Primitive.Sea[1100].value,
+          1200: tokens.Color.Primitive.Sea[1200].value,
         },
         sumi: {
           50: tokens.Color.Primitive.Sumi[50].value,
@@ -29,6 +32,9 @@ const daPlugin = plugin(() => {}, {
           700: tokens.Color.Primitive.Sumi[700].value,
           800: tokens.Color.Primitive.Sumi[800].value,
           900: tokens.Color.Primitive.Sumi[900].value,
+          1000: tokens.Color.Primitive.Sumi[1000].value,
+          1100: tokens.Color.Primitive.Sumi[1100].value,
+          1200: tokens.Color.Primitive.Sumi[1200].value,
         },
         forest: {
           50: tokens.Color.Primitive.Forest[50].value,
@@ -41,6 +47,9 @@ const daPlugin = plugin(() => {}, {
           700: tokens.Color.Primitive.Forest[700].value,
           800: tokens.Color.Primitive.Forest[800].value,
           900: tokens.Color.Primitive.Forest[900].value,
+          1000: tokens.Color.Primitive.Forest[1000].value,
+          1100: tokens.Color.Primitive.Forest[1100].value,
+          1200: tokens.Color.Primitive.Forest[1200].value,
         },
         wood: {
           50: tokens.Color.Primitive.Wood[50].value,
@@ -53,6 +62,9 @@ const daPlugin = plugin(() => {}, {
           700: tokens.Color.Primitive.Wood[700].value,
           800: tokens.Color.Primitive.Wood[800].value,
           900: tokens.Color.Primitive.Wood[900].value,
+          1000: tokens.Color.Primitive.Wood[1000].value,
+          1100: tokens.Color.Primitive.Wood[1100].value,
+          1200: tokens.Color.Primitive.Wood[1200].value,
         },
         sun: {
           50: tokens.Color.Primitive.Sun[50].value,
@@ -65,6 +77,9 @@ const daPlugin = plugin(() => {}, {
           700: tokens.Color.Primitive.Sun[700].value,
           800: tokens.Color.Primitive.Sun[800].value,
           900: tokens.Color.Primitive.Sun[900].value,
+          1000: tokens.Color.Primitive.Sun[1000].value,
+          1100: tokens.Color.Primitive.Sun[1100].value,
+          1200: tokens.Color.Primitive.Sun[1200].value,
         },
         icon: {
           label: tokens.Color.Light.Icon.Label.value,

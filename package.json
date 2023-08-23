@@ -42,7 +42,7 @@
     "tailwindcss": "^3.3.2"
   },
   "engines": {
-    "node": "16.x || 18.x"
+    "node": ">=18"
   },
   "engineStrict": true
 }

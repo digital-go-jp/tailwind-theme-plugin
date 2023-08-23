@@ -4,6 +4,8 @@
 
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin.svg)](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin)
 
+## セットアップ
+
 ### インストール
 
 ```
@@ -25,6 +27,9 @@ $ npm install @digital-go-jp/tailwind-theme-plugin
 ```
 
 ## 拡張内容
+
+このテーマを使うと以下の内容が設定された状態になります。  
+テーマを使わずデザイントークンのみを使いたい方は、[@digital-go-jp/design-tokens](https://www.npmjs.com/package/@digital-go-jp/design-tokens) を使ってください。
 
 ```
 theme: {

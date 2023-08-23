@@ -416,7 +416,7 @@ const daPlugin = plugin(() => {}, {
         'lower-latin': 'lower-latin',
         circle: 'circle',
         square: 'square',
-      }
+      },
     },
   },
 });

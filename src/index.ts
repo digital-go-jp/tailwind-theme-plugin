@@ -223,6 +223,7 @@ const daPlugin = plugin(() => {}, {
         },
       },
       outlineColor: {
+        focused: tokens.Color.Light.Border.Focused.value,
         button: tokens.Color.Light.Border.Focused.value,
         input: tokens.Color.Light.Border.Focused.value,
       },

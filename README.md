@@ -26,13 +26,12 @@ $ npm install @digital-go-jp/tailwind-theme-plugin
 }
 ```
 
-## Figmaとのバージョン対応について
+## Figma（デザインシステム）とのバージョン対応表
 
 | Figmaのバージョン | npmのバージョン |
 | ----------------- | --------------- |
-| 1.3.4             | 0.0.14          |
+| 1.3.4             | 0.0.15          |
 | 1.3.3             | 0.0.13          |
-
 
 ## 拡張内容
 
@@ -401,20 +400,20 @@ theme: {
           letterSpacing: tokens.Text.Label.lg.LetterSpacing.value,
         },
       ],
-      'capture-md': [
-        tokens.Text.Capture.md.FontSize.value,
+      'caption-md': [
+        tokens.Text.Caption.md.FontSize.value,
         {
-          fontWeight: tokens.Text.Capture.md.FontWeight.value,
-          lineHeight: tokens.Text.Capture.md.LineHeight.value,
-          letterSpacing: tokens.Text.Capture.md.LetterSpacing.value,
+          fontWeight: tokens.Text.Caption.md.FontWeight.value,
+          lineHeight: tokens.Text.Caption.md.LineHeight.value,
+          letterSpacing: tokens.Text.Caption.md.LetterSpacing.value,
         },
       ],
-      'capture-lg': [
-        tokens.Text.Capture.lg.FontSize.value,
+      'caption-lg': [
+        tokens.Text.Caption.lg.FontSize.value,
         {
-          fontWeight: tokens.Text.Capture.lg.FontWeight.value,
-          lineHeight: tokens.Text.Capture.lg.LineHeight.value,
-          letterSpacing: tokens.Text.Capture.lg.LetterSpacing.value,
+          fontWeight: tokens.Text.Caption.lg.FontWeight.value,
+          lineHeight: tokens.Text.Caption.lg.LineHeight.value,
+          letterSpacing: tokens.Text.Caption.lg.LetterSpacing.value,
         },
       ],
     },

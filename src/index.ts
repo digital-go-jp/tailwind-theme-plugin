@@ -223,6 +223,7 @@ const daPlugin = plugin(() => {}, {
         },
       },
       outlineColor: {
+        focused: tokens.Color.Light.Border.Focused.value,
         button: tokens.Color.Light.Border.Focused.value,
         input: tokens.Color.Light.Border.Focused.value,
       },
@@ -331,6 +332,14 @@ const daPlugin = plugin(() => {}, {
             letterSpacing: tokens.Text.Button.LetterSpacing.value,
           },
         ],
+        'button-link': [
+          tokens.Text.ButtonLink.FontSize.value,
+          {
+            fontWeight: tokens.Text.ButtonLink.FontWeight.value,
+            lineHeight: tokens.Text.ButtonLink.LineHeight.value,
+            letterSpacing: tokens.Text.ButtonLink.LetterSpacing.value,
+          },
+        ],
         'body-md': [
           tokens.Text.Body.md.FontSize.value,
           {
@@ -345,6 +354,22 @@ const daPlugin = plugin(() => {}, {
             fontWeight: tokens.Text.Body.lg.FontWeight.value,
             lineHeight: tokens.Text.Body.lg.LineHeight.value,
             letterSpacing: tokens.Text.Body.lg.LetterSpacing.value,
+          },
+        ],
+        'body-link-md': [
+          tokens.Text.BodyLink.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.BodyLink.md.FontWeight.value,
+            lineHeight: tokens.Text.BodyLink.md.LineHeight.value,
+            letterSpacing: tokens.Text.BodyLink.md.LetterSpacing.value,
+          },
+        ],
+        'body-link-lg': [
+          tokens.Text.BodyLink.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.BodyLink.lg.FontWeight.value,
+            lineHeight: tokens.Text.BodyLink.lg.LineHeight.value,
+            letterSpacing: tokens.Text.BodyLink.lg.LetterSpacing.value,
           },
         ],
         'label-md': [
@@ -363,6 +388,22 @@ const daPlugin = plugin(() => {}, {
             letterSpacing: tokens.Text.Label.lg.LetterSpacing.value,
           },
         ],
+        'label-link-md': [
+          tokens.Text.LabelLink.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.LabelLink.md.FontWeight.value,
+            lineHeight: tokens.Text.LabelLink.md.LineHeight.value,
+            letterSpacing: tokens.Text.LabelLink.md.LetterSpacing.value,
+          },
+        ],
+        'label-link-lg': [
+          tokens.Text.LabelLink.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.LabelLink.lg.FontWeight.value,
+            lineHeight: tokens.Text.LabelLink.lg.LineHeight.value,
+            letterSpacing: tokens.Text.LabelLink.lg.LetterSpacing.value,
+          },
+        ],
         'caption-md': [
           tokens.Text.Caption.md.FontSize.value,
           {
@@ -377,6 +418,22 @@ const daPlugin = plugin(() => {}, {
             fontWeight: tokens.Text.Caption.lg.FontWeight.value,
             lineHeight: tokens.Text.Caption.lg.LineHeight.value,
             letterSpacing: tokens.Text.Caption.lg.LetterSpacing.value,
+          },
+        ],
+        'caption-link-md': [
+          tokens.Text.CaptionLink.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.CaptionLink.md.FontWeight.value,
+            lineHeight: tokens.Text.CaptionLink.md.LineHeight.value,
+            letterSpacing: tokens.Text.CaptionLink.md.LetterSpacing.value,
+          },
+        ],
+        'caption-link-lg': [
+          tokens.Text.CaptionLink.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.CaptionLink.lg.FontWeight.value,
+            lineHeight: tokens.Text.CaptionLink.lg.LineHeight.value,
+            letterSpacing: tokens.Text.CaptionLink.lg.LetterSpacing.value,
           },
         ],
       },
@@ -409,13 +466,18 @@ const daPlugin = plugin(() => {}, {
         lg: tokens.BorderRadius.lg.value,
       },
       screens: {
-        tablet: '521px',
-        desktop: '961px',
+        desktop: '768px',
+        'desktop-admin': '992px',
       },
       listStyleType: {
         'lower-latin': 'lower-latin',
         circle: 'circle',
         square: 'square',
+      },
+      aspectRatio: {
+        '1/1': '1 / 1',
+        '3/2': '3 / 2',
+        '16/9': '16 / 9',
       },
     },
   },

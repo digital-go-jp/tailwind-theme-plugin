@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/tailwind-theme-plugin",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -30,7 +30,7 @@
     "config": "tsc --showConfig"
   },
   "devDependencies": {
-    "@digital-go-jp/design-tokens": "^0.0.10",
+    "@digital-go-jp/design-tokens": "^0.0.11",
     "@tsconfig/node18": "^18.2.1",
     "@types/node": "^20.3.1",
     "prettier": "^3.0.3",

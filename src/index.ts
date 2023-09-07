@@ -172,15 +172,15 @@ const daPlugin = plugin(() => {}, {
             disabled: tokens.Color.Light.Button.Disabled.value,
           },
           secondary: {
-            normal: 'transparent',
-            active: tokens.Color.Primitive.Sea[50].value,
-            hover: tokens.Color.Primitive.Sea[50].value,
-            disabled: 'transparent',
+            normal: tokens.Color.Primitive.White[1000].value,
+            active: tokens.Color.Primitive.Sea[200].value,
+            hover: tokens.Color.Primitive.Sea[100].value,
+            disabled: tokens.Color.Primitive.White[1000].value,
           },
           tertiary: {
             normal: 'transparent',
-            active: 'transparent',
-            hover: 'transparent',
+            active: tokens.Color.Primitive.Sea[200].value,
+            hover: tokens.Color.Primitive.Sea[100].value,
             disabled: 'transparent',
           },
         },
@@ -338,6 +338,22 @@ const daPlugin = plugin(() => {}, {
             fontWeight: tokens.Text.ButtonLink.FontWeight.value,
             lineHeight: tokens.Text.ButtonLink.LineHeight.value,
             letterSpacing: tokens.Text.ButtonLink.LetterSpacing.value,
+          },
+        ],
+        'button-xs': [
+          '0.875rem',
+          {
+            fontWeight: tokens.FontWeight.Bold.value,
+            lineHeight: '100%',
+            letterSpacing: '0.035em',
+          },
+        ],
+        'button-xs-link': [
+          '0.875rem',
+          {
+            fontWeight: tokens.FontWeight.Bold.value,
+            lineHeight: '100%',
+            letterSpacing: '0.035em',
           },
         ],
         'body-md': [

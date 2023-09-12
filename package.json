@@ -30,7 +30,7 @@
     "config": "tsc --showConfig"
   },
   "devDependencies": {
-    "@digital-go-jp/design-tokens": "^0.0.12",
+    "@digital-go-jp/design-tokens": "^0.0.13",
     "@tsconfig/node18": "^18.2.1",
     "@types/node": "^20.3.1",
     "prettier": "^3.0.3",

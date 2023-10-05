@@ -96,14 +96,6 @@ const daPlugin = plugin(() => {}, {
           primary: tokens.Color.Light.Chart.Primary.value,
           secondary: tokens.Color.Light.Chart.Secondary.value,
         },
-        border: {
-          alert: tokens.Color.Light.Border.Alert.value,
-          selected: tokens.Color.Light.Border.Selected.value,
-          focused: tokens.Color.Light.Border.Focused.value,
-          disabled: tokens.Color.Light.Border.Disabled.value,
-          divider: tokens.Color.Light.Border.Divider.value,
-          field: tokens.Color.Light.Border.Field.value,
-        },
         dark: {
           icon: {
             label: tokens.Color.Dark.Icon.Label.value,
@@ -134,6 +126,8 @@ const daPlugin = plugin(() => {}, {
         button: {
           primary: {
             normal: tokens.Color.Light.Text['On Fill'].value,
+            active: tokens.Color.Light.Text['On Fill'].value,
+            hover: tokens.Color.Light.Text['On Fill'].value,
             disabled: tokens.Color.Light.Button.Disabled.value,
           },
           secondary: {

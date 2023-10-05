@@ -217,7 +217,12 @@ const daPlugin = plugin(() => {}, {
         },
       },
       outlineColor: {
+        alert: tokens.Color.Light.Border.Alert.value,
+        selected: tokens.Color.Light.Border.Selected.value,
         focused: tokens.Color.Light.Border.Focused.value,
+        disabled: tokens.Color.Light.Border.Disabled.value,
+        divider: tokens.Color.Light.Border.Divider.value,
+        field: tokens.Color.Light.Border.Field.value,
         button: tokens.Color.Light.Border.Focused.value,
         input: tokens.Color.Light.Border.Focused.value,
       },

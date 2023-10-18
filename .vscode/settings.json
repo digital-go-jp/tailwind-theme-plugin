@@ -4,6 +4,5 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.unicodeHighlight.invisibleCharacters": true,
-  "tailwindCSS.experimental.classRegex": ["colorClasses=*"]
+  "editor.unicodeHighlight.invisibleCharacters": true
 }

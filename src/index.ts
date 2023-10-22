@@ -318,6 +318,8 @@ const daPlugin = plugin(() => {}, {
         'on-fill': tokens.Color.Light.Text['On Fill'].value,
         link: tokens.Color.Light.Text.Link.value,
         visited: tokens.Color.Light.Text.Visited.value,
+        hover: tokens.Color.Light.Text.Hover.value,
+        active: tokens.Color.Light.Text.Active.value,
         alert: tokens.Color.Light.Text.Alert.value,
         disabled: tokens.Color.Light.Text.Disabled.value,
         button: {

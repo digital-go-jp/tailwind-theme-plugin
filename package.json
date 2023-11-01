@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/tailwind-theme-plugin",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -26,23 +26,22 @@
   ],
   "scripts": {
     "build": "vite build && tsc",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
-    "config": "tsc --showConfig"
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
   },
   "devDependencies": {
-    "@digital-go-jp/design-tokens": "^0.0.15",
+    "@digital-go-jp/design-tokens": "^0.0.16",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^20.8.6",
+    "@types/node": "^20.8.10",
     "prettier": "^3.0.3",
-    "tailwindcss": "^3.3.3",
+    "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2",
-    "vite": "^4.4.11"
+    "vite": "^4.5.0"
   },
   "peerDependencies": {
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.5"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "engineStrict": true
 }

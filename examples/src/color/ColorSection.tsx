@@ -4,7 +4,7 @@ export const ColorSection = () => {
   return (
     <section className="flex flex-col gap-8">
       <div>
-        <h2 className="font-bold text-2xl">Colors</h2>
+        <h2 className="text-std-28B-5">Colors</h2>
         <p className="my-4">例ではbg-*を利用していますが、text-*やfill-*、border-*等、色関連は全てに適用されます。</p>
       </div>
       <Colors

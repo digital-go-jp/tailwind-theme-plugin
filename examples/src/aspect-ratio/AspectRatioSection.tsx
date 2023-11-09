@@ -7,17 +7,17 @@ export const AspectRatioSection = () => {
       <div className="flex flex-wrap gap-8">
         <div className="flex flex-col gap-2">
           <div className="bg-solid-grey-400 aspect-16/9 w-[300px]"></div>
-          <span className="text-caption-lg">16:9</span>
+          <span className="text-dns-14N-3">16:9</span>
         </div>
 
         <div className="flex flex-col gap-2">
           <div className="bg-solid-grey-400 aspect-3/2 w-[300px]"></div>
-          <span className="text-caption-lg">3:2</span>
+          <span className="text-dns-14N-3">3:2</span>
         </div>
 
         <div className="flex flex-col gap-2">
           <div className="bg-solid-grey-400 aspect-1/1 w-[300px]"></div>
-          <span className="text-caption-lg">1:1</span>
+          <span className="text-dns-14N-3">1:1</span>
         </div>
       </div>
     </section>

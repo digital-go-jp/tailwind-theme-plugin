@@ -278,44 +278,11 @@ const daPlugin = plugin(() => {}, {
             2: tokens.Color.Warning.Orange[2].value,
           },
         },
-        icon: {
-          label: tokens.Color.Light.Icon.Label.value,
-          active: tokens.Color.Light.Icon.Active.value,
-          alert: tokens.Color.Light.Icon.Alert.value,
-          disabled: tokens.Color.Light.Icon.Disabled.value,
-        },
-        status: {
-          success: tokens.Color.Light.Status.Success.value,
-          warning: tokens.Color.Light.Status.Warning.value,
-          alert: tokens.Color.Light.Status.Alert.value,
-        },
-        chart: {
-          primary: tokens.Color.Light.Chart.Primary.value,
-          secondary: tokens.Color.Light.Chart.Secondary.value,
-        },
-        dark: {
-          icon: {
-            label: tokens.Color.Dark.Icon.Label.value,
-            active: tokens.Color.Dark.Icon.Active.value,
-            alert: tokens.Color.Dark.Icon.Alert.value,
-            disabled: tokens.Color.Dark.Icon.Disabled.value,
-          },
-          status: {
-            success: tokens.Color.Dark.Status.Success.value,
-            warning: tokens.Color.Dark.Status.Warning.value,
-            alert: tokens.Color.Dark.Status.Alert.value,
-          },
-          chart: {
-            primary: tokens.Color.Dark.Chart.Primary.value,
-            secondary: tokens.Color.Dark.Chart.Secondary.value,
-          },
-        },
       },
       textColor: {
         body: tokens.Color.Light.Text.Body.value,
         description: tokens.Color.Light.Text.Description.value,
         placeholder: tokens.Color.Light.Text.Placeholder.value,
-        'on-fill': tokens.Color.Light.Text['On Fill'].value,
         link: tokens.Color.Light.Text.Link.value,
         visited: tokens.Color.Light.Text.Visited.value,
         hover: tokens.Color.Light.Text.Hover.value,
@@ -324,9 +291,9 @@ const daPlugin = plugin(() => {}, {
         disabled: tokens.Color.Light.Text.Disabled.value,
         button: {
           primary: {
-            normal: tokens.Color.Light.Text['On Fill'].value,
-            active: tokens.Color.Light.Text['On Fill'].value,
-            hover: tokens.Color.Light.Text['On Fill'].value,
+            normal: tokens.Color.Neutral.White.value,
+            active: tokens.Color.Neutral.White.value,
+            hover: tokens.Color.Neutral.White.value,
             disabled: tokens.Color.Light.Button.Disabled.value,
           },
           secondary: {
@@ -341,16 +308,6 @@ const daPlugin = plugin(() => {}, {
             hover: tokens.Color.Light.Button.Hover.value,
             disabled: tokens.Color.Light.Button.Disabled.value,
           },
-        },
-        dark: {
-          body: tokens.Color.Dark.Text.Body.value,
-          description: tokens.Color.Dark.Text.Description.value,
-          placeholder: tokens.Color.Dark.Text.Placeholder.value,
-          'on-fill': tokens.Color.Dark.Text['On Fill'].value,
-          link: tokens.Color.Dark.Text.Link.value,
-          visited: tokens.Color.Dark.Text.Visited.value,
-          alert: tokens.Color.Dark.Text.Alert.value,
-          disabled: tokens.Color.Dark.Text.Disabled.value,
         },
       },
       backgroundColor: {
@@ -365,29 +322,16 @@ const daPlugin = plugin(() => {}, {
             disabled: tokens.Color.Light.Button.Disabled.value,
           },
           secondary: {
-            normal: tokens.Color.Primitive.White[1000].value,
+            normal: tokens.Color.Neutral.White.value,
             active: tokens.Color.Primitive.Sea[200].value,
             hover: tokens.Color.Primitive.Sea[100].value,
-            disabled: tokens.Color.Primitive.White[1000].value,
+            disabled: tokens.Color.Neutral.White.value,
           },
           tertiary: {
             normal: 'transparent',
             active: tokens.Color.Primitive.Sea[200].value,
             hover: tokens.Color.Primitive.Sea[100].value,
             disabled: 'transparent',
-          },
-        },
-        dark: {
-          primary: tokens.Color.Dark.Background.Primary.value,
-          secondary: tokens.Color.Dark.Background.Secondary.value,
-          tertiary: tokens.Color.Dark.Background.Tertiary.value,
-          button: {
-            primary: {
-              normal: tokens.Color.Dark.Button.Normal.value,
-              active: tokens.Color.Dark.Button.Active.value,
-              hover: tokens.Color.Dark.Button.Hover.value,
-              disabled: tokens.Color.Dark.Button.Disabled.value,
-            },
           },
         },
       },
@@ -406,14 +350,6 @@ const daPlugin = plugin(() => {}, {
             disabled: tokens.Color.Light.Button.Disabled.value,
           },
         },
-        dark: {
-          alert: tokens.Color.Dark.Border.Alert.value,
-          selected: tokens.Color.Dark.Border.Selected.value,
-          focused: tokens.Color.Dark.Border.Focused.value,
-          disabled: tokens.Color.Dark.Border.Disabled.value,
-          divider: tokens.Color.Dark.Border.Divider.value,
-          field: tokens.Color.Dark.Border.Field.value,
-        },
       },
       outlineColor: {
         alert: tokens.Color.Light.Border.Alert.value,
@@ -426,258 +362,457 @@ const daPlugin = plugin(() => {}, {
         input: tokens.Color.Light.Border.Focused.value,
       },
       fontSize: {
-        'heading-2xl': [
-          tokens.Text.Heading['2xl'].FontSize.value,
+        'dsp-64N-4': [
+          tokens.FontSize[64].value,
           {
-            fontWeight: tokens.Text.Heading['2xl'].FontWeight.value,
-            lineHeight: tokens.Text.Heading['2xl'].LineHeight.value,
-            letterSpacing: tokens.Text.Heading['2xl'].LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_4'].value,
           },
         ],
-        'heading-xl': [
-          tokens.Text.Heading.xl.FontSize.value,
+        'dsp-57N-4': [
+          tokens.FontSize[57].value,
           {
-            fontWeight: tokens.Text.Heading.xl.FontWeight.value,
-            lineHeight: tokens.Text.Heading.xl.LineHeight.value,
-            letterSpacing: tokens.Text.Heading.xl.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_4'].value,
           },
         ],
-        'heading-lg': [
-          tokens.Text.Heading.lg.FontSize.value,
+        'dsp-48N-4': [
+          tokens.FontSize[48].value,
           {
-            fontWeight: tokens.Text.Heading.lg.FontWeight.value,
-            lineHeight: tokens.Text.Heading.lg.LineHeight.value,
-            letterSpacing: tokens.Text.Heading.lg.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_4'].value,
           },
         ],
-        'heading-md': [
-          tokens.Text.Heading.md.FontSize.value,
+        'std-45B-4': [
+          tokens.FontSize[45].value,
           {
-            fontWeight: tokens.Text.Heading.md.FontWeight.value,
-            lineHeight: tokens.Text.Heading.md.LineHeight.value,
-            letterSpacing: tokens.Text.Heading.md.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_4'].value,
+            letterSpacing: tokens.LetterSpacing['0_1125'].value,
           },
         ],
-        'heading-sm': [
-          tokens.Text.Heading.sm.FontSize.value,
+        'std-36B-4': [
+          tokens.FontSize[36].value,
           {
-            fontWeight: tokens.Text.Heading.sm.FontWeight.value,
-            lineHeight: tokens.Text.Heading.sm.LineHeight.value,
-            letterSpacing: tokens.Text.Heading.sm.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_4'].value,
+            letterSpacing: tokens.LetterSpacing['0_09'].value,
           },
         ],
-        'heading-xs': [
-          tokens.Text.Heading.xs.FontSize.value,
+        'std-32B-5': [
+          tokens.FontSize[32].value,
           {
-            fontWeight: tokens.Text.Heading.xs.FontWeight.value,
-            lineHeight: tokens.Text.Heading.xs.LineHeight.value,
-            letterSpacing: tokens.Text.Heading.xs.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_08'].value,
           },
         ],
-        'heading-2xs': [
-          tokens.Text.Heading['2xs'].FontSize.value,
+        'std-28B-5': [
+          tokens.FontSize[28].value,
           {
-            fontWeight: tokens.Text.Heading['2xs'].FontWeight.value,
-            lineHeight: tokens.Text.Heading['2xs'].LineHeight.value,
-            letterSpacing: tokens.Text.Heading['2xs'].LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_07'].value,
           },
         ],
-        'heading-mobile-lg': [
-          tokens.Text.Mobile.Heading.lg.FontSize.value,
+        'std-24B-5': [
+          tokens.FontSize[24].value,
           {
-            fontWeight: tokens.Text.Mobile.Heading.lg.FontWeight.value,
-            lineHeight: tokens.Text.Mobile.Heading.lg.LineHeight.value,
-            letterSpacing: tokens.Text.Mobile.Heading.lg.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_06'].value,
           },
         ],
-        'heading-mobile-md': [
-          tokens.Text.Mobile.Heading.md.FontSize.value,
+        'std-22B-5': [
+          tokens.FontSize[22].value,
           {
-            fontWeight: tokens.Text.Mobile.Heading.md.FontWeight.value,
-            lineHeight: tokens.Text.Mobile.Heading.md.LineHeight.value,
-            letterSpacing: tokens.Text.Mobile.Heading.md.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_055'].value,
           },
         ],
-        'heading-mobile-sm': [
-          tokens.Text.Mobile.Heading.sm.FontSize.value,
+        'std-20B-6': [
+          tokens.FontSize[20].value,
           {
-            fontWeight: tokens.Text.Mobile.Heading.sm.FontWeight.value,
-            lineHeight: tokens.Text.Mobile.Heading.sm.LineHeight.value,
-            letterSpacing: tokens.Text.Mobile.Heading.sm.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_6'].value,
+            letterSpacing: tokens.LetterSpacing['0_05'].value,
           },
         ],
-        'heading-mobile-xs': [
-          tokens.Text.Mobile.Heading.xs.FontSize.value,
+        'std-20B-5': [
+          tokens.FontSize[20].value,
           {
-            fontWeight: tokens.Text.Mobile.Heading.xs.FontWeight.value,
-            lineHeight: tokens.Text.Mobile.Heading.xs.LineHeight.value,
-            letterSpacing: tokens.Text.Mobile.Heading.xs.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_05'].value,
           },
         ],
-        'heading-mobile-2xs': [
-          tokens.Text.Mobile.Heading['2xs'].FontSize.value,
+        'std-18B-6': [
+          tokens.FontSize[18].value,
           {
-            fontWeight: tokens.Text.Mobile.Heading['2xs'].FontWeight.value,
-            lineHeight: tokens.Text.Mobile.Heading['2xs'].LineHeight.value,
-            letterSpacing: tokens.Text.Mobile.Heading['2xs'].LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_6'].value,
+            letterSpacing: tokens.LetterSpacing['0_045'].value,
           },
         ],
-        button: [
-          tokens.Text.Button.FontSize.value,
+        'std-17B-7': [
+          tokens.FontSize[17].value,
           {
-            fontWeight: tokens.Text.Button.FontWeight.value,
-            lineHeight: tokens.Text.Button.LineHeight.value,
-            letterSpacing: tokens.Text.Button.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_7'].value,
+            letterSpacing: tokens.LetterSpacing['0_0425'].value,
           },
         ],
-        'button-link': [
-          tokens.Text.ButtonLink.FontSize.value,
+        'std-16B-7': [
+          tokens.FontSize[16].value,
           {
-            fontWeight: tokens.Text.ButtonLink.FontWeight.value,
-            lineHeight: tokens.Text.ButtonLink.LineHeight.value,
-            letterSpacing: tokens.Text.ButtonLink.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_7'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
           },
         ],
-        'button-xs': [
-          '0.875rem',
+        'std-32M-5': [
+          tokens.FontSize[32].value,
           {
-            fontWeight: tokens.FontWeight.Bold.value,
-            lineHeight: '100%',
-            letterSpacing: '0.035em',
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_08'].value,
           },
         ],
-        'button-xs-link': [
-          '0.875rem',
+        'std-28M-5': [
+          tokens.FontSize[28].value,
           {
-            fontWeight: tokens.FontWeight.Bold.value,
-            lineHeight: '100%',
-            letterSpacing: '0.035em',
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_07'].value,
           },
         ],
-        'body-md': [
-          tokens.Text.Body.md.FontSize.value,
+        'std-24M-5': [
+          tokens.FontSize[24].value,
           {
-            fontWeight: tokens.Text.Body.md.FontWeight.value,
-            lineHeight: tokens.Text.Body.md.LineHeight.value,
-            letterSpacing: tokens.Text.Body.md.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_06'].value,
           },
         ],
-        'body-lg': [
-          tokens.Text.Body.lg.FontSize.value,
+        'std-20M-5': [
+          tokens.FontSize[20].value,
           {
-            fontWeight: tokens.Text.Body.lg.FontWeight.value,
-            lineHeight: tokens.Text.Body.lg.LineHeight.value,
-            letterSpacing: tokens.Text.Body.lg.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_05'].value,
           },
         ],
-        'body-link-md': [
-          tokens.Text.BodyLink.md.FontSize.value,
+        'std-17M-7': [
+          tokens.FontSize[17].value,
           {
-            fontWeight: tokens.Text.BodyLink.md.FontWeight.value,
-            lineHeight: tokens.Text.BodyLink.md.LineHeight.value,
-            letterSpacing: tokens.Text.BodyLink.md.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_7'].value,
+            letterSpacing: tokens.LetterSpacing['0_0425'].value,
           },
         ],
-        'body-link-lg': [
-          tokens.Text.BodyLink.lg.FontSize.value,
+        'std-16M-7': [
+          tokens.FontSize[16].value,
           {
-            fontWeight: tokens.Text.BodyLink.lg.FontWeight.value,
-            lineHeight: tokens.Text.BodyLink.lg.LineHeight.value,
-            letterSpacing: tokens.Text.BodyLink.lg.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_7'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
           },
         ],
-        'label-md': [
-          tokens.Text.Label.md.FontSize.value,
+        'std-45N-4': [
+          tokens.FontSize[45].value,
           {
-            fontWeight: tokens.Text.Label.md.FontWeight.value,
-            lineHeight: tokens.Text.Label.md.LineHeight.value,
-            letterSpacing: tokens.Text.Label.md.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_4'].value,
+            letterSpacing: tokens.LetterSpacing['0_1125'].value,
           },
         ],
-        'label-lg': [
-          tokens.Text.Label.lg.FontSize.value,
+        'std-36N-4': [
+          tokens.FontSize[36].value,
           {
-            fontWeight: tokens.Text.Label.lg.FontWeight.value,
-            lineHeight: tokens.Text.Label.lg.LineHeight.value,
-            letterSpacing: tokens.Text.Label.lg.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_4'].value,
+            letterSpacing: tokens.LetterSpacing['0_09'].value,
           },
         ],
-        'label-link-md': [
-          tokens.Text.LabelLink.md.FontSize.value,
+        'std-32N-5': [
+          tokens.FontSize[32].value,
           {
-            fontWeight: tokens.Text.LabelLink.md.FontWeight.value,
-            lineHeight: tokens.Text.LabelLink.md.LineHeight.value,
-            letterSpacing: tokens.Text.LabelLink.md.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_08'].value,
           },
         ],
-        'label-link-lg': [
-          tokens.Text.LabelLink.lg.FontSize.value,
+        'std-28N-5': [
+          tokens.FontSize[28].value,
           {
-            fontWeight: tokens.Text.LabelLink.lg.FontWeight.value,
-            lineHeight: tokens.Text.LabelLink.lg.LineHeight.value,
-            letterSpacing: tokens.Text.LabelLink.lg.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_07'].value,
           },
         ],
-        'caption-md': [
-          tokens.Text.Caption.md.FontSize.value,
+        'std-26N-5': [
+          tokens.FontSize[26].value,
           {
-            fontWeight: tokens.Text.Caption.md.FontWeight.value,
-            lineHeight: tokens.Text.Caption.md.LineHeight.value,
-            letterSpacing: tokens.Text.Caption.md.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_065'].value,
           },
         ],
-        'caption-lg': [
-          tokens.Text.Caption.lg.FontSize.value,
+        'std-24N-5': [
+          tokens.FontSize[24].value,
           {
-            fontWeight: tokens.Text.Caption.lg.FontWeight.value,
-            lineHeight: tokens.Text.Caption.lg.LineHeight.value,
-            letterSpacing: tokens.Text.Caption.lg.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_06'].value,
           },
         ],
-        'caption-link-md': [
-          tokens.Text.CaptionLink.md.FontSize.value,
+        'std-22N-5': [
+          tokens.FontSize[22].value,
           {
-            fontWeight: tokens.Text.CaptionLink.md.FontWeight.value,
-            lineHeight: tokens.Text.CaptionLink.md.LineHeight.value,
-            letterSpacing: tokens.Text.CaptionLink.md.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_055'].value,
           },
         ],
-        'caption-link-lg': [
-          tokens.Text.CaptionLink.lg.FontSize.value,
+        'std-20N-6': [
+          tokens.FontSize[20].value,
           {
-            fontWeight: tokens.Text.CaptionLink.lg.FontWeight.value,
-            lineHeight: tokens.Text.CaptionLink.lg.LineHeight.value,
-            letterSpacing: tokens.Text.CaptionLink.lg.LetterSpacing.value,
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_6'].value,
+            letterSpacing: tokens.LetterSpacing['0_05'].value,
+          },
+        ],
+        'std-20N-5': [
+          tokens.FontSize[20].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+            letterSpacing: tokens.LetterSpacing['0_05'].value,
+          },
+        ],
+        'std-18N-6': [
+          tokens.FontSize[18].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_6'].value,
+            letterSpacing: tokens.LetterSpacing['0_045'].value,
+          },
+        ],
+        'std-17N-7': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_7'].value,
+            letterSpacing: tokens.LetterSpacing['0_0425'].value,
+          },
+        ],
+        'std-16N-7': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_7'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
+          },
+        ],
+        'dns-17B-3': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_3'].value,
+          },
+        ],
+        'dns-17B-2': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_2'].value,
+          },
+        ],
+        'dns-16B-3': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_3'].value,
+          },
+        ],
+        'dns-16B-2': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_2'].value,
+          },
+        ],
+        'dns-14B-3': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_3'].value,
+          },
+        ],
+        'dns-14B-2': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_2'].value,
+          },
+        ],
+        'dns-17N-3': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_3'].value,
+          },
+        ],
+        'dns-17N-2': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_2'].value,
+          },
+        ],
+        'dns-16N-3': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_3'].value,
+          },
+        ],
+        'dns-16N-2': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_2'].value,
+          },
+        ],
+        'dns-14N-3': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_3'].value,
+          },
+        ],
+        'dns-14N-2': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_2'].value,
+          },
+        ],
+        'oln-17B-1': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
+          },
+        ],
+        'oln-16B-1': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
+          },
+        ],
+        'oln-14B-1': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_035'].value,
+          },
+        ],
+        'oln-17M-1': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
+          },
+        ],
+        'oln-16M-1': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
+          },
+        ],
+        'oln-14M-1': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[500].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_035'].value,
+          },
+        ],
+        'oln-17N-1': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
+          },
+        ],
+        'oln-16N-1': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_04'].value,
+          },
+        ],
+        'oln-14N-1': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_0'].value,
+            letterSpacing: tokens.LetterSpacing['0_035'].value,
           },
         ],
       },
       fontWeight: {
-        regular: tokens.FontWeight.Regular.value,
-        medium: tokens.FontWeight.Medium.value,
-        bold: tokens.FontWeight.Bold.value,
+        '400': tokens.FontWeight[400].value,
+        '500': tokens.FontWeight[500].value,
+        '700': tokens.FontWeight[700].value,
       },
       lineHeight: {
-        sm: tokens.LineHeight.sm.value,
-        md: tokens.LineHeight.md.value,
-        lg: tokens.LineHeight.lg.value,
+        '1-0': tokens.LineHeight['1_0'].value,
+        '1-2': tokens.LineHeight['1_2'].value,
+        '1-3': tokens.LineHeight['1_3'].value,
+        '1-4': tokens.LineHeight['1_4'].value,
+        '1-5': tokens.LineHeight['1_5'].value,
+        '1-6': tokens.LineHeight['1_6'].value,
+        '1-7': tokens.LineHeight['1_7'].value,
       },
       letterSpacing: {
-        sm: tokens.LetterSpacing.sm.value,
-        md: tokens.LetterSpacing.md.value,
+        '0-035': tokens.LetterSpacing['0_035'].value,
+        '0-04': tokens.LetterSpacing['0_04'].value,
+        '0-0425': tokens.LetterSpacing['0_0425'].value,
+        '0-45': tokens.LetterSpacing['0_045'].value,
+        '0-05': tokens.LetterSpacing['0_05'].value,
+        '0-055': tokens.LetterSpacing['0_055'].value,
+        '0-06': tokens.LetterSpacing['0_06'].value,
+        '0-065': tokens.LetterSpacing['0_065'].value,
+        '0-07': tokens.LetterSpacing['0_07'].value,
+        '0-08': tokens.LetterSpacing['0_08'].value,
+        '0-09': tokens.LetterSpacing['0_09'].value,
+        '0-1125': tokens.LetterSpacing['0_1125'].value,
       },
       spacing: {
-        xs: tokens.Spacing.xs.value,
-        sm: tokens.Spacing.sm.value,
-        md: tokens.Spacing.md.value,
-        lg: tokens.Spacing.lg.value,
-        xl: tokens.Spacing.xl.value,
-        '2xl': tokens.Spacing['2xl'].value,
-        '3xl': tokens.Spacing['3xl'].value,
+        'spacing-4': tokens.Spacing[4].value,
+        'spacing-8': tokens.Spacing[8].value,
+        'spacing-16': tokens.Spacing[16].value,
+        'spacing-24': tokens.Spacing[24].value,
+        'spacing-40': tokens.Spacing[40].value,
+        'spacing-64': tokens.Spacing[64].value,
+        'spacing-104': tokens.Spacing[104].value,
       },
       borderRadius: {
-        sm: tokens.BorderRadius.sm.value,
-        md: tokens.BorderRadius.md.value,
-        lg: tokens.BorderRadius.lg.value,
+        '8': tokens.BorderRadius[8].value,
+        '16': tokens.BorderRadius[16].value,
+        '32': tokens.BorderRadius[32].value,
       },
       screens: {
         desktop: '768px',

@@ -75,6 +75,15 @@ export const TypographySection = () => {
         <p className="text-oln-17N-1">oln-17N-2 デザインシステム</p>
         <p className="text-oln-16N-1">oln-16N-2 デザインシステム</p>
         <p className="text-oln-14N-1">oln-14N-2 デザインシステム</p>
+
+        <hr></hr>
+
+        <p className="text-body-lg">旧タイポグラフィ body-lg デザインシステム</p>
+        <p className="text-body-md">旧タイポグラフィ body-md デザインシステム</p>
+        <p className="text-label-lg">旧タイポグラフィ label-lg デザインシステム</p>
+        <p className="text-label-md">旧タイポグラフィ label-md デザインシステム</p>
+        <p className="text-caption-lg">旧タイポグラフィ caption-lg デザインシステム</p>
+        <p className="text-caption-md">旧タイポグラフィ caption-md デザインシステム</p>
       </div>
     </section>
   );

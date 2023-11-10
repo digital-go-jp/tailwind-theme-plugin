@@ -29,7 +29,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
   },
   "devDependencies": {
-    "@digital-go-jp/design-tokens": "^0.1.0",
+    "@digital-go-jp/design-tokens": "^0.1.1",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^20.9.0",
     "prettier": "^3.0.3",

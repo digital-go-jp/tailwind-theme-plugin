@@ -771,6 +771,134 @@ const daPlugin = plugin(() => {}, {
             letterSpacing: tokens.LetterSpacing['0_035'].value,
           },
         ],
+        button: [
+          tokens.Text.Button.FontSize.value,
+          {
+            fontWeight: tokens.Text.Button.FontWeight.value,
+            lineHeight: tokens.Text.Button.LineHeight.value,
+            letterSpacing: tokens.Text.Button.LetterSpacing.value,
+          },
+        ],
+        'button-link': [
+          tokens.Text.ButtonLink.FontSize.value,
+          {
+            fontWeight: tokens.Text.ButtonLink.FontWeight.value,
+            lineHeight: tokens.Text.ButtonLink.LineHeight.value,
+            letterSpacing: tokens.Text.ButtonLink.LetterSpacing.value,
+          },
+        ],
+        'button-xs': [
+          '0.875rem',
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: '100%',
+            letterSpacing: '0.035em',
+          },
+        ],
+        'button-xs-link': [
+          '0.875rem',
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: '100%',
+            letterSpacing: '0.035em',
+          },
+        ],
+        'body-md': [
+          tokens.Text.Body.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.Body.md.FontWeight.value,
+            lineHeight: tokens.Text.Body.md.LineHeight.value,
+            letterSpacing: tokens.Text.Body.md.LetterSpacing.value,
+          },
+        ],
+        'body-lg': [
+          tokens.Text.Body.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.Body.lg.FontWeight.value,
+            lineHeight: tokens.Text.Body.lg.LineHeight.value,
+            letterSpacing: tokens.Text.Body.lg.LetterSpacing.value,
+          },
+        ],
+        'body-link-md': [
+          tokens.Text.BodyLink.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.BodyLink.md.FontWeight.value,
+            lineHeight: tokens.Text.BodyLink.md.LineHeight.value,
+            letterSpacing: tokens.Text.BodyLink.md.LetterSpacing.value,
+          },
+        ],
+        'body-link-lg': [
+          tokens.Text.BodyLink.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.BodyLink.lg.FontWeight.value,
+            lineHeight: tokens.Text.BodyLink.lg.LineHeight.value,
+            letterSpacing: tokens.Text.BodyLink.lg.LetterSpacing.value,
+          },
+        ],
+        'label-md': [
+          tokens.Text.Label.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.Label.md.FontWeight.value,
+            lineHeight: tokens.Text.Label.md.LineHeight.value,
+            letterSpacing: tokens.Text.Label.md.LetterSpacing.value,
+          },
+        ],
+        'label-lg': [
+          tokens.Text.Label.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.Label.lg.FontWeight.value,
+            lineHeight: tokens.Text.Label.lg.LineHeight.value,
+            letterSpacing: tokens.Text.Label.lg.LetterSpacing.value,
+          },
+        ],
+        'label-link-md': [
+          tokens.Text.LabelLink.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.LabelLink.md.FontWeight.value,
+            lineHeight: tokens.Text.LabelLink.md.LineHeight.value,
+            letterSpacing: tokens.Text.LabelLink.md.LetterSpacing.value,
+          },
+        ],
+        'label-link-lg': [
+          tokens.Text.LabelLink.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.LabelLink.lg.FontWeight.value,
+            lineHeight: tokens.Text.LabelLink.lg.LineHeight.value,
+            letterSpacing: tokens.Text.LabelLink.lg.LetterSpacing.value,
+          },
+        ],
+        'caption-md': [
+          tokens.Text.Caption.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.Caption.md.FontWeight.value,
+            lineHeight: tokens.Text.Caption.md.LineHeight.value,
+            letterSpacing: tokens.Text.Caption.md.LetterSpacing.value,
+          },
+        ],
+        'caption-lg': [
+          tokens.Text.Caption.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.Caption.lg.FontWeight.value,
+            lineHeight: tokens.Text.Caption.lg.LineHeight.value,
+            letterSpacing: tokens.Text.Caption.lg.LetterSpacing.value,
+          },
+        ],
+        'caption-link-md': [
+          tokens.Text.CaptionLink.md.FontSize.value,
+          {
+            fontWeight: tokens.Text.CaptionLink.md.FontWeight.value,
+            lineHeight: tokens.Text.CaptionLink.md.LineHeight.value,
+            letterSpacing: tokens.Text.CaptionLink.md.LetterSpacing.value,
+          },
+        ],
+        'caption-link-lg': [
+          tokens.Text.CaptionLink.lg.FontSize.value,
+          {
+            fontWeight: tokens.Text.CaptionLink.lg.FontWeight.value,
+            lineHeight: tokens.Text.CaptionLink.lg.LineHeight.value,
+            letterSpacing: tokens.Text.CaptionLink.lg.LetterSpacing.value,
+          },
+        ],
       },
       fontWeight: {
         '400': tokens.FontWeight[400].value,

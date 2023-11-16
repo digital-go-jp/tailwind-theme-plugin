@@ -16,6 +16,7 @@
       meiryo,
       sans-serif;
 
-    @apply text-std-16M-7;
+    @apply text-std-17N-7;
+    @apply text-body;
   }
 }

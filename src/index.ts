@@ -260,24 +260,14 @@ const daPlugin = plugin(() => {}, {
           800: tokens.Color.Neutral.OpacityGrey[800].value,
           900: tokens.Color.Neutral.OpacityGrey[900].value,
         },
-        success: {
-          1: tokens.Color.Success[1].value,
-          2: tokens.Color.Success[2].value,
-        },
-        error: {
-          1: tokens.Color.Error[1].value,
-          2: tokens.Color.Error[2].value,
-        },
-        warning: {
-          yellow: {
-            1: tokens.Color.Warning.Yellow[1].value,
-            2: tokens.Color.Warning.Yellow[2].value,
-          },
-          orange: {
-            1: tokens.Color.Warning.Orange[1].value,
-            2: tokens.Color.Warning.Orange[2].value,
-          },
-        },
+        'success-1': tokens.Color.Success[1].value,
+        'success-2': tokens.Color.Success[2].value,
+        'error-1': tokens.Color.Error[1].value,
+        'error-2': tokens.Color.Error[2].value,
+        'warning-yellow-1': tokens.Color.Warning.Yellow[1].value,
+        'warning-yellow-2': tokens.Color.Warning.Yellow[2].value,
+        'warning-orange-1': tokens.Color.Warning.Orange[1].value,
+        'warning-orange-2': tokens.Color.Warning.Orange[2].value,
       },
       textColor: {
         body: tokens.Color.Neutral.SolidGrey[900].value,

@@ -1,5 +1,5 @@
-import plugin from 'tailwindcss/plugin';
 import tokens from '@digital-go-jp/design-tokens';
+import plugin from 'tailwindcss/plugin';
 
 const daPlugin = plugin(() => {}, {
   theme: {
@@ -755,6 +755,48 @@ const daPlugin = plugin(() => {}, {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_0'].value,
             letterSpacing: tokens.LetterSpacing['0_035'].value,
+          },
+        ],
+        'mono-17B-5': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+          },
+        ],
+        'mono-16B-5': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+          },
+        ],
+        'mono-14B-5': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+          },
+        ],
+        'mono-17N-5': [
+          tokens.FontSize[17].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+          },
+        ],
+        'mono-16N-5': [
+          tokens.FontSize[16].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
+          },
+        ],
+        'mono-14N-5': [
+          tokens.FontSize[14].value,
+          {
+            fontWeight: tokens.FontWeight[400].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
           },
         ],
         button: [

@@ -2,13 +2,15 @@ import { Colors } from './Colors';
 
 export const ColorSection = () => {
   return (
-    <section className="flex flex-col gap-8">
+    <section className='flex flex-col gap-8'>
       <div>
-        <h2 className="text-std-28B-5">Colors</h2>
-        <p className="my-4">例ではbg-*を利用していますが、text-*やfill-*、border-*等、色関連は全てに適用されます。</p>
+        <h2 className='text-std-28B-5'>Colors</h2>
+        <p className='my-4'>
+          例ではbg-*を利用していますが、text-*やfill-*、border-*等、色関連は全てに適用されます。
+        </p>
       </div>
       <Colors
-        title="Blue"
+        title='Blue'
         colorClasses={[
           'bg-blue-50',
           'bg-blue-100',
@@ -26,7 +28,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="LightBlue"
+        title='LightBlue'
         colorClasses={[
           'bg-light-blue-50',
           'bg-light-blue-100',
@@ -44,7 +46,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Cyan"
+        title='Cyan'
         colorClasses={[
           'bg-cyan-50',
           'bg-cyan-100',
@@ -62,7 +64,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Green"
+        title='Green'
         colorClasses={[
           'bg-green-50',
           'bg-green-100',
@@ -80,7 +82,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Lime"
+        title='Lime'
         colorClasses={[
           'bg-lime-50',
           'bg-lime-100',
@@ -98,7 +100,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Yellow"
+        title='Yellow'
         colorClasses={[
           'bg-yellow-50',
           'bg-yellow-100',
@@ -116,7 +118,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Orange"
+        title='Orange'
         colorClasses={[
           'bg-orange-50',
           'bg-orange-100',
@@ -134,7 +136,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Red"
+        title='Red'
         colorClasses={[
           'bg-red-50',
           'bg-red-100',
@@ -152,7 +154,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Magenta"
+        title='Magenta'
         colorClasses={[
           'bg-magenta-50',
           'bg-magenta-100',
@@ -170,7 +172,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Purple"
+        title='Purple'
         colorClasses={[
           'bg-purple-50',
           'bg-purple-100',
@@ -188,7 +190,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="SolidGrey"
+        title='SolidGrey'
         colorClasses={[
           'bg-solid-grey-50',
           'bg-solid-grey-100',
@@ -205,7 +207,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="OpacityGrey"
+        title='OpacityGrey'
         colorClasses={[
           'bg-opacity-grey-50',
           'bg-opacity-grey-100',
@@ -221,13 +223,19 @@ export const ColorSection = () => {
           'bg-opacity-grey-900',
         ]}
       />
-      <Colors title="Success" colorClasses={['bg-success-1', 'bg-success-2']} />
-      <Colors title="Error" colorClasses={['bg-error-1', 'bg-error-2']} />
-      <Colors title="Warning（Yellow）" colorClasses={['bg-warning-yellow-1', 'bg-warning-yellow-2']} />
-      <Colors title="Warning（Orange）" colorClasses={['bg-warning-orange-1', 'bg-warning-orange-2']} />
-      <hr></hr>
+      <Colors title='Success' colorClasses={['bg-success-1', 'bg-success-2']} />
+      <Colors title='Error' colorClasses={['bg-error-1', 'bg-error-2']} />
       <Colors
-        title="Sea"
+        title='Warning（Yellow）'
+        colorClasses={['bg-warning-yellow-1', 'bg-warning-yellow-2']}
+      />
+      <Colors
+        title='Warning（Orange）'
+        colorClasses={['bg-warning-orange-1', 'bg-warning-orange-2']}
+      />
+      <hr />
+      <Colors
+        title='Sea'
         colorClasses={[
           'bg-sea-50',
           'bg-sea-100',
@@ -245,7 +253,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Sumi"
+        title='Sumi'
         colorClasses={[
           'bg-sumi-50',
           'bg-sumi-100',
@@ -263,7 +271,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Forest"
+        title='Forest'
         colorClasses={[
           'bg-forest-50',
           'bg-forest-100',
@@ -281,7 +289,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Wood"
+        title='Wood'
         colorClasses={[
           'bg-wood-50',
           'bg-wood-100',
@@ -299,7 +307,7 @@ export const ColorSection = () => {
         ]}
       />
       <Colors
-        title="Sun"
+        title='Sun'
         colorClasses={[
           'bg-sun-50',
           'bg-sun-100',

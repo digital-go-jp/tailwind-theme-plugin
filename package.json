@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "build": "vite build && tsc",
-    "format": "biome format --write **/*.ts **/*.js **/*.json",
+    "format": "biome format --write src/*.ts **/*.json",
     "lint": "biome lint **/*.ts **/*.js"
   },
   "devDependencies": {

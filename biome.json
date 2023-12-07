@@ -28,9 +28,6 @@
       "trailingComma": "all",
       "semicolons": "always",
       "arrowParentheses": "asNeeded",
-      "indentWidth": 2,
-      "indentStyle": "space",
-      "lineWidth": 100,
       "quoteProperties": "asNeeded"
     }
   },

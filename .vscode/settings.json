@@ -2,7 +2,7 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
   "editor.unicodeHighlight.invisibleCharacters": true
 }

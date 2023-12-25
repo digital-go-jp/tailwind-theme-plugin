@@ -273,7 +273,7 @@ const daPlugin = plugin(() => {}, {
             hover: tokens.Color.Neutral.White.value,
             active: tokens.Color.Neutral.White.value,
             focus: tokens.Color.Neutral.White.value,
-            disabled: tokens.Color.Neutral.White.value,
+            disabled: '#0000004D',
           },
           secondary: {
             normal: tokens.Color.Primitive.Blue[900].value,

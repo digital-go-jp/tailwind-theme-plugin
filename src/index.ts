@@ -316,7 +316,6 @@ const daPlugin = plugin(() => {}, {
       borderColor: {
         error: tokens.Color.Error[1].value,
         selected: tokens.Color.Primitive.Blue[900].value,
-        focused: tokens.Color.Primitive.Yellow[700].value,
         disabled: tokens.Color.Neutral.SolidGrey[420].value,
         field: tokens.Color.Neutral.SolidGrey[900].value,
         button: {
@@ -331,7 +330,6 @@ const daPlugin = plugin(() => {}, {
       outlineColor: {
         error: tokens.Color.Error[1].value,
         selected: tokens.Color.Primitive.Blue[900].value,
-        focused: tokens.Color.Primitive.Yellow[700].value,
         disabled: tokens.Color.Neutral.SolidGrey[420].value,
         field: tokens.Color.Neutral.SolidGrey[900].value,
       },

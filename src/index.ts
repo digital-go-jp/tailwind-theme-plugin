@@ -273,7 +273,7 @@ const daPlugin = plugin(() => {}, {
             hover: tokens.Color.Neutral.White.value,
             active: tokens.Color.Neutral.White.value,
             focus: tokens.Color.Neutral.White.value,
-            disabled: '#0000004D',
+            disabled: tokens.Color.Neutral.White.value,
           },
           secondary: {
             normal: tokens.Color.Primitive.Blue[900].value,
@@ -300,7 +300,7 @@ const daPlugin = plugin(() => {}, {
             normal: tokens.Color.Primitive.Blue[900].value,
             hover: tokens.Color.Primitive.Blue[1000].value,
             active: tokens.Color.Primitive.Blue[1100].value,
-            disabled: tokens.Color.Neutral.White.value,
+            disabled: '#0000004D',
           },
           secondary: {
             normal: tokens.Color.Neutral.White.value,

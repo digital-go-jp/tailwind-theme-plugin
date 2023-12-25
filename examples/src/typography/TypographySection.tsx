@@ -78,15 +78,27 @@ export const TypographySection = () => {
 
         <hr />
 
-        <p className='text-mono-17B-5 font-mono'>mono-17B-5 &lt;meta charset="UTF-8"&gt;</p>
-        <p className='text-mono-16B-5 font-mono'>mono-16B-5 &lt;meta charset="UTF-8"&gt;</p>
-        <p className='text-mono-14B-5 font-mono'>mono-14B-5 &lt;meta charset="UTF-8"&gt;</p>
+        <p className='text-mono-17B-5 font-mono'>
+          mono-17B-5 &lt;meta charset=&quot;UTF-8&quot;&gt;
+        </p>
+        <p className='text-mono-16B-5 font-mono'>
+          mono-16B-5 &lt;meta charset=&quot;UTF-8&quot;&gt;
+        </p>
+        <p className='text-mono-14B-5 font-mono'>
+          mono-14B-5 &lt;meta charset=&quot;UTF-8&quot;&gt;
+        </p>
 
         <hr />
 
-        <p className='text-mono-17N-5 font-mono'>mono-17B-5 &lt;meta charset="UTF-8"&gt;</p>
-        <p className='text-mono-16N-5 font-mono'>mono-16B-5 &lt;meta charset="UTF-8"&gt;</p>
-        <p className='text-mono-14N-5 font-mono'>mono-14B-5 &lt;meta charset="UTF-8"&gt;</p>
+        <p className='text-mono-17N-5 font-mono'>
+          mono-17B-5 &lt;meta charset=&quot;UTF-8&quot;&gt;
+        </p>
+        <p className='text-mono-16N-5 font-mono'>
+          mono-16B-5 &lt;meta charset=&quot;UTF-8&quot;&gt;
+        </p>
+        <p className='text-mono-14N-5 font-mono'>
+          mono-14B-5 &lt;meta charset=&quot;UTF-8&quot;&gt;
+        </p>
 
         <hr />
 

@@ -199,7 +199,7 @@ export const ColorSection = () => {
 						"bg-solid-grey-200",
 						"bg-solid-grey-300",
 						"bg-solid-grey-400",
-						"bg-solid-grey-417",
+						"bg-solid-grey-420",
 						"bg-solid-grey-500",
 						"bg-solid-grey-536",
 						"bg-solid-grey-600",

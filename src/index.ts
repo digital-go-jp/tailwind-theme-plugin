@@ -289,9 +289,6 @@ const daPlugin = plugin(() => {}, {
         },
       },
       backgroundColor: {
-        primary: tokens.Color.Light.Background.Primary.value,
-        secondary: tokens.Color.Light.Background.Secondary.value,
-        tertiary: tokens.Color.Light.Background.Tertiary.value,
         button: {
           primary: {
             normal: tokens.Color.Primitive.Blue[900].value,

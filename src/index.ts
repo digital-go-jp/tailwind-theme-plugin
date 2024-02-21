@@ -336,7 +336,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_4'].value,
-            letterSpacing: tokens.LetterSpacing['0_008'].value,
+            letterSpacing: '0.128px',
           },
         ],
         'dsp-57N-4': [
@@ -344,7 +344,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_4'].value,
-            letterSpacing: tokens.LetterSpacing['0_00713'].value,
+            letterSpacing: '0.114px',
           },
         ],
         'dsp-48N-4': [
@@ -352,7 +352,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_4'].value,
-            letterSpacing: tokens.LetterSpacing['0_00713'].value,
+            letterSpacing: '0.114px',
           },
         ],
         'std-45B-4': [
@@ -360,7 +360,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_4'].value,
-            letterSpacing: tokens.LetterSpacing['0_05625'].value,
+            letterSpacing: '0.9px',
           },
         ],
         'std-36B-4': [
@@ -368,7 +368,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_4'].value,
-            letterSpacing: tokens.LetterSpacing['0_045'].value,
+            letterSpacing: '0.72px',
           },
         ],
         'std-32B-5': [
@@ -376,7 +376,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_04'].value,
+            letterSpacing: '0.64px',
           },
         ],
         'std-28B-5': [
@@ -384,7 +384,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_035'].value,
+            letterSpacing: '0.56px',
           },
         ],
         'std-24B-5': [
@@ -392,7 +392,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_03'].value,
+            letterSpacing: '0.48px',
           },
         ],
         'std-22B-5': [
@@ -400,7 +400,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_0275'].value,
+            letterSpacing: '0.44px',
           },
         ],
         'std-20B-6': [
@@ -408,7 +408,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_6'].value,
-            letterSpacing: tokens.LetterSpacing['0_025'].value,
+            letterSpacing: '0.4px',
           },
         ],
         'std-18B-6': [
@@ -416,7 +416,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_6'].value,
-            letterSpacing: tokens.LetterSpacing['0_0225'].value,
+            letterSpacing: '0.36px',
           },
         ],
         'std-17B-7': [
@@ -424,7 +424,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_7'].value,
-            letterSpacing: tokens.LetterSpacing['0_02125'].value,
+            letterSpacing: '0.34px',
           },
         ],
         'std-16B-7': [
@@ -432,7 +432,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_7'].value,
-            letterSpacing: tokens.LetterSpacing['0_02'].value,
+            letterSpacing: '0.32px',
           },
         ],
         'std-32M-5': [
@@ -440,7 +440,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_04'].value,
+            letterSpacing: '0.64px',
           },
         ],
         'std-28M-5': [
@@ -448,7 +448,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_035'].value,
+            letterSpacing: '0.56px',
           },
         ],
         'std-24M-5': [
@@ -456,7 +456,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_03'].value,
+            letterSpacing: '0.48px',
           },
         ],
         'std-20M-5': [
@@ -464,7 +464,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_025'].value,
+            letterSpacing: '0.4px',
           },
         ],
         'std-17M-7': [
@@ -472,7 +472,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_7'].value,
-            letterSpacing: tokens.LetterSpacing['0_02125'].value,
+            letterSpacing: '0.34px',
           },
         ],
         'std-16M-7': [
@@ -480,7 +480,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_7'].value,
-            letterSpacing: tokens.LetterSpacing['0_02'].value,
+            letterSpacing: '0.32px',
           },
         ],
         'std-45N-4': [
@@ -488,7 +488,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_4'].value,
-            letterSpacing: tokens.LetterSpacing['0_05625'].value,
+            letterSpacing: '0.9px',
           },
         ],
         'std-36N-4': [
@@ -496,7 +496,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_4'].value,
-            letterSpacing: tokens.LetterSpacing['0_045'].value,
+            letterSpacing: '0.72px',
           },
         ],
         'std-32N-5': [
@@ -504,7 +504,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_04'].value,
+            letterSpacing: '0.64px',
           },
         ],
         'std-28N-5': [
@@ -512,7 +512,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_035'].value,
+            letterSpacing: '0.56px',
           },
         ],
         'std-26N-5': [
@@ -520,7 +520,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_0325'].value,
+            letterSpacing: '0.52px',
           },
         ],
         'std-24N-5': [
@@ -528,7 +528,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_03'].value,
+            letterSpacing: '0.48px',
           },
         ],
         'std-22N-5': [
@@ -536,7 +536,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_0275'].value,
+            letterSpacing: '0.44px',
           },
         ],
         'std-20N-5': [
@@ -544,7 +544,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_5'].value,
-            letterSpacing: tokens.LetterSpacing['0_025'].value,
+            letterSpacing: '0.4px',
           },
         ],
         'std-18N-6': [
@@ -552,7 +552,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_6'].value,
-            letterSpacing: tokens.LetterSpacing['0_0225'].value,
+            letterSpacing: '0.36px',
           },
         ],
         'std-17N-7': [
@@ -560,7 +560,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_7'].value,
-            letterSpacing: tokens.LetterSpacing['0_02125'].value,
+            letterSpacing: '0.34px',
           },
         ],
         'std-16N-7': [
@@ -568,7 +568,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_7'].value,
-            letterSpacing: tokens.LetterSpacing['0_02'].value,
+            letterSpacing: '0.32px',
           },
         ],
         'dns-17B-3': [
@@ -660,7 +660,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: tokens.LetterSpacing['0_02125'].value,
+            letterSpacing: '0.34px',
           },
         ],
         'oln-16B-1': [
@@ -668,7 +668,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: tokens.LetterSpacing['0_02'].value,
+            letterSpacing: '0.32px',
           },
         ],
         'oln-14B-1': [
@@ -676,7 +676,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: '0.0175em',
+            letterSpacing: '0.28px',
           },
         ],
         'oln-17M-1': [
@@ -684,7 +684,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: tokens.LetterSpacing['0_02125'].value,
+            letterSpacing: '0.34px',
           },
         ],
         'oln-16M-1': [
@@ -692,7 +692,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: tokens.LetterSpacing['0_02'].value,
+            letterSpacing: '0.32px',
           },
         ],
         'oln-14M-1': [
@@ -700,7 +700,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[500].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: '0.0175em',
+            letterSpacing: '0.28px',
           },
         ],
         'oln-17N-1': [
@@ -708,7 +708,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: tokens.LetterSpacing['0_02125'].value,
+            letterSpacing: '0.34px',
           },
         ],
         'oln-16N-1': [
@@ -716,7 +716,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: tokens.LetterSpacing['0_02'].value,
+            letterSpacing: '0.32px',
           },
         ],
         'oln-14N-1': [
@@ -724,7 +724,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[400].value,
             lineHeight: tokens.LineHeight['1_0'].value,
-            letterSpacing: '0.0175em',
+            letterSpacing: '0.28px',
           },
         ],
         'mono-17B-5': [
@@ -774,7 +774,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.Button.FontWeight.value,
             lineHeight: tokens.Text.Button.LineHeight.value,
-            letterSpacing: tokens.Text.Button.LetterSpacing.value,
+            letterSpacing: '0.64px',
           },
         ],
         'button-link': [
@@ -782,7 +782,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.ButtonLink.FontWeight.value,
             lineHeight: tokens.Text.ButtonLink.LineHeight.value,
-            letterSpacing: tokens.Text.ButtonLink.LetterSpacing.value,
+            letterSpacing: '0.64px',
           },
         ],
         'button-xs': [
@@ -790,7 +790,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: '100%',
-            letterSpacing: '0.035em',
+            letterSpacing: '0.56px',
           },
         ],
         'button-xs-link': [
@@ -798,7 +798,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight[700].value,
             lineHeight: '100%',
-            letterSpacing: '0.035em',
+            letterSpacing: '0.56px',
           },
         ],
         'body-md': [
@@ -806,7 +806,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.Body.md.FontWeight.value,
             lineHeight: tokens.Text.Body.md.LineHeight.value,
-            letterSpacing: tokens.Text.Body.md.LetterSpacing.value,
+            letterSpacing: '0.56px',
           },
         ],
         'body-lg': [
@@ -814,7 +814,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.Body.lg.FontWeight.value,
             lineHeight: tokens.Text.Body.lg.LineHeight.value,
-            letterSpacing: tokens.Text.Body.lg.LetterSpacing.value,
+            letterSpacing: '0.64px',
           },
         ],
         'body-link-md': [
@@ -822,7 +822,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.BodyLink.md.FontWeight.value,
             lineHeight: tokens.Text.BodyLink.md.LineHeight.value,
-            letterSpacing: tokens.Text.BodyLink.md.LetterSpacing.value,
+            letterSpacing: '0.56px',
           },
         ],
         'body-link-lg': [
@@ -830,7 +830,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.BodyLink.lg.FontWeight.value,
             lineHeight: tokens.Text.BodyLink.lg.LineHeight.value,
-            letterSpacing: tokens.Text.BodyLink.lg.LetterSpacing.value,
+            letterSpacing: '0.64px',
           },
         ],
         'label-md': [
@@ -838,7 +838,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.Label.md.FontWeight.value,
             lineHeight: tokens.Text.Label.md.LineHeight.value,
-            letterSpacing: tokens.Text.Label.md.LetterSpacing.value,
+            letterSpacing: '0.48px',
           },
         ],
         'label-lg': [
@@ -846,7 +846,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.Label.lg.FontWeight.value,
             lineHeight: tokens.Text.Label.lg.LineHeight.value,
-            letterSpacing: tokens.Text.Label.lg.LetterSpacing.value,
+            letterSpacing: '0.56px',
           },
         ],
         'label-link-md': [
@@ -854,7 +854,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.LabelLink.md.FontWeight.value,
             lineHeight: tokens.Text.LabelLink.md.LineHeight.value,
-            letterSpacing: tokens.Text.LabelLink.md.LetterSpacing.value,
+            letterSpacing: '0.48px',
           },
         ],
         'label-link-lg': [
@@ -862,7 +862,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.LabelLink.lg.FontWeight.value,
             lineHeight: tokens.Text.LabelLink.lg.LineHeight.value,
-            letterSpacing: tokens.Text.LabelLink.lg.LetterSpacing.value,
+            letterSpacing: '0.56px',
           },
         ],
         'caption-md': [
@@ -870,7 +870,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.Caption.md.FontWeight.value,
             lineHeight: tokens.Text.Caption.md.LineHeight.value,
-            letterSpacing: tokens.Text.Caption.md.LetterSpacing.value,
+            letterSpacing: '0.2px',
           },
         ],
         'caption-lg': [
@@ -878,7 +878,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.Caption.lg.FontWeight.value,
             lineHeight: tokens.Text.Caption.lg.LineHeight.value,
-            letterSpacing: tokens.Text.Caption.lg.LetterSpacing.value,
+            letterSpacing: '0.24px',
           },
         ],
         'caption-link-md': [
@@ -886,7 +886,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.CaptionLink.md.FontWeight.value,
             lineHeight: tokens.Text.CaptionLink.md.LineHeight.value,
-            letterSpacing: tokens.Text.CaptionLink.md.LetterSpacing.value,
+            letterSpacing: '0.2px',
           },
         ],
         'caption-link-lg': [
@@ -894,7 +894,7 @@ const daPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.Text.CaptionLink.lg.FontWeight.value,
             lineHeight: tokens.Text.CaptionLink.lg.LineHeight.value,
-            letterSpacing: tokens.Text.CaptionLink.lg.LetterSpacing.value,
+            letterSpacing: '0.24px',
           },
         ],
       },
@@ -911,20 +911,6 @@ const daPlugin = plugin(() => {}, {
         '1-5': tokens.LineHeight['1_5'].value,
         '1-6': tokens.LineHeight['1_6'].value,
         '1-7': tokens.LineHeight['1_7'].value,
-      },
-      letterSpacing: {
-        '0-035': tokens.LetterSpacing['0_035'].value,
-        '0-04': tokens.LetterSpacing['0_04'].value,
-        '0-0425': tokens.LetterSpacing['0_0425'].value,
-        '0-45': tokens.LetterSpacing['0_045'].value,
-        '0-05': tokens.LetterSpacing['0_05'].value,
-        '0-055': tokens.LetterSpacing['0_055'].value,
-        '0-06': tokens.LetterSpacing['0_06'].value,
-        '0-065': tokens.LetterSpacing['0_065'].value,
-        '0-07': tokens.LetterSpacing['0_07'].value,
-        '0-08': tokens.LetterSpacing['0_08'].value,
-        '0-09': tokens.LetterSpacing['0_09'].value,
-        '0-1125': tokens.LetterSpacing['0_1125'].value,
       },
       spacing: {
         'spacing-4': tokens.Spacing[4].value,

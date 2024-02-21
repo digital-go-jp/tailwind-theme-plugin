@@ -11,7 +11,6 @@ export const TypographySection = () => {
         <p className='text-std-24B-5'>std-24B-5 デザインシステム</p>
         <p className='text-std-22B-5'>std-22B-5 デザインシステム</p>
         <p className='text-std-20B-6'>std-20B-6 デザインシステム</p>
-        <p className='text-std-20B-5'>std-20B-5 デザインシステム</p>
         <p className='text-std-18B-6'>std-18B-6 デザインシステム</p>
         <p className='text-std-17B-7'>std-17B-7 デザインシステム</p>
         <p className='text-std-16B-7'>std-16B-7 デザインシステム</p>
@@ -34,7 +33,6 @@ export const TypographySection = () => {
         <p className='text-std-26N-5'>std-26N-5 デザインシステム</p>
         <p className='text-std-24N-5'>std-24N-5 デザインシステム</p>
         <p className='text-std-22N-5'>std-22N-5 デザインシステム</p>
-        <p className='text-std-20N-6'>std-20N-6 デザインシステム</p>
         <p className='text-std-20N-5'>std-20N-5 デザインシステム</p>
         <p className='text-std-18N-6'>std-18N-6 デザインシステム</p>
         <p className='text-std-17N-7'>std-17N-7 デザインシステム</p>

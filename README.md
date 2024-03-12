@@ -1,6 +1,6 @@
 # Tailwind Theme Plugin
 
-[@digital-go-jp/design-tokens](https://www.npmjs.com/package/@digital-go-jp/design-tokens) をベースにした Tailwind CSS のテーマプラグインです。
+[@digital-go-jp/design-tokens](https://www.npmjs.com/package/@digital-go-jp/design-tokens) をベースにした Tailwind CSS のテーマプラグイン。
 
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin.svg)](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin)
 
@@ -26,7 +26,7 @@ $ npm install @digital-go-jp/tailwind-theme-plugin
 }
 ```
 
-## Figma（デザインシステム）とのバージョン対応表
+## バージョン対応表
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |

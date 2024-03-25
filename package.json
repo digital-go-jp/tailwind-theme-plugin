@@ -37,7 +37,7 @@
     "@types/node": "^20.11.30",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.3",
-    "vite": "^5.2.2"
+    "vite": "^5.2.6"
   },
   "peerDependencies": {
     "tailwindcss": "^3.4.1"

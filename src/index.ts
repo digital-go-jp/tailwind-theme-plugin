@@ -411,6 +411,14 @@ const daPlugin = plugin(() => {}, {
             letterSpacing: '0.4px',
           },
         ],
+        'std-20B-5': [
+          tokens.FontSize[20].value,
+          {
+            fontWeight: tokens.FontWeight[700].value,
+            lineHeight: tokens.LineHeight['1_6'].value,
+            letterSpacing: '0.4px',
+          },
+        ],
         'std-18B-6': [
           tokens.FontSize[18].value,
           {

@@ -33,8 +33,12 @@
   "devDependencies": {
     "@biomejs/biome": "^1.6.3",
     "@digital-go-jp/design-tokens": "^0.1.5",
-    "@tsconfig/node18": "^18.2.2",
+    "@tsconfig/node18": "^18.2.3",
     "@types/node": "^20.11.30",
+    "@types/react": "^18.2.72",
+    "@types/react-dom": "^18.2.22",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.3",
     "vite": "^5.2.6"
@@ -45,11 +49,5 @@
   "engines": {
     "node": ">=18"
   },
-  "engineStrict": true,
-  "dependencies": {
-    "@types/react": "^18.2.72",
-    "@types/react-dom": "^18.2.22",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38"
-  }
+  "engineStrict": true
 }

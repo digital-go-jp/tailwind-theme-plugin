@@ -39,12 +39,12 @@
     "@types/react-dom": "^18.2.22",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.4.3",
     "vite": "^5.2.6"
   },
   "peerDependencies": {
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.3"
   },
   "engines": {
     "node": ">=18"

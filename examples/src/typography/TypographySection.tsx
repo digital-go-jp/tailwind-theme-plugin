@@ -4,6 +4,11 @@ export const TypographySection = () => {
       <h2 className='font-bold text-2xl'>Typography</h2>
 
       <div className='flex flex-col gap-4'>
+        <p className='text-dsp-64N-4'>dsp-64N-4 デザインシステム</p>
+        <p className='text-dsp-57N-4'>std-57N-4 デザインシステム</p>
+        <p className='text-dsp-48N-4'>std-48N-4 デザインシステム</p>
+
+        <hr />
         <p className='text-std-45B-4'>std-45B-4 デザインシステム</p>
         <p className='text-std-36B-4'>std-36B-4 デザインシステム</p>
         <p className='text-std-32B-5'>std-32B-5 デザインシステム</p>

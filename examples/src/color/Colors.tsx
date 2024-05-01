@@ -10,7 +10,7 @@ export const Colors = (props: Props) => {
     <section className='flex flex-col gap-4'>
       <h3 className='text-std-24B-5'>{title}</h3>
       <div className='flex flex-wrap gap-8'>
-        {colorClasses.map(colorClass => {
+        {colorClasses.map((colorClass) => {
           return (
             <div className='flex flex-col gap-2 c' key={colorClass}>
               <div className={`h-14 w-14 ${colorClass}`} />

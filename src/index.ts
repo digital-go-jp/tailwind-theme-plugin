@@ -917,15 +917,6 @@ const daPlugin = plugin(() => {}, {
         '1-6': tokens.LineHeight['1_6'].value,
         '1-7': tokens.LineHeight['1_7'].value,
       },
-      spacing: {
-        'spacing-4': tokens.Spacing[4].value,
-        'spacing-8': tokens.Spacing[8].value,
-        'spacing-16': tokens.Spacing[16].value,
-        'spacing-24': tokens.Spacing[24].value,
-        'spacing-40': tokens.Spacing[40].value,
-        'spacing-64': tokens.Spacing[64].value,
-        'spacing-104': tokens.Spacing[104].value,
-      },
       borderRadius: {
         '8': tokens.BorderRadius[8].value,
         '16': tokens.BorderRadius[16].value,

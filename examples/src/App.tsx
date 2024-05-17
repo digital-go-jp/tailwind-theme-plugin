@@ -22,8 +22,6 @@ export default function App() {
 
       <TypographySection />
 
-      <SpacingSection />
-
       <AspectRatioSection />
 
       <RadiusSection />

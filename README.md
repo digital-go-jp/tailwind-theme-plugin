@@ -18,7 +18,7 @@ $ npm install @digital-go-jp/tailwind-theme-plugin
 {
     content: [...],
     theme: {
-       exnted: {
+       extend: {
            ...
        },
     },

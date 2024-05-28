@@ -4,15 +4,15 @@
 
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin.svg)](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin)
 
-## セットアップ
-
-### インストール
+## インストール
 
 ```
 $ npm install @digital-go-jp/tailwind-theme-plugin
 ```
 
-### tailwind.config.js の設定
+## 使用例
+
+### tailwind.config.js
 
 ```
 {

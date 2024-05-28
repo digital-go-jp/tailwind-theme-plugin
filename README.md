@@ -6,15 +6,13 @@
 
 ## インストール
 
+```sh
+npm install @digital-go-jp/tailwind-theme-plugin
 ```
-$ npm install @digital-go-jp/tailwind-theme-plugin
-```
-
-## 使用例
-
-### tailwind.config.js
-
-```
+  
+`tailwind.config.js` の `plugins` 部分を以下のように設定してください。
+  
+```js
 {
     content: [...],
     theme: {
@@ -25,6 +23,11 @@ $ npm install @digital-go-jp/tailwind-theme-plugin
     plugins: [require('@digital-go-jp/tailwind-theme-plugin')],
 }
 ```
+
+## 使用例
+
+- `examples` ディレクトリ
+- [Reactサンプルコンポーネント集](https://github.com/digital-go-jp/design-system-example-components)
 
 ## バージョン対応表
 

@@ -102,15 +102,6 @@ export const TypographySection = () => {
         <p className='text-mono-14N-5 font-mono'>
           mono-14B-5 &lt;meta charset=&quot;UTF-8&quot;&gt;
         </p>
-
-        <hr />
-
-        <p className='text-body-lg'>旧タイポグラフィ body-lg デザインシステム</p>
-        <p className='text-body-md'>旧タイポグラフィ body-md デザインシステム</p>
-        <p className='text-label-lg'>旧タイポグラフィ label-lg デザインシステム</p>
-        <p className='text-label-md'>旧タイポグラフィ label-md デザインシステム</p>
-        <p className='text-caption-lg'>旧タイポグラフィ caption-lg デザインシステム</p>
-        <p className='text-caption-md'>旧タイポグラフィ caption-md デザインシステム</p>
       </div>
     </section>
   );

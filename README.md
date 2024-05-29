@@ -9,9 +9,9 @@
 ```sh
 npm install @digital-go-jp/tailwind-theme-plugin
 ```
-  
+
 `tailwind.config.js` の `plugins` 部分を以下のように設定してください。
-  
+
 ```js
 {
     content: [...],
@@ -27,10 +27,10 @@ npm install @digital-go-jp/tailwind-theme-plugin
 ## 使用例
 
 - `examples` ディレクトリ
-- [Reactサンプルコンポーネント集](https://github.com/digital-go-jp/design-system-example-components)
+- [React サンプルコンポーネント集](https://github.com/digital-go-jp/design-system-example-components)
 
 ## バージョン対応表
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
-| 1.4.2              | 0.1.14           |
+| 1.4.2              | 0.1.15           |

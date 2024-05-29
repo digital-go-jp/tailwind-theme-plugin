@@ -257,79 +257,6 @@ const daPlugin = plugin(() => {}, {
         'focus-yellow': tokens.Color.Primitive.Yellow[700].value,
         'focus-blue': tokens.Color.Primitive.LightBlue[700].value,
       },
-      textColor: {
-        body: tokens.Color.Neutral.SolidGrey[900].value,
-        description: tokens.Color.Neutral.SolidGrey[600].value,
-        placeholder: tokens.Color.Light.Text.Placeholder.value,
-        link: tokens.Color.Primitive.Blue[1000].value,
-        visited: tokens.Color.Primitive.Magenta[900].value,
-        hover: tokens.Color.Primitive.Blue[900].value,
-        active: tokens.Color.Primitive.Orange[700].value,
-        error: tokens.Color.Error[1].value,
-        disabled: tokens.Color.Neutral.SolidGrey[420].value,
-        button: {
-          primary: {
-            normal: tokens.Color.Neutral.White.value,
-            hover: tokens.Color.Neutral.White.value,
-            active: tokens.Color.Neutral.White.value,
-            disabled: tokens.Color.Neutral.White.value,
-          },
-          secondary: {
-            normal: tokens.Color.Primitive.Blue[900].value,
-            hover: tokens.Color.Primitive.Blue[1000].value,
-            active: tokens.Color.Primitive.Blue[1200].value,
-            disabled: tokens.Color.Neutral.SolidGrey[420].value,
-          },
-          tertiary: {
-            normal: tokens.Color.Primitive.Blue[900].value,
-            hover: tokens.Color.Primitive.Blue[1000].value,
-            active: tokens.Color.Primitive.Blue[1200].value,
-            disabled: tokens.Color.Neutral.SolidGrey[420].value,
-          },
-        },
-      },
-      backgroundColor: {
-        button: {
-          primary: {
-            normal: tokens.Color.Primitive.Blue[900].value,
-            hover: tokens.Color.Primitive.Blue[1000].value,
-            active: tokens.Color.Primitive.Blue[1100].value,
-            disabled: '#0000004D',
-          },
-          secondary: {
-            normal: tokens.Color.Neutral.White.value,
-            hover: tokens.Color.Primitive.Blue[200].value,
-            active: tokens.Color.Primitive.Blue[300].value,
-            disabled: tokens.Color.Neutral.White.value,
-          },
-          tertiary: {
-            normal: 'transparent',
-            hover: tokens.Color.Primitive.Blue[200].value,
-            active: tokens.Color.Primitive.Blue[300].value,
-            disabled: 'transparent',
-          },
-        },
-      },
-      borderColor: {
-        error: tokens.Color.Error[1].value,
-        selected: tokens.Color.Primitive.Blue[900].value,
-        disabled: tokens.Color.Neutral.SolidGrey[420].value,
-        field: tokens.Color.Neutral.SolidGrey[900].value,
-        button: {
-          secondary: {
-            normal: tokens.Color.Primitive.Blue[900].value,
-            hover: tokens.Color.Primitive.Blue[1000].value,
-            active: tokens.Color.Primitive.Blue[1200].value,
-            disabled: tokens.Color.Neutral.SolidGrey[420].value,
-          },
-        },
-      },
-      outlineColor: {
-        error: tokens.Color.Error[1].value,
-        selected: tokens.Color.Primitive.Blue[900].value,
-        disabled: tokens.Color.Neutral.SolidGrey[420].value,
-        field: tokens.Color.Neutral.SolidGrey[900].value,
-      },
       fontSize: {
         'dsp-64N-4': [
           tokens.FontSize[64].value,
@@ -412,7 +339,7 @@ const daPlugin = plugin(() => {}, {
           tokens.FontSize[20].value,
           {
             fontWeight: tokens.FontWeight[700].value,
-            lineHeight: tokens.LineHeight['1_6'].value,
+            lineHeight: tokens.LineHeight['1_5'].value,
             letterSpacing: '0.02em',
           },
         ],
@@ -774,134 +701,6 @@ const daPlugin = plugin(() => {}, {
             lineHeight: tokens.LineHeight['1_5'].value,
           },
         ],
-        button: [
-          tokens.Text.Button.FontSize.value,
-          {
-            fontWeight: tokens.Text.Button.FontWeight.value,
-            lineHeight: tokens.Text.Button.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'button-link': [
-          tokens.Text.ButtonLink.FontSize.value,
-          {
-            fontWeight: tokens.Text.ButtonLink.FontWeight.value,
-            lineHeight: tokens.Text.ButtonLink.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'button-xs': [
-          '0.875rem',
-          {
-            fontWeight: tokens.FontWeight[700].value,
-            lineHeight: '100%',
-            letterSpacing: '0.04em',
-          },
-        ],
-        'button-xs-link': [
-          '0.875rem',
-          {
-            fontWeight: tokens.FontWeight[700].value,
-            lineHeight: '100%',
-            letterSpacing: '0.04em',
-          },
-        ],
-        'body-md': [
-          tokens.Text.Body.md.FontSize.value,
-          {
-            fontWeight: tokens.Text.Body.md.FontWeight.value,
-            lineHeight: tokens.Text.Body.md.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'body-lg': [
-          tokens.Text.Body.lg.FontSize.value,
-          {
-            fontWeight: tokens.Text.Body.lg.FontWeight.value,
-            lineHeight: tokens.Text.Body.lg.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'body-link-md': [
-          tokens.Text.BodyLink.md.FontSize.value,
-          {
-            fontWeight: tokens.Text.BodyLink.md.FontWeight.value,
-            lineHeight: tokens.Text.BodyLink.md.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'body-link-lg': [
-          tokens.Text.BodyLink.lg.FontSize.value,
-          {
-            fontWeight: tokens.Text.BodyLink.lg.FontWeight.value,
-            lineHeight: tokens.Text.BodyLink.lg.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'label-md': [
-          tokens.Text.Label.md.FontSize.value,
-          {
-            fontWeight: tokens.Text.Label.md.FontWeight.value,
-            lineHeight: tokens.Text.Label.md.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'label-lg': [
-          tokens.Text.Label.lg.FontSize.value,
-          {
-            fontWeight: tokens.Text.Label.lg.FontWeight.value,
-            lineHeight: tokens.Text.Label.lg.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'label-link-md': [
-          tokens.Text.LabelLink.md.FontSize.value,
-          {
-            fontWeight: tokens.Text.LabelLink.md.FontWeight.value,
-            lineHeight: tokens.Text.LabelLink.md.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'label-link-lg': [
-          tokens.Text.LabelLink.lg.FontSize.value,
-          {
-            fontWeight: tokens.Text.LabelLink.lg.FontWeight.value,
-            lineHeight: tokens.Text.LabelLink.lg.LineHeight.value,
-            letterSpacing: '0.04em',
-          },
-        ],
-        'caption-md': [
-          tokens.Text.Caption.md.FontSize.value,
-          {
-            fontWeight: tokens.Text.Caption.md.FontWeight.value,
-            lineHeight: tokens.Text.Caption.md.LineHeight.value,
-            letterSpacing: '0.02em',
-          },
-        ],
-        'caption-lg': [
-          tokens.Text.Caption.lg.FontSize.value,
-          {
-            fontWeight: tokens.Text.Caption.lg.FontWeight.value,
-            lineHeight: tokens.Text.Caption.lg.LineHeight.value,
-            letterSpacing: '0.02em',
-          },
-        ],
-        'caption-link-md': [
-          tokens.Text.CaptionLink.md.FontSize.value,
-          {
-            fontWeight: tokens.Text.CaptionLink.md.FontWeight.value,
-            lineHeight: tokens.Text.CaptionLink.md.LineHeight.value,
-            letterSpacing: '0.02em',
-          },
-        ],
-        'caption-link-lg': [
-          tokens.Text.CaptionLink.lg.FontSize.value,
-          {
-            fontWeight: tokens.Text.CaptionLink.lg.FontWeight.value,
-            lineHeight: tokens.Text.CaptionLink.lg.LineHeight.value,
-            letterSpacing: '0.02em',
-          },
-        ],
       },
       fontWeight: {
         '400': tokens.FontWeight[400].value,
@@ -916,15 +715,6 @@ const daPlugin = plugin(() => {}, {
         '1-5': tokens.LineHeight['1_5'].value,
         '1-6': tokens.LineHeight['1_6'].value,
         '1-7': tokens.LineHeight['1_7'].value,
-      },
-      spacing: {
-        'spacing-4': tokens.Spacing[4].value,
-        'spacing-8': tokens.Spacing[8].value,
-        'spacing-16': tokens.Spacing[16].value,
-        'spacing-24': tokens.Spacing[24].value,
-        'spacing-40': tokens.Spacing[40].value,
-        'spacing-64': tokens.Spacing[64].value,
-        'spacing-104': tokens.Spacing[104].value,
       },
       borderRadius: {
         '8': tokens.BorderRadius[8].value,

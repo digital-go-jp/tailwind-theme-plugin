@@ -4,21 +4,19 @@
 
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin.svg)](https://badge.fury.io/js/@digital-go-jp%2Ftailwind-theme-plugin)
 
-## セットアップ
+## インストール
 
-### インストール
-
-```
-$ npm install @digital-go-jp/tailwind-theme-plugin
+```sh
+npm install @digital-go-jp/tailwind-theme-plugin
 ```
 
-### tailwind.config.js の設定
+`tailwind.config.js` の `plugins` 部分を以下のように設定してください。
 
-```
+```js
 {
     content: [...],
     theme: {
-       exnted: {
+       extend: {
            ...
        },
     },
@@ -26,8 +24,13 @@ $ npm install @digital-go-jp/tailwind-theme-plugin
 }
 ```
 
+## 使用例
+
+- `examples` ディレクトリ
+- [React サンプルコンポーネント集](https://github.com/digital-go-jp/design-system-example-components)
+
 ## バージョン対応表
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
-| 1.4.1              | 0.1.14           |
+| 1.4.2              | 0.1.15           |

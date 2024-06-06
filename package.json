@@ -31,18 +31,18 @@
     "lint": "biome lint **/*.ts **/*.js"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.3",
+    "@biomejs/biome": "^1.8.0",
     "@digital-go-jp/design-tokens": "^0.1.6",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.14.1",
+    "@types/node": "^20.14.2",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
+    "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5",
     "vite": "^5.2.12"
   },
   "peerDependencies": {
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.4"
   },
   "engines": {
     "node": ">=18"

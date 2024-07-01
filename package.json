@@ -36,7 +36,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.14.7",
     "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.5.2",
     "vite": "^5.3.1"

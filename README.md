@@ -33,4 +33,4 @@ npm install @digital-go-jp/tailwind-theme-plugin
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
-| 1.4.2              | 0.1.15           |
+| 1.4.2              | 0.1.16           |

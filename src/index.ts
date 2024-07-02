@@ -722,8 +722,8 @@ const daPlugin = plugin(() => {}, {
         '32': tokens.BorderRadius[32].value,
       },
       screens: {
-        desktop: '768px',
-        'desktop-admin': '992px',
+        desktop: '48em',
+        'desktop-admin': '62em',
       },
       listStyleType: {
         'lower-latin': 'lower-latin',

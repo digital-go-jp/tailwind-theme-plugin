@@ -26,7 +26,7 @@ npm install @digital-go-jp/tailwind-theme-plugin
 
 ## 使用例
 
-- `examples` ディレクトリ
+- [examples](./examples/) ディレクトリ
 - [React サンプルコンポーネント集](https://github.com/digital-go-jp/design-system-example-components)
 
 ## バージョン対応表

@@ -31,15 +31,15 @@
     "lint": "biome lint **/*.ts **/*.js"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.0",
+    "@biomejs/biome": "^1.9.2",
     "@digital-go-jp/design-tokens": "^0.1.6",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.6.1",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.45",
-    "tailwindcss": "^3.4.11",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
     "typescript": "^5.6.2",
-    "vite": "^5.4.4"
+    "vite": "^5.4.7"
   },
   "peerDependencies": {
     "tailwindcss": "^3.4.10"

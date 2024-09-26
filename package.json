@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.2",
-    "@digital-go-jp/design-tokens": "^0.1.6",
+    "@digital-go-jp/design-tokens": "^0.1.7",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^22.6.1",
     "autoprefixer": "^10.4.20",

@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { ColorSection } from './color/ColorSection';
 import { rgb2hex } from './utils';
 import { TypographySection } from './typography/TypographySection';
-import { SpacingSection } from './spacing/SpacingSection';
 import { ElevationSection } from './elevation/ElevationSection';
 import { RadiusSection } from './radius/RadiusSection';
 import { AspectRatioSection } from './aspect-ratio/AspectRatioSection';

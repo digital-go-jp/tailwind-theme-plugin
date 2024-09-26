@@ -26,11 +26,13 @@ npm install @digital-go-jp/tailwind-theme-plugin
 
 ## 使用例
 
-- `examples` ディレクトリ
+- [examples](./examples/) ディレクトリ
 - [React サンプルコンポーネント集](https://github.com/digital-go-jp/design-system-example-components)
 
 ## バージョン対応表
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
-| 1.4.2              | 0.1.16           |
+| 2.0.3              | 0.1.17           |
+| 2.0.1              | 0.1.16           |
+| 1.4.3              | 0.1.16           |

@@ -10,7 +10,7 @@
     font-family: "Noto Sans JP", -apple-system, blinkmacsystemfont, "Segoe UI",
       "Hiragino Kaku Gothic ProN", "BIZ UDPGothic", meiryo, sans-serif;
 
-    @apply text-std-17N-7;
-    @apply text-solid-grey-900;
+    @apply text-std-17N-170;
+    @apply text-solid-gray-900;
   }
 }

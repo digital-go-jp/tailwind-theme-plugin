@@ -5,7 +5,7 @@ export const ColorSection = () => {
     <>
       <section className='flex flex-col gap-8'>
         <div>
-          <h2 className='text-std-28B-150'>Color 2.0</h2>
+          <h2 className='text-std-28B-150'>Color</h2>
           <p className='my-4'>
             例ではbg-*を利用していますが、text-*やfill-*、border-*等、色関連は全てに適用されます。
           </p>
@@ -220,106 +220,6 @@ export const ColorSection = () => {
         />
         <Colors title='Focus（Yellow）' colorClasses={['bg-focus-yellow']} />
         <Colors title='Focus（Blue）' colorClasses={['bg-focus-blue']} />
-      </section>
-
-      <hr />
-
-      <section className='flex flex-col gap-8'>
-        <div>
-          <h2 className='text-std-28B-150'>Color</h2>
-          <p className='my-4'>旧カラースタイルです。</p>
-        </div>
-
-        <Colors
-          title='Sea'
-          colorClasses={[
-            'bg-sea-50',
-            'bg-sea-100',
-            'bg-sea-200',
-            'bg-sea-300',
-            'bg-sea-400',
-            'bg-sea-500',
-            'bg-sea-600',
-            'bg-sea-700',
-            'bg-sea-800',
-            'bg-sea-900',
-            'bg-sea-1000',
-            'bg-sea-1100',
-            'bg-sea-1200',
-          ]}
-        />
-        <Colors
-          title='Sumi'
-          colorClasses={[
-            'bg-sumi-50',
-            'bg-sumi-100',
-            'bg-sumi-200',
-            'bg-sumi-300',
-            'bg-sumi-400',
-            'bg-sumi-500',
-            'bg-sumi-600',
-            'bg-sumi-700',
-            'bg-sumi-800',
-            'bg-sumi-900',
-            'bg-sumi-1000',
-            'bg-sumi-1100',
-            'bg-sumi-1200',
-          ]}
-        />
-        <Colors
-          title='Forest'
-          colorClasses={[
-            'bg-forest-50',
-            'bg-forest-100',
-            'bg-forest-200',
-            'bg-forest-300',
-            'bg-forest-400',
-            'bg-forest-500',
-            'bg-forest-600',
-            'bg-forest-700',
-            'bg-forest-800',
-            'bg-forest-900',
-            'bg-forest-1000',
-            'bg-forest-1100',
-            'bg-forest-1200',
-          ]}
-        />
-        <Colors
-          title='Wood'
-          colorClasses={[
-            'bg-wood-50',
-            'bg-wood-100',
-            'bg-wood-200',
-            'bg-wood-300',
-            'bg-wood-400',
-            'bg-wood-500',
-            'bg-wood-600',
-            'bg-wood-700',
-            'bg-wood-800',
-            'bg-wood-900',
-            'bg-wood-1000',
-            'bg-wood-1100',
-            'bg-wood-1200',
-          ]}
-        />
-        <Colors
-          title='Sun'
-          colorClasses={[
-            'bg-sun-50',
-            'bg-sun-100',
-            'bg-sun-200',
-            'bg-sun-300',
-            'bg-sun-400',
-            'bg-sun-500',
-            'bg-sun-600',
-            'bg-sun-700',
-            'bg-sun-800',
-            'bg-sun-900',
-            'bg-sun-1000',
-            'bg-sun-1100',
-            'bg-sun-1200',
-          ]}
-        />
       </section>
     </>
   );

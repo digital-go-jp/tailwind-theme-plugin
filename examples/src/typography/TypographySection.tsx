@@ -13,9 +13,10 @@ export const TypographySection = () => {
         <p className='text-std-36B-140'>std-36B-140 デザインシステム</p>
         <p className='text-std-32B-150'>std-32B-150 デザインシステム</p>
         <p className='text-std-28B-150'>std-28B-150 デザインシステム</p>
+        <p className='text-std-26B-150'>std-26B-150 デザインシステム</p>
         <p className='text-std-24B-150'>std-24B-150 デザインシステム</p>
         <p className='text-std-22B-150'>std-22B-150 デザインシステム</p>
-        <p className='text-std-20B-160'>std-20B-160 デザインシステム</p>
+        <p className='text-std-20B-150'>std-20B-150 デザインシステム</p>
         <p className='text-std-18B-160'>std-18B-160 デザインシステム</p>
         <p className='text-std-17B-170'>std-17B-170 デザインシステム</p>
         <p className='text-std-16B-170'>std-16B-170 デザインシステム</p>

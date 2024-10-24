@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "format": "biome format --write src/**/*.tsx",
     "lint": "biome lint src/**/*.tsx",
-    "fix": "biome check --apply-unsafe src/**/*.tsx",
+    "fix": "biome check --write --unsafe src/**/*.tsx",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,14 +16,14 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.2",
+    "@biomejs/biome": "^1.9.4",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13",
-    "typescript": "^5.5.4",
-    "vite": "^5.4.7"
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
   }
 }

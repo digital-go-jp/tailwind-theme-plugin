@@ -3,11 +3,11 @@
 ## セットアップ
 
 ```
-sh setup.sh
+$ npm install
 ```
 
 ## 実行
 
 ```
-npm run dev
+$ npm run dev
 ```

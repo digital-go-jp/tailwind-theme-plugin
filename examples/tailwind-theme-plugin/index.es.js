@@ -5359,6 +5359,20 @@ const c = /* @__PURE__ */ s(p), g = c(() => {
           800: e.Color.Neutral.SolidGray[800].value,
           900: e.Color.Neutral.SolidGray[900].value
         },
+        "opacity-gray": {
+          50: e.Color.Neutral.OpacityGray[50].value,
+          100: e.Color.Neutral.OpacityGray[100].value,
+          200: e.Color.Neutral.OpacityGray[200].value,
+          300: e.Color.Neutral.OpacityGray[300].value,
+          400: e.Color.Neutral.OpacityGray[400].value,
+          420: e.Color.Neutral.OpacityGray[420].value,
+          500: e.Color.Neutral.OpacityGray[500].value,
+          536: e.Color.Neutral.OpacityGray[536].value,
+          600: e.Color.Neutral.OpacityGray[600].value,
+          700: e.Color.Neutral.OpacityGray[700].value,
+          800: e.Color.Neutral.OpacityGray[800].value,
+          900: e.Color.Neutral.OpacityGray[900].value
+        },
         "success-1": e.Color.Success[1].value,
         "success-2": e.Color.Success[2].value,
         "error-1": e.Color.Error[1].value,
@@ -5764,6 +5778,10 @@ const c = /* @__PURE__ */ s(p), g = c(() => {
             lineHeight: e.LineHeight[150].value
           }
         ]
+      },
+      fontFamily: {
+        sans: e.FontFamily.Sans.value,
+        mono: e.FontFamily.Mono.value
       },
       fontWeight: {
         400: e.FontWeight[400].value,

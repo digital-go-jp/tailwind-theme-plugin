@@ -600,6 +600,15 @@ const daPlugin = plugin(() => {}, {
         '700': tokens.FontWeight[700].value,
       },
       lineHeight: {
+        '100': tokens.LineHeight[100].value,
+        '120': tokens.LineHeight[120].value,
+        '130': tokens.LineHeight[130].value,
+        '140': tokens.LineHeight[140].value,
+        '150': tokens.LineHeight[150].value,
+        '160': tokens.LineHeight[160].value,
+        '170': tokens.LineHeight[170].value,
+        '175': tokens.LineHeight[175].value,
+        // NOTE: Remove the old keys later
         '1-0': tokens.LineHeight[100].value,
         '1-2': tokens.LineHeight[120].value,
         '1-3': tokens.LineHeight[130].value,

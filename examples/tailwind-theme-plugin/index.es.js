@@ -5788,6 +5788,15 @@ const c = /* @__PURE__ */ s(p), g = c(() => {
         700: e.FontWeight[700].value
       },
       lineHeight: {
+        100: e.LineHeight[100].value,
+        120: e.LineHeight[120].value,
+        130: e.LineHeight[130].value,
+        140: e.LineHeight[140].value,
+        150: e.LineHeight[150].value,
+        160: e.LineHeight[160].value,
+        170: e.LineHeight[170].value,
+        175: e.LineHeight[175].value,
+        // Remove the old keys later
         "1-0": e.LineHeight[100].value,
         "1-2": e.LineHeight[120].value,
         "1-3": e.LineHeight[130].value,

@@ -1,2344 +1,9 @@
 function s(t) {
   return t && t.__esModule && Object.prototype.hasOwnProperty.call(t, "default") ? t.default : t;
 }
-var v = {
+var m = {
   Color: {
-    Neutral: {
-      White: {
-        value: "#ffffff",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "#ffffff",
-          type: "color"
-        },
-        name: "ColorNeutralWhite",
-        attributes: {
-          category: "Color",
-          type: "Neutral",
-          item: "White"
-        },
-        path: [
-          "Color",
-          "Neutral",
-          "White"
-        ]
-      },
-      Black: {
-        value: "#000000",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "#000000",
-          type: "color"
-        },
-        name: "ColorNeutralBlack",
-        attributes: {
-          category: "Color",
-          type: "Neutral",
-          item: "Black"
-        },
-        path: [
-          "Color",
-          "Neutral",
-          "Black"
-        ]
-      },
-      SolidGrey: {
-        50: {
-          value: "#f2f2f2",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#f2f2f2",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey50",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "50"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "50"
-          ]
-        },
-        100: {
-          value: "#e6e6e6",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#e6e6e6",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey100",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "100"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "100"
-          ]
-        },
-        200: {
-          value: "#cccccc",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#cccccc",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey200",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "200"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "200"
-          ]
-        },
-        300: {
-          value: "#b3b3b3",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#b3b3b3",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey300",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "300"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "300"
-          ]
-        },
-        400: {
-          value: "#999999",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#999999",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey400",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "400"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "400"
-          ]
-        },
-        420: {
-          value: "#949494",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#949494",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey420",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "420"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "420"
-          ]
-        },
-        500: {
-          value: "#7f7f7f",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#7f7f7f",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey500",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "500"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "500"
-          ]
-        },
-        536: {
-          value: "#767676",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#767676",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey536",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "536"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "536"
-          ]
-        },
-        600: {
-          value: "#666666",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#666666",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey600",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "600"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "600"
-          ]
-        },
-        700: {
-          value: "#4d4d4d",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#4d4d4d",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey700",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "700"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "700"
-          ]
-        },
-        800: {
-          value: "#333333",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#333333",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey800",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "800"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "800"
-          ]
-        },
-        900: {
-          value: "#1a1a1a",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#1a1a1a",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGrey900",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGrey",
-            subitem: "900"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGrey",
-            "900"
-          ]
-        }
-      },
-      SolidGray: {
-        50: {
-          value: "#f2f2f2",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#f2f2f2",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray50",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "50"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "50"
-          ]
-        },
-        100: {
-          value: "#e6e6e6",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#e6e6e6",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray100",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "100"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "100"
-          ]
-        },
-        200: {
-          value: "#cccccc",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#cccccc",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray200",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "200"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "200"
-          ]
-        },
-        300: {
-          value: "#b3b3b3",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#b3b3b3",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray300",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "300"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "300"
-          ]
-        },
-        400: {
-          value: "#999999",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#999999",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray400",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "400"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "400"
-          ]
-        },
-        420: {
-          value: "#949494",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#949494",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray420",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "420"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "420"
-          ]
-        },
-        500: {
-          value: "#7f7f7f",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#7f7f7f",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray500",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "500"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "500"
-          ]
-        },
-        536: {
-          value: "#767676",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#767676",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray536",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "536"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "536"
-          ]
-        },
-        600: {
-          value: "#666666",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#666666",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray600",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "600"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "600"
-          ]
-        },
-        700: {
-          value: "#4d4d4d",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#4d4d4d",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray700",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "700"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "700"
-          ]
-        },
-        800: {
-          value: "#333333",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#333333",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray800",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "800"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "800"
-          ]
-        },
-        900: {
-          value: "#1a1a1a",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#1a1a1a",
-            type: "color"
-          },
-          name: "ColorNeutralSolidGray900",
-          attributes: {
-            category: "Color",
-            type: "Neutral",
-            item: "SolidGray",
-            subitem: "900"
-          },
-          path: [
-            "Color",
-            "Neutral",
-            "SolidGray",
-            "900"
-          ]
-        }
-      }
-    },
-    Success: {
-      1: {
-        value: "#259d63",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "#259D63",
-          type: "color"
-        },
-        name: "ColorSuccess1",
-        attributes: {
-          category: "Color",
-          type: "Success",
-          item: "1"
-        },
-        path: [
-          "Color",
-          "Success",
-          "1"
-        ]
-      },
-      2: {
-        value: "#197a4b",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "#197A4B",
-          type: "color"
-        },
-        name: "ColorSuccess2",
-        attributes: {
-          category: "Color",
-          type: "Success",
-          item: "2"
-        },
-        path: [
-          "Color",
-          "Success",
-          "2"
-        ]
-      }
-    },
-    Error: {
-      1: {
-        value: "#ec0000",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "#EC0000",
-          type: "color"
-        },
-        name: "ColorError1",
-        attributes: {
-          category: "Color",
-          type: "Error",
-          item: "1"
-        },
-        path: [
-          "Color",
-          "Error",
-          "1"
-        ]
-      },
-      2: {
-        value: "#ce0000",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "#CE0000",
-          type: "color"
-        },
-        name: "ColorError2",
-        attributes: {
-          category: "Color",
-          type: "Error",
-          item: "2"
-        },
-        path: [
-          "Color",
-          "Error",
-          "2"
-        ]
-      }
-    },
-    Warning: {
-      Yellow: {
-        1: {
-          value: "#b78f00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#B78F00",
-            type: "color"
-          },
-          name: "ColorWarningYellow1",
-          attributes: {
-            category: "Color",
-            type: "Warning",
-            item: "Yellow",
-            subitem: "1"
-          },
-          path: [
-            "Color",
-            "Warning",
-            "Yellow",
-            "1"
-          ]
-        },
-        2: {
-          value: "#927200",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#927200",
-            type: "color"
-          },
-          name: "ColorWarningYellow2",
-          attributes: {
-            category: "Color",
-            type: "Warning",
-            item: "Yellow",
-            subitem: "2"
-          },
-          path: [
-            "Color",
-            "Warning",
-            "Yellow",
-            "2"
-          ]
-        }
-      },
-      Orange: {
-        1: {
-          value: "#fb5b01",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#FB5B01",
-            type: "color"
-          },
-          name: "ColorWarningOrange1",
-          attributes: {
-            category: "Color",
-            type: "Warning",
-            item: "Orange",
-            subitem: "1"
-          },
-          path: [
-            "Color",
-            "Warning",
-            "Orange",
-            "1"
-          ]
-        },
-        2: {
-          value: "#c74700",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#C74700",
-            type: "color"
-          },
-          name: "ColorWarningOrange2",
-          attributes: {
-            category: "Color",
-            type: "Warning",
-            item: "Orange",
-            subitem: "2"
-          },
-          path: [
-            "Color",
-            "Warning",
-            "Orange",
-            "2"
-          ]
-        }
-      }
-    },
-    Focus: {
-      Blue: {
-        value: "#0877d7",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "#0877D7",
-          type: "color"
-        },
-        name: "ColorFocusBlue",
-        attributes: {
-          category: "Color",
-          type: "Focus",
-          item: "Blue"
-        },
-        path: [
-          "Color",
-          "Focus",
-          "Blue"
-        ]
-      },
-      Yellow: {
-        value: "#b78f00",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "#B78F00",
-          type: "color"
-        },
-        name: "ColorFocusYellow",
-        attributes: {
-          category: "Color",
-          type: "Focus",
-          item: "Yellow"
-        },
-        path: [
-          "Color",
-          "Focus",
-          "Yellow"
-        ]
-      }
-    },
     Primitive: {
-      Sea: {
-        50: {
-          value: "#e8f1fe",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#e8f1fe",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea50",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "50"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "50"
-          ]
-        },
-        100: {
-          value: "#c5d7fb",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#c5d7fb",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "100"
-          ]
-        },
-        200: {
-          value: "#9db7f9",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#9db7f9",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "200"
-          ]
-        },
-        300: {
-          value: "#7096f8",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#7096f8",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea300",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "300"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "300"
-          ]
-        },
-        400: {
-          value: "#4979f5",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#4979f5",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea400",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "400"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "400"
-          ]
-        },
-        500: {
-          value: "#264af4",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#264af4",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea500",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "500"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "500"
-          ]
-        },
-        600: {
-          value: "#1a3ee8",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#1a3ee8",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea600",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "600"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "600"
-          ]
-        },
-        700: {
-          value: "#0031d8",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#0031d8",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea700",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "700"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "700"
-          ]
-        },
-        800: {
-          value: "#0017c1",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#0017c1",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea800",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "800"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "800"
-          ]
-        },
-        900: {
-          value: "#000082",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#000082",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea900",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "900"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "900"
-          ]
-        },
-        1e3: {
-          value: "#000071",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#000071",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea1000",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "1000"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "1000"
-          ]
-        },
-        1100: {
-          value: "#000060",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#000060",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea1100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "1100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "1100"
-          ]
-        },
-        1200: {
-          value: "#00004f",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#00004f",
-            type: "color"
-          },
-          name: "ColorPrimitiveSea1200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sea",
-            subitem: "1200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sea",
-            "1200"
-          ]
-        }
-      },
-      Sumi: {
-        50: {
-          value: "#f8f8fb",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#f8f8fb",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi50",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "50"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "50"
-          ]
-        },
-        100: {
-          value: "#f1f1f4",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#f1f1f4",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "100"
-          ]
-        },
-        200: {
-          value: "#e8e8eb",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#e8e8eb",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "200"
-          ]
-        },
-        300: {
-          value: "#d8d8db",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#d8d8db",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi300",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "300"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "300"
-          ]
-        },
-        400: {
-          value: "#b4b4b7",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#b4b4b7",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi400",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "400"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "400"
-          ]
-        },
-        500: {
-          value: "#949497",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#949497",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi500",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "500"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "500"
-          ]
-        },
-        600: {
-          value: "#757578",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#757578",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi600",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "600"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "600"
-          ]
-        },
-        700: {
-          value: "#626264",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#626264",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi700",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "700"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "700"
-          ]
-        },
-        800: {
-          value: "#414143",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#414143",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi800",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "800"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "800"
-          ]
-        },
-        900: {
-          value: "#1a1a1c",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#1a1a1c",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi900",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "900"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "900"
-          ]
-        },
-        1e3: {
-          value: "#111111",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#111111",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi1000",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "1000"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "1000"
-          ]
-        },
-        1100: {
-          value: "#080808",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#080808",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi1100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "1100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "1100"
-          ]
-        },
-        1200: {
-          value: "#000000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#000000",
-            type: "color"
-          },
-          name: "ColorPrimitiveSumi1200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sumi",
-            subitem: "1200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sumi",
-            "1200"
-          ]
-        }
-      },
-      Forest: {
-        50: {
-          value: "#e6f5ec",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#e6f5ec",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest50",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "50"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "50"
-          ]
-        },
-        100: {
-          value: "#c2e5d1",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#c2e5d1",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "100"
-          ]
-        },
-        200: {
-          value: "#9bd4b5",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#9bd4b5",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "200"
-          ]
-        },
-        300: {
-          value: "#71c598",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#71c598",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest300",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "300"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "300"
-          ]
-        },
-        400: {
-          value: "#51b883",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#51b883",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest400",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "400"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "400"
-          ]
-        },
-        500: {
-          value: "#2cac6e",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#2cac6e",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest500",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "500"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "500"
-          ]
-        },
-        600: {
-          value: "#259d63",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#259d63",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest600",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "600"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "600"
-          ]
-        },
-        700: {
-          value: "#1d8b56",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#1d8b56",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest700",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "700"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "700"
-          ]
-        },
-        800: {
-          value: "#197a4b",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#197a4b",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest800",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "800"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "800"
-          ]
-        },
-        900: {
-          value: "#115a36",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#115a36",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest900",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "900"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "900"
-          ]
-        },
-        1e3: {
-          value: "#0c472a",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#0c472a",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest1000",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "1000"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "1000"
-          ]
-        },
-        1100: {
-          value: "#08351f",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#08351f",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest1100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "1100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "1100"
-          ]
-        },
-        1200: {
-          value: "#032213",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#032213",
-            type: "color"
-          },
-          name: "ColorPrimitiveForest1200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Forest",
-            subitem: "1200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Forest",
-            "1200"
-          ]
-        }
-      },
-      Wood: {
-        50: {
-          value: "#f3eee5",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#f3eee5",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood50",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "50"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "50"
-          ]
-        },
-        100: {
-          value: "#e7d8b9",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#e7d8b9",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "100"
-          ]
-        },
-        200: {
-          value: "#e1c383",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#e1c383",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "200"
-          ]
-        },
-        300: {
-          value: "#dcac4d",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#dcac4d",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood300",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "300"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "300"
-          ]
-        },
-        400: {
-          value: "#d69c2b",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#d69c2b",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood400",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "400"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "400"
-          ]
-        },
-        500: {
-          value: "#d18d0f",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#d18d0f",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood500",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "500"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "500"
-          ]
-        },
-        600: {
-          value: "#cd820a",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#cd820a",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood600",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "600"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "600"
-          ]
-        },
-        700: {
-          value: "#c87504",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#c87504",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood700",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "700"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "700"
-          ]
-        },
-        800: {
-          value: "#c16800",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#c16800",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood800",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "800"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "800"
-          ]
-        },
-        900: {
-          value: "#b65200",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#b65200",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood900",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "900"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "900"
-          ]
-        },
-        1e3: {
-          value: "#9c4600",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#9c4600",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood1000",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "1000"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "1000"
-          ]
-        },
-        1100: {
-          value: "#833b00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#833b00",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood1100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "1100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "1100"
-          ]
-        },
-        1200: {
-          value: "#662e00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#662e00",
-            type: "color"
-          },
-          name: "ColorPrimitiveWood1200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Wood",
-            subitem: "1200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Wood",
-            "1200"
-          ]
-        }
-      },
-      Sun: {
-        50: {
-          value: "#ffe7e6",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#ffe7e6",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun50",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "50"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "50"
-          ]
-        },
-        100: {
-          value: "#ffc8b8",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#ffc8b8",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "100"
-          ]
-        },
-        200: {
-          value: "#ffa28b",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#ffa28b",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "200"
-          ]
-        },
-        300: {
-          value: "#ff7b5c",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#ff7b5c",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun300",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "300"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "300"
-          ]
-        },
-        400: {
-          value: "#ff5838",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#ff5838",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun400",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "400"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "400"
-          ]
-        },
-        500: {
-          value: "#ff4b36",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#ff4b36",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun500",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "500"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "500"
-          ]
-        },
-        600: {
-          value: "#ff220d",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#ff220d",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun600",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "600"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "600"
-          ]
-        },
-        700: {
-          value: "#fa1606",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#fa1606",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun700",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "700"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "700"
-          ]
-        },
-        800: {
-          value: "#ec0000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#ec0000",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun800",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "800"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "800"
-          ]
-        },
-        900: {
-          value: "#d50000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#d50000",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun900",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "900"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "900"
-          ]
-        },
-        1e3: {
-          value: "#af0000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#af0000",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun1000",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "1000"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "1000"
-          ]
-        },
-        1100: {
-          value: "#890101",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#890101",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun1100",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "1100"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "1100"
-          ]
-        },
-        1200: {
-          value: "#640101",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
-          isSource: !0,
-          original: {
-            value: "#640101",
-            type: "color"
-          },
-          name: "ColorPrimitiveSun1200",
-          attributes: {
-            category: "Color",
-            type: "Primitive",
-            item: "Sun",
-            subitem: "1200"
-          },
-          path: [
-            "Color",
-            "Primitive",
-            "Sun",
-            "1200"
-          ]
-        }
-      },
       Blue: {
         50: {
           value: "#e8f1fe",
@@ -5349,6 +3014,1338 @@ var v = {
           ]
         }
       }
+    },
+    Neutral: {
+      White: {
+        value: "#ffffff",
+        type: "color",
+        filePath: "style-dictionary/tokens.json",
+        isSource: !0,
+        original: {
+          value: "#ffffff",
+          type: "color"
+        },
+        name: "ColorNeutralWhite",
+        attributes: {
+          category: "Color",
+          type: "Neutral",
+          item: "White"
+        },
+        path: [
+          "Color",
+          "Neutral",
+          "White"
+        ]
+      },
+      Black: {
+        value: "#000000",
+        type: "color",
+        filePath: "style-dictionary/tokens.json",
+        isSource: !0,
+        original: {
+          value: "#000000",
+          type: "color"
+        },
+        name: "ColorNeutralBlack",
+        attributes: {
+          category: "Color",
+          type: "Neutral",
+          item: "Black"
+        },
+        path: [
+          "Color",
+          "Neutral",
+          "Black"
+        ]
+      },
+      SolidGray: {
+        50: {
+          value: "#f2f2f2",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#f2f2f2",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray50",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "50"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "50"
+          ]
+        },
+        100: {
+          value: "#e6e6e6",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#e6e6e6",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray100",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "100"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "100"
+          ]
+        },
+        200: {
+          value: "#cccccc",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#cccccc",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray200",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "200"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "200"
+          ]
+        },
+        300: {
+          value: "#b3b3b3",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#b3b3b3",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray300",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "300"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "300"
+          ]
+        },
+        400: {
+          value: "#999999",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#999999",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray400",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "400"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "400"
+          ]
+        },
+        420: {
+          value: "#949494",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#949494",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray420",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "420"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "420"
+          ]
+        },
+        500: {
+          value: "#7f7f7f",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#7f7f7f",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray500",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "500"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "500"
+          ]
+        },
+        536: {
+          value: "#767676",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#767676",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray536",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "536"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "536"
+          ]
+        },
+        600: {
+          value: "#666666",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#666666",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray600",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "600"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "600"
+          ]
+        },
+        700: {
+          value: "#4d4d4d",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#4d4d4d",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray700",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "700"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "700"
+          ]
+        },
+        800: {
+          value: "#333333",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#333333",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray800",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "800"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "800"
+          ]
+        },
+        900: {
+          value: "#1a1a1a",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "#1a1a1a",
+            type: "color"
+          },
+          name: "ColorNeutralSolidGray900",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "SolidGray",
+            subitem: "900"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "SolidGray",
+            "900"
+          ]
+        }
+      },
+      OpacityGray: {
+        50: {
+          value: "rgba(0, 0, 0, 0.05)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.05)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray50",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "50"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "50"
+          ]
+        },
+        100: {
+          value: "rgba(0, 0, 0, 0.1)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.1)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray100",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "100"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "100"
+          ]
+        },
+        200: {
+          value: "rgba(0, 0, 0, 0.2)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.2)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray200",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "200"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "200"
+          ]
+        },
+        300: {
+          value: "rgba(0, 0, 0, 0.3)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.3)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray300",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "300"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "300"
+          ]
+        },
+        400: {
+          value: "rgba(0, 0, 0, 0.4)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.4)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray400",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "400"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "400"
+          ]
+        },
+        420: {
+          value: "rgba(0, 0, 0, 0.42)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.42)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray420",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "420"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "420"
+          ]
+        },
+        500: {
+          value: "rgba(0, 0, 0, 0.5)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.5)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray500",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "500"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "500"
+          ]
+        },
+        536: {
+          value: "rgba(0, 0, 0, 0.54)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.536)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray536",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "536"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "536"
+          ]
+        },
+        600: {
+          value: "rgba(0, 0, 0, 0.6)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.6)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray600",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "600"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "600"
+          ]
+        },
+        700: {
+          value: "rgba(0, 0, 0, 0.7)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.7)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray700",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "700"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "700"
+          ]
+        },
+        800: {
+          value: "rgba(0, 0, 0, 0.8)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.8)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray800",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "800"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "800"
+          ]
+        },
+        900: {
+          value: "rgba(0, 0, 0, 0.9)",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "rgba(0,0,0,0.9)",
+            type: "color"
+          },
+          name: "ColorNeutralOpacityGray900",
+          attributes: {
+            category: "Color",
+            type: "Neutral",
+            item: "OpacityGray",
+            subitem: "900"
+          },
+          path: [
+            "Color",
+            "Neutral",
+            "OpacityGray",
+            "900"
+          ]
+        }
+      }
+    },
+    Success: {
+      1: {
+        value: "#259d63",
+        type: "color",
+        filePath: "style-dictionary/tokens.json",
+        isSource: !0,
+        original: {
+          value: "{Color.Primitive.Green.600}",
+          type: "color"
+        },
+        name: "ColorSuccess1",
+        attributes: {
+          category: "Color",
+          type: "Success",
+          item: "1"
+        },
+        path: [
+          "Color",
+          "Success",
+          "1"
+        ]
+      },
+      2: {
+        value: "#197a4b",
+        type: "color",
+        filePath: "style-dictionary/tokens.json",
+        isSource: !0,
+        original: {
+          value: "{Color.Primitive.Green.800}",
+          type: "color"
+        },
+        name: "ColorSuccess2",
+        attributes: {
+          category: "Color",
+          type: "Success",
+          item: "2"
+        },
+        path: [
+          "Color",
+          "Success",
+          "2"
+        ]
+      }
+    },
+    Error: {
+      1: {
+        value: "#ec0000",
+        type: "color",
+        filePath: "style-dictionary/tokens.json",
+        isSource: !0,
+        original: {
+          value: "{Color.Primitive.Red.800}",
+          type: "color"
+        },
+        name: "ColorError1",
+        attributes: {
+          category: "Color",
+          type: "Error",
+          item: "1"
+        },
+        path: [
+          "Color",
+          "Error",
+          "1"
+        ]
+      },
+      2: {
+        value: "#ce0000",
+        type: "color",
+        filePath: "style-dictionary/tokens.json",
+        isSource: !0,
+        original: {
+          value: "{Color.Primitive.Red.900}",
+          type: "color"
+        },
+        name: "ColorError2",
+        attributes: {
+          category: "Color",
+          type: "Error",
+          item: "2"
+        },
+        path: [
+          "Color",
+          "Error",
+          "2"
+        ]
+      }
+    },
+    Warning: {
+      Yellow: {
+        1: {
+          value: "#b78f00",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "{Color.Primitive.Yellow.700}",
+            type: "color"
+          },
+          name: "ColorWarningYellow1",
+          attributes: {
+            category: "Color",
+            type: "Warning",
+            item: "Yellow",
+            subitem: "1"
+          },
+          path: [
+            "Color",
+            "Warning",
+            "Yellow",
+            "1"
+          ]
+        },
+        2: {
+          value: "#927200",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "{Color.Primitive.Yellow.900}",
+            type: "color"
+          },
+          name: "ColorWarningYellow2",
+          attributes: {
+            category: "Color",
+            type: "Warning",
+            item: "Yellow",
+            subitem: "2"
+          },
+          path: [
+            "Color",
+            "Warning",
+            "Yellow",
+            "2"
+          ]
+        }
+      },
+      Orange: {
+        1: {
+          value: "#fb5b01",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "{Color.Primitive.Orange.600}",
+            type: "color"
+          },
+          name: "ColorWarningOrange1",
+          attributes: {
+            category: "Color",
+            type: "Warning",
+            item: "Orange",
+            subitem: "1"
+          },
+          path: [
+            "Color",
+            "Warning",
+            "Orange",
+            "1"
+          ]
+        },
+        2: {
+          value: "#c74700",
+          type: "color",
+          filePath: "style-dictionary/tokens.json",
+          isSource: !0,
+          original: {
+            value: "{Color.Primitive.Orange.800}",
+            type: "color"
+          },
+          name: "ColorWarningOrange2",
+          attributes: {
+            category: "Color",
+            type: "Warning",
+            item: "Orange",
+            subitem: "2"
+          },
+          path: [
+            "Color",
+            "Warning",
+            "Orange",
+            "2"
+          ]
+        }
+      }
+    }
+  },
+  BorderRadius: {
+    4: {
+      value: "0.25rem",
+      type: "dimension",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        value: "4px",
+        type: "dimension",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius4",
+      attributes: {
+        category: "BorderRadius",
+        type: "4"
+      },
+      path: [
+        "BorderRadius",
+        "4"
+      ]
+    },
+    8: {
+      value: "0.5rem",
+      type: "dimension",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        value: "8px",
+        type: "dimension",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius8",
+      attributes: {
+        category: "BorderRadius",
+        type: "8"
+      },
+      path: [
+        "BorderRadius",
+        "8"
+      ]
+    },
+    16: {
+      value: "1rem",
+      type: "dimension",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        value: "16px",
+        type: "dimension",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius16",
+      attributes: {
+        category: "BorderRadius",
+        type: "16"
+      },
+      path: [
+        "BorderRadius",
+        "16"
+      ]
+    },
+    24: {
+      value: "1.5rem",
+      type: "dimension",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        value: "24px",
+        type: "dimension",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius24",
+      attributes: {
+        category: "BorderRadius",
+        type: "24"
+      },
+      path: [
+        "BorderRadius",
+        "24"
+      ]
+    },
+    32: {
+      value: "2rem",
+      type: "dimension",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        value: "32px",
+        type: "dimension",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius32",
+      attributes: {
+        category: "BorderRadius",
+        type: "32"
+      },
+      path: [
+        "BorderRadius",
+        "32"
+      ]
+    },
+    Full: {
+      value: "624.9375rem",
+      type: "dimension",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        value: "9999px",
+        type: "dimension",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadiusFull",
+      attributes: {
+        category: "BorderRadius",
+        type: "Full"
+      },
+      path: [
+        "BorderRadius",
+        "Full"
+      ]
+    }
+  },
+  Elevation: {
+    1: {
+      value: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",
+      type: "shadow",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        value: [
+          {
+            blur: "8px",
+            spread: "1px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "2px"
+          },
+          {
+            blur: "5px",
+            spread: 0,
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "1px"
+          }
+        ],
+        type: "shadow",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation1",
+      attributes: {
+        category: "Elevation",
+        type: "1"
+      },
+      path: [
+        "Elevation",
+        "1"
+      ]
+    },
+    2: {
+      value: "0 2px 12px 2px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
+      type: "shadow",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        value: [
+          {
+            blur: "12px",
+            spread: "2px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "2px"
+          },
+          {
+            blur: "6px",
+            spread: 0,
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "1px"
+          }
+        ],
+        type: "shadow",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation2",
+      attributes: {
+        category: "Elevation",
+        type: "2"
+      },
+      path: [
+        "Elevation",
+        "2"
+      ]
+    },
+    3: {
+      value: "0 4px 16px 3px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
+      type: "shadow",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        value: [
+          {
+            blur: "16px",
+            spread: "3px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "4px"
+          },
+          {
+            blur: "6px",
+            spread: 0,
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "1px"
+          }
+        ],
+        type: "shadow",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation3",
+      attributes: {
+        category: "Elevation",
+        type: "3"
+      },
+      path: [
+        "Elevation",
+        "3"
+      ]
+    },
+    4: {
+      value: "0 6px 20px 4px rgba(0,0,0,0.1), 0 2px 6px 0 rgba(0,0,0,0.3)",
+      type: "shadow",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        value: [
+          {
+            blur: "20px",
+            spread: "4px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "6px"
+          },
+          {
+            blur: "6px",
+            spread: 0,
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "2px"
+          }
+        ],
+        type: "shadow",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation4",
+      attributes: {
+        category: "Elevation",
+        type: "4"
+      },
+      path: [
+        "Elevation",
+        "4"
+      ]
+    },
+    5: {
+      value: "0 8px 24px 5px rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.3)",
+      type: "shadow",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        value: [
+          {
+            blur: "24px",
+            spread: "5px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "8px"
+          },
+          {
+            blur: "10px",
+            spread: 0,
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "2px"
+          }
+        ],
+        type: "shadow",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation5",
+      attributes: {
+        category: "Elevation",
+        type: "5"
+      },
+      path: [
+        "Elevation",
+        "5"
+      ]
+    },
+    6: {
+      value: "0 10px 30px 6px rgba(0,0,0,0.1), 0 3px 12px 0 rgba(0,0,0,0.3)",
+      type: "shadow",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        value: [
+          {
+            blur: "30px",
+            spread: "6px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "10px"
+          },
+          {
+            blur: "12px",
+            spread: 0,
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "3px"
+          }
+        ],
+        type: "shadow",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation6",
+      attributes: {
+        category: "Elevation",
+        type: "6"
+      },
+      path: [
+        "Elevation",
+        "6"
+      ]
+    },
+    7: {
+      value: "0 12px 36px 7px rgba(0,0,0,0.1), 0 3px 14px 0 rgba(0,0,0,0.3)",
+      type: "shadow",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        value: [
+          {
+            blur: "36px",
+            spread: "7px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "12px"
+          },
+          {
+            blur: "14px",
+            spread: 0,
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "3px"
+          }
+        ],
+        type: "shadow",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation7",
+      attributes: {
+        category: "Elevation",
+        type: "7"
+      },
+      path: [
+        "Elevation",
+        "7"
+      ]
+    },
+    8: {
+      value: "0 14px 40px 7px rgba(0,0,0,0.1), 0 3px 16px 0 rgba(0,0,0,0.3)",
+      type: "shadow",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        value: [
+          {
+            blur: "40px",
+            spread: "7px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "14px"
+          },
+          {
+            blur: "16px",
+            spread: 0,
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: 0,
+            offsetY: "3px"
+          }
+        ],
+        type: "shadow",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation8",
+      attributes: {
+        category: "Elevation",
+        type: "8"
+      },
+      path: [
+        "Elevation",
+        "8"
+      ]
     }
   },
   FontWeight: {
@@ -5381,35 +4378,6 @@ var v = {
         "400"
       ]
     },
-    500: {
-      value: "500",
-      type: "fontWeight",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "fontWeights"
-        }
-      },
-      original: {
-        value: 500,
-        type: "fontWeight",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "fontWeights"
-          }
-        }
-      },
-      name: "FontWeight500",
-      attributes: {
-        category: "FontWeight",
-        type: "500"
-      },
-      path: [
-        "FontWeight",
-        "500"
-      ]
-    },
     700: {
       value: "700",
       type: "fontWeight",
@@ -5437,6 +4405,66 @@ var v = {
       path: [
         "FontWeight",
         "700"
+      ]
+    }
+  },
+  FontFamily: {
+    Sans: {
+      value: "'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif",
+      type: "fontFamily",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "fontFamilies"
+        }
+      },
+      original: {
+        value: "'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif",
+        type: "fontFamily",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "fontFamilies"
+          }
+        }
+      },
+      name: "FontFamilySans",
+      attributes: {
+        category: "FontFamily",
+        type: "Sans"
+      },
+      path: [
+        "FontFamily",
+        "Sans"
+      ]
+    },
+    Mono: {
+      value: "'Noto Sans Mono', monospace",
+      type: "fontFamily",
+      filePath: "style-dictionary/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "fontFamilies"
+        }
+      },
+      original: {
+        value: "'Noto Sans Mono', monospace",
+        type: "fontFamily",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "fontFamilies"
+          }
+        }
+      },
+      name: "FontFamilyMono",
+      attributes: {
+        category: "FontFamily",
+        type: "Mono"
+      },
+      path: [
+        "FontFamily",
+        "Mono"
       ]
     }
   },
@@ -5878,8 +4906,8 @@ var v = {
     }
   },
   LineHeight: {
-    "1_0": {
-      value: "1.0",
+    100: {
+      value: 1,
       type: "lineHeight",
       filePath: "style-dictionary/tokens.json",
       isSource: !0,
@@ -5889,7 +4917,7 @@ var v = {
         }
       },
       original: {
-        value: "1.0",
+        value: "100%",
         type: "lineHeight",
         $extensions: {
           "studio.tokens": {
@@ -5897,46 +4925,17 @@ var v = {
           }
         }
       },
-      name: "LineHeight10",
+      name: "LineHeight100",
       attributes: {
         category: "LineHeight",
-        type: "1_0"
+        type: "100"
       },
       path: [
         "LineHeight",
-        "1_0"
+        "100"
       ]
     },
-    "1_1": {
-      value: 1.1,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "lineHeights"
-        }
-      },
-      original: {
-        value: 1.1,
-        type: "lineHeight",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "lineHeights"
-          }
-        }
-      },
-      name: "LineHeight11",
-      attributes: {
-        category: "LineHeight",
-        type: "1_1"
-      },
-      path: [
-        "LineHeight",
-        "1_1"
-      ]
-    },
-    "1_2": {
+    120: {
       value: 1.2,
       type: "lineHeight",
       filePath: "style-dictionary/tokens.json",
@@ -5947,7 +4946,7 @@ var v = {
         }
       },
       original: {
-        value: 1.2,
+        value: "120%",
         type: "lineHeight",
         $extensions: {
           "studio.tokens": {
@@ -5955,17 +4954,17 @@ var v = {
           }
         }
       },
-      name: "LineHeight12",
+      name: "LineHeight120",
       attributes: {
         category: "LineHeight",
-        type: "1_2"
+        type: "120"
       },
       path: [
         "LineHeight",
-        "1_2"
+        "120"
       ]
     },
-    "1_3": {
+    130: {
       value: 1.3,
       type: "lineHeight",
       filePath: "style-dictionary/tokens.json",
@@ -5976,7 +4975,7 @@ var v = {
         }
       },
       original: {
-        value: 1.3,
+        value: "130%",
         type: "lineHeight",
         $extensions: {
           "studio.tokens": {
@@ -5984,17 +4983,17 @@ var v = {
           }
         }
       },
-      name: "LineHeight13",
+      name: "LineHeight130",
       attributes: {
         category: "LineHeight",
-        type: "1_3"
+        type: "130"
       },
       path: [
         "LineHeight",
-        "1_3"
+        "130"
       ]
     },
-    "1_4": {
+    140: {
       value: 1.4,
       type: "lineHeight",
       filePath: "style-dictionary/tokens.json",
@@ -6005,7 +5004,7 @@ var v = {
         }
       },
       original: {
-        value: 1.4,
+        value: "140%",
         type: "lineHeight",
         $extensions: {
           "studio.tokens": {
@@ -6013,17 +5012,17 @@ var v = {
           }
         }
       },
-      name: "LineHeight14",
+      name: "LineHeight140",
       attributes: {
         category: "LineHeight",
-        type: "1_4"
+        type: "140"
       },
       path: [
         "LineHeight",
-        "1_4"
+        "140"
       ]
     },
-    "1_5": {
+    150: {
       value: 1.5,
       type: "lineHeight",
       filePath: "style-dictionary/tokens.json",
@@ -6034,7 +5033,7 @@ var v = {
         }
       },
       original: {
-        value: 1.5,
+        value: "150%",
         type: "lineHeight",
         $extensions: {
           "studio.tokens": {
@@ -6042,17 +5041,17 @@ var v = {
           }
         }
       },
-      name: "LineHeight15",
+      name: "LineHeight150",
       attributes: {
         category: "LineHeight",
-        type: "1_5"
+        type: "150"
       },
       path: [
         "LineHeight",
-        "1_5"
+        "150"
       ]
     },
-    "1_6": {
+    160: {
       value: 1.6,
       type: "lineHeight",
       filePath: "style-dictionary/tokens.json",
@@ -6063,7 +5062,7 @@ var v = {
         }
       },
       original: {
-        value: 1.6,
+        value: "160%",
         type: "lineHeight",
         $extensions: {
           "studio.tokens": {
@@ -6071,17 +5070,17 @@ var v = {
           }
         }
       },
-      name: "LineHeight16",
+      name: "LineHeight160",
       attributes: {
         category: "LineHeight",
-        type: "1_6"
+        type: "160"
       },
       path: [
         "LineHeight",
-        "1_6"
+        "160"
       ]
     },
-    "1_7": {
+    170: {
       value: 1.7,
       type: "lineHeight",
       filePath: "style-dictionary/tokens.json",
@@ -6092,7 +5091,7 @@ var v = {
         }
       },
       original: {
-        value: 1.7,
+        value: "170%",
         type: "lineHeight",
         $extensions: {
           "studio.tokens": {
@@ -6100,17 +5099,17 @@ var v = {
           }
         }
       },
-      name: "LineHeight17",
+      name: "LineHeight170",
       attributes: {
         category: "LineHeight",
-        type: "1_7"
+        type: "170"
       },
       path: [
         "LineHeight",
-        "1_7"
+        "170"
       ]
     },
-    "1_75": {
+    175: {
       value: 1.75,
       type: "lineHeight",
       filePath: "style-dictionary/tokens.json",
@@ -6121,7 +5120,7 @@ var v = {
         }
       },
       original: {
-        value: 1.75,
+        value: "175%",
         type: "lineHeight",
         $extensions: {
           "studio.tokens": {
@@ -6132,476 +5131,17 @@ var v = {
       name: "LineHeight175",
       attributes: {
         category: "LineHeight",
-        type: "1_75"
+        type: "175"
       },
       path: [
         "LineHeight",
-        "1_75"
-      ]
-    }
-  },
-  BorderRadius: {
-    8: {
-      value: "0.5rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "8px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadius8",
-      attributes: {
-        category: "BorderRadius",
-        type: "8"
-      },
-      path: [
-        "BorderRadius",
-        "8"
-      ]
-    },
-    16: {
-      value: "1rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "16px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadius16",
-      attributes: {
-        category: "BorderRadius",
-        type: "16"
-      },
-      path: [
-        "BorderRadius",
-        "16"
-      ]
-    },
-    32: {
-      value: "2rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "32px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadius32",
-      attributes: {
-        category: "BorderRadius",
-        type: "32"
-      },
-      path: [
-        "BorderRadius",
-        "32"
-      ]
-    }
-  },
-  Shadow: {
-    1: {
-      value: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "8px",
-            spread: "1px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "2px"
-          },
-          {
-            blur: "5px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "1px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Shadow1",
-      attributes: {
-        category: "Shadow",
-        type: "1"
-      },
-      path: [
-        "Shadow",
-        "1"
-      ]
-    },
-    2: {
-      value: "0 2px 12px 2px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "12px",
-            spread: "2px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "2px"
-          },
-          {
-            blur: "6px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "1px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Shadow2",
-      attributes: {
-        category: "Shadow",
-        type: "2"
-      },
-      path: [
-        "Shadow",
-        "2"
-      ]
-    },
-    3: {
-      value: "0 4px 16px 3px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "16px",
-            spread: "3px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "4px"
-          },
-          {
-            blur: "6px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "1px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Shadow3",
-      attributes: {
-        category: "Shadow",
-        type: "3"
-      },
-      path: [
-        "Shadow",
-        "3"
-      ]
-    },
-    4: {
-      value: "0 6px 20px 4px rgba(0,0,0,0.1), 0 2px 6px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "20px",
-            spread: "4px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "6px"
-          },
-          {
-            blur: "6px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "2px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Shadow4",
-      attributes: {
-        category: "Shadow",
-        type: "4"
-      },
-      path: [
-        "Shadow",
-        "4"
-      ]
-    },
-    5: {
-      value: "0 8px 24px 5px rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "24px",
-            spread: "5px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "8px"
-          },
-          {
-            blur: "10px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "2px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Shadow5",
-      attributes: {
-        category: "Shadow",
-        type: "5"
-      },
-      path: [
-        "Shadow",
-        "5"
-      ]
-    },
-    6: {
-      value: "0 10px 30px 6px rgba(0,0,0,0.1), 0 3px 12px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "30px",
-            spread: "6px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "10px"
-          },
-          {
-            blur: "12px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "3px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Shadow6",
-      attributes: {
-        category: "Shadow",
-        type: "6"
-      },
-      path: [
-        "Shadow",
-        "6"
-      ]
-    },
-    7: {
-      value: "0 12px 36px 7px rgba(0,0,0,0.1), 0 3px 14px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "36px",
-            spread: "7px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "12px"
-          },
-          {
-            blur: "14px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "3px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Shadow7",
-      attributes: {
-        category: "Shadow",
-        type: "7"
-      },
-      path: [
-        "Shadow",
-        "7"
-      ]
-    },
-    8: {
-      value: "0 14px 40px 7px rgba(0,0,0,0.1), 0 3px 16px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "40px",
-            spread: "7px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "14px"
-          },
-          {
-            blur: "16px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "3px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Shadow8",
-      attributes: {
-        category: "Shadow",
-        type: "8"
-      },
-      path: [
-        "Shadow",
-        "8"
+        "175"
       ]
     }
   }
 };
-const e = /* @__PURE__ */ s(v);
-var y = {}, m = {};
+const e = /* @__PURE__ */ s(m);
+var y = {}, v = {};
 (function(t) {
   Object.defineProperty(t, "__esModule", {
     value: !0
@@ -6628,7 +5168,7 @@ var y = {}, m = {};
     return l.__isOptionsFunction = !0, l.__pluginFunction = o, l.__configFunction = i, l;
   };
   const a = r;
-})(m);
+})(v);
 (function(t) {
   Object.defineProperty(t, "__esModule", {
     value: !0
@@ -6638,7 +5178,7 @@ var y = {}, m = {};
       return o;
     }
   });
-  const r = /* @__PURE__ */ a(m);
+  const r = /* @__PURE__ */ a(v);
   function a(i) {
     return i && i.__esModule ? i : {
       default: i
@@ -6647,8 +5187,8 @@ var y = {}, m = {};
   const o = r.default;
 })(y);
 let u = y;
-var c = (u.__esModule ? u : { default: u }).default;
-const p = /* @__PURE__ */ s(c), g = p(() => {
+var p = (u.__esModule ? u : { default: u }).default;
+const c = /* @__PURE__ */ s(p), g = c(() => {
 }, {
   theme: {
     extend: {
@@ -6819,6 +5359,20 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           800: e.Color.Neutral.SolidGray[800].value,
           900: e.Color.Neutral.SolidGray[900].value
         },
+        "opacity-gray": {
+          50: e.Color.Neutral.OpacityGray[50].value,
+          100: e.Color.Neutral.OpacityGray[100].value,
+          200: e.Color.Neutral.OpacityGray[200].value,
+          300: e.Color.Neutral.OpacityGray[300].value,
+          400: e.Color.Neutral.OpacityGray[400].value,
+          420: e.Color.Neutral.OpacityGray[420].value,
+          500: e.Color.Neutral.OpacityGray[500].value,
+          536: e.Color.Neutral.OpacityGray[536].value,
+          600: e.Color.Neutral.OpacityGray[600].value,
+          700: e.Color.Neutral.OpacityGray[700].value,
+          800: e.Color.Neutral.OpacityGray[800].value,
+          900: e.Color.Neutral.OpacityGray[900].value
+        },
         "success-1": e.Color.Success[1].value,
         "success-2": e.Color.Success[2].value,
         "error-1": e.Color.Error[1].value,
@@ -6835,35 +5389,35 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[64].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_4"].value
+            lineHeight: e.LineHeight[140].value
           }
         ],
         "dsp-57N-140": [
           e.FontSize[57].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_4"].value
+            lineHeight: e.LineHeight[140].value
           }
         ],
         "dsp-48N-140": [
           e.FontSize[48].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_4"].value
+            lineHeight: e.LineHeight[140].value
           }
         ],
         "std-45B-140": [
           e.FontSize[45].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_4"].value
+            lineHeight: e.LineHeight[140].value
           }
         ],
         "std-36B-140": [
           e.FontSize[36].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_4"].value,
+            lineHeight: e.LineHeight[140].value,
             letterSpacing: "0.01em"
           }
         ],
@@ -6871,7 +5425,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[32].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.01em"
           }
         ],
@@ -6879,7 +5433,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[28].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.01em"
           }
         ],
@@ -6887,7 +5441,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[26].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6895,7 +5449,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[24].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6903,7 +5457,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[22].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6911,7 +5465,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[20].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_6"].value,
+            lineHeight: e.LineHeight[160].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6919,7 +5473,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[20].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6927,7 +5481,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[18].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_6"].value,
+            lineHeight: e.LineHeight[160].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6935,7 +5489,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_7"].value,
+            lineHeight: e.LineHeight[170].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6943,7 +5497,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_7"].value,
+            lineHeight: e.LineHeight[170].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6951,7 +5505,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_75"].value,
+            lineHeight: e.LineHeight[175].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6959,14 +5513,14 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[45].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_4"].value
+            lineHeight: e.LineHeight[140].value
           }
         ],
         "std-36N-140": [
           e.FontSize[36].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_4"].value,
+            lineHeight: e.LineHeight[140].value,
             letterSpacing: "0.01em"
           }
         ],
@@ -6974,7 +5528,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[32].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.01em"
           }
         ],
@@ -6982,7 +5536,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[28].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.01em"
           }
         ],
@@ -6990,7 +5544,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[26].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -6998,7 +5552,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[24].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7006,7 +5560,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[22].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7014,7 +5568,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[20].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value,
+            lineHeight: e.LineHeight[150].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7022,7 +5576,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[18].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_6"].value,
+            lineHeight: e.LineHeight[160].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7030,7 +5584,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_7"].value,
+            lineHeight: e.LineHeight[170].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7038,7 +5592,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_7"].value,
+            lineHeight: e.LineHeight[170].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7046,7 +5600,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_75"].value,
+            lineHeight: e.LineHeight[175].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7054,91 +5608,91 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_3"].value
+            lineHeight: e.LineHeight[130].value
           }
         ],
         "dns-17B-120": [
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_2"].value
+            lineHeight: e.LineHeight[120].value
           }
         ],
         "dns-16B-130": [
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_3"].value
+            lineHeight: e.LineHeight[130].value
           }
         ],
         "dns-16B-120": [
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_2"].value
+            lineHeight: e.LineHeight[120].value
           }
         ],
         "dns-14B-130": [
           e.FontSize[14].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_3"].value
+            lineHeight: e.LineHeight[130].value
           }
         ],
         "dns-14B-120": [
           e.FontSize[14].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_2"].value
+            lineHeight: e.LineHeight[120].value
           }
         ],
         "dns-17N-130": [
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_3"].value
+            lineHeight: e.LineHeight[130].value
           }
         ],
         "dns-17N-120": [
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_2"].value
+            lineHeight: e.LineHeight[120].value
           }
         ],
         "dns-16N-130": [
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_3"].value
+            lineHeight: e.LineHeight[130].value
           }
         ],
         "dns-16N-120": [
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_2"].value
+            lineHeight: e.LineHeight[120].value
           }
         ],
         "dns-14N-130": [
           e.FontSize[14].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_3"].value
+            lineHeight: e.LineHeight[130].value
           }
         ],
         "dns-14N-120": [
           e.FontSize[14].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_2"].value
+            lineHeight: e.LineHeight[120].value
           }
         ],
         "oln-17B-100": [
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_0"].value,
+            lineHeight: e.LineHeight[100].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7146,7 +5700,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_0"].value,
+            lineHeight: e.LineHeight[100].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7154,7 +5708,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[14].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_0"].value,
+            lineHeight: e.LineHeight[100].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7162,7 +5716,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_0"].value,
+            lineHeight: e.LineHeight[100].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7170,7 +5724,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_0"].value,
+            lineHeight: e.LineHeight[100].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7178,7 +5732,7 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[14].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_0"].value,
+            lineHeight: e.LineHeight[100].value,
             letterSpacing: "0.02em"
           }
         ],
@@ -7186,64 +5740,79 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value
+            lineHeight: e.LineHeight[150].value
           }
         ],
         "mono-16B-150": [
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value
+            lineHeight: e.LineHeight[150].value
           }
         ],
         "mono-14B-150": [
           e.FontSize[14].value,
           {
             fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight["1_5"].value
+            lineHeight: e.LineHeight[150].value
           }
         ],
         "mono-17N-150": [
           e.FontSize[17].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value
+            lineHeight: e.LineHeight[150].value
           }
         ],
         "mono-16N-150": [
           e.FontSize[16].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value
+            lineHeight: e.LineHeight[150].value
           }
         ],
         "mono-14N-150": [
           e.FontSize[14].value,
           {
             fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight["1_5"].value
+            lineHeight: e.LineHeight[150].value
           }
         ]
       },
+      fontFamily: {
+        sans: e.FontFamily.Sans.value,
+        mono: e.FontFamily.Mono.value
+      },
       fontWeight: {
         400: e.FontWeight[400].value,
-        500: e.FontWeight[500].value,
         700: e.FontWeight[700].value
       },
       lineHeight: {
-        "1-0": e.LineHeight["1_0"].value,
-        "1-2": e.LineHeight["1_2"].value,
-        "1-3": e.LineHeight["1_3"].value,
-        "1-4": e.LineHeight["1_4"].value,
-        "1-5": e.LineHeight["1_5"].value,
-        "1-6": e.LineHeight["1_6"].value,
-        "1-7": e.LineHeight["1_7"].value,
-        "1-75": e.LineHeight["1_75"].value
+        100: e.LineHeight[100].value,
+        120: e.LineHeight[120].value,
+        130: e.LineHeight[130].value,
+        140: e.LineHeight[140].value,
+        150: e.LineHeight[150].value,
+        160: e.LineHeight[160].value,
+        170: e.LineHeight[170].value,
+        175: e.LineHeight[175].value,
+        // Remove the old keys later
+        "1-0": e.LineHeight[100].value,
+        "1-2": e.LineHeight[120].value,
+        "1-3": e.LineHeight[130].value,
+        "1-4": e.LineHeight[140].value,
+        "1-5": e.LineHeight[150].value,
+        "1-6": e.LineHeight[160].value,
+        "1-7": e.LineHeight[170].value,
+        "1-75": e.LineHeight[175].value
       },
       borderRadius: {
+        4: e.BorderRadius[4].value,
         8: e.BorderRadius[8].value,
         16: e.BorderRadius[16].value,
-        32: e.BorderRadius[32].value
+        24: e.BorderRadius[24].value,
+        32: e.BorderRadius[32].value,
+        full: e.BorderRadius.Full.value
       },
       screens: {
         desktop: "48em",
@@ -7260,14 +5829,14 @@ const p = /* @__PURE__ */ s(c), g = p(() => {
         "16/9": "16 / 9"
       },
       boxShadow: {
-        1: e.Shadow[1].value,
-        2: e.Shadow[2].value,
-        3: e.Shadow[3].value,
-        4: e.Shadow[4].value,
-        5: e.Shadow[5].value,
-        6: e.Shadow[6].value,
-        7: e.Shadow[7].value,
-        8: e.Shadow[8].value
+        1: e.Elevation[1].value,
+        2: e.Elevation[2].value,
+        3: e.Elevation[3].value,
+        4: e.Elevation[4].value,
+        5: e.Elevation[5].value,
+        6: e.Elevation[6].value,
+        7: e.Elevation[7].value,
+        8: e.Elevation[8].value
       }
     }
   }

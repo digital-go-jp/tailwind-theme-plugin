@@ -1,18 +1,18 @@
-function s(t) {
-  return t && t.__esModule && Object.prototype.hasOwnProperty.call(t, "default") ? t.default : t;
+function s(i) {
+  return i && i.__esModule && Object.prototype.hasOwnProperty.call(i, "default") ? i.default : i;
 }
-var m = {
+var g = {
   Color: {
     Primitive: {
       Blue: {
         50: {
-          value: "#e8f1fe",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#e8f1fe",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#e8f1fe",
-            type: "color"
+            $type: "color",
+            $value: "#e8f1fe"
           },
           name: "ColorPrimitiveBlue50",
           attributes: {
@@ -29,13 +29,13 @@ var m = {
           ]
         },
         100: {
-          value: "#d9e6ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#d9e6ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#d9e6ff",
-            type: "color"
+            $type: "color",
+            $value: "#d9e6ff"
           },
           name: "ColorPrimitiveBlue100",
           attributes: {
@@ -52,13 +52,13 @@ var m = {
           ]
         },
         200: {
-          value: "#c5d7fb",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#c5d7fb",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#c5d7fb",
-            type: "color"
+            $type: "color",
+            $value: "#c5d7fb"
           },
           name: "ColorPrimitiveBlue200",
           attributes: {
@@ -75,13 +75,13 @@ var m = {
           ]
         },
         300: {
-          value: "#9db7f9",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#9db7f9",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#9db7f9",
-            type: "color"
+            $type: "color",
+            $value: "#9db7f9"
           },
           name: "ColorPrimitiveBlue300",
           attributes: {
@@ -98,13 +98,13 @@ var m = {
           ]
         },
         400: {
-          value: "#7096f8",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#7096f8",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#7096f8",
-            type: "color"
+            $type: "color",
+            $value: "#7096f8"
           },
           name: "ColorPrimitiveBlue400",
           attributes: {
@@ -121,13 +121,13 @@ var m = {
           ]
         },
         500: {
-          value: "#4979f5",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#4979f5",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#4979f5",
-            type: "color"
+            $type: "color",
+            $value: "#4979f5"
           },
           name: "ColorPrimitiveBlue500",
           attributes: {
@@ -144,13 +144,13 @@ var m = {
           ]
         },
         600: {
-          value: "#3460fb",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#3460fb",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#3460fb",
-            type: "color"
+            $type: "color",
+            $value: "#3460fb"
           },
           name: "ColorPrimitiveBlue600",
           attributes: {
@@ -167,13 +167,13 @@ var m = {
           ]
         },
         700: {
-          value: "#264af4",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#264af4",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#264af4",
-            type: "color"
+            $type: "color",
+            $value: "#264af4"
           },
           name: "ColorPrimitiveBlue700",
           attributes: {
@@ -190,13 +190,13 @@ var m = {
           ]
         },
         800: {
-          value: "#0031d8",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#0031d8",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#0031d8",
-            type: "color"
+            $type: "color",
+            $value: "#0031d8"
           },
           name: "ColorPrimitiveBlue800",
           attributes: {
@@ -213,13 +213,13 @@ var m = {
           ]
         },
         900: {
-          value: "#0017c1",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#0017c1",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#0017c1",
-            type: "color"
+            $type: "color",
+            $value: "#0017c1"
           },
           name: "ColorPrimitiveBlue900",
           attributes: {
@@ -236,13 +236,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#00118f",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#00118f",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#00118f",
-            type: "color"
+            $type: "color",
+            $value: "#00118f"
           },
           name: "ColorPrimitiveBlue1000",
           attributes: {
@@ -259,13 +259,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#000071",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#000071",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#000071",
-            type: "color"
+            $type: "color",
+            $value: "#000071"
           },
           name: "ColorPrimitiveBlue1100",
           attributes: {
@@ -282,13 +282,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#000060",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#000060",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#000060",
-            type: "color"
+            $type: "color",
+            $value: "#000060"
           },
           name: "ColorPrimitiveBlue1200",
           attributes: {
@@ -307,13 +307,13 @@ var m = {
       },
       LightBlue: {
         50: {
-          value: "#f0f9ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#f0f9ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#f0f9ff",
-            type: "color"
+            $type: "color",
+            $value: "#f0f9ff"
           },
           name: "ColorPrimitiveLightBlue50",
           attributes: {
@@ -330,13 +330,13 @@ var m = {
           ]
         },
         100: {
-          value: "#dcf0ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#dcf0ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#dcf0ff",
-            type: "color"
+            $type: "color",
+            $value: "#dcf0ff"
           },
           name: "ColorPrimitiveLightBlue100",
           attributes: {
@@ -353,13 +353,13 @@ var m = {
           ]
         },
         200: {
-          value: "#c0e4ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#c0e4ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#c0e4ff",
-            type: "color"
+            $type: "color",
+            $value: "#c0e4ff"
           },
           name: "ColorPrimitiveLightBlue200",
           attributes: {
@@ -376,13 +376,13 @@ var m = {
           ]
         },
         300: {
-          value: "#97d3ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#97d3ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#97d3ff",
-            type: "color"
+            $type: "color",
+            $value: "#97d3ff"
           },
           name: "ColorPrimitiveLightBlue300",
           attributes: {
@@ -399,13 +399,13 @@ var m = {
           ]
         },
         400: {
-          value: "#57b8ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#57b8ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#57b8ff",
-            type: "color"
+            $type: "color",
+            $value: "#57b8ff"
           },
           name: "ColorPrimitiveLightBlue400",
           attributes: {
@@ -422,13 +422,13 @@ var m = {
           ]
         },
         500: {
-          value: "#39abff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#39abff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#39abff",
-            type: "color"
+            $type: "color",
+            $value: "#39abff"
           },
           name: "ColorPrimitiveLightBlue500",
           attributes: {
@@ -445,13 +445,13 @@ var m = {
           ]
         },
         600: {
-          value: "#008bf2",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#008bf2",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#008bf2",
-            type: "color"
+            $type: "color",
+            $value: "#008bf2"
           },
           name: "ColorPrimitiveLightBlue600",
           attributes: {
@@ -468,13 +468,13 @@ var m = {
           ]
         },
         700: {
-          value: "#0877d7",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#0877d7",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#0877d7",
-            type: "color"
+            $type: "color",
+            $value: "#0877d7"
           },
           name: "ColorPrimitiveLightBlue700",
           attributes: {
@@ -491,13 +491,13 @@ var m = {
           ]
         },
         800: {
-          value: "#0066be",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#0066be",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#0066be",
-            type: "color"
+            $type: "color",
+            $value: "#0066be"
           },
           name: "ColorPrimitiveLightBlue800",
           attributes: {
@@ -514,13 +514,13 @@ var m = {
           ]
         },
         900: {
-          value: "#0055ad",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#0055ad",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#0055ad",
-            type: "color"
+            $type: "color",
+            $value: "#0055ad"
           },
           name: "ColorPrimitiveLightBlue900",
           attributes: {
@@ -537,13 +537,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#00428c",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#00428c",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#00428c",
-            type: "color"
+            $type: "color",
+            $value: "#00428c"
           },
           name: "ColorPrimitiveLightBlue1000",
           attributes: {
@@ -560,13 +560,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#00316a",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#00316a",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#00316a",
-            type: "color"
+            $type: "color",
+            $value: "#00316a"
           },
           name: "ColorPrimitiveLightBlue1100",
           attributes: {
@@ -583,13 +583,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#00234b",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#00234b",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#00234b",
-            type: "color"
+            $type: "color",
+            $value: "#00234b"
           },
           name: "ColorPrimitiveLightBlue1200",
           attributes: {
@@ -608,13 +608,13 @@ var m = {
       },
       Cyan: {
         50: {
-          value: "#e9f7f9",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#e9f7f9",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#e9f7f9",
-            type: "color"
+            $type: "color",
+            $value: "#e9f7f9"
           },
           name: "ColorPrimitiveCyan50",
           attributes: {
@@ -631,13 +631,13 @@ var m = {
           ]
         },
         100: {
-          value: "#c8f8ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#c8f8ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#c8f8ff",
-            type: "color"
+            $type: "color",
+            $value: "#c8f8ff"
           },
           name: "ColorPrimitiveCyan100",
           attributes: {
@@ -654,13 +654,13 @@ var m = {
           ]
         },
         200: {
-          value: "#99f2ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#99f2ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#99f2ff",
-            type: "color"
+            $type: "color",
+            $value: "#99f2ff"
           },
           name: "ColorPrimitiveCyan200",
           attributes: {
@@ -677,13 +677,13 @@ var m = {
           ]
         },
         300: {
-          value: "#79e2f2",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#79e2f2",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#79e2f2",
-            type: "color"
+            $type: "color",
+            $value: "#79e2f2"
           },
           name: "ColorPrimitiveCyan300",
           attributes: {
@@ -700,13 +700,13 @@ var m = {
           ]
         },
         400: {
-          value: "#2bc8e4",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#2bc8e4",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#2bc8e4",
-            type: "color"
+            $type: "color",
+            $value: "#2bc8e4"
           },
           name: "ColorPrimitiveCyan400",
           attributes: {
@@ -723,13 +723,13 @@ var m = {
           ]
         },
         500: {
-          value: "#01b7d6",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#01b7d6",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#01b7d6",
-            type: "color"
+            $type: "color",
+            $value: "#01b7d6"
           },
           name: "ColorPrimitiveCyan500",
           attributes: {
@@ -746,13 +746,13 @@ var m = {
           ]
         },
         600: {
-          value: "#00a3bf",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#00a3bf",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#00a3bf",
-            type: "color"
+            $type: "color",
+            $value: "#00a3bf"
           },
           name: "ColorPrimitiveCyan600",
           attributes: {
@@ -769,13 +769,13 @@ var m = {
           ]
         },
         700: {
-          value: "#008da6",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#008da6",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#008da6",
-            type: "color"
+            $type: "color",
+            $value: "#008da6"
           },
           name: "ColorPrimitiveCyan700",
           attributes: {
@@ -792,13 +792,13 @@ var m = {
           ]
         },
         800: {
-          value: "#008299",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#008299",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#008299",
-            type: "color"
+            $type: "color",
+            $value: "#008299"
           },
           name: "ColorPrimitiveCyan800",
           attributes: {
@@ -815,13 +815,13 @@ var m = {
           ]
         },
         900: {
-          value: "#006f83",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#006f83",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#006f83",
-            type: "color"
+            $type: "color",
+            $value: "#006f83"
           },
           name: "ColorPrimitiveCyan900",
           attributes: {
@@ -838,13 +838,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#006173",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#006173",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#006173",
-            type: "color"
+            $type: "color",
+            $value: "#006173"
           },
           name: "ColorPrimitiveCyan1000",
           attributes: {
@@ -861,13 +861,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#004c59",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#004c59",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#004c59",
-            type: "color"
+            $type: "color",
+            $value: "#004c59"
           },
           name: "ColorPrimitiveCyan1100",
           attributes: {
@@ -884,13 +884,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#003741",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#003741",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#003741",
-            type: "color"
+            $type: "color",
+            $value: "#003741"
           },
           name: "ColorPrimitiveCyan1200",
           attributes: {
@@ -909,13 +909,13 @@ var m = {
       },
       Green: {
         50: {
-          value: "#e6f5ec",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#e6f5ec",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#e6f5ec",
-            type: "color"
+            $type: "color",
+            $value: "#e6f5ec"
           },
           name: "ColorPrimitiveGreen50",
           attributes: {
@@ -932,13 +932,13 @@ var m = {
           ]
         },
         100: {
-          value: "#c2e5d1",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#c2e5d1",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#c2e5d1",
-            type: "color"
+            $type: "color",
+            $value: "#c2e5d1"
           },
           name: "ColorPrimitiveGreen100",
           attributes: {
@@ -955,13 +955,13 @@ var m = {
           ]
         },
         200: {
-          value: "#9bd4b5",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#9bd4b5",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#9bd4b5",
-            type: "color"
+            $type: "color",
+            $value: "#9bd4b5"
           },
           name: "ColorPrimitiveGreen200",
           attributes: {
@@ -978,13 +978,13 @@ var m = {
           ]
         },
         300: {
-          value: "#71c598",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#71c598",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#71c598",
-            type: "color"
+            $type: "color",
+            $value: "#71c598"
           },
           name: "ColorPrimitiveGreen300",
           attributes: {
@@ -1001,13 +1001,13 @@ var m = {
           ]
         },
         400: {
-          value: "#51b883",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#51b883",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#51b883",
-            type: "color"
+            $type: "color",
+            $value: "#51b883"
           },
           name: "ColorPrimitiveGreen400",
           attributes: {
@@ -1024,13 +1024,13 @@ var m = {
           ]
         },
         500: {
-          value: "#2cac6e",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#2cac6e",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#2cac6e",
-            type: "color"
+            $type: "color",
+            $value: "#2cac6e"
           },
           name: "ColorPrimitiveGreen500",
           attributes: {
@@ -1047,13 +1047,13 @@ var m = {
           ]
         },
         600: {
-          value: "#259d63",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#259d63",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#259d63",
-            type: "color"
+            $type: "color",
+            $value: "#259d63"
           },
           name: "ColorPrimitiveGreen600",
           attributes: {
@@ -1070,13 +1070,13 @@ var m = {
           ]
         },
         700: {
-          value: "#1d8b56",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#1d8b56",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#1d8b56",
-            type: "color"
+            $type: "color",
+            $value: "#1d8b56"
           },
           name: "ColorPrimitiveGreen700",
           attributes: {
@@ -1093,13 +1093,13 @@ var m = {
           ]
         },
         800: {
-          value: "#197a4b",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#197a4b",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#197a4b",
-            type: "color"
+            $type: "color",
+            $value: "#197a4b"
           },
           name: "ColorPrimitiveGreen800",
           attributes: {
@@ -1116,13 +1116,13 @@ var m = {
           ]
         },
         900: {
-          value: "#115a36",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#115a36",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#115a36",
-            type: "color"
+            $type: "color",
+            $value: "#115a36"
           },
           name: "ColorPrimitiveGreen900",
           attributes: {
@@ -1139,13 +1139,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#0c472a",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#0c472a",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#0c472a",
-            type: "color"
+            $type: "color",
+            $value: "#0c472a"
           },
           name: "ColorPrimitiveGreen1000",
           attributes: {
@@ -1162,13 +1162,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#08351f",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#08351f",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#08351f",
-            type: "color"
+            $type: "color",
+            $value: "#08351f"
           },
           name: "ColorPrimitiveGreen1100",
           attributes: {
@@ -1185,13 +1185,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#032213",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#032213",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#032213",
-            type: "color"
+            $type: "color",
+            $value: "#032213"
           },
           name: "ColorPrimitiveGreen1200",
           attributes: {
@@ -1210,13 +1210,13 @@ var m = {
       },
       Lime: {
         50: {
-          value: "#ebfad9",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ebfad9",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ebfad9",
-            type: "color"
+            $type: "color",
+            $value: "#ebfad9"
           },
           name: "ColorPrimitiveLime50",
           attributes: {
@@ -1233,13 +1233,13 @@ var m = {
           ]
         },
         100: {
-          value: "#d0f5a2",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#d0f5a2",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#d0f5a2",
-            type: "color"
+            $type: "color",
+            $value: "#d0f5a2"
           },
           name: "ColorPrimitiveLime100",
           attributes: {
@@ -1256,13 +1256,13 @@ var m = {
           ]
         },
         200: {
-          value: "#c0f354",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#c0f354",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#c0f354",
-            type: "color"
+            $type: "color",
+            $value: "#c0f354"
           },
           name: "ColorPrimitiveLime200",
           attributes: {
@@ -1279,13 +1279,13 @@ var m = {
           ]
         },
         300: {
-          value: "#ade830",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ade830",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ade830",
-            type: "color"
+            $type: "color",
+            $value: "#ade830"
           },
           name: "ColorPrimitiveLime300",
           attributes: {
@@ -1302,13 +1302,13 @@ var m = {
           ]
         },
         400: {
-          value: "#9ddd15",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#9ddd15",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#9ddd15",
-            type: "color"
+            $type: "color",
+            $value: "#9ddd15"
           },
           name: "ColorPrimitiveLime400",
           attributes: {
@@ -1325,13 +1325,13 @@ var m = {
           ]
         },
         500: {
-          value: "#8cc80c",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#8cc80c",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#8cc80c",
-            type: "color"
+            $type: "color",
+            $value: "#8cc80c"
           },
           name: "ColorPrimitiveLime500",
           attributes: {
@@ -1348,13 +1348,13 @@ var m = {
           ]
         },
         600: {
-          value: "#7eb40d",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#7eb40d",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#7eb40d",
-            type: "color"
+            $type: "color",
+            $value: "#7eb40d"
           },
           name: "ColorPrimitiveLime600",
           attributes: {
@@ -1371,13 +1371,13 @@ var m = {
           ]
         },
         700: {
-          value: "#6fa104",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#6fa104",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#6fa104",
-            type: "color"
+            $type: "color",
+            $value: "#6fa104"
           },
           name: "ColorPrimitiveLime700",
           attributes: {
@@ -1394,13 +1394,13 @@ var m = {
           ]
         },
         800: {
-          value: "#618e00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#618e00",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#618e00",
-            type: "color"
+            $type: "color",
+            $value: "#618e00"
           },
           name: "ColorPrimitiveLime800",
           attributes: {
@@ -1417,13 +1417,13 @@ var m = {
           ]
         },
         900: {
-          value: "#507500",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#507500",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#507500",
-            type: "color"
+            $type: "color",
+            $value: "#507500"
           },
           name: "ColorPrimitiveLime900",
           attributes: {
@@ -1440,13 +1440,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#3e5a00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#3e5a00",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#3e5a00",
-            type: "color"
+            $type: "color",
+            $value: "#3e5a00"
           },
           name: "ColorPrimitiveLime1000",
           attributes: {
@@ -1463,13 +1463,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#2c4100",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#2c4100",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#2c4100",
-            type: "color"
+            $type: "color",
+            $value: "#2c4100"
           },
           name: "ColorPrimitiveLime1100",
           attributes: {
@@ -1486,13 +1486,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#1e2d00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#1e2d00",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#1e2d00",
-            type: "color"
+            $type: "color",
+            $value: "#1e2d00"
           },
           name: "ColorPrimitiveLime1200",
           attributes: {
@@ -1511,13 +1511,13 @@ var m = {
       },
       Yellow: {
         50: {
-          value: "#fbf5e0",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#fbf5e0",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#fbf5e0",
-            type: "color"
+            $type: "color",
+            $value: "#fbf5e0"
           },
           name: "ColorPrimitiveYellow50",
           attributes: {
@@ -1534,13 +1534,13 @@ var m = {
           ]
         },
         100: {
-          value: "#fff0b3",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#fff0b3",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#fff0b3",
-            type: "color"
+            $type: "color",
+            $value: "#fff0b3"
           },
           name: "ColorPrimitiveYellow100",
           attributes: {
@@ -1557,13 +1557,13 @@ var m = {
           ]
         },
         200: {
-          value: "#ffe380",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffe380",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffe380",
-            type: "color"
+            $type: "color",
+            $value: "#ffe380"
           },
           name: "ColorPrimitiveYellow200",
           attributes: {
@@ -1580,13 +1580,13 @@ var m = {
           ]
         },
         300: {
-          value: "#ffd43d",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffd43d",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffd43d",
-            type: "color"
+            $type: "color",
+            $value: "#ffd43d"
           },
           name: "ColorPrimitiveYellow300",
           attributes: {
@@ -1603,13 +1603,13 @@ var m = {
           ]
         },
         400: {
-          value: "#ffc700",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffc700",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffc700",
-            type: "color"
+            $type: "color",
+            $value: "#ffc700"
           },
           name: "ColorPrimitiveYellow400",
           attributes: {
@@ -1626,13 +1626,13 @@ var m = {
           ]
         },
         500: {
-          value: "#ebb700",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ebb700",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ebb700",
-            type: "color"
+            $type: "color",
+            $value: "#ebb700"
           },
           name: "ColorPrimitiveYellow500",
           attributes: {
@@ -1649,13 +1649,13 @@ var m = {
           ]
         },
         600: {
-          value: "#d2a400",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#d2a400",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#d2a400",
-            type: "color"
+            $type: "color",
+            $value: "#d2a400"
           },
           name: "ColorPrimitiveYellow600",
           attributes: {
@@ -1672,13 +1672,13 @@ var m = {
           ]
         },
         700: {
-          value: "#b78f00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#b78f00",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#b78f00",
-            type: "color"
+            $type: "color",
+            $value: "#b78f00"
           },
           name: "ColorPrimitiveYellow700",
           attributes: {
@@ -1695,13 +1695,13 @@ var m = {
           ]
         },
         800: {
-          value: "#a58000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#a58000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#a58000",
-            type: "color"
+            $type: "color",
+            $value: "#a58000"
           },
           name: "ColorPrimitiveYellow800",
           attributes: {
@@ -1718,13 +1718,13 @@ var m = {
           ]
         },
         900: {
-          value: "#927200",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#927200",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#927200",
-            type: "color"
+            $type: "color",
+            $value: "#927200"
           },
           name: "ColorPrimitiveYellow900",
           attributes: {
@@ -1741,13 +1741,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#806300",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#806300",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#806300",
-            type: "color"
+            $type: "color",
+            $value: "#806300"
           },
           name: "ColorPrimitiveYellow1000",
           attributes: {
@@ -1764,13 +1764,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#6e5600",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#6e5600",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#6e5600",
-            type: "color"
+            $type: "color",
+            $value: "#6e5600"
           },
           name: "ColorPrimitiveYellow1100",
           attributes: {
@@ -1787,13 +1787,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#604b00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#604b00",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#604b00",
-            type: "color"
+            $type: "color",
+            $value: "#604b00"
           },
           name: "ColorPrimitiveYellow1200",
           attributes: {
@@ -1812,13 +1812,13 @@ var m = {
       },
       Orange: {
         50: {
-          value: "#ffeee2",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffeee2",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffeee2",
-            type: "color"
+            $type: "color",
+            $value: "#ffeee2"
           },
           name: "ColorPrimitiveOrange50",
           attributes: {
@@ -1835,13 +1835,13 @@ var m = {
           ]
         },
         100: {
-          value: "#ffdfca",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffdfca",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffdfca",
-            type: "color"
+            $type: "color",
+            $value: "#ffdfca"
           },
           name: "ColorPrimitiveOrange100",
           attributes: {
@@ -1858,13 +1858,13 @@ var m = {
           ]
         },
         200: {
-          value: "#ffc199",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffc199",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffc199",
-            type: "color"
+            $type: "color",
+            $value: "#ffc199"
           },
           name: "ColorPrimitiveOrange200",
           attributes: {
@@ -1881,13 +1881,13 @@ var m = {
           ]
         },
         300: {
-          value: "#ffa66d",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffa66d",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffa66d",
-            type: "color"
+            $type: "color",
+            $value: "#ffa66d"
           },
           name: "ColorPrimitiveOrange300",
           attributes: {
@@ -1904,13 +1904,13 @@ var m = {
           ]
         },
         400: {
-          value: "#ff8d44",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ff8d44",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ff8d44",
-            type: "color"
+            $type: "color",
+            $value: "#ff8d44"
           },
           name: "ColorPrimitiveOrange400",
           attributes: {
@@ -1927,13 +1927,13 @@ var m = {
           ]
         },
         500: {
-          value: "#ff7628",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ff7628",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ff7628",
-            type: "color"
+            $type: "color",
+            $value: "#ff7628"
           },
           name: "ColorPrimitiveOrange500",
           attributes: {
@@ -1950,13 +1950,13 @@ var m = {
           ]
         },
         600: {
-          value: "#fb5b01",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#fb5b01",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#fb5b01",
-            type: "color"
+            $type: "color",
+            $value: "#fb5b01"
           },
           name: "ColorPrimitiveOrange600",
           attributes: {
@@ -1973,13 +1973,13 @@ var m = {
           ]
         },
         700: {
-          value: "#e25100",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#e25100",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#e25100",
-            type: "color"
+            $type: "color",
+            $value: "#e25100"
           },
           name: "ColorPrimitiveOrange700",
           attributes: {
@@ -1996,13 +1996,13 @@ var m = {
           ]
         },
         800: {
-          value: "#c74700",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#c74700",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#c74700",
-            type: "color"
+            $type: "color",
+            $value: "#c74700"
           },
           name: "ColorPrimitiveOrange800",
           attributes: {
@@ -2019,13 +2019,13 @@ var m = {
           ]
         },
         900: {
-          value: "#ac3e00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ac3e00",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ac3e00",
-            type: "color"
+            $type: "color",
+            $value: "#ac3e00"
           },
           name: "ColorPrimitiveOrange900",
           attributes: {
@@ -2042,13 +2042,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#8b3200",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#8b3200",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#8b3200",
-            type: "color"
+            $type: "color",
+            $value: "#8b3200"
           },
           name: "ColorPrimitiveOrange1000",
           attributes: {
@@ -2065,13 +2065,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#6d2700",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#6d2700",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#6d2700",
-            type: "color"
+            $type: "color",
+            $value: "#6d2700"
           },
           name: "ColorPrimitiveOrange1100",
           attributes: {
@@ -2088,13 +2088,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#541e00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#541e00",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#541e00",
-            type: "color"
+            $type: "color",
+            $value: "#541e00"
           },
           name: "ColorPrimitiveOrange1200",
           attributes: {
@@ -2113,13 +2113,13 @@ var m = {
       },
       Red: {
         50: {
-          value: "#fdeeee",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#fdeeee",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#fdeeee",
-            type: "color"
+            $type: "color",
+            $value: "#fdeeee"
           },
           name: "ColorPrimitiveRed50",
           attributes: {
@@ -2136,13 +2136,13 @@ var m = {
           ]
         },
         100: {
-          value: "#ffdada",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffdada",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffdada",
-            type: "color"
+            $type: "color",
+            $value: "#ffdada"
           },
           name: "ColorPrimitiveRed100",
           attributes: {
@@ -2159,13 +2159,13 @@ var m = {
           ]
         },
         200: {
-          value: "#ffbbbb",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffbbbb",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffbbbb",
-            type: "color"
+            $type: "color",
+            $value: "#ffbbbb"
           },
           name: "ColorPrimitiveRed200",
           attributes: {
@@ -2182,13 +2182,13 @@ var m = {
           ]
         },
         300: {
-          value: "#ff9696",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ff9696",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ff9696",
-            type: "color"
+            $type: "color",
+            $value: "#ff9696"
           },
           name: "ColorPrimitiveRed300",
           attributes: {
@@ -2205,13 +2205,13 @@ var m = {
           ]
         },
         400: {
-          value: "#ff7171",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ff7171",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ff7171",
-            type: "color"
+            $type: "color",
+            $value: "#ff7171"
           },
           name: "ColorPrimitiveRed400",
           attributes: {
@@ -2228,13 +2228,13 @@ var m = {
           ]
         },
         500: {
-          value: "#ff5454",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ff5454",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ff5454",
-            type: "color"
+            $type: "color",
+            $value: "#ff5454"
           },
           name: "ColorPrimitiveRed500",
           attributes: {
@@ -2251,13 +2251,13 @@ var m = {
           ]
         },
         600: {
-          value: "#fe3939",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#fe3939",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#fe3939",
-            type: "color"
+            $type: "color",
+            $value: "#fe3939"
           },
           name: "ColorPrimitiveRed600",
           attributes: {
@@ -2274,13 +2274,13 @@ var m = {
           ]
         },
         700: {
-          value: "#fa0000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#fa0000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#fa0000",
-            type: "color"
+            $type: "color",
+            $value: "#fa0000"
           },
           name: "ColorPrimitiveRed700",
           attributes: {
@@ -2297,13 +2297,13 @@ var m = {
           ]
         },
         800: {
-          value: "#ec0000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ec0000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ec0000",
-            type: "color"
+            $type: "color",
+            $value: "#ec0000"
           },
           name: "ColorPrimitiveRed800",
           attributes: {
@@ -2320,13 +2320,13 @@ var m = {
           ]
         },
         900: {
-          value: "#ce0000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ce0000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ce0000",
-            type: "color"
+            $type: "color",
+            $value: "#ce0000"
           },
           name: "ColorPrimitiveRed900",
           attributes: {
@@ -2343,13 +2343,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#a90000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#a90000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#a90000",
-            type: "color"
+            $type: "color",
+            $value: "#a90000"
           },
           name: "ColorPrimitiveRed1000",
           attributes: {
@@ -2366,13 +2366,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#850000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#850000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#850000",
-            type: "color"
+            $type: "color",
+            $value: "#850000"
           },
           name: "ColorPrimitiveRed1100",
           attributes: {
@@ -2389,13 +2389,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#620000",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#620000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#620000",
-            type: "color"
+            $type: "color",
+            $value: "#620000"
           },
           name: "ColorPrimitiveRed1200",
           attributes: {
@@ -2414,13 +2414,13 @@ var m = {
       },
       Magenta: {
         50: {
-          value: "#f3e5f4",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#f3e5f4",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#f3e5f4",
-            type: "color"
+            $type: "color",
+            $value: "#f3e5f4"
           },
           name: "ColorPrimitiveMagenta50",
           attributes: {
@@ -2437,13 +2437,13 @@ var m = {
           ]
         },
         100: {
-          value: "#ffd0ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffd0ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffd0ff",
-            type: "color"
+            $type: "color",
+            $value: "#ffd0ff"
           },
           name: "ColorPrimitiveMagenta100",
           attributes: {
@@ -2460,13 +2460,13 @@ var m = {
           ]
         },
         200: {
-          value: "#ffaeff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ffaeff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ffaeff",
-            type: "color"
+            $type: "color",
+            $value: "#ffaeff"
           },
           name: "ColorPrimitiveMagenta200",
           attributes: {
@@ -2483,13 +2483,13 @@ var m = {
           ]
         },
         300: {
-          value: "#ff8eff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ff8eff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ff8eff",
-            type: "color"
+            $type: "color",
+            $value: "#ff8eff"
           },
           name: "ColorPrimitiveMagenta300",
           attributes: {
@@ -2506,13 +2506,13 @@ var m = {
           ]
         },
         400: {
-          value: "#f661f6",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#f661f6",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#f661f6",
-            type: "color"
+            $type: "color",
+            $value: "#f661f6"
           },
           name: "ColorPrimitiveMagenta400",
           attributes: {
@@ -2529,13 +2529,13 @@ var m = {
           ]
         },
         500: {
-          value: "#f137f1",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#f137f1",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#f137f1",
-            type: "color"
+            $type: "color",
+            $value: "#f137f1"
           },
           name: "ColorPrimitiveMagenta500",
           attributes: {
@@ -2552,13 +2552,13 @@ var m = {
           ]
         },
         600: {
-          value: "#db00db",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#db00db",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#db00db",
-            type: "color"
+            $type: "color",
+            $value: "#db00db"
           },
           name: "ColorPrimitiveMagenta600",
           attributes: {
@@ -2575,13 +2575,13 @@ var m = {
           ]
         },
         700: {
-          value: "#c000c0",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#c000c0",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#c000c0",
-            type: "color"
+            $type: "color",
+            $value: "#c000c0"
           },
           name: "ColorPrimitiveMagenta700",
           attributes: {
@@ -2598,13 +2598,13 @@ var m = {
           ]
         },
         800: {
-          value: "#aa00aa",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#aa00aa",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#aa00aa",
-            type: "color"
+            $type: "color",
+            $value: "#aa00aa"
           },
           name: "ColorPrimitiveMagenta800",
           attributes: {
@@ -2621,13 +2621,13 @@ var m = {
           ]
         },
         900: {
-          value: "#8b008b",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#8b008b",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#8b008b",
-            type: "color"
+            $type: "color",
+            $value: "#8b008b"
           },
           name: "ColorPrimitiveMagenta900",
           attributes: {
@@ -2644,13 +2644,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#6c006c",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#6c006c",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#6c006c",
-            type: "color"
+            $type: "color",
+            $value: "#6c006c"
           },
           name: "ColorPrimitiveMagenta1000",
           attributes: {
@@ -2667,13 +2667,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#500050",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#500050",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#500050",
-            type: "color"
+            $type: "color",
+            $value: "#500050"
           },
           name: "ColorPrimitiveMagenta1100",
           attributes: {
@@ -2690,13 +2690,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#3b003b",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#3b003b",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#3b003b",
-            type: "color"
+            $type: "color",
+            $value: "#3b003b"
           },
           name: "ColorPrimitiveMagenta1200",
           attributes: {
@@ -2715,13 +2715,13 @@ var m = {
       },
       Purple: {
         50: {
-          value: "#f1eafa",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#f1eafa",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#f1eafa",
-            type: "color"
+            $type: "color",
+            $value: "#f1eafa"
           },
           name: "ColorPrimitivePurple50",
           attributes: {
@@ -2738,13 +2738,13 @@ var m = {
           ]
         },
         100: {
-          value: "#ecddff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ecddff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ecddff",
-            type: "color"
+            $type: "color",
+            $value: "#ecddff"
           },
           name: "ColorPrimitivePurple100",
           attributes: {
@@ -2761,13 +2761,13 @@ var m = {
           ]
         },
         200: {
-          value: "#ddc2ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ddc2ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#ddc2ff",
-            type: "color"
+            $type: "color",
+            $value: "#ddc2ff"
           },
           name: "ColorPrimitivePurple200",
           attributes: {
@@ -2784,13 +2784,13 @@ var m = {
           ]
         },
         300: {
-          value: "#cda6ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#cda6ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#cda6ff",
-            type: "color"
+            $type: "color",
+            $value: "#cda6ff"
           },
           name: "ColorPrimitivePurple300",
           attributes: {
@@ -2807,13 +2807,13 @@ var m = {
           ]
         },
         400: {
-          value: "#bb87ff",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#bb87ff",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#bb87ff",
-            type: "color"
+            $type: "color",
+            $value: "#bb87ff"
           },
           name: "ColorPrimitivePurple400",
           attributes: {
@@ -2830,13 +2830,13 @@ var m = {
           ]
         },
         500: {
-          value: "#a565f8",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#a565f8",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#a565f8",
-            type: "color"
+            $type: "color",
+            $value: "#a565f8"
           },
           name: "ColorPrimitivePurple500",
           attributes: {
@@ -2853,13 +2853,13 @@ var m = {
           ]
         },
         600: {
-          value: "#8843e1",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#8843e1",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#8843e1",
-            type: "color"
+            $type: "color",
+            $value: "#8843e1"
           },
           name: "ColorPrimitivePurple600",
           attributes: {
@@ -2876,13 +2876,13 @@ var m = {
           ]
         },
         700: {
-          value: "#6f23d0",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#6f23d0",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#6f23d0",
-            type: "color"
+            $type: "color",
+            $value: "#6f23d0"
           },
           name: "ColorPrimitivePurple700",
           attributes: {
@@ -2899,13 +2899,13 @@ var m = {
           ]
         },
         800: {
-          value: "#5c10be",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#5c10be",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#5c10be",
-            type: "color"
+            $type: "color",
+            $value: "#5c10be"
           },
           name: "ColorPrimitivePurple800",
           attributes: {
@@ -2922,13 +2922,13 @@ var m = {
           ]
         },
         900: {
-          value: "#5109ad",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#5109ad",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#5109ad",
-            type: "color"
+            $type: "color",
+            $value: "#5109ad"
           },
           name: "ColorPrimitivePurple900",
           attributes: {
@@ -2945,13 +2945,13 @@ var m = {
           ]
         },
         1e3: {
-          value: "#41048e",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#41048e",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#41048e",
-            type: "color"
+            $type: "color",
+            $value: "#41048e"
           },
           name: "ColorPrimitivePurple1000",
           attributes: {
@@ -2968,13 +2968,13 @@ var m = {
           ]
         },
         1100: {
-          value: "#30016c",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#30016c",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#30016c",
-            type: "color"
+            $type: "color",
+            $value: "#30016c"
           },
           name: "ColorPrimitivePurple1100",
           attributes: {
@@ -2991,13 +2991,13 @@ var m = {
           ]
         },
         1200: {
-          value: "#21004b",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#21004b",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#21004b",
-            type: "color"
+            $type: "color",
+            $value: "#21004b"
           },
           name: "ColorPrimitivePurple1200",
           attributes: {
@@ -3017,13 +3017,13 @@ var m = {
     },
     Neutral: {
       White: {
-        value: "#ffffff",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
+        $type: "color",
+        $value: "#ffffff",
+        filePath: "figma/tokens.json",
         isSource: !0,
         original: {
-          value: "#ffffff",
-          type: "color"
+          $type: "color",
+          $value: "#ffffff"
         },
         name: "ColorNeutralWhite",
         attributes: {
@@ -3038,13 +3038,13 @@ var m = {
         ]
       },
       Black: {
-        value: "#000000",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
+        $type: "color",
+        $value: "#000000",
+        filePath: "figma/tokens.json",
         isSource: !0,
         original: {
-          value: "#000000",
-          type: "color"
+          $type: "color",
+          $value: "#000000"
         },
         name: "ColorNeutralBlack",
         attributes: {
@@ -3060,13 +3060,13 @@ var m = {
       },
       SolidGray: {
         50: {
-          value: "#f2f2f2",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#f2f2f2",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#f2f2f2",
-            type: "color"
+            $type: "color",
+            $value: "#f2f2f2"
           },
           name: "ColorNeutralSolidGray50",
           attributes: {
@@ -3083,13 +3083,13 @@ var m = {
           ]
         },
         100: {
-          value: "#e6e6e6",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#e6e6e6",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#e6e6e6",
-            type: "color"
+            $type: "color",
+            $value: "#e6e6e6"
           },
           name: "ColorNeutralSolidGray100",
           attributes: {
@@ -3106,13 +3106,13 @@ var m = {
           ]
         },
         200: {
-          value: "#cccccc",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#cccccc",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#cccccc",
-            type: "color"
+            $type: "color",
+            $value: "#cccccc"
           },
           name: "ColorNeutralSolidGray200",
           attributes: {
@@ -3129,13 +3129,13 @@ var m = {
           ]
         },
         300: {
-          value: "#b3b3b3",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#b3b3b3",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#b3b3b3",
-            type: "color"
+            $type: "color",
+            $value: "#b3b3b3"
           },
           name: "ColorNeutralSolidGray300",
           attributes: {
@@ -3152,13 +3152,13 @@ var m = {
           ]
         },
         400: {
-          value: "#999999",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#999999",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#999999",
-            type: "color"
+            $type: "color",
+            $value: "#999999"
           },
           name: "ColorNeutralSolidGray400",
           attributes: {
@@ -3175,13 +3175,13 @@ var m = {
           ]
         },
         420: {
-          value: "#949494",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#949494",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#949494",
-            type: "color"
+            $type: "color",
+            $value: "#949494"
           },
           name: "ColorNeutralSolidGray420",
           attributes: {
@@ -3198,13 +3198,13 @@ var m = {
           ]
         },
         500: {
-          value: "#7f7f7f",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#7f7f7f",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#7f7f7f",
-            type: "color"
+            $type: "color",
+            $value: "#7f7f7f"
           },
           name: "ColorNeutralSolidGray500",
           attributes: {
@@ -3221,13 +3221,13 @@ var m = {
           ]
         },
         536: {
-          value: "#767676",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#767676",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#767676",
-            type: "color"
+            $type: "color",
+            $value: "#767676"
           },
           name: "ColorNeutralSolidGray536",
           attributes: {
@@ -3244,13 +3244,13 @@ var m = {
           ]
         },
         600: {
-          value: "#666666",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#666666",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#666666",
-            type: "color"
+            $type: "color",
+            $value: "#666666"
           },
           name: "ColorNeutralSolidGray600",
           attributes: {
@@ -3267,13 +3267,13 @@ var m = {
           ]
         },
         700: {
-          value: "#4d4d4d",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#4d4d4d",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#4d4d4d",
-            type: "color"
+            $type: "color",
+            $value: "#4d4d4d"
           },
           name: "ColorNeutralSolidGray700",
           attributes: {
@@ -3290,13 +3290,13 @@ var m = {
           ]
         },
         800: {
-          value: "#333333",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#333333",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#333333",
-            type: "color"
+            $type: "color",
+            $value: "#333333"
           },
           name: "ColorNeutralSolidGray800",
           attributes: {
@@ -3313,13 +3313,13 @@ var m = {
           ]
         },
         900: {
-          value: "#1a1a1a",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#1a1a1a",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "#1a1a1a",
-            type: "color"
+            $type: "color",
+            $value: "#1a1a1a"
           },
           name: "ColorNeutralSolidGray900",
           attributes: {
@@ -3338,13 +3338,13 @@ var m = {
       },
       OpacityGray: {
         50: {
-          value: "rgba(0, 0, 0, 0.05)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.05)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.05)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.05)"
           },
           name: "ColorNeutralOpacityGray50",
           attributes: {
@@ -3361,13 +3361,13 @@ var m = {
           ]
         },
         100: {
-          value: "rgba(0, 0, 0, 0.1)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.1)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.1)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.1)"
           },
           name: "ColorNeutralOpacityGray100",
           attributes: {
@@ -3384,13 +3384,13 @@ var m = {
           ]
         },
         200: {
-          value: "rgba(0, 0, 0, 0.2)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.2)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.2)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.2)"
           },
           name: "ColorNeutralOpacityGray200",
           attributes: {
@@ -3407,13 +3407,13 @@ var m = {
           ]
         },
         300: {
-          value: "rgba(0, 0, 0, 0.3)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.3)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.3)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.3)"
           },
           name: "ColorNeutralOpacityGray300",
           attributes: {
@@ -3430,13 +3430,13 @@ var m = {
           ]
         },
         400: {
-          value: "rgba(0, 0, 0, 0.4)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.4)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.4)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.4)"
           },
           name: "ColorNeutralOpacityGray400",
           attributes: {
@@ -3453,13 +3453,13 @@ var m = {
           ]
         },
         420: {
-          value: "rgba(0, 0, 0, 0.42)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.42)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.42)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.42)"
           },
           name: "ColorNeutralOpacityGray420",
           attributes: {
@@ -3476,13 +3476,13 @@ var m = {
           ]
         },
         500: {
-          value: "rgba(0, 0, 0, 0.5)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.5)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.5)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.5)"
           },
           name: "ColorNeutralOpacityGray500",
           attributes: {
@@ -3499,13 +3499,13 @@ var m = {
           ]
         },
         536: {
-          value: "rgba(0, 0, 0, 0.54)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.54)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.536)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.536)"
           },
           name: "ColorNeutralOpacityGray536",
           attributes: {
@@ -3522,13 +3522,13 @@ var m = {
           ]
         },
         600: {
-          value: "rgba(0, 0, 0, 0.6)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.6)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.6)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.6)"
           },
           name: "ColorNeutralOpacityGray600",
           attributes: {
@@ -3545,13 +3545,13 @@ var m = {
           ]
         },
         700: {
-          value: "rgba(0, 0, 0, 0.7)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.7)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.7)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.7)"
           },
           name: "ColorNeutralOpacityGray700",
           attributes: {
@@ -3568,13 +3568,13 @@ var m = {
           ]
         },
         800: {
-          value: "rgba(0, 0, 0, 0.8)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.8)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.8)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.8)"
           },
           name: "ColorNeutralOpacityGray800",
           attributes: {
@@ -3591,13 +3591,13 @@ var m = {
           ]
         },
         900: {
-          value: "rgba(0, 0, 0, 0.9)",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "rgba(0, 0, 0, 0.9)",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "rgba(0,0,0,0.9)",
-            type: "color"
+            $type: "color",
+            $value: "rgba(0,0,0,0.9)"
           },
           name: "ColorNeutralOpacityGray900",
           attributes: {
@@ -3615,744 +3615,216 @@ var m = {
         }
       }
     },
-    Success: {
-      1: {
-        value: "#259d63",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "{Color.Primitive.Green.600}",
-          type: "color"
-        },
-        name: "ColorSuccess1",
-        attributes: {
-          category: "Color",
-          type: "Success",
-          item: "1"
-        },
-        path: [
-          "Color",
-          "Success",
-          "1"
-        ]
-      },
-      2: {
-        value: "#197a4b",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "{Color.Primitive.Green.800}",
-          type: "color"
-        },
-        name: "ColorSuccess2",
-        attributes: {
-          category: "Color",
-          type: "Success",
-          item: "2"
-        },
-        path: [
-          "Color",
-          "Success",
-          "2"
-        ]
-      }
-    },
-    Error: {
-      1: {
-        value: "#ec0000",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "{Color.Primitive.Red.800}",
-          type: "color"
-        },
-        name: "ColorError1",
-        attributes: {
-          category: "Color",
-          type: "Error",
-          item: "1"
-        },
-        path: [
-          "Color",
-          "Error",
-          "1"
-        ]
-      },
-      2: {
-        value: "#ce0000",
-        type: "color",
-        filePath: "style-dictionary/tokens.json",
-        isSource: !0,
-        original: {
-          value: "{Color.Primitive.Red.900}",
-          type: "color"
-        },
-        name: "ColorError2",
-        attributes: {
-          category: "Color",
-          type: "Error",
-          item: "2"
-        },
-        path: [
-          "Color",
-          "Error",
-          "2"
-        ]
-      }
-    },
-    Warning: {
-      Yellow: {
+    Semantic: {
+      Success: {
         1: {
-          value: "#b78f00",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#259d63",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "{Color.Primitive.Yellow.700}",
-            type: "color"
+            $type: "color",
+            $value: "{Color.Primitive.Green.600}"
           },
-          name: "ColorWarningYellow1",
+          name: "ColorSemanticSuccess1",
           attributes: {
             category: "Color",
-            type: "Warning",
-            item: "Yellow",
+            type: "Semantic",
+            item: "Success",
             subitem: "1"
           },
           path: [
             "Color",
-            "Warning",
-            "Yellow",
+            "Semantic",
+            "Success",
             "1"
           ]
         },
         2: {
-          value: "#927200",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#197a4b",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "{Color.Primitive.Yellow.900}",
-            type: "color"
+            $type: "color",
+            $value: "{Color.Primitive.Green.800}"
           },
-          name: "ColorWarningYellow2",
+          name: "ColorSemanticSuccess2",
           attributes: {
             category: "Color",
-            type: "Warning",
-            item: "Yellow",
+            type: "Semantic",
+            item: "Success",
             subitem: "2"
           },
           path: [
             "Color",
-            "Warning",
-            "Yellow",
+            "Semantic",
+            "Success",
             "2"
           ]
         }
       },
-      Orange: {
+      Error: {
         1: {
-          value: "#fb5b01",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ec0000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "{Color.Primitive.Orange.600}",
-            type: "color"
+            $type: "color",
+            $value: "{Color.Primitive.Red.800}"
           },
-          name: "ColorWarningOrange1",
+          name: "ColorSemanticError1",
           attributes: {
             category: "Color",
-            type: "Warning",
-            item: "Orange",
+            type: "Semantic",
+            item: "Error",
             subitem: "1"
           },
           path: [
             "Color",
-            "Warning",
-            "Orange",
+            "Semantic",
+            "Error",
             "1"
           ]
         },
         2: {
-          value: "#c74700",
-          type: "color",
-          filePath: "style-dictionary/tokens.json",
+          $type: "color",
+          $value: "#ce0000",
+          filePath: "figma/tokens.json",
           isSource: !0,
           original: {
-            value: "{Color.Primitive.Orange.800}",
-            type: "color"
+            $type: "color",
+            $value: "{Color.Primitive.Red.900}"
           },
-          name: "ColorWarningOrange2",
+          name: "ColorSemanticError2",
           attributes: {
             category: "Color",
-            type: "Warning",
-            item: "Orange",
+            type: "Semantic",
+            item: "Error",
             subitem: "2"
           },
           path: [
             "Color",
-            "Warning",
-            "Orange",
+            "Semantic",
+            "Error",
             "2"
           ]
         }
+      },
+      Warning: {
+        Yellow: {
+          1: {
+            $type: "color",
+            $value: "#b78f00",
+            filePath: "figma/tokens.json",
+            isSource: !0,
+            original: {
+              $type: "color",
+              $value: "{Color.Primitive.Yellow.700}"
+            },
+            name: "ColorSemanticWarningYellow1",
+            attributes: {
+              category: "Color",
+              type: "Semantic",
+              item: "Warning",
+              subitem: "Yellow",
+              state: "1"
+            },
+            path: [
+              "Color",
+              "Semantic",
+              "Warning",
+              "Yellow",
+              "1"
+            ]
+          },
+          2: {
+            $type: "color",
+            $value: "#927200",
+            filePath: "figma/tokens.json",
+            isSource: !0,
+            original: {
+              $type: "color",
+              $value: "{Color.Primitive.Yellow.900}"
+            },
+            name: "ColorSemanticWarningYellow2",
+            attributes: {
+              category: "Color",
+              type: "Semantic",
+              item: "Warning",
+              subitem: "Yellow",
+              state: "2"
+            },
+            path: [
+              "Color",
+              "Semantic",
+              "Warning",
+              "Yellow",
+              "2"
+            ]
+          }
+        },
+        Orange: {
+          1: {
+            $type: "color",
+            $value: "#fb5b01",
+            filePath: "figma/tokens.json",
+            isSource: !0,
+            original: {
+              $type: "color",
+              $value: "{Color.Primitive.Orange.600}"
+            },
+            name: "ColorSemanticWarningOrange1",
+            attributes: {
+              category: "Color",
+              type: "Semantic",
+              item: "Warning",
+              subitem: "Orange",
+              state: "1"
+            },
+            path: [
+              "Color",
+              "Semantic",
+              "Warning",
+              "Orange",
+              "1"
+            ]
+          },
+          2: {
+            $type: "color",
+            $value: "#c74700",
+            filePath: "figma/tokens.json",
+            isSource: !0,
+            original: {
+              $type: "color",
+              $value: "{Color.Primitive.Orange.800}"
+            },
+            name: "ColorSemanticWarningOrange2",
+            attributes: {
+              category: "Color",
+              type: "Semantic",
+              item: "Warning",
+              subitem: "Orange",
+              state: "2"
+            },
+            path: [
+              "Color",
+              "Semantic",
+              "Warning",
+              "Orange",
+              "2"
+            ]
+          }
+        }
       }
-    }
-  },
-  BorderRadius: {
-    4: {
-      value: "0.25rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "4px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadius4",
-      attributes: {
-        category: "BorderRadius",
-        type: "4"
-      },
-      path: [
-        "BorderRadius",
-        "4"
-      ]
-    },
-    8: {
-      value: "0.5rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "8px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadius8",
-      attributes: {
-        category: "BorderRadius",
-        type: "8"
-      },
-      path: [
-        "BorderRadius",
-        "8"
-      ]
-    },
-    16: {
-      value: "1rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "16px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadius16",
-      attributes: {
-        category: "BorderRadius",
-        type: "16"
-      },
-      path: [
-        "BorderRadius",
-        "16"
-      ]
-    },
-    24: {
-      value: "1.5rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "24px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadius24",
-      attributes: {
-        category: "BorderRadius",
-        type: "24"
-      },
-      path: [
-        "BorderRadius",
-        "24"
-      ]
-    },
-    32: {
-      value: "2rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "32px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadius32",
-      attributes: {
-        category: "BorderRadius",
-        type: "32"
-      },
-      path: [
-        "BorderRadius",
-        "32"
-      ]
-    },
-    Full: {
-      value: "624.9375rem",
-      type: "dimension",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "borderRadius"
-        }
-      },
-      original: {
-        value: "9999px",
-        type: "dimension",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "borderRadius"
-          }
-        }
-      },
-      name: "BorderRadiusFull",
-      attributes: {
-        category: "BorderRadius",
-        type: "Full"
-      },
-      path: [
-        "BorderRadius",
-        "Full"
-      ]
-    }
-  },
-  Elevation: {
-    1: {
-      value: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "8px",
-            spread: "1px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "2px"
-          },
-          {
-            blur: "5px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "1px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Elevation1",
-      attributes: {
-        category: "Elevation",
-        type: "1"
-      },
-      path: [
-        "Elevation",
-        "1"
-      ]
-    },
-    2: {
-      value: "0 2px 12px 2px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "12px",
-            spread: "2px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "2px"
-          },
-          {
-            blur: "6px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "1px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Elevation2",
-      attributes: {
-        category: "Elevation",
-        type: "2"
-      },
-      path: [
-        "Elevation",
-        "2"
-      ]
-    },
-    3: {
-      value: "0 4px 16px 3px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "16px",
-            spread: "3px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "4px"
-          },
-          {
-            blur: "6px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "1px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Elevation3",
-      attributes: {
-        category: "Elevation",
-        type: "3"
-      },
-      path: [
-        "Elevation",
-        "3"
-      ]
-    },
-    4: {
-      value: "0 6px 20px 4px rgba(0,0,0,0.1), 0 2px 6px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "20px",
-            spread: "4px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "6px"
-          },
-          {
-            blur: "6px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "2px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Elevation4",
-      attributes: {
-        category: "Elevation",
-        type: "4"
-      },
-      path: [
-        "Elevation",
-        "4"
-      ]
-    },
-    5: {
-      value: "0 8px 24px 5px rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "24px",
-            spread: "5px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "8px"
-          },
-          {
-            blur: "10px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "2px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Elevation5",
-      attributes: {
-        category: "Elevation",
-        type: "5"
-      },
-      path: [
-        "Elevation",
-        "5"
-      ]
-    },
-    6: {
-      value: "0 10px 30px 6px rgba(0,0,0,0.1), 0 3px 12px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "30px",
-            spread: "6px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "10px"
-          },
-          {
-            blur: "12px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "3px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Elevation6",
-      attributes: {
-        category: "Elevation",
-        type: "6"
-      },
-      path: [
-        "Elevation",
-        "6"
-      ]
-    },
-    7: {
-      value: "0 12px 36px 7px rgba(0,0,0,0.1), 0 3px 14px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "36px",
-            spread: "7px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "12px"
-          },
-          {
-            blur: "14px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "3px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Elevation7",
-      attributes: {
-        category: "Elevation",
-        type: "7"
-      },
-      path: [
-        "Elevation",
-        "7"
-      ]
-    },
-    8: {
-      value: "0 14px 40px 7px rgba(0,0,0,0.1), 0 3px 16px 0 rgba(0,0,0,0.3)",
-      type: "shadow",
-      filePath: "style-dictionary/tokens.json",
-      isSource: !0,
-      $extensions: {
-        "studio.tokens": {
-          originalType: "boxShadow"
-        }
-      },
-      original: {
-        value: [
-          {
-            blur: "40px",
-            spread: "7px",
-            color: "rgba(0,0,0,0.1)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "14px"
-          },
-          {
-            blur: "16px",
-            spread: 0,
-            color: "rgba(0,0,0,0.3)",
-            type: "dropShadow",
-            offsetX: 0,
-            offsetY: "3px"
-          }
-        ],
-        type: "shadow",
-        $extensions: {
-          "studio.tokens": {
-            originalType: "boxShadow"
-          }
-        }
-      },
-      name: "Elevation8",
-      attributes: {
-        category: "Elevation",
-        type: "8"
-      },
-      path: [
-        "Elevation",
-        "8"
-      ]
     }
   },
   FontWeight: {
     400: {
-      value: "400",
-      type: "fontWeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontWeight",
+      $value: "400",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4360,8 +3832,8 @@ var m = {
         }
       },
       original: {
-        value: 400,
-        type: "fontWeight",
+        $type: "fontWeight",
+        $value: "400",
         $extensions: {
           "studio.tokens": {
             originalType: "fontWeights"
@@ -4379,9 +3851,9 @@ var m = {
       ]
     },
     700: {
-      value: "700",
-      type: "fontWeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontWeight",
+      $value: "700",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4389,8 +3861,8 @@ var m = {
         }
       },
       original: {
-        value: 700,
-        type: "fontWeight",
+        $type: "fontWeight",
+        $value: "700",
         $extensions: {
           "studio.tokens": {
             originalType: "fontWeights"
@@ -4410,9 +3882,9 @@ var m = {
   },
   FontFamily: {
     Sans: {
-      value: "'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif",
-      type: "fontFamily",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontFamily",
+      $value: "'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4420,8 +3892,8 @@ var m = {
         }
       },
       original: {
-        value: "'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif",
-        type: "fontFamily",
+        $type: "fontFamily",
+        $value: "'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif",
         $extensions: {
           "studio.tokens": {
             originalType: "fontFamilies"
@@ -4439,9 +3911,9 @@ var m = {
       ]
     },
     Mono: {
-      value: "'Noto Sans Mono', monospace",
-      type: "fontFamily",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontFamily",
+      $value: "'Noto Sans Mono', monospace",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4449,8 +3921,8 @@ var m = {
         }
       },
       original: {
-        value: "'Noto Sans Mono', monospace",
-        type: "fontFamily",
+        $type: "fontFamily",
+        $value: "'Noto Sans Mono', monospace",
         $extensions: {
           "studio.tokens": {
             originalType: "fontFamilies"
@@ -4470,9 +3942,9 @@ var m = {
   },
   FontSize: {
     14: {
-      value: "0.875rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "0.875rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4480,8 +3952,8 @@ var m = {
         }
       },
       original: {
-        value: "14px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "14px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4499,9 +3971,9 @@ var m = {
       ]
     },
     16: {
-      value: "1rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "1rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4509,8 +3981,8 @@ var m = {
         }
       },
       original: {
-        value: "16px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "16px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4528,9 +4000,9 @@ var m = {
       ]
     },
     17: {
-      value: "1.0625rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "1.0625rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4538,8 +4010,8 @@ var m = {
         }
       },
       original: {
-        value: "17px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "17px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4557,9 +4029,9 @@ var m = {
       ]
     },
     18: {
-      value: "1.125rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "1.125rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4567,8 +4039,8 @@ var m = {
         }
       },
       original: {
-        value: "18px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "18px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4586,9 +4058,9 @@ var m = {
       ]
     },
     20: {
-      value: "1.25rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "1.25rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4596,8 +4068,8 @@ var m = {
         }
       },
       original: {
-        value: "20px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "20px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4615,9 +4087,9 @@ var m = {
       ]
     },
     22: {
-      value: "1.375rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "1.375rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4625,8 +4097,8 @@ var m = {
         }
       },
       original: {
-        value: "22px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "22px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4644,9 +4116,9 @@ var m = {
       ]
     },
     24: {
-      value: "1.5rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "1.5rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4654,8 +4126,8 @@ var m = {
         }
       },
       original: {
-        value: "24px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "24px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4673,9 +4145,9 @@ var m = {
       ]
     },
     26: {
-      value: "1.625rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "1.625rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4683,8 +4155,8 @@ var m = {
         }
       },
       original: {
-        value: "26px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "26px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4702,9 +4174,9 @@ var m = {
       ]
     },
     28: {
-      value: "1.75rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "1.75rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4712,8 +4184,8 @@ var m = {
         }
       },
       original: {
-        value: "28px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "28px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4731,9 +4203,9 @@ var m = {
       ]
     },
     32: {
-      value: "2rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "2rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4741,8 +4213,8 @@ var m = {
         }
       },
       original: {
-        value: "32px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "32px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4760,9 +4232,9 @@ var m = {
       ]
     },
     36: {
-      value: "2.25rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "2.25rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4770,8 +4242,8 @@ var m = {
         }
       },
       original: {
-        value: "36px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "36px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4789,9 +4261,9 @@ var m = {
       ]
     },
     45: {
-      value: "2.8125rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "2.8125rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4799,8 +4271,8 @@ var m = {
         }
       },
       original: {
-        value: "45px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "45px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4818,9 +4290,9 @@ var m = {
       ]
     },
     48: {
-      value: "3rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "3rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4828,8 +4300,8 @@ var m = {
         }
       },
       original: {
-        value: "48px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "48px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4847,9 +4319,9 @@ var m = {
       ]
     },
     57: {
-      value: "3.5625rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "3.5625rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4857,8 +4329,8 @@ var m = {
         }
       },
       original: {
-        value: "57px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "57px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4876,9 +4348,9 @@ var m = {
       ]
     },
     64: {
-      value: "4rem",
-      type: "fontSize",
-      filePath: "style-dictionary/tokens.json",
+      $type: "fontSize",
+      $value: "4rem",
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4886,8 +4358,8 @@ var m = {
         }
       },
       original: {
-        value: "64px",
-        type: "fontSize",
+        $type: "fontSize",
+        $value: "64px",
         $extensions: {
           "studio.tokens": {
             originalType: "fontSizes"
@@ -4907,9 +4379,9 @@ var m = {
   },
   LineHeight: {
     100: {
-      value: 1,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "lineHeight",
+      $value: 1,
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4917,8 +4389,8 @@ var m = {
         }
       },
       original: {
-        value: "100%",
-        type: "lineHeight",
+        $type: "lineHeight",
+        $value: "100%",
         $extensions: {
           "studio.tokens": {
             originalType: "lineHeights"
@@ -4936,9 +4408,9 @@ var m = {
       ]
     },
     120: {
-      value: 1.2,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "lineHeight",
+      $value: 1.2,
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4946,8 +4418,8 @@ var m = {
         }
       },
       original: {
-        value: "120%",
-        type: "lineHeight",
+        $type: "lineHeight",
+        $value: "120%",
         $extensions: {
           "studio.tokens": {
             originalType: "lineHeights"
@@ -4965,9 +4437,9 @@ var m = {
       ]
     },
     130: {
-      value: 1.3,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "lineHeight",
+      $value: 1.3,
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -4975,8 +4447,8 @@ var m = {
         }
       },
       original: {
-        value: "130%",
-        type: "lineHeight",
+        $type: "lineHeight",
+        $value: "130%",
         $extensions: {
           "studio.tokens": {
             originalType: "lineHeights"
@@ -4994,9 +4466,9 @@ var m = {
       ]
     },
     140: {
-      value: 1.4,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "lineHeight",
+      $value: 1.4,
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -5004,8 +4476,8 @@ var m = {
         }
       },
       original: {
-        value: "140%",
-        type: "lineHeight",
+        $type: "lineHeight",
+        $value: "140%",
         $extensions: {
           "studio.tokens": {
             originalType: "lineHeights"
@@ -5023,9 +4495,9 @@ var m = {
       ]
     },
     150: {
-      value: 1.5,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "lineHeight",
+      $value: 1.5,
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -5033,8 +4505,8 @@ var m = {
         }
       },
       original: {
-        value: "150%",
-        type: "lineHeight",
+        $type: "lineHeight",
+        $value: "150%",
         $extensions: {
           "studio.tokens": {
             originalType: "lineHeights"
@@ -5052,9 +4524,9 @@ var m = {
       ]
     },
     160: {
-      value: 1.6,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "lineHeight",
+      $value: 1.6,
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -5062,8 +4534,8 @@ var m = {
         }
       },
       original: {
-        value: "160%",
-        type: "lineHeight",
+        $type: "lineHeight",
+        $value: "160%",
         $extensions: {
           "studio.tokens": {
             originalType: "lineHeights"
@@ -5081,9 +4553,9 @@ var m = {
       ]
     },
     170: {
-      value: 1.7,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "lineHeight",
+      $value: 1.7,
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -5091,8 +4563,8 @@ var m = {
         }
       },
       original: {
-        value: "170%",
-        type: "lineHeight",
+        $type: "lineHeight",
+        $value: "170%",
         $extensions: {
           "studio.tokens": {
             originalType: "lineHeights"
@@ -5110,9 +4582,9 @@ var m = {
       ]
     },
     175: {
-      value: 1.75,
-      type: "lineHeight",
-      filePath: "style-dictionary/tokens.json",
+      $type: "lineHeight",
+      $value: 1.75,
+      filePath: "figma/tokens.json",
       isSource: !0,
       $extensions: {
         "studio.tokens": {
@@ -5120,8 +4592,8 @@ var m = {
         }
       },
       original: {
-        value: "175%",
-        type: "lineHeight",
+        $type: "lineHeight",
+        $value: "175%",
         $extensions: {
           "studio.tokens": {
             originalType: "lineHeights"
@@ -5138,681 +4610,1227 @@ var m = {
         "175"
       ]
     }
+  },
+  BorderRadius: {
+    4: {
+      $type: "dimension",
+      $value: "0.25rem",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        $type: "dimension",
+        $value: "4px",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius4",
+      attributes: {
+        category: "BorderRadius",
+        type: "4"
+      },
+      path: [
+        "BorderRadius",
+        "4"
+      ]
+    },
+    8: {
+      $type: "dimension",
+      $value: "0.5rem",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        $type: "dimension",
+        $value: "8px",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius8",
+      attributes: {
+        category: "BorderRadius",
+        type: "8"
+      },
+      path: [
+        "BorderRadius",
+        "8"
+      ]
+    },
+    16: {
+      $type: "dimension",
+      $value: "1rem",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        $type: "dimension",
+        $value: "16px",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius16",
+      attributes: {
+        category: "BorderRadius",
+        type: "16"
+      },
+      path: [
+        "BorderRadius",
+        "16"
+      ]
+    },
+    24: {
+      $type: "dimension",
+      $value: "1.5rem",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        $type: "dimension",
+        $value: "24px",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius24",
+      attributes: {
+        category: "BorderRadius",
+        type: "24"
+      },
+      path: [
+        "BorderRadius",
+        "24"
+      ]
+    },
+    32: {
+      $type: "dimension",
+      $value: "2rem",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        $type: "dimension",
+        $value: "32px",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius32",
+      attributes: {
+        category: "BorderRadius",
+        type: "32"
+      },
+      path: [
+        "BorderRadius",
+        "32"
+      ]
+    },
+    Full: {
+      $type: "dimension",
+      $value: "624.9375rem",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        $type: "dimension",
+        $value: "9999px",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadiusFull",
+      attributes: {
+        category: "BorderRadius",
+        type: "Full"
+      },
+      path: [
+        "BorderRadius",
+        "Full"
+      ]
+    }
+  },
+  Elevation: {
+    1: {
+      $type: "shadow",
+      $value: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        $type: "shadow",
+        $value: [
+          {
+            blur: "8px",
+            spread: "1px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "2px"
+          },
+          {
+            blur: "5px",
+            spread: "0",
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "1px"
+          }
+        ],
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation1",
+      attributes: {
+        category: "Elevation",
+        type: "1"
+      },
+      path: [
+        "Elevation",
+        "1"
+      ]
+    },
+    2: {
+      $type: "shadow",
+      $value: "0 2px 12px 2px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        $type: "shadow",
+        $value: [
+          {
+            blur: "12px",
+            spread: "2px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "2px"
+          },
+          {
+            blur: "6px",
+            spread: "0",
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "1px"
+          }
+        ],
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation2",
+      attributes: {
+        category: "Elevation",
+        type: "2"
+      },
+      path: [
+        "Elevation",
+        "2"
+      ]
+    },
+    3: {
+      $type: "shadow",
+      $value: "0 4px 16px 3px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        $type: "shadow",
+        $value: [
+          {
+            blur: "16px",
+            spread: "3px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "4px"
+          },
+          {
+            blur: "6px",
+            spread: "0",
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "1px"
+          }
+        ],
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation3",
+      attributes: {
+        category: "Elevation",
+        type: "3"
+      },
+      path: [
+        "Elevation",
+        "3"
+      ]
+    },
+    4: {
+      $type: "shadow",
+      $value: "0 6px 20px 4px rgba(0,0,0,0.1), 0 2px 6px 0 rgba(0,0,0,0.3)",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        $type: "shadow",
+        $value: [
+          {
+            blur: "20px",
+            spread: "4px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "6px"
+          },
+          {
+            blur: "6px",
+            spread: "0",
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "2px"
+          }
+        ],
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation4",
+      attributes: {
+        category: "Elevation",
+        type: "4"
+      },
+      path: [
+        "Elevation",
+        "4"
+      ]
+    },
+    5: {
+      $type: "shadow",
+      $value: "0 8px 24px 5px rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.3)",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        $type: "shadow",
+        $value: [
+          {
+            blur: "24px",
+            spread: "5px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "8px"
+          },
+          {
+            blur: "10px",
+            spread: "0",
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "2px"
+          }
+        ],
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation5",
+      attributes: {
+        category: "Elevation",
+        type: "5"
+      },
+      path: [
+        "Elevation",
+        "5"
+      ]
+    },
+    6: {
+      $type: "shadow",
+      $value: "0 10px 30px 6px rgba(0,0,0,0.1), 0 3px 12px 0 rgba(0,0,0,0.3)",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        $type: "shadow",
+        $value: [
+          {
+            blur: "30px",
+            spread: "6px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "10px"
+          },
+          {
+            blur: "12px",
+            spread: "0",
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "3px"
+          }
+        ],
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation6",
+      attributes: {
+        category: "Elevation",
+        type: "6"
+      },
+      path: [
+        "Elevation",
+        "6"
+      ]
+    },
+    7: {
+      $type: "shadow",
+      $value: "0 12px 36px 7px rgba(0,0,0,0.1), 0 3px 14px 0 rgba(0,0,0,0.3)",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        $type: "shadow",
+        $value: [
+          {
+            blur: "36px",
+            spread: "7px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "12px"
+          },
+          {
+            blur: "14px",
+            spread: "0",
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "3px"
+          }
+        ],
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation7",
+      attributes: {
+        category: "Elevation",
+        type: "7"
+      },
+      path: [
+        "Elevation",
+        "7"
+      ]
+    },
+    8: {
+      $type: "shadow",
+      $value: "0 14px 40px 7px rgba(0,0,0,0.1), 0 3px 16px 0 rgba(0,0,0,0.3)",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "boxShadow"
+        }
+      },
+      original: {
+        $type: "shadow",
+        $value: [
+          {
+            blur: "40px",
+            spread: "7px",
+            color: "rgba(0,0,0,0.1)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "14px"
+          },
+          {
+            blur: "16px",
+            spread: "0",
+            color: "rgba(0,0,0,0.3)",
+            type: "dropShadow",
+            offsetX: "0",
+            offsetY: "3px"
+          }
+        ],
+        $extensions: {
+          "studio.tokens": {
+            originalType: "boxShadow"
+          }
+        }
+      },
+      name: "Elevation8",
+      attributes: {
+        category: "Elevation",
+        type: "8"
+      },
+      path: [
+        "Elevation",
+        "8"
+      ]
+    }
   }
 };
-const e = /* @__PURE__ */ s(m);
-var y = {}, v = {};
-(function(t) {
-  Object.defineProperty(t, "__esModule", {
+const e = /* @__PURE__ */ s(g);
+var m = {}, v = {};
+(function(i) {
+  Object.defineProperty(i, "__esModule", {
     value: !0
-  }), Object.defineProperty(t, "default", {
+  }), Object.defineProperty(i, "default", {
     enumerable: !0,
     get: function() {
-      return a;
+      return l;
     }
   });
-  function r(o, i) {
+  function r(o, t) {
     return {
       handler: o,
-      config: i
+      config: t
     };
   }
-  r.withOptions = function(o, i = () => ({})) {
-    const l = function(n) {
+  r.withOptions = function(o, t = () => ({})) {
+    const a = function(n) {
       return {
         __options: n,
         handler: o(n),
-        config: i(n)
+        config: t(n)
       };
     };
-    return l.__isOptionsFunction = !0, l.__pluginFunction = o, l.__configFunction = i, l;
+    return a.__isOptionsFunction = !0, a.__pluginFunction = o, a.__configFunction = t, a;
   };
-  const a = r;
+  const l = r;
 })(v);
-(function(t) {
-  Object.defineProperty(t, "__esModule", {
+(function(i) {
+  Object.defineProperty(i, "__esModule", {
     value: !0
-  }), Object.defineProperty(t, "default", {
+  }), Object.defineProperty(i, "default", {
     enumerable: !0,
     get: function() {
       return o;
     }
   });
-  const r = /* @__PURE__ */ a(v);
-  function a(i) {
-    return i && i.__esModule ? i : {
-      default: i
+  const r = /* @__PURE__ */ l(v);
+  function l(t) {
+    return t && t.__esModule ? t : {
+      default: t
     };
   }
   const o = r.default;
-})(y);
-let u = y;
-var p = (u.__esModule ? u : { default: u }).default;
-const c = /* @__PURE__ */ s(p), g = c(() => {
+})(m);
+let u = m;
+var $ = (u.__esModule ? u : { default: u }).default;
+const p = /* @__PURE__ */ s($), y = p(() => {
 }, {
   theme: {
     extend: {
       colors: {
-        white: e.Color.Neutral.White.value,
-        black: e.Color.Neutral.Black.value,
+        white: e.Color.Neutral.White.$value,
+        black: e.Color.Neutral.Black.$value,
         blue: {
-          50: e.Color.Primitive.Blue[50].value,
-          100: e.Color.Primitive.Blue[100].value,
-          200: e.Color.Primitive.Blue[200].value,
-          300: e.Color.Primitive.Blue[300].value,
-          400: e.Color.Primitive.Blue[400].value,
-          500: e.Color.Primitive.Blue[500].value,
-          600: e.Color.Primitive.Blue[600].value,
-          700: e.Color.Primitive.Blue[700].value,
-          800: e.Color.Primitive.Blue[800].value,
-          900: e.Color.Primitive.Blue[900].value,
-          1e3: e.Color.Primitive.Blue[1e3].value,
-          1100: e.Color.Primitive.Blue[1100].value,
-          1200: e.Color.Primitive.Blue[1200].value
+          50: e.Color.Primitive.Blue[50].$value,
+          100: e.Color.Primitive.Blue[100].$value,
+          200: e.Color.Primitive.Blue[200].$value,
+          300: e.Color.Primitive.Blue[300].$value,
+          400: e.Color.Primitive.Blue[400].$value,
+          500: e.Color.Primitive.Blue[500].$value,
+          600: e.Color.Primitive.Blue[600].$value,
+          700: e.Color.Primitive.Blue[700].$value,
+          800: e.Color.Primitive.Blue[800].$value,
+          900: e.Color.Primitive.Blue[900].$value,
+          1e3: e.Color.Primitive.Blue[1e3].$value,
+          1100: e.Color.Primitive.Blue[1100].$value,
+          1200: e.Color.Primitive.Blue[1200].$value
         },
         "light-blue": {
-          50: e.Color.Primitive.LightBlue[50].value,
-          100: e.Color.Primitive.LightBlue[100].value,
-          200: e.Color.Primitive.LightBlue[200].value,
-          300: e.Color.Primitive.LightBlue[300].value,
-          400: e.Color.Primitive.LightBlue[400].value,
-          500: e.Color.Primitive.LightBlue[500].value,
-          600: e.Color.Primitive.LightBlue[600].value,
-          700: e.Color.Primitive.LightBlue[700].value,
-          800: e.Color.Primitive.LightBlue[800].value,
-          900: e.Color.Primitive.LightBlue[900].value,
-          1e3: e.Color.Primitive.LightBlue[1e3].value,
-          1100: e.Color.Primitive.LightBlue[1100].value,
-          1200: e.Color.Primitive.LightBlue[1200].value
+          50: e.Color.Primitive.LightBlue[50].$value,
+          100: e.Color.Primitive.LightBlue[100].$value,
+          200: e.Color.Primitive.LightBlue[200].$value,
+          300: e.Color.Primitive.LightBlue[300].$value,
+          400: e.Color.Primitive.LightBlue[400].$value,
+          500: e.Color.Primitive.LightBlue[500].$value,
+          600: e.Color.Primitive.LightBlue[600].$value,
+          700: e.Color.Primitive.LightBlue[700].$value,
+          800: e.Color.Primitive.LightBlue[800].$value,
+          900: e.Color.Primitive.LightBlue[900].$value,
+          1e3: e.Color.Primitive.LightBlue[1e3].$value,
+          1100: e.Color.Primitive.LightBlue[1100].$value,
+          1200: e.Color.Primitive.LightBlue[1200].$value
         },
         cyan: {
-          50: e.Color.Primitive.Cyan[50].value,
-          100: e.Color.Primitive.Cyan[100].value,
-          200: e.Color.Primitive.Cyan[200].value,
-          300: e.Color.Primitive.Cyan[300].value,
-          400: e.Color.Primitive.Cyan[400].value,
-          500: e.Color.Primitive.Cyan[500].value,
-          600: e.Color.Primitive.Cyan[600].value,
-          700: e.Color.Primitive.Cyan[700].value,
-          800: e.Color.Primitive.Cyan[800].value,
-          900: e.Color.Primitive.Cyan[900].value,
-          1e3: e.Color.Primitive.Cyan[1e3].value,
-          1100: e.Color.Primitive.Cyan[1100].value,
-          1200: e.Color.Primitive.Cyan[1200].value
+          50: e.Color.Primitive.Cyan[50].$value,
+          100: e.Color.Primitive.Cyan[100].$value,
+          200: e.Color.Primitive.Cyan[200].$value,
+          300: e.Color.Primitive.Cyan[300].$value,
+          400: e.Color.Primitive.Cyan[400].$value,
+          500: e.Color.Primitive.Cyan[500].$value,
+          600: e.Color.Primitive.Cyan[600].$value,
+          700: e.Color.Primitive.Cyan[700].$value,
+          800: e.Color.Primitive.Cyan[800].$value,
+          900: e.Color.Primitive.Cyan[900].$value,
+          1e3: e.Color.Primitive.Cyan[1e3].$value,
+          1100: e.Color.Primitive.Cyan[1100].$value,
+          1200: e.Color.Primitive.Cyan[1200].$value
         },
         green: {
-          50: e.Color.Primitive.Green[50].value,
-          100: e.Color.Primitive.Green[100].value,
-          200: e.Color.Primitive.Green[200].value,
-          300: e.Color.Primitive.Green[300].value,
-          400: e.Color.Primitive.Green[400].value,
-          500: e.Color.Primitive.Green[500].value,
-          600: e.Color.Primitive.Green[600].value,
-          700: e.Color.Primitive.Green[700].value,
-          800: e.Color.Primitive.Green[800].value,
-          900: e.Color.Primitive.Green[900].value,
-          1e3: e.Color.Primitive.Green[1e3].value,
-          1100: e.Color.Primitive.Green[1100].value,
-          1200: e.Color.Primitive.Green[1200].value
+          50: e.Color.Primitive.Green[50].$value,
+          100: e.Color.Primitive.Green[100].$value,
+          200: e.Color.Primitive.Green[200].$value,
+          300: e.Color.Primitive.Green[300].$value,
+          400: e.Color.Primitive.Green[400].$value,
+          500: e.Color.Primitive.Green[500].$value,
+          600: e.Color.Primitive.Green[600].$value,
+          700: e.Color.Primitive.Green[700].$value,
+          800: e.Color.Primitive.Green[800].$value,
+          900: e.Color.Primitive.Green[900].$value,
+          1e3: e.Color.Primitive.Green[1e3].$value,
+          1100: e.Color.Primitive.Green[1100].$value,
+          1200: e.Color.Primitive.Green[1200].$value
         },
         lime: {
-          50: e.Color.Primitive.Lime[50].value,
-          100: e.Color.Primitive.Lime[100].value,
-          200: e.Color.Primitive.Lime[200].value,
-          300: e.Color.Primitive.Lime[300].value,
-          400: e.Color.Primitive.Lime[400].value,
-          500: e.Color.Primitive.Lime[500].value,
-          600: e.Color.Primitive.Lime[600].value,
-          700: e.Color.Primitive.Lime[700].value,
-          800: e.Color.Primitive.Lime[800].value,
-          900: e.Color.Primitive.Lime[900].value,
-          1e3: e.Color.Primitive.Lime[1e3].value,
-          1100: e.Color.Primitive.Lime[1100].value,
-          1200: e.Color.Primitive.Lime[1200].value
+          50: e.Color.Primitive.Lime[50].$value,
+          100: e.Color.Primitive.Lime[100].$value,
+          200: e.Color.Primitive.Lime[200].$value,
+          300: e.Color.Primitive.Lime[300].$value,
+          400: e.Color.Primitive.Lime[400].$value,
+          500: e.Color.Primitive.Lime[500].$value,
+          600: e.Color.Primitive.Lime[600].$value,
+          700: e.Color.Primitive.Lime[700].$value,
+          800: e.Color.Primitive.Lime[800].$value,
+          900: e.Color.Primitive.Lime[900].$value,
+          1e3: e.Color.Primitive.Lime[1e3].$value,
+          1100: e.Color.Primitive.Lime[1100].$value,
+          1200: e.Color.Primitive.Lime[1200].$value
         },
         yellow: {
-          50: e.Color.Primitive.Yellow[50].value,
-          100: e.Color.Primitive.Yellow[100].value,
-          200: e.Color.Primitive.Yellow[200].value,
-          300: e.Color.Primitive.Yellow[300].value,
-          400: e.Color.Primitive.Yellow[400].value,
-          500: e.Color.Primitive.Yellow[500].value,
-          600: e.Color.Primitive.Yellow[600].value,
-          700: e.Color.Primitive.Yellow[700].value,
-          800: e.Color.Primitive.Yellow[800].value,
-          900: e.Color.Primitive.Yellow[900].value,
-          1e3: e.Color.Primitive.Yellow[1e3].value,
-          1100: e.Color.Primitive.Yellow[1100].value,
-          1200: e.Color.Primitive.Yellow[1200].value
+          50: e.Color.Primitive.Yellow[50].$value,
+          100: e.Color.Primitive.Yellow[100].$value,
+          200: e.Color.Primitive.Yellow[200].$value,
+          300: e.Color.Primitive.Yellow[300].$value,
+          400: e.Color.Primitive.Yellow[400].$value,
+          500: e.Color.Primitive.Yellow[500].$value,
+          600: e.Color.Primitive.Yellow[600].$value,
+          700: e.Color.Primitive.Yellow[700].$value,
+          800: e.Color.Primitive.Yellow[800].$value,
+          900: e.Color.Primitive.Yellow[900].$value,
+          1e3: e.Color.Primitive.Yellow[1e3].$value,
+          1100: e.Color.Primitive.Yellow[1100].$value,
+          1200: e.Color.Primitive.Yellow[1200].$value
         },
         orange: {
-          50: e.Color.Primitive.Orange[50].value,
-          100: e.Color.Primitive.Orange[100].value,
-          200: e.Color.Primitive.Orange[200].value,
-          300: e.Color.Primitive.Orange[300].value,
-          400: e.Color.Primitive.Orange[400].value,
-          500: e.Color.Primitive.Orange[500].value,
-          600: e.Color.Primitive.Orange[600].value,
-          700: e.Color.Primitive.Orange[700].value,
-          800: e.Color.Primitive.Orange[800].value,
-          900: e.Color.Primitive.Orange[900].value,
-          1e3: e.Color.Primitive.Orange[1e3].value,
-          1100: e.Color.Primitive.Orange[1100].value,
-          1200: e.Color.Primitive.Orange[1200].value
+          50: e.Color.Primitive.Orange[50].$value,
+          100: e.Color.Primitive.Orange[100].$value,
+          200: e.Color.Primitive.Orange[200].$value,
+          300: e.Color.Primitive.Orange[300].$value,
+          400: e.Color.Primitive.Orange[400].$value,
+          500: e.Color.Primitive.Orange[500].$value,
+          600: e.Color.Primitive.Orange[600].$value,
+          700: e.Color.Primitive.Orange[700].$value,
+          800: e.Color.Primitive.Orange[800].$value,
+          900: e.Color.Primitive.Orange[900].$value,
+          1e3: e.Color.Primitive.Orange[1e3].$value,
+          1100: e.Color.Primitive.Orange[1100].$value,
+          1200: e.Color.Primitive.Orange[1200].$value
         },
         red: {
-          50: e.Color.Primitive.Red[50].value,
-          100: e.Color.Primitive.Red[100].value,
-          200: e.Color.Primitive.Red[200].value,
-          300: e.Color.Primitive.Red[300].value,
-          400: e.Color.Primitive.Red[400].value,
-          500: e.Color.Primitive.Red[500].value,
-          600: e.Color.Primitive.Red[600].value,
-          700: e.Color.Primitive.Red[700].value,
-          800: e.Color.Primitive.Red[800].value,
-          900: e.Color.Primitive.Red[900].value,
-          1e3: e.Color.Primitive.Red[1e3].value,
-          1100: e.Color.Primitive.Red[1100].value,
-          1200: e.Color.Primitive.Red[1200].value
+          50: e.Color.Primitive.Red[50].$value,
+          100: e.Color.Primitive.Red[100].$value,
+          200: e.Color.Primitive.Red[200].$value,
+          300: e.Color.Primitive.Red[300].$value,
+          400: e.Color.Primitive.Red[400].$value,
+          500: e.Color.Primitive.Red[500].$value,
+          600: e.Color.Primitive.Red[600].$value,
+          700: e.Color.Primitive.Red[700].$value,
+          800: e.Color.Primitive.Red[800].$value,
+          900: e.Color.Primitive.Red[900].$value,
+          1e3: e.Color.Primitive.Red[1e3].$value,
+          1100: e.Color.Primitive.Red[1100].$value,
+          1200: e.Color.Primitive.Red[1200].$value
         },
         magenta: {
-          50: e.Color.Primitive.Magenta[50].value,
-          100: e.Color.Primitive.Magenta[100].value,
-          200: e.Color.Primitive.Magenta[200].value,
-          300: e.Color.Primitive.Magenta[300].value,
-          400: e.Color.Primitive.Magenta[400].value,
-          500: e.Color.Primitive.Magenta[500].value,
-          600: e.Color.Primitive.Magenta[600].value,
-          700: e.Color.Primitive.Magenta[700].value,
-          800: e.Color.Primitive.Magenta[800].value,
-          900: e.Color.Primitive.Magenta[900].value,
-          1e3: e.Color.Primitive.Magenta[1e3].value,
-          1100: e.Color.Primitive.Magenta[1100].value,
-          1200: e.Color.Primitive.Magenta[1200].value
+          50: e.Color.Primitive.Magenta[50].$value,
+          100: e.Color.Primitive.Magenta[100].$value,
+          200: e.Color.Primitive.Magenta[200].$value,
+          300: e.Color.Primitive.Magenta[300].$value,
+          400: e.Color.Primitive.Magenta[400].$value,
+          500: e.Color.Primitive.Magenta[500].$value,
+          600: e.Color.Primitive.Magenta[600].$value,
+          700: e.Color.Primitive.Magenta[700].$value,
+          800: e.Color.Primitive.Magenta[800].$value,
+          900: e.Color.Primitive.Magenta[900].$value,
+          1e3: e.Color.Primitive.Magenta[1e3].$value,
+          1100: e.Color.Primitive.Magenta[1100].$value,
+          1200: e.Color.Primitive.Magenta[1200].$value
         },
         purple: {
-          50: e.Color.Primitive.Purple[50].value,
-          100: e.Color.Primitive.Purple[100].value,
-          200: e.Color.Primitive.Purple[200].value,
-          300: e.Color.Primitive.Purple[300].value,
-          400: e.Color.Primitive.Purple[400].value,
-          500: e.Color.Primitive.Purple[500].value,
-          600: e.Color.Primitive.Purple[600].value,
-          700: e.Color.Primitive.Purple[700].value,
-          800: e.Color.Primitive.Purple[800].value,
-          900: e.Color.Primitive.Purple[900].value,
-          1e3: e.Color.Primitive.Purple[1e3].value,
-          1100: e.Color.Primitive.Purple[1100].value,
-          1200: e.Color.Primitive.Purple[1200].value
+          50: e.Color.Primitive.Purple[50].$value,
+          100: e.Color.Primitive.Purple[100].$value,
+          200: e.Color.Primitive.Purple[200].$value,
+          300: e.Color.Primitive.Purple[300].$value,
+          400: e.Color.Primitive.Purple[400].$value,
+          500: e.Color.Primitive.Purple[500].$value,
+          600: e.Color.Primitive.Purple[600].$value,
+          700: e.Color.Primitive.Purple[700].$value,
+          800: e.Color.Primitive.Purple[800].$value,
+          900: e.Color.Primitive.Purple[900].$value,
+          1e3: e.Color.Primitive.Purple[1e3].$value,
+          1100: e.Color.Primitive.Purple[1100].$value,
+          1200: e.Color.Primitive.Purple[1200].$value
         },
         "solid-gray": {
-          50: e.Color.Neutral.SolidGray[50].value,
-          100: e.Color.Neutral.SolidGray[100].value,
-          200: e.Color.Neutral.SolidGray[200].value,
-          300: e.Color.Neutral.SolidGray[300].value,
-          400: e.Color.Neutral.SolidGray[400].value,
-          420: e.Color.Neutral.SolidGray[420].value,
-          500: e.Color.Neutral.SolidGray[500].value,
-          536: e.Color.Neutral.SolidGray[536].value,
-          600: e.Color.Neutral.SolidGray[600].value,
-          700: e.Color.Neutral.SolidGray[700].value,
-          800: e.Color.Neutral.SolidGray[800].value,
-          900: e.Color.Neutral.SolidGray[900].value
+          50: e.Color.Neutral.SolidGray[50].$value,
+          100: e.Color.Neutral.SolidGray[100].$value,
+          200: e.Color.Neutral.SolidGray[200].$value,
+          300: e.Color.Neutral.SolidGray[300].$value,
+          400: e.Color.Neutral.SolidGray[400].$value,
+          420: e.Color.Neutral.SolidGray[420].$value,
+          500: e.Color.Neutral.SolidGray[500].$value,
+          536: e.Color.Neutral.SolidGray[536].$value,
+          600: e.Color.Neutral.SolidGray[600].$value,
+          700: e.Color.Neutral.SolidGray[700].$value,
+          800: e.Color.Neutral.SolidGray[800].$value,
+          900: e.Color.Neutral.SolidGray[900].$value
         },
         "opacity-gray": {
-          50: e.Color.Neutral.OpacityGray[50].value,
-          100: e.Color.Neutral.OpacityGray[100].value,
-          200: e.Color.Neutral.OpacityGray[200].value,
-          300: e.Color.Neutral.OpacityGray[300].value,
-          400: e.Color.Neutral.OpacityGray[400].value,
-          420: e.Color.Neutral.OpacityGray[420].value,
-          500: e.Color.Neutral.OpacityGray[500].value,
-          536: e.Color.Neutral.OpacityGray[536].value,
-          600: e.Color.Neutral.OpacityGray[600].value,
-          700: e.Color.Neutral.OpacityGray[700].value,
-          800: e.Color.Neutral.OpacityGray[800].value,
-          900: e.Color.Neutral.OpacityGray[900].value
+          50: e.Color.Neutral.OpacityGray[50].$value,
+          100: e.Color.Neutral.OpacityGray[100].$value,
+          200: e.Color.Neutral.OpacityGray[200].$value,
+          300: e.Color.Neutral.OpacityGray[300].$value,
+          400: e.Color.Neutral.OpacityGray[400].$value,
+          420: e.Color.Neutral.OpacityGray[420].$value,
+          500: e.Color.Neutral.OpacityGray[500].$value,
+          536: e.Color.Neutral.OpacityGray[536].$value,
+          600: e.Color.Neutral.OpacityGray[600].$value,
+          700: e.Color.Neutral.OpacityGray[700].$value,
+          800: e.Color.Neutral.OpacityGray[800].$value,
+          900: e.Color.Neutral.OpacityGray[900].$value
         },
-        "success-1": e.Color.Success[1].value,
-        "success-2": e.Color.Success[2].value,
-        "error-1": e.Color.Error[1].value,
-        "error-2": e.Color.Error[2].value,
-        "warning-yellow-1": e.Color.Warning.Yellow[1].value,
-        "warning-yellow-2": e.Color.Warning.Yellow[2].value,
-        "warning-orange-1": e.Color.Warning.Orange[1].value,
-        "warning-orange-2": e.Color.Warning.Orange[2].value,
-        "focus-yellow": e.Color.Primitive.Yellow[700].value,
-        "focus-blue": e.Color.Primitive.LightBlue[700].value
+        "success-1": e.Color.Semantic.Success[1].$value,
+        "success-2": e.Color.Semantic.Success[2].$value,
+        "error-1": e.Color.Semantic.Error[1].$value,
+        "error-2": e.Color.Semantic.Error[2].$value,
+        "warning-yellow-1": e.Color.Semantic.Warning.Yellow[1].$value,
+        "warning-yellow-2": e.Color.Semantic.Warning.Yellow[2].$value,
+        "warning-orange-1": e.Color.Semantic.Warning.Orange[1].$value,
+        "warning-orange-2": e.Color.Semantic.Warning.Orange[2].$value,
+        "focus-yellow": e.Color.Primitive.Yellow[700].$value,
+        "focus-blue": e.Color.Primitive.LightBlue[700].$value
       },
       fontSize: {
         "dsp-64N-140": [
-          e.FontSize[64].value,
+          e.FontSize[64].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[140].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[140].$value
           }
         ],
         "dsp-57N-140": [
-          e.FontSize[57].value,
+          e.FontSize[57].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[140].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[140].$value
           }
         ],
         "dsp-48N-140": [
-          e.FontSize[48].value,
+          e.FontSize[48].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[140].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[140].$value
           }
         ],
         "std-45B-140": [
-          e.FontSize[45].value,
+          e.FontSize[45].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[140].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[140].$value
           }
         ],
         "std-36B-140": [
-          e.FontSize[36].value,
+          e.FontSize[36].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[140].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[140].$value,
             letterSpacing: "0.01em"
           }
         ],
         "std-32B-150": [
-          e.FontSize[32].value,
+          e.FontSize[32].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.01em"
           }
         ],
         "std-28B-150": [
-          e.FontSize[28].value,
+          e.FontSize[28].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.01em"
           }
         ],
         "std-26B-150": [
-          e.FontSize[26].value,
+          e.FontSize[26].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-24B-150": [
-          e.FontSize[24].value,
+          e.FontSize[24].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-22B-150": [
-          e.FontSize[22].value,
+          e.FontSize[22].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-20B-160": [
-          e.FontSize[20].value,
+          e.FontSize[20].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[160].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[160].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-20B-150": [
-          e.FontSize[20].value,
+          e.FontSize[20].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-18B-160": [
-          e.FontSize[18].value,
+          e.FontSize[18].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[160].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[160].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-17B-170": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[170].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[170].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-16B-170": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[170].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[170].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-16B-175": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[175].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[175].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-45N-140": [
-          e.FontSize[45].value,
+          e.FontSize[45].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[140].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[140].$value
           }
         ],
         "std-36N-140": [
-          e.FontSize[36].value,
+          e.FontSize[36].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[140].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[140].$value,
             letterSpacing: "0.01em"
           }
         ],
         "std-32N-150": [
-          e.FontSize[32].value,
+          e.FontSize[32].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.01em"
           }
         ],
         "std-28N-150": [
-          e.FontSize[28].value,
+          e.FontSize[28].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.01em"
           }
         ],
         "std-26N-150": [
-          e.FontSize[26].value,
+          e.FontSize[26].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-24N-150": [
-          e.FontSize[24].value,
+          e.FontSize[24].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-22N-150": [
-          e.FontSize[22].value,
+          e.FontSize[22].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-20N-150": [
-          e.FontSize[20].value,
+          e.FontSize[20].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-18N-160": [
-          e.FontSize[18].value,
+          e.FontSize[18].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[160].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[160].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-17N-170": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[170].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[170].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-16N-170": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[170].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[170].$value,
             letterSpacing: "0.02em"
           }
         ],
         "std-16N-175": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[175].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[175].$value,
             letterSpacing: "0.02em"
           }
         ],
         "dns-17B-130": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[130].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[130].$value
           }
         ],
         "dns-17B-120": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[120].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[120].$value
           }
         ],
         "dns-16B-130": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[130].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[130].$value
           }
         ],
         "dns-16B-120": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[120].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[120].$value
           }
         ],
         "dns-14B-130": [
-          e.FontSize[14].value,
+          e.FontSize[14].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[130].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[130].$value
           }
         ],
         "dns-14B-120": [
-          e.FontSize[14].value,
+          e.FontSize[14].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[120].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[120].$value
           }
         ],
         "dns-17N-130": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[130].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[130].$value
           }
         ],
         "dns-17N-120": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[120].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[120].$value
           }
         ],
         "dns-16N-130": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[130].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[130].$value
           }
         ],
         "dns-16N-120": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[120].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[120].$value
           }
         ],
         "dns-14N-130": [
-          e.FontSize[14].value,
+          e.FontSize[14].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[130].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[130].$value
           }
         ],
         "dns-14N-120": [
-          e.FontSize[14].value,
+          e.FontSize[14].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[120].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[120].$value
           }
         ],
         "oln-17B-100": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[100].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[100].$value,
             letterSpacing: "0.02em"
           }
         ],
         "oln-16B-100": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[100].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[100].$value,
             letterSpacing: "0.02em"
           }
         ],
         "oln-14B-100": [
-          e.FontSize[14].value,
+          e.FontSize[14].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[100].value,
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[100].$value,
             letterSpacing: "0.02em"
           }
         ],
         "oln-17N-100": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[100].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[100].$value,
             letterSpacing: "0.02em"
           }
         ],
         "oln-16N-100": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[100].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[100].$value,
             letterSpacing: "0.02em"
           }
         ],
         "oln-14N-100": [
-          e.FontSize[14].value,
+          e.FontSize[14].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[100].value,
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[100].$value,
             letterSpacing: "0.02em"
           }
         ],
         "mono-17B-150": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value
           }
         ],
         "mono-16B-150": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value
           }
         ],
         "mono-14B-150": [
-          e.FontSize[14].value,
+          e.FontSize[14].$value,
           {
-            fontWeight: e.FontWeight[700].value,
-            lineHeight: e.LineHeight[150].value
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[150].$value
           }
         ],
         "mono-17N-150": [
-          e.FontSize[17].value,
+          e.FontSize[17].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value
           }
         ],
         "mono-16N-150": [
-          e.FontSize[16].value,
+          e.FontSize[16].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value
           }
         ],
         "mono-14N-150": [
-          e.FontSize[14].value,
+          e.FontSize[14].$value,
           {
-            fontWeight: e.FontWeight[400].value,
-            lineHeight: e.LineHeight[150].value
+            fontWeight: e.FontWeight[400].$value,
+            lineHeight: e.LineHeight[150].$value
           }
         ]
       },
       fontFamily: {
-        sans: e.FontFamily.Sans.value,
-        mono: e.FontFamily.Mono.value
+        sans: e.FontFamily.Sans.$value,
+        mono: e.FontFamily.Mono.$value
       },
       fontWeight: {
-        400: e.FontWeight[400].value,
-        700: e.FontWeight[700].value
+        400: e.FontWeight[400].$value,
+        700: e.FontWeight[700].$value
       },
       lineHeight: {
-        100: e.LineHeight[100].value,
-        120: e.LineHeight[120].value,
-        130: e.LineHeight[130].value,
-        140: e.LineHeight[140].value,
-        150: e.LineHeight[150].value,
-        160: e.LineHeight[160].value,
-        170: e.LineHeight[170].value,
-        175: e.LineHeight[175].value,
-        // Remove the old keys later
-        "1-0": e.LineHeight[100].value,
-        "1-2": e.LineHeight[120].value,
-        "1-3": e.LineHeight[130].value,
-        "1-4": e.LineHeight[140].value,
-        "1-5": e.LineHeight[150].value,
-        "1-6": e.LineHeight[160].value,
-        "1-7": e.LineHeight[170].value,
-        "1-75": e.LineHeight[175].value
+        100: e.LineHeight[100].$value,
+        120: e.LineHeight[120].$value,
+        130: e.LineHeight[130].$value,
+        140: e.LineHeight[140].$value,
+        150: e.LineHeight[150].$value,
+        160: e.LineHeight[160].$value,
+        170: e.LineHeight[170].$value,
+        175: e.LineHeight[175].$value,
+        // NOTE: Remove the old keys later
+        "1-0": e.LineHeight[100].$value,
+        "1-2": e.LineHeight[120].$value,
+        "1-3": e.LineHeight[130].$value,
+        "1-4": e.LineHeight[140].$value,
+        "1-5": e.LineHeight[150].$value,
+        "1-6": e.LineHeight[160].$value,
+        "1-7": e.LineHeight[170].$value,
+        "1-75": e.LineHeight[175].$value
       },
       borderRadius: {
-        4: e.BorderRadius[4].value,
-        8: e.BorderRadius[8].value,
-        16: e.BorderRadius[16].value,
-        24: e.BorderRadius[24].value,
-        32: e.BorderRadius[32].value,
-        full: e.BorderRadius.Full.value
+        4: e.BorderRadius[4].$value,
+        8: e.BorderRadius[8].$value,
+        16: e.BorderRadius[16].$value,
+        24: e.BorderRadius[24].$value,
+        32: e.BorderRadius[32].$value,
+        full: e.BorderRadius.Full.$value
       },
       screens: {
         desktop: "48em",
@@ -5829,18 +5847,18 @@ const c = /* @__PURE__ */ s(p), g = c(() => {
         "16/9": "16 / 9"
       },
       boxShadow: {
-        1: e.Elevation[1].value,
-        2: e.Elevation[2].value,
-        3: e.Elevation[3].value,
-        4: e.Elevation[4].value,
-        5: e.Elevation[5].value,
-        6: e.Elevation[6].value,
-        7: e.Elevation[7].value,
-        8: e.Elevation[8].value
+        1: e.Elevation[1].$value,
+        2: e.Elevation[2].$value,
+        3: e.Elevation[3].$value,
+        4: e.Elevation[4].$value,
+        5: e.Elevation[5].$value,
+        6: e.Elevation[6].$value,
+        7: e.Elevation[7].$value,
+        8: e.Elevation[8].$value
       }
     }
   }
 });
 export {
-  g as default
+  y as default
 };

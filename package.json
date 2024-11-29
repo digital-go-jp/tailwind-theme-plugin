@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/tailwind-theme-plugin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -32,17 +32,17 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@digital-go-jp/design-tokens": "^0.1.7",
+    "@digital-go-jp/design-tokens": "^1.0.0",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^22.7.9",
+    "@types/node": "^22.9.1",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3",
-    "vite": "^5.4.10"
+    "vite": "^5.4.11"
   },
   "peerDependencies": {
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.15"
   },
   "engines": {
     "node": ">=18"

@@ -620,7 +620,9 @@ const daPlugin = plugin(() => {}, {
       },
       borderRadius: {
         '4': tokens.BorderRadius[4].$value,
+        '6': tokens.BorderRadius[6].$value,
         '8': tokens.BorderRadius[8].$value,
+        '12': tokens.BorderRadius[12].$value,
         '16': tokens.BorderRadius[16].$value,
         '24': tokens.BorderRadius[24].$value,
         '32': tokens.BorderRadius[32].$value,

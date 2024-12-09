@@ -4641,6 +4641,35 @@ var g = {
         "4"
       ]
     },
+    6: {
+      $type: "dimension",
+      $value: "0.375rem",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        $type: "dimension",
+        $value: "6px",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius6",
+      attributes: {
+        category: "BorderRadius",
+        type: "6"
+      },
+      path: [
+        "BorderRadius",
+        "6"
+      ]
+    },
     8: {
       $type: "dimension",
       $value: "0.5rem",
@@ -4668,6 +4697,35 @@ var g = {
       path: [
         "BorderRadius",
         "8"
+      ]
+    },
+    12: {
+      $type: "dimension",
+      $value: "0.75rem",
+      filePath: "figma/tokens.json",
+      isSource: !0,
+      $extensions: {
+        "studio.tokens": {
+          originalType: "borderRadius"
+        }
+      },
+      original: {
+        $type: "dimension",
+        $value: "12px",
+        $extensions: {
+          "studio.tokens": {
+            originalType: "borderRadius"
+          }
+        }
+      },
+      name: "BorderRadius12",
+      attributes: {
+        category: "BorderRadius",
+        type: "12"
+      },
+      path: [
+        "BorderRadius",
+        "12"
       ]
     },
     16: {
@@ -5826,7 +5884,9 @@ const p = /* @__PURE__ */ s($), y = p(() => {
       },
       borderRadius: {
         4: e.BorderRadius[4].$value,
+        6: e.BorderRadius[6].$value,
         8: e.BorderRadius[8].$value,
+        12: e.BorderRadius[12].$value,
         16: e.BorderRadius[16].$value,
         24: e.BorderRadius[24].$value,
         32: e.BorderRadius[32].$value,

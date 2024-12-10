@@ -14,8 +14,16 @@ export const RadiusSection = () => {
           <span className='text-dns-14N-130'>4px</span>
         </div>
         <div className='flex flex-col gap-2'>
+          <div className={'h-32 w-32 bg-solid-gray-400 rounded-6'} />
+          <span className='text-dns-14N-130'>6px</span>
+        </div>
+        <div className='flex flex-col gap-2'>
           <div className={'h-32 w-32 bg-solid-gray-400 rounded-8'} />
           <span className='text-dns-14N-130'>8px</span>
+        </div>
+        <div className='flex flex-col gap-2'>
+          <div className={'h-32 w-32 bg-solid-gray-400 rounded-12'} />
+          <span className='text-dns-14N-130'>12px</span>
         </div>
         <div className='flex flex-col gap-2'>
           <div className={'h-32 w-32 bg-solid-gray-400 rounded-16'} />

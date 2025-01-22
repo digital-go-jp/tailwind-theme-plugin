@@ -23,12 +23,7 @@ function f() {
               item: "Blue",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Blue", "50"]
           },
           100: {
             $type: "color",
@@ -46,12 +41,7 @@ function f() {
               item: "Blue",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Blue", "100"]
           },
           200: {
             $type: "color",
@@ -69,12 +59,7 @@ function f() {
               item: "Blue",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Blue", "200"]
           },
           300: {
             $type: "color",
@@ -92,12 +77,7 @@ function f() {
               item: "Blue",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Blue", "300"]
           },
           400: {
             $type: "color",
@@ -115,12 +95,7 @@ function f() {
               item: "Blue",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Blue", "400"]
           },
           500: {
             $type: "color",
@@ -138,12 +113,7 @@ function f() {
               item: "Blue",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Blue", "500"]
           },
           600: {
             $type: "color",
@@ -161,12 +131,7 @@ function f() {
               item: "Blue",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Blue", "600"]
           },
           700: {
             $type: "color",
@@ -184,12 +149,7 @@ function f() {
               item: "Blue",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Blue", "700"]
           },
           800: {
             $type: "color",
@@ -207,12 +167,7 @@ function f() {
               item: "Blue",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Blue", "800"]
           },
           900: {
             $type: "color",
@@ -230,12 +185,7 @@ function f() {
               item: "Blue",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Blue", "900"]
           },
           1e3: {
             $type: "color",
@@ -253,12 +203,7 @@ function f() {
               item: "Blue",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Blue", "1000"]
           },
           1100: {
             $type: "color",
@@ -276,12 +221,7 @@ function f() {
               item: "Blue",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Blue", "1100"]
           },
           1200: {
             $type: "color",
@@ -299,12 +239,7 @@ function f() {
               item: "Blue",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Blue",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Blue", "1200"]
           }
         },
         LightBlue: {
@@ -324,12 +259,7 @@ function f() {
               item: "LightBlue",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "50"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "50"]
           },
           100: {
             $type: "color",
@@ -347,12 +277,7 @@ function f() {
               item: "LightBlue",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "100"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "100"]
           },
           200: {
             $type: "color",
@@ -370,12 +295,7 @@ function f() {
               item: "LightBlue",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "200"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "200"]
           },
           300: {
             $type: "color",
@@ -393,12 +313,7 @@ function f() {
               item: "LightBlue",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "300"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "300"]
           },
           400: {
             $type: "color",
@@ -416,12 +331,7 @@ function f() {
               item: "LightBlue",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "400"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "400"]
           },
           500: {
             $type: "color",
@@ -439,12 +349,7 @@ function f() {
               item: "LightBlue",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "500"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "500"]
           },
           600: {
             $type: "color",
@@ -462,12 +367,7 @@ function f() {
               item: "LightBlue",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "600"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "600"]
           },
           700: {
             $type: "color",
@@ -485,12 +385,7 @@ function f() {
               item: "LightBlue",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "700"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "700"]
           },
           800: {
             $type: "color",
@@ -508,12 +403,7 @@ function f() {
               item: "LightBlue",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "800"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "800"]
           },
           900: {
             $type: "color",
@@ -531,12 +421,7 @@ function f() {
               item: "LightBlue",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "900"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "900"]
           },
           1e3: {
             $type: "color",
@@ -554,12 +439,7 @@ function f() {
               item: "LightBlue",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "1000"]
           },
           1100: {
             $type: "color",
@@ -577,12 +457,7 @@ function f() {
               item: "LightBlue",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "1100"]
           },
           1200: {
             $type: "color",
@@ -600,12 +475,7 @@ function f() {
               item: "LightBlue",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "LightBlue",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "LightBlue", "1200"]
           }
         },
         Cyan: {
@@ -625,12 +495,7 @@ function f() {
               item: "Cyan",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Cyan", "50"]
           },
           100: {
             $type: "color",
@@ -648,12 +513,7 @@ function f() {
               item: "Cyan",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Cyan", "100"]
           },
           200: {
             $type: "color",
@@ -671,12 +531,7 @@ function f() {
               item: "Cyan",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Cyan", "200"]
           },
           300: {
             $type: "color",
@@ -694,12 +549,7 @@ function f() {
               item: "Cyan",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Cyan", "300"]
           },
           400: {
             $type: "color",
@@ -717,12 +567,7 @@ function f() {
               item: "Cyan",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Cyan", "400"]
           },
           500: {
             $type: "color",
@@ -740,12 +585,7 @@ function f() {
               item: "Cyan",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Cyan", "500"]
           },
           600: {
             $type: "color",
@@ -763,12 +603,7 @@ function f() {
               item: "Cyan",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Cyan", "600"]
           },
           700: {
             $type: "color",
@@ -786,12 +621,7 @@ function f() {
               item: "Cyan",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Cyan", "700"]
           },
           800: {
             $type: "color",
@@ -809,12 +639,7 @@ function f() {
               item: "Cyan",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Cyan", "800"]
           },
           900: {
             $type: "color",
@@ -832,12 +657,7 @@ function f() {
               item: "Cyan",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Cyan", "900"]
           },
           1e3: {
             $type: "color",
@@ -855,12 +675,7 @@ function f() {
               item: "Cyan",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Cyan", "1000"]
           },
           1100: {
             $type: "color",
@@ -878,12 +693,7 @@ function f() {
               item: "Cyan",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Cyan", "1100"]
           },
           1200: {
             $type: "color",
@@ -901,12 +711,7 @@ function f() {
               item: "Cyan",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Cyan",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Cyan", "1200"]
           }
         },
         Green: {
@@ -926,12 +731,7 @@ function f() {
               item: "Green",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Green", "50"]
           },
           100: {
             $type: "color",
@@ -949,12 +749,7 @@ function f() {
               item: "Green",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Green", "100"]
           },
           200: {
             $type: "color",
@@ -972,12 +767,7 @@ function f() {
               item: "Green",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Green", "200"]
           },
           300: {
             $type: "color",
@@ -995,12 +785,7 @@ function f() {
               item: "Green",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Green", "300"]
           },
           400: {
             $type: "color",
@@ -1018,12 +803,7 @@ function f() {
               item: "Green",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Green", "400"]
           },
           500: {
             $type: "color",
@@ -1041,12 +821,7 @@ function f() {
               item: "Green",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Green", "500"]
           },
           600: {
             $type: "color",
@@ -1064,12 +839,7 @@ function f() {
               item: "Green",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Green", "600"]
           },
           700: {
             $type: "color",
@@ -1087,12 +857,7 @@ function f() {
               item: "Green",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Green", "700"]
           },
           800: {
             $type: "color",
@@ -1110,12 +875,7 @@ function f() {
               item: "Green",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Green", "800"]
           },
           900: {
             $type: "color",
@@ -1133,12 +893,7 @@ function f() {
               item: "Green",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Green", "900"]
           },
           1e3: {
             $type: "color",
@@ -1156,12 +911,7 @@ function f() {
               item: "Green",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Green", "1000"]
           },
           1100: {
             $type: "color",
@@ -1179,12 +929,7 @@ function f() {
               item: "Green",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Green", "1100"]
           },
           1200: {
             $type: "color",
@@ -1202,12 +947,7 @@ function f() {
               item: "Green",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Green",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Green", "1200"]
           }
         },
         Lime: {
@@ -1227,12 +967,7 @@ function f() {
               item: "Lime",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Lime", "50"]
           },
           100: {
             $type: "color",
@@ -1250,12 +985,7 @@ function f() {
               item: "Lime",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Lime", "100"]
           },
           200: {
             $type: "color",
@@ -1273,12 +1003,7 @@ function f() {
               item: "Lime",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Lime", "200"]
           },
           300: {
             $type: "color",
@@ -1296,12 +1021,7 @@ function f() {
               item: "Lime",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Lime", "300"]
           },
           400: {
             $type: "color",
@@ -1319,12 +1039,7 @@ function f() {
               item: "Lime",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Lime", "400"]
           },
           500: {
             $type: "color",
@@ -1342,12 +1057,7 @@ function f() {
               item: "Lime",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Lime", "500"]
           },
           600: {
             $type: "color",
@@ -1365,12 +1075,7 @@ function f() {
               item: "Lime",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Lime", "600"]
           },
           700: {
             $type: "color",
@@ -1388,12 +1093,7 @@ function f() {
               item: "Lime",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Lime", "700"]
           },
           800: {
             $type: "color",
@@ -1411,12 +1111,7 @@ function f() {
               item: "Lime",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Lime", "800"]
           },
           900: {
             $type: "color",
@@ -1434,12 +1129,7 @@ function f() {
               item: "Lime",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Lime", "900"]
           },
           1e3: {
             $type: "color",
@@ -1457,12 +1147,7 @@ function f() {
               item: "Lime",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Lime", "1000"]
           },
           1100: {
             $type: "color",
@@ -1480,12 +1165,7 @@ function f() {
               item: "Lime",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Lime", "1100"]
           },
           1200: {
             $type: "color",
@@ -1503,12 +1183,7 @@ function f() {
               item: "Lime",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Lime",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Lime", "1200"]
           }
         },
         Yellow: {
@@ -1528,12 +1203,7 @@ function f() {
               item: "Yellow",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Yellow", "50"]
           },
           100: {
             $type: "color",
@@ -1551,12 +1221,7 @@ function f() {
               item: "Yellow",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Yellow", "100"]
           },
           200: {
             $type: "color",
@@ -1574,12 +1239,7 @@ function f() {
               item: "Yellow",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Yellow", "200"]
           },
           300: {
             $type: "color",
@@ -1597,12 +1257,7 @@ function f() {
               item: "Yellow",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Yellow", "300"]
           },
           400: {
             $type: "color",
@@ -1620,12 +1275,7 @@ function f() {
               item: "Yellow",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Yellow", "400"]
           },
           500: {
             $type: "color",
@@ -1643,12 +1293,7 @@ function f() {
               item: "Yellow",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Yellow", "500"]
           },
           600: {
             $type: "color",
@@ -1666,12 +1311,7 @@ function f() {
               item: "Yellow",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Yellow", "600"]
           },
           700: {
             $type: "color",
@@ -1689,12 +1329,7 @@ function f() {
               item: "Yellow",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Yellow", "700"]
           },
           800: {
             $type: "color",
@@ -1712,12 +1347,7 @@ function f() {
               item: "Yellow",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Yellow", "800"]
           },
           900: {
             $type: "color",
@@ -1735,12 +1365,7 @@ function f() {
               item: "Yellow",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Yellow", "900"]
           },
           1e3: {
             $type: "color",
@@ -1758,12 +1383,7 @@ function f() {
               item: "Yellow",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Yellow", "1000"]
           },
           1100: {
             $type: "color",
@@ -1781,12 +1401,7 @@ function f() {
               item: "Yellow",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Yellow", "1100"]
           },
           1200: {
             $type: "color",
@@ -1804,12 +1419,7 @@ function f() {
               item: "Yellow",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Yellow",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Yellow", "1200"]
           }
         },
         Orange: {
@@ -1829,12 +1439,7 @@ function f() {
               item: "Orange",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Orange", "50"]
           },
           100: {
             $type: "color",
@@ -1852,12 +1457,7 @@ function f() {
               item: "Orange",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Orange", "100"]
           },
           200: {
             $type: "color",
@@ -1875,12 +1475,7 @@ function f() {
               item: "Orange",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Orange", "200"]
           },
           300: {
             $type: "color",
@@ -1898,12 +1493,7 @@ function f() {
               item: "Orange",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Orange", "300"]
           },
           400: {
             $type: "color",
@@ -1921,12 +1511,7 @@ function f() {
               item: "Orange",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Orange", "400"]
           },
           500: {
             $type: "color",
@@ -1944,12 +1529,7 @@ function f() {
               item: "Orange",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Orange", "500"]
           },
           600: {
             $type: "color",
@@ -1967,12 +1547,7 @@ function f() {
               item: "Orange",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Orange", "600"]
           },
           700: {
             $type: "color",
@@ -1990,12 +1565,7 @@ function f() {
               item: "Orange",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Orange", "700"]
           },
           800: {
             $type: "color",
@@ -2013,12 +1583,7 @@ function f() {
               item: "Orange",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Orange", "800"]
           },
           900: {
             $type: "color",
@@ -2036,12 +1601,7 @@ function f() {
               item: "Orange",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Orange", "900"]
           },
           1e3: {
             $type: "color",
@@ -2059,12 +1619,7 @@ function f() {
               item: "Orange",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Orange", "1000"]
           },
           1100: {
             $type: "color",
@@ -2082,12 +1637,7 @@ function f() {
               item: "Orange",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Orange", "1100"]
           },
           1200: {
             $type: "color",
@@ -2105,12 +1655,7 @@ function f() {
               item: "Orange",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Orange",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Orange", "1200"]
           }
         },
         Red: {
@@ -2130,12 +1675,7 @@ function f() {
               item: "Red",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Red", "50"]
           },
           100: {
             $type: "color",
@@ -2153,12 +1693,7 @@ function f() {
               item: "Red",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Red", "100"]
           },
           200: {
             $type: "color",
@@ -2176,12 +1711,7 @@ function f() {
               item: "Red",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Red", "200"]
           },
           300: {
             $type: "color",
@@ -2199,12 +1729,7 @@ function f() {
               item: "Red",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Red", "300"]
           },
           400: {
             $type: "color",
@@ -2222,12 +1747,7 @@ function f() {
               item: "Red",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Red", "400"]
           },
           500: {
             $type: "color",
@@ -2245,12 +1765,7 @@ function f() {
               item: "Red",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Red", "500"]
           },
           600: {
             $type: "color",
@@ -2268,12 +1783,7 @@ function f() {
               item: "Red",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Red", "600"]
           },
           700: {
             $type: "color",
@@ -2291,12 +1801,7 @@ function f() {
               item: "Red",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Red", "700"]
           },
           800: {
             $type: "color",
@@ -2314,12 +1819,7 @@ function f() {
               item: "Red",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Red", "800"]
           },
           900: {
             $type: "color",
@@ -2337,12 +1837,7 @@ function f() {
               item: "Red",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Red", "900"]
           },
           1e3: {
             $type: "color",
@@ -2360,12 +1855,7 @@ function f() {
               item: "Red",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Red", "1000"]
           },
           1100: {
             $type: "color",
@@ -2383,12 +1873,7 @@ function f() {
               item: "Red",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Red", "1100"]
           },
           1200: {
             $type: "color",
@@ -2406,12 +1891,7 @@ function f() {
               item: "Red",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Red",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Red", "1200"]
           }
         },
         Magenta: {
@@ -2431,12 +1911,7 @@ function f() {
               item: "Magenta",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Magenta", "50"]
           },
           100: {
             $type: "color",
@@ -2454,12 +1929,7 @@ function f() {
               item: "Magenta",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Magenta", "100"]
           },
           200: {
             $type: "color",
@@ -2477,12 +1947,7 @@ function f() {
               item: "Magenta",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Magenta", "200"]
           },
           300: {
             $type: "color",
@@ -2500,12 +1965,7 @@ function f() {
               item: "Magenta",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Magenta", "300"]
           },
           400: {
             $type: "color",
@@ -2523,12 +1983,7 @@ function f() {
               item: "Magenta",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Magenta", "400"]
           },
           500: {
             $type: "color",
@@ -2546,12 +2001,7 @@ function f() {
               item: "Magenta",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Magenta", "500"]
           },
           600: {
             $type: "color",
@@ -2569,12 +2019,7 @@ function f() {
               item: "Magenta",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Magenta", "600"]
           },
           700: {
             $type: "color",
@@ -2592,12 +2037,7 @@ function f() {
               item: "Magenta",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Magenta", "700"]
           },
           800: {
             $type: "color",
@@ -2615,12 +2055,7 @@ function f() {
               item: "Magenta",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Magenta", "800"]
           },
           900: {
             $type: "color",
@@ -2638,12 +2073,7 @@ function f() {
               item: "Magenta",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Magenta", "900"]
           },
           1e3: {
             $type: "color",
@@ -2661,12 +2091,7 @@ function f() {
               item: "Magenta",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Magenta", "1000"]
           },
           1100: {
             $type: "color",
@@ -2684,12 +2109,7 @@ function f() {
               item: "Magenta",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Magenta", "1100"]
           },
           1200: {
             $type: "color",
@@ -2707,12 +2127,7 @@ function f() {
               item: "Magenta",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Magenta",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Magenta", "1200"]
           }
         },
         Purple: {
@@ -2732,12 +2147,7 @@ function f() {
               item: "Purple",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "50"
-            ]
+            path: ["Color", "Primitive", "Purple", "50"]
           },
           100: {
             $type: "color",
@@ -2755,12 +2165,7 @@ function f() {
               item: "Purple",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "100"
-            ]
+            path: ["Color", "Primitive", "Purple", "100"]
           },
           200: {
             $type: "color",
@@ -2778,12 +2183,7 @@ function f() {
               item: "Purple",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "200"
-            ]
+            path: ["Color", "Primitive", "Purple", "200"]
           },
           300: {
             $type: "color",
@@ -2801,12 +2201,7 @@ function f() {
               item: "Purple",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "300"
-            ]
+            path: ["Color", "Primitive", "Purple", "300"]
           },
           400: {
             $type: "color",
@@ -2824,12 +2219,7 @@ function f() {
               item: "Purple",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "400"
-            ]
+            path: ["Color", "Primitive", "Purple", "400"]
           },
           500: {
             $type: "color",
@@ -2847,12 +2237,7 @@ function f() {
               item: "Purple",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "500"
-            ]
+            path: ["Color", "Primitive", "Purple", "500"]
           },
           600: {
             $type: "color",
@@ -2870,12 +2255,7 @@ function f() {
               item: "Purple",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "600"
-            ]
+            path: ["Color", "Primitive", "Purple", "600"]
           },
           700: {
             $type: "color",
@@ -2893,12 +2273,7 @@ function f() {
               item: "Purple",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "700"
-            ]
+            path: ["Color", "Primitive", "Purple", "700"]
           },
           800: {
             $type: "color",
@@ -2916,12 +2291,7 @@ function f() {
               item: "Purple",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "800"
-            ]
+            path: ["Color", "Primitive", "Purple", "800"]
           },
           900: {
             $type: "color",
@@ -2939,12 +2309,7 @@ function f() {
               item: "Purple",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "900"
-            ]
+            path: ["Color", "Primitive", "Purple", "900"]
           },
           1e3: {
             $type: "color",
@@ -2962,12 +2327,7 @@ function f() {
               item: "Purple",
               subitem: "1000"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "1000"
-            ]
+            path: ["Color", "Primitive", "Purple", "1000"]
           },
           1100: {
             $type: "color",
@@ -2985,12 +2345,7 @@ function f() {
               item: "Purple",
               subitem: "1100"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "1100"
-            ]
+            path: ["Color", "Primitive", "Purple", "1100"]
           },
           1200: {
             $type: "color",
@@ -3008,12 +2363,7 @@ function f() {
               item: "Purple",
               subitem: "1200"
             },
-            path: [
-              "Color",
-              "Primitive",
-              "Purple",
-              "1200"
-            ]
+            path: ["Color", "Primitive", "Purple", "1200"]
           }
         }
       },
@@ -3033,11 +2383,7 @@ function f() {
             type: "Neutral",
             item: "White"
           },
-          path: [
-            "Color",
-            "Neutral",
-            "White"
-          ]
+          path: ["Color", "Neutral", "White"]
         },
         Black: {
           $type: "color",
@@ -3054,11 +2400,7 @@ function f() {
             type: "Neutral",
             item: "Black"
           },
-          path: [
-            "Color",
-            "Neutral",
-            "Black"
-          ]
+          path: ["Color", "Neutral", "Black"]
         },
         SolidGray: {
           50: {
@@ -3077,12 +2419,7 @@ function f() {
               item: "SolidGray",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "50"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "50"]
           },
           100: {
             $type: "color",
@@ -3100,12 +2437,7 @@ function f() {
               item: "SolidGray",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "100"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "100"]
           },
           200: {
             $type: "color",
@@ -3123,12 +2455,7 @@ function f() {
               item: "SolidGray",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "200"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "200"]
           },
           300: {
             $type: "color",
@@ -3146,12 +2473,7 @@ function f() {
               item: "SolidGray",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "300"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "300"]
           },
           400: {
             $type: "color",
@@ -3169,12 +2491,7 @@ function f() {
               item: "SolidGray",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "400"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "400"]
           },
           420: {
             $type: "color",
@@ -3192,12 +2509,7 @@ function f() {
               item: "SolidGray",
               subitem: "420"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "420"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "420"]
           },
           500: {
             $type: "color",
@@ -3215,12 +2527,7 @@ function f() {
               item: "SolidGray",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "500"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "500"]
           },
           536: {
             $type: "color",
@@ -3238,12 +2545,7 @@ function f() {
               item: "SolidGray",
               subitem: "536"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "536"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "536"]
           },
           600: {
             $type: "color",
@@ -3261,12 +2563,7 @@ function f() {
               item: "SolidGray",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "600"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "600"]
           },
           700: {
             $type: "color",
@@ -3284,12 +2581,7 @@ function f() {
               item: "SolidGray",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "700"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "700"]
           },
           800: {
             $type: "color",
@@ -3307,12 +2599,7 @@ function f() {
               item: "SolidGray",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "800"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "800"]
           },
           900: {
             $type: "color",
@@ -3330,12 +2617,7 @@ function f() {
               item: "SolidGray",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "SolidGray",
-              "900"
-            ]
+            path: ["Color", "Neutral", "SolidGray", "900"]
           }
         },
         OpacityGray: {
@@ -3355,12 +2637,7 @@ function f() {
               item: "OpacityGray",
               subitem: "50"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "50"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "50"]
           },
           100: {
             $type: "color",
@@ -3378,12 +2655,7 @@ function f() {
               item: "OpacityGray",
               subitem: "100"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "100"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "100"]
           },
           200: {
             $type: "color",
@@ -3401,12 +2673,7 @@ function f() {
               item: "OpacityGray",
               subitem: "200"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "200"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "200"]
           },
           300: {
             $type: "color",
@@ -3424,12 +2691,7 @@ function f() {
               item: "OpacityGray",
               subitem: "300"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "300"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "300"]
           },
           400: {
             $type: "color",
@@ -3447,12 +2709,7 @@ function f() {
               item: "OpacityGray",
               subitem: "400"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "400"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "400"]
           },
           420: {
             $type: "color",
@@ -3470,12 +2727,7 @@ function f() {
               item: "OpacityGray",
               subitem: "420"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "420"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "420"]
           },
           500: {
             $type: "color",
@@ -3493,12 +2745,7 @@ function f() {
               item: "OpacityGray",
               subitem: "500"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "500"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "500"]
           },
           536: {
             $type: "color",
@@ -3516,12 +2763,7 @@ function f() {
               item: "OpacityGray",
               subitem: "536"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "536"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "536"]
           },
           600: {
             $type: "color",
@@ -3539,12 +2781,7 @@ function f() {
               item: "OpacityGray",
               subitem: "600"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "600"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "600"]
           },
           700: {
             $type: "color",
@@ -3562,12 +2799,7 @@ function f() {
               item: "OpacityGray",
               subitem: "700"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "700"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "700"]
           },
           800: {
             $type: "color",
@@ -3585,12 +2817,7 @@ function f() {
               item: "OpacityGray",
               subitem: "800"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "800"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "800"]
           },
           900: {
             $type: "color",
@@ -3608,12 +2835,7 @@ function f() {
               item: "OpacityGray",
               subitem: "900"
             },
-            path: [
-              "Color",
-              "Neutral",
-              "OpacityGray",
-              "900"
-            ]
+            path: ["Color", "Neutral", "OpacityGray", "900"]
           }
         }
       },
@@ -3635,12 +2857,7 @@ function f() {
               item: "Success",
               subitem: "1"
             },
-            path: [
-              "Color",
-              "Semantic",
-              "Success",
-              "1"
-            ]
+            path: ["Color", "Semantic", "Success", "1"]
           },
           2: {
             $type: "color",
@@ -3658,12 +2875,7 @@ function f() {
               item: "Success",
               subitem: "2"
             },
-            path: [
-              "Color",
-              "Semantic",
-              "Success",
-              "2"
-            ]
+            path: ["Color", "Semantic", "Success", "2"]
           }
         },
         Error: {
@@ -3683,12 +2895,7 @@ function f() {
               item: "Error",
               subitem: "1"
             },
-            path: [
-              "Color",
-              "Semantic",
-              "Error",
-              "1"
-            ]
+            path: ["Color", "Semantic", "Error", "1"]
           },
           2: {
             $type: "color",
@@ -3706,12 +2913,7 @@ function f() {
               item: "Error",
               subitem: "2"
             },
-            path: [
-              "Color",
-              "Semantic",
-              "Error",
-              "2"
-            ]
+            path: ["Color", "Semantic", "Error", "2"]
           }
         },
         Warning: {
@@ -3733,13 +2935,7 @@ function f() {
                 subitem: "Yellow",
                 state: "1"
               },
-              path: [
-                "Color",
-                "Semantic",
-                "Warning",
-                "Yellow",
-                "1"
-              ]
+              path: ["Color", "Semantic", "Warning", "Yellow", "1"]
             },
             2: {
               $type: "color",
@@ -3758,13 +2954,7 @@ function f() {
                 subitem: "Yellow",
                 state: "2"
               },
-              path: [
-                "Color",
-                "Semantic",
-                "Warning",
-                "Yellow",
-                "2"
-              ]
+              path: ["Color", "Semantic", "Warning", "Yellow", "2"]
             }
           },
           Orange: {
@@ -3785,13 +2975,7 @@ function f() {
                 subitem: "Orange",
                 state: "1"
               },
-              path: [
-                "Color",
-                "Semantic",
-                "Warning",
-                "Orange",
-                "1"
-              ]
+              path: ["Color", "Semantic", "Warning", "Orange", "1"]
             },
             2: {
               $type: "color",
@@ -3810,13 +2994,7 @@ function f() {
                 subitem: "Orange",
                 state: "2"
               },
-              path: [
-                "Color",
-                "Semantic",
-                "Warning",
-                "Orange",
-                "2"
-              ]
+              path: ["Color", "Semantic", "Warning", "Orange", "2"]
             }
           }
         }
@@ -3847,10 +3025,7 @@ function f() {
           category: "FontWeight",
           type: "400"
         },
-        path: [
-          "FontWeight",
-          "400"
-        ]
+        path: ["FontWeight", "400"]
       },
       700: {
         $type: "fontWeight",
@@ -3876,10 +3051,7 @@ function f() {
           category: "FontWeight",
           type: "700"
         },
-        path: [
-          "FontWeight",
-          "700"
-        ]
+        path: ["FontWeight", "700"]
       }
     },
     FontFamily: {
@@ -3907,10 +3079,7 @@ function f() {
           category: "FontFamily",
           type: "Sans"
         },
-        path: [
-          "FontFamily",
-          "Sans"
-        ]
+        path: ["FontFamily", "Sans"]
       },
       Mono: {
         $type: "fontFamily",
@@ -3936,10 +3105,7 @@ function f() {
           category: "FontFamily",
           type: "Mono"
         },
-        path: [
-          "FontFamily",
-          "Mono"
-        ]
+        path: ["FontFamily", "Mono"]
       }
     },
     FontSize: {
@@ -3967,10 +3133,7 @@ function f() {
           category: "FontSize",
           type: "14"
         },
-        path: [
-          "FontSize",
-          "14"
-        ]
+        path: ["FontSize", "14"]
       },
       16: {
         $type: "fontSize",
@@ -3996,10 +3159,7 @@ function f() {
           category: "FontSize",
           type: "16"
         },
-        path: [
-          "FontSize",
-          "16"
-        ]
+        path: ["FontSize", "16"]
       },
       17: {
         $type: "fontSize",
@@ -4025,10 +3185,7 @@ function f() {
           category: "FontSize",
           type: "17"
         },
-        path: [
-          "FontSize",
-          "17"
-        ]
+        path: ["FontSize", "17"]
       },
       18: {
         $type: "fontSize",
@@ -4054,10 +3211,7 @@ function f() {
           category: "FontSize",
           type: "18"
         },
-        path: [
-          "FontSize",
-          "18"
-        ]
+        path: ["FontSize", "18"]
       },
       20: {
         $type: "fontSize",
@@ -4083,10 +3237,7 @@ function f() {
           category: "FontSize",
           type: "20"
         },
-        path: [
-          "FontSize",
-          "20"
-        ]
+        path: ["FontSize", "20"]
       },
       22: {
         $type: "fontSize",
@@ -4112,10 +3263,7 @@ function f() {
           category: "FontSize",
           type: "22"
         },
-        path: [
-          "FontSize",
-          "22"
-        ]
+        path: ["FontSize", "22"]
       },
       24: {
         $type: "fontSize",
@@ -4141,10 +3289,7 @@ function f() {
           category: "FontSize",
           type: "24"
         },
-        path: [
-          "FontSize",
-          "24"
-        ]
+        path: ["FontSize", "24"]
       },
       26: {
         $type: "fontSize",
@@ -4170,10 +3315,7 @@ function f() {
           category: "FontSize",
           type: "26"
         },
-        path: [
-          "FontSize",
-          "26"
-        ]
+        path: ["FontSize", "26"]
       },
       28: {
         $type: "fontSize",
@@ -4199,10 +3341,7 @@ function f() {
           category: "FontSize",
           type: "28"
         },
-        path: [
-          "FontSize",
-          "28"
-        ]
+        path: ["FontSize", "28"]
       },
       32: {
         $type: "fontSize",
@@ -4228,10 +3367,7 @@ function f() {
           category: "FontSize",
           type: "32"
         },
-        path: [
-          "FontSize",
-          "32"
-        ]
+        path: ["FontSize", "32"]
       },
       36: {
         $type: "fontSize",
@@ -4257,10 +3393,7 @@ function f() {
           category: "FontSize",
           type: "36"
         },
-        path: [
-          "FontSize",
-          "36"
-        ]
+        path: ["FontSize", "36"]
       },
       45: {
         $type: "fontSize",
@@ -4286,10 +3419,7 @@ function f() {
           category: "FontSize",
           type: "45"
         },
-        path: [
-          "FontSize",
-          "45"
-        ]
+        path: ["FontSize", "45"]
       },
       48: {
         $type: "fontSize",
@@ -4315,10 +3445,7 @@ function f() {
           category: "FontSize",
           type: "48"
         },
-        path: [
-          "FontSize",
-          "48"
-        ]
+        path: ["FontSize", "48"]
       },
       57: {
         $type: "fontSize",
@@ -4344,10 +3471,7 @@ function f() {
           category: "FontSize",
           type: "57"
         },
-        path: [
-          "FontSize",
-          "57"
-        ]
+        path: ["FontSize", "57"]
       },
       64: {
         $type: "fontSize",
@@ -4373,10 +3497,7 @@ function f() {
           category: "FontSize",
           type: "64"
         },
-        path: [
-          "FontSize",
-          "64"
-        ]
+        path: ["FontSize", "64"]
       }
     },
     LineHeight: {
@@ -4404,10 +3525,7 @@ function f() {
           category: "LineHeight",
           type: "100"
         },
-        path: [
-          "LineHeight",
-          "100"
-        ]
+        path: ["LineHeight", "100"]
       },
       120: {
         $type: "lineHeight",
@@ -4433,10 +3551,7 @@ function f() {
           category: "LineHeight",
           type: "120"
         },
-        path: [
-          "LineHeight",
-          "120"
-        ]
+        path: ["LineHeight", "120"]
       },
       130: {
         $type: "lineHeight",
@@ -4462,10 +3577,7 @@ function f() {
           category: "LineHeight",
           type: "130"
         },
-        path: [
-          "LineHeight",
-          "130"
-        ]
+        path: ["LineHeight", "130"]
       },
       140: {
         $type: "lineHeight",
@@ -4491,10 +3603,7 @@ function f() {
           category: "LineHeight",
           type: "140"
         },
-        path: [
-          "LineHeight",
-          "140"
-        ]
+        path: ["LineHeight", "140"]
       },
       150: {
         $type: "lineHeight",
@@ -4520,10 +3629,7 @@ function f() {
           category: "LineHeight",
           type: "150"
         },
-        path: [
-          "LineHeight",
-          "150"
-        ]
+        path: ["LineHeight", "150"]
       },
       160: {
         $type: "lineHeight",
@@ -4549,10 +3655,7 @@ function f() {
           category: "LineHeight",
           type: "160"
         },
-        path: [
-          "LineHeight",
-          "160"
-        ]
+        path: ["LineHeight", "160"]
       },
       170: {
         $type: "lineHeight",
@@ -4578,10 +3681,7 @@ function f() {
           category: "LineHeight",
           type: "170"
         },
-        path: [
-          "LineHeight",
-          "170"
-        ]
+        path: ["LineHeight", "170"]
       },
       175: {
         $type: "lineHeight",
@@ -4607,10 +3707,7 @@ function f() {
           category: "LineHeight",
           type: "175"
         },
-        path: [
-          "LineHeight",
-          "175"
-        ]
+        path: ["LineHeight", "175"]
       }
     },
     BorderRadius: {
@@ -4638,10 +3735,7 @@ function f() {
           category: "BorderRadius",
           type: "4"
         },
-        path: [
-          "BorderRadius",
-          "4"
-        ]
+        path: ["BorderRadius", "4"]
       },
       6: {
         $type: "dimension",
@@ -4667,10 +3761,7 @@ function f() {
           category: "BorderRadius",
           type: "6"
         },
-        path: [
-          "BorderRadius",
-          "6"
-        ]
+        path: ["BorderRadius", "6"]
       },
       8: {
         $type: "dimension",
@@ -4696,10 +3787,7 @@ function f() {
           category: "BorderRadius",
           type: "8"
         },
-        path: [
-          "BorderRadius",
-          "8"
-        ]
+        path: ["BorderRadius", "8"]
       },
       12: {
         $type: "dimension",
@@ -4725,10 +3813,7 @@ function f() {
           category: "BorderRadius",
           type: "12"
         },
-        path: [
-          "BorderRadius",
-          "12"
-        ]
+        path: ["BorderRadius", "12"]
       },
       16: {
         $type: "dimension",
@@ -4754,10 +3839,7 @@ function f() {
           category: "BorderRadius",
           type: "16"
         },
-        path: [
-          "BorderRadius",
-          "16"
-        ]
+        path: ["BorderRadius", "16"]
       },
       24: {
         $type: "dimension",
@@ -4783,10 +3865,7 @@ function f() {
           category: "BorderRadius",
           type: "24"
         },
-        path: [
-          "BorderRadius",
-          "24"
-        ]
+        path: ["BorderRadius", "24"]
       },
       32: {
         $type: "dimension",
@@ -4812,10 +3891,7 @@ function f() {
           category: "BorderRadius",
           type: "32"
         },
-        path: [
-          "BorderRadius",
-          "32"
-        ]
+        path: ["BorderRadius", "32"]
       },
       Full: {
         $type: "dimension",
@@ -4841,10 +3917,7 @@ function f() {
           category: "BorderRadius",
           type: "Full"
         },
-        path: [
-          "BorderRadius",
-          "Full"
-        ]
+        path: ["BorderRadius", "Full"]
       }
     },
     Elevation: {
@@ -4889,10 +3962,7 @@ function f() {
           category: "Elevation",
           type: "1"
         },
-        path: [
-          "Elevation",
-          "1"
-        ]
+        path: ["Elevation", "1"]
       },
       2: {
         $type: "shadow",
@@ -4935,10 +4005,7 @@ function f() {
           category: "Elevation",
           type: "2"
         },
-        path: [
-          "Elevation",
-          "2"
-        ]
+        path: ["Elevation", "2"]
       },
       3: {
         $type: "shadow",
@@ -4981,10 +4048,7 @@ function f() {
           category: "Elevation",
           type: "3"
         },
-        path: [
-          "Elevation",
-          "3"
-        ]
+        path: ["Elevation", "3"]
       },
       4: {
         $type: "shadow",
@@ -5027,10 +4091,7 @@ function f() {
           category: "Elevation",
           type: "4"
         },
-        path: [
-          "Elevation",
-          "4"
-        ]
+        path: ["Elevation", "4"]
       },
       5: {
         $type: "shadow",
@@ -5073,10 +4134,7 @@ function f() {
           category: "Elevation",
           type: "5"
         },
-        path: [
-          "Elevation",
-          "5"
-        ]
+        path: ["Elevation", "5"]
       },
       6: {
         $type: "shadow",
@@ -5119,10 +4177,7 @@ function f() {
           category: "Elevation",
           type: "6"
         },
-        path: [
-          "Elevation",
-          "6"
-        ]
+        path: ["Elevation", "6"]
       },
       7: {
         $type: "shadow",
@@ -5165,10 +4220,7 @@ function f() {
           category: "Elevation",
           type: "7"
         },
-        path: [
-          "Elevation",
-          "7"
-        ]
+        path: ["Elevation", "7"]
       },
       8: {
         $type: "shadow",
@@ -5211,10 +4263,7 @@ function f() {
           category: "Elevation",
           type: "8"
         },
-        path: [
-          "Elevation",
-          "8"
-        ]
+        path: ["Elevation", "8"]
       }
     }
   }), u;

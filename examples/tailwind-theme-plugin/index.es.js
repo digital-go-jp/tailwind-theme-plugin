@@ -4525,6 +4525,27 @@ const S = /* @__PURE__ */ c(d), k = S(() => {
         "focus-blue": e.Color.Primitive.LightBlue[700].$value
       },
       fontSize: {
+        "dsp-64B-140": [
+          e.FontSize[64].$value,
+          {
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[140].$value
+          }
+        ],
+        "dsp-57B-140": [
+          e.FontSize[57].$value,
+          {
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[140].$value
+          }
+        ],
+        "dsp-48B-140": [
+          e.FontSize[48].$value,
+          {
+            fontWeight: e.FontWeight[700].$value,
+            lineHeight: e.LineHeight[140].$value
+          }
+        ],
         "dsp-64N-140": [
           e.FontSize[64].$value,
           {

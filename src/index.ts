@@ -197,6 +197,27 @@ const daPlugin = plugin(() => {}, {
         'focus-blue': tokens.Color.Primitive.LightBlue[700].$value,
       },
       fontSize: {
+        'dsp-64B-140': [
+          tokens.FontSize[64].$value,
+          {
+            fontWeight: tokens.FontWeight[700].$value,
+            lineHeight: tokens.LineHeight[140].$value,
+          },
+        ],
+        'dsp-57B-140': [
+          tokens.FontSize[57].$value,
+          {
+            fontWeight: tokens.FontWeight[700].$value,
+            lineHeight: tokens.LineHeight[140].$value,
+          },
+        ],
+        'dsp-48B-140': [
+          tokens.FontSize[48].$value,
+          {
+            fontWeight: tokens.FontWeight[700].$value,
+            lineHeight: tokens.LineHeight[140].$value,
+          },
+        ],
         'dsp-64N-140': [
           tokens.FontSize[64].$value,
           {

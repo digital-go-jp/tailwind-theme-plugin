@@ -5,17 +5,17 @@ export const TypographySection = () => {
 
       <div className='flex flex-col gap-4'>
         <p className='text-dsp-64B-140'>dsp-64B-140 デザインシステム</p>
-        <p className='text-dsp-57B-140'>std-57B-140 デザインシステム</p>
-        <p className='text-dsp-48B-140'>std-48B-140 デザインシステム</p>
+        <p className='text-dsp-57B-140'>dsp-57B-140 デザインシステム</p>
+        <p className='text-dsp-48B-140'>dsp-48B-140 デザインシステム</p>
 
         <hr />
 
         <p className='text-dsp-64N-140'>dsp-64N-140 デザインシステム</p>
-        <p className='text-dsp-57N-140'>std-57N-140 デザインシステム</p>
-        <p className='text-dsp-48N-140'>std-48N-140 デザインシステム</p>
+        <p className='text-dsp-57N-140'>dsp-57N-140 デザインシステム</p>
+        <p className='text-dsp-48N-140'>dsp-48N-140 デザインシステム</p>
 
         <hr />
-        
+
         <p className='text-std-45B-140'>std-45B-140 デザインシステム</p>
         <p className='text-std-36B-140'>std-36B-140 デザインシステム</p>
         <p className='text-std-32B-150'>std-32B-150 デザインシステム</p>

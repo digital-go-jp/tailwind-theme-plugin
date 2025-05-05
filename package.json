@@ -39,7 +39,7 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
-    "vite": "^6.3.3"
+    "vite": "^6.3.5"
   },
   "peerDependencies": {
     "tailwindcss": "^3.4.17 || ^4.0.0"

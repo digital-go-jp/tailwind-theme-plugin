@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/tailwind-theme-plugin",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -25,27 +25,7 @@
   "files": [
     "dist/**"
   ],
-  "scripts": {
-    "build": "vite build && tsc",
-    "format": "biome format --write src/*.ts **/*.json",
-    "lint": "biome lint **/*.ts **/*.js"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@digital-go-jp/design-tokens": "^1.0.4",
-    "@tsconfig/node20": "^20.1.5",
-    "@types/node": "^22.15.2",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.8.3",
-    "vite": "^6.3.3"
-  },
   "peerDependencies": {
     "tailwindcss": "^3.4.17 || ^4.0.0"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "engineStrict": true
+  }
 }

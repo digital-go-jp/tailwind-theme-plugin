@@ -10,7 +10,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#e8f1fe",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -28,7 +28,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#d9e6ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -46,7 +46,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#c5d7fb",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -64,7 +64,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#9db7f9",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -82,7 +82,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#7096f8",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -100,7 +100,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#4979f5",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -118,7 +118,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#3460fb",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -136,7 +136,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#264af4",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -154,7 +154,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#0031d8",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -172,7 +172,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#0017c1",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -190,7 +190,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#00118f",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -208,7 +208,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#000071",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -226,7 +226,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#000060",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -246,7 +246,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#f0f9ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -264,7 +264,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#dcf0ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -282,7 +282,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#c0e4ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -300,7 +300,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#97d3ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -318,7 +318,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#57b8ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -336,7 +336,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#39abff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -354,7 +354,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#008bf2",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -372,7 +372,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#0877d7",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -390,7 +390,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#0066be",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -408,7 +408,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#0055ad",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -426,7 +426,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#00428c",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -444,7 +444,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#00316a",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -462,7 +462,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#00234b",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -482,7 +482,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#e9f7f9",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -500,7 +500,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#c8f8ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -518,7 +518,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#99f2ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -536,7 +536,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#79e2f2",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -554,7 +554,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#2bc8e4",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -572,7 +572,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#01b7d6",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -590,7 +590,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#00a3bf",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -608,7 +608,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#008da6",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -626,7 +626,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#008299",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -644,7 +644,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#006f83",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -662,7 +662,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#006173",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -680,7 +680,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#004c59",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -698,7 +698,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#003741",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -718,7 +718,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#e6f5ec",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -736,7 +736,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#c2e5d1",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -754,7 +754,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#9bd4b5",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -772,7 +772,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#71c598",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -790,7 +790,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#51b883",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -808,7 +808,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#2cac6e",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -826,7 +826,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#259d63",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -844,7 +844,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#1d8b56",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -862,7 +862,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#197a4b",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -880,7 +880,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#115a36",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -898,7 +898,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#0c472a",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -916,7 +916,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#08351f",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -934,7 +934,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#032213",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -954,7 +954,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#ebfad9",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -972,7 +972,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#d0f5a2",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -990,7 +990,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#c0f354",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1008,7 +1008,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#ade830",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1026,7 +1026,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#9ddd15",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1044,7 +1044,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#8cc80c",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1062,7 +1062,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#7eb40d",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1080,7 +1080,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#6fa104",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1098,7 +1098,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#618e00",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1116,7 +1116,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#507500",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1134,7 +1134,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#3e5a00",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1152,7 +1152,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#2c4100",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1170,7 +1170,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#1e2d00",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1190,7 +1190,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#fbf5e0",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1208,7 +1208,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#fff0b3",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1226,7 +1226,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#ffe380",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1244,7 +1244,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#ffd43d",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1262,7 +1262,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#ffc700",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1280,7 +1280,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#ebb700",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1298,7 +1298,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#d2a400",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1316,7 +1316,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#b78f00",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1334,7 +1334,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#a58000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1352,7 +1352,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#927200",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1370,7 +1370,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#806300",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1388,7 +1388,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#6e5600",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1406,7 +1406,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#604b00",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1426,7 +1426,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#ffeee2",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1444,7 +1444,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#ffdfca",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1462,7 +1462,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#ffc199",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1480,7 +1480,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#ffa66d",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1498,7 +1498,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#ff8d44",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1516,7 +1516,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#ff7628",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1534,7 +1534,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#fb5b01",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1552,7 +1552,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#e25100",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1570,7 +1570,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#c74700",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1588,7 +1588,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#ac3e00",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1606,7 +1606,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#8b3200",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1624,7 +1624,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#6d2700",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1642,7 +1642,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#541e00",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1662,7 +1662,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#fdeeee",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1680,7 +1680,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#ffdada",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1698,7 +1698,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#ffbbbb",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1716,7 +1716,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#ff9696",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1734,7 +1734,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#ff7171",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1752,7 +1752,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#ff5454",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1770,7 +1770,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#fe3939",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1788,7 +1788,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#fa0000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1806,7 +1806,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#ec0000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1824,7 +1824,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#ce0000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1842,7 +1842,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#a90000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1860,7 +1860,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#850000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1878,7 +1878,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#620000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1898,7 +1898,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#f3e5f4",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1916,7 +1916,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#ffd0ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1934,7 +1934,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#ffaeff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1952,7 +1952,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#ff8eff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1970,7 +1970,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#f661f6",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -1988,7 +1988,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#f137f1",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2006,7 +2006,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#db00db",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2024,7 +2024,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#c000c0",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2042,7 +2042,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#aa00aa",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2060,7 +2060,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#8b008b",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2078,7 +2078,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#6c006c",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2096,7 +2096,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#500050",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2114,7 +2114,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#3b003b",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2134,7 +2134,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#f1eafa",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2152,7 +2152,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#ecddff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2170,7 +2170,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#ddc2ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2188,7 +2188,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#cda6ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2206,7 +2206,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#bb87ff",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2224,7 +2224,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#a565f8",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2242,7 +2242,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#8843e1",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2260,7 +2260,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#6f23d0",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2278,7 +2278,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#5c10be",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2296,7 +2296,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#5109ad",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2314,7 +2314,7 @@ function f() {
           1e3: {
             $type: "color",
             $value: "#41048e",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2332,7 +2332,7 @@ function f() {
           1100: {
             $type: "color",
             $value: "#30016c",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2350,7 +2350,7 @@ function f() {
           1200: {
             $type: "color",
             $value: "#21004b",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2371,7 +2371,7 @@ function f() {
         White: {
           $type: "color",
           $value: "#ffffff",
-          filePath: "figma/tokens.json",
+          filePath: "../figma/tokens.json",
           isSource: !0,
           original: {
             $type: "color",
@@ -2388,7 +2388,7 @@ function f() {
         Black: {
           $type: "color",
           $value: "#000000",
-          filePath: "figma/tokens.json",
+          filePath: "../figma/tokens.json",
           isSource: !0,
           original: {
             $type: "color",
@@ -2406,7 +2406,7 @@ function f() {
           50: {
             $type: "color",
             $value: "#f2f2f2",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2424,7 +2424,7 @@ function f() {
           100: {
             $type: "color",
             $value: "#e6e6e6",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2442,7 +2442,7 @@ function f() {
           200: {
             $type: "color",
             $value: "#cccccc",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2460,7 +2460,7 @@ function f() {
           300: {
             $type: "color",
             $value: "#b3b3b3",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2478,7 +2478,7 @@ function f() {
           400: {
             $type: "color",
             $value: "#999999",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2496,7 +2496,7 @@ function f() {
           420: {
             $type: "color",
             $value: "#949494",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2514,7 +2514,7 @@ function f() {
           500: {
             $type: "color",
             $value: "#7f7f7f",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2532,7 +2532,7 @@ function f() {
           536: {
             $type: "color",
             $value: "#767676",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2550,7 +2550,7 @@ function f() {
           600: {
             $type: "color",
             $value: "#666666",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2568,7 +2568,7 @@ function f() {
           700: {
             $type: "color",
             $value: "#4d4d4d",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2586,7 +2586,7 @@ function f() {
           800: {
             $type: "color",
             $value: "#333333",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2604,7 +2604,7 @@ function f() {
           900: {
             $type: "color",
             $value: "#1a1a1a",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2624,7 +2624,7 @@ function f() {
           50: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.05)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2642,7 +2642,7 @@ function f() {
           100: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.1)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2660,7 +2660,7 @@ function f() {
           200: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.2)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2678,7 +2678,7 @@ function f() {
           300: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.3)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2696,7 +2696,7 @@ function f() {
           400: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.4)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2714,7 +2714,7 @@ function f() {
           420: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.42)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2732,7 +2732,7 @@ function f() {
           500: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.5)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2750,7 +2750,7 @@ function f() {
           536: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.54)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2768,7 +2768,7 @@ function f() {
           600: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.6)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2786,7 +2786,7 @@ function f() {
           700: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.7)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2804,7 +2804,7 @@ function f() {
           800: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.8)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2822,7 +2822,7 @@ function f() {
           900: {
             $type: "color",
             $value: "rgba(0, 0, 0, 0.9)",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2844,7 +2844,7 @@ function f() {
           1: {
             $type: "color",
             $value: "#259d63",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2862,7 +2862,7 @@ function f() {
           2: {
             $type: "color",
             $value: "#197a4b",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2882,7 +2882,7 @@ function f() {
           1: {
             $type: "color",
             $value: "#ec0000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2900,7 +2900,7 @@ function f() {
           2: {
             $type: "color",
             $value: "#ce0000",
-            filePath: "figma/tokens.json",
+            filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
@@ -2921,7 +2921,7 @@ function f() {
             1: {
               $type: "color",
               $value: "#b78f00",
-              filePath: "figma/tokens.json",
+              filePath: "../figma/tokens.json",
               isSource: !0,
               original: {
                 $type: "color",
@@ -2940,7 +2940,7 @@ function f() {
             2: {
               $type: "color",
               $value: "#927200",
-              filePath: "figma/tokens.json",
+              filePath: "../figma/tokens.json",
               isSource: !0,
               original: {
                 $type: "color",
@@ -2961,7 +2961,7 @@ function f() {
             1: {
               $type: "color",
               $value: "#fb5b01",
-              filePath: "figma/tokens.json",
+              filePath: "../figma/tokens.json",
               isSource: !0,
               original: {
                 $type: "color",
@@ -2980,7 +2980,7 @@ function f() {
             2: {
               $type: "color",
               $value: "#c74700",
-              filePath: "figma/tokens.json",
+              filePath: "../figma/tokens.json",
               isSource: !0,
               original: {
                 $type: "color",
@@ -3004,7 +3004,7 @@ function f() {
       400: {
         $type: "fontWeight",
         $value: "400",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3030,7 +3030,7 @@ function f() {
       700: {
         $type: "fontWeight",
         $value: "700",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3058,7 +3058,7 @@ function f() {
       Sans: {
         $type: "fontFamily",
         $value: "'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3084,7 +3084,7 @@ function f() {
       Mono: {
         $type: "fontFamily",
         $value: "'Noto Sans Mono', monospace",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3112,7 +3112,7 @@ function f() {
       14: {
         $type: "fontSize",
         $value: "0.875rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3138,7 +3138,7 @@ function f() {
       16: {
         $type: "fontSize",
         $value: "1rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3164,7 +3164,7 @@ function f() {
       17: {
         $type: "fontSize",
         $value: "1.0625rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3190,7 +3190,7 @@ function f() {
       18: {
         $type: "fontSize",
         $value: "1.125rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3216,7 +3216,7 @@ function f() {
       20: {
         $type: "fontSize",
         $value: "1.25rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3242,7 +3242,7 @@ function f() {
       22: {
         $type: "fontSize",
         $value: "1.375rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3268,7 +3268,7 @@ function f() {
       24: {
         $type: "fontSize",
         $value: "1.5rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3294,7 +3294,7 @@ function f() {
       26: {
         $type: "fontSize",
         $value: "1.625rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3320,7 +3320,7 @@ function f() {
       28: {
         $type: "fontSize",
         $value: "1.75rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3346,7 +3346,7 @@ function f() {
       32: {
         $type: "fontSize",
         $value: "2rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3372,7 +3372,7 @@ function f() {
       36: {
         $type: "fontSize",
         $value: "2.25rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3398,7 +3398,7 @@ function f() {
       45: {
         $type: "fontSize",
         $value: "2.8125rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3424,7 +3424,7 @@ function f() {
       48: {
         $type: "fontSize",
         $value: "3rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3450,7 +3450,7 @@ function f() {
       57: {
         $type: "fontSize",
         $value: "3.5625rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3476,7 +3476,7 @@ function f() {
       64: {
         $type: "fontSize",
         $value: "4rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3504,7 +3504,7 @@ function f() {
       100: {
         $type: "lineHeight",
         $value: 1,
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3530,7 +3530,7 @@ function f() {
       120: {
         $type: "lineHeight",
         $value: 1.2,
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3556,7 +3556,7 @@ function f() {
       130: {
         $type: "lineHeight",
         $value: 1.3,
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3582,7 +3582,7 @@ function f() {
       140: {
         $type: "lineHeight",
         $value: 1.4,
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3608,7 +3608,7 @@ function f() {
       150: {
         $type: "lineHeight",
         $value: 1.5,
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3634,7 +3634,7 @@ function f() {
       160: {
         $type: "lineHeight",
         $value: 1.6,
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3660,7 +3660,7 @@ function f() {
       170: {
         $type: "lineHeight",
         $value: 1.7,
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3686,7 +3686,7 @@ function f() {
       175: {
         $type: "lineHeight",
         $value: 1.75,
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3714,7 +3714,7 @@ function f() {
       4: {
         $type: "dimension",
         $value: "0.25rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3740,7 +3740,7 @@ function f() {
       6: {
         $type: "dimension",
         $value: "0.375rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3766,7 +3766,7 @@ function f() {
       8: {
         $type: "dimension",
         $value: "0.5rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3792,7 +3792,7 @@ function f() {
       12: {
         $type: "dimension",
         $value: "0.75rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3818,7 +3818,7 @@ function f() {
       16: {
         $type: "dimension",
         $value: "1rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3844,7 +3844,7 @@ function f() {
       24: {
         $type: "dimension",
         $value: "1.5rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3870,7 +3870,7 @@ function f() {
       32: {
         $type: "dimension",
         $value: "2rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3896,7 +3896,7 @@ function f() {
       Full: {
         $type: "dimension",
         $value: "624.9375rem",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3924,7 +3924,7 @@ function f() {
       1: {
         $type: "shadow",
         $value: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -3967,7 +3967,7 @@ function f() {
       2: {
         $type: "shadow",
         $value: "0 2px 12px 2px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -4010,7 +4010,7 @@ function f() {
       3: {
         $type: "shadow",
         $value: "0 4px 16px 3px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -4053,7 +4053,7 @@ function f() {
       4: {
         $type: "shadow",
         $value: "0 6px 20px 4px rgba(0,0,0,0.1), 0 2px 6px 0 rgba(0,0,0,0.3)",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -4096,7 +4096,7 @@ function f() {
       5: {
         $type: "shadow",
         $value: "0 8px 24px 5px rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.3)",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -4139,7 +4139,7 @@ function f() {
       6: {
         $type: "shadow",
         $value: "0 10px 30px 6px rgba(0,0,0,0.1), 0 3px 12px 0 rgba(0,0,0,0.3)",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -4182,7 +4182,7 @@ function f() {
       7: {
         $type: "shadow",
         $value: "0 12px 36px 7px rgba(0,0,0,0.1), 0 3px 14px 0 rgba(0,0,0,0.3)",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {
@@ -4225,7 +4225,7 @@ function f() {
       8: {
         $type: "shadow",
         $value: "0 14px 40px 7px rgba(0,0,0,0.1), 0 3px 16px 0 rgba(0,0,0,0.3)",
-        filePath: "figma/tokens.json",
+        filePath: "../figma/tokens.json",
         isSource: !0,
         $extensions: {
           "studio.tokens": {

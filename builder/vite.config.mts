@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite';
 import { resolve } from 'path';
+import { defineConfig } from 'vite';
 import { peerDependencies } from './package.json';
 
 // https://vitejs.dev/config/
@@ -11,6 +11,7 @@ export default defineConfig({
       formats: ['es', 'cjs'],
       fileName: (ext) => `index.${ext}.js`,
     },
+    outDir: '../dist',
     rollupOptions: {
       external: Object.keys(peerDependencies),
     },

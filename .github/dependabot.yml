@@ -6,6 +6,10 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/" # Location of package manifests
+    directory: "/builder/" # Location of package manifests
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/examples/" # Location of package manifests
     schedule:
       interval: "daily"

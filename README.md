@@ -10,17 +10,36 @@
 npm install @digital-go-jp/tailwind-theme-plugin
 ```
 
+## プラグイン設定方法
+
+### Tailwind CSS v3
+
 `tailwind.config.js` の `plugins` 部分を以下のように設定してください。
 
 ```js
 {
-    content: [...],
-    theme: {
-       extend: {
-           ...
-       },
+  content: [...],
+  theme: {
+    extend: {
+      ...
     },
-    plugins: [require('@digital-go-jp/tailwind-theme-plugin')],
+  },
+  plugins: [require('@digital-go-jp/tailwind-theme-plugin')],
+}
+```
+
+### Tailwind CSS v4
+
+Tailwind CSS の設定をしている CSS ファイルで `@plugin` を使って以下のように設定してください。
+
+```css
+
+@import 'tailwindcss';
+
+@plugin '@digital-go-jp/tailwind-theme-plugin';
+
+@theme {
+  ...
 }
 ```
 

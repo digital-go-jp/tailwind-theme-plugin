@@ -1,20 +1,22 @@
-function c(i) {
+function P(i) {
   return i && i.__esModule && Object.prototype.hasOwnProperty.call(i, "default") ? i.default : i;
 }
-var u, g;
-function f() {
-  return g || (g = 1, u = {
+var u, v;
+function c() {
+  return v || (v = 1, u = {
     Color: {
       Primitive: {
         Blue: {
           50: {
+            key: "{Color.Primitive.Blue.50}",
             $type: "color",
             $value: "#e8f1fe",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#e8f1fe"
+              $value: "#e8f1fe",
+              key: "{Color.Primitive.Blue.50}"
             },
             name: "ColorPrimitiveBlue50",
             attributes: {
@@ -26,13 +28,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "50"]
           },
           100: {
+            key: "{Color.Primitive.Blue.100}",
             $type: "color",
             $value: "#d9e6ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#d9e6ff"
+              $value: "#d9e6ff",
+              key: "{Color.Primitive.Blue.100}"
             },
             name: "ColorPrimitiveBlue100",
             attributes: {
@@ -44,13 +48,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "100"]
           },
           200: {
+            key: "{Color.Primitive.Blue.200}",
             $type: "color",
             $value: "#c5d7fb",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#c5d7fb"
+              $value: "#c5d7fb",
+              key: "{Color.Primitive.Blue.200}"
             },
             name: "ColorPrimitiveBlue200",
             attributes: {
@@ -62,13 +68,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "200"]
           },
           300: {
+            key: "{Color.Primitive.Blue.300}",
             $type: "color",
             $value: "#9db7f9",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#9db7f9"
+              $value: "#9db7f9",
+              key: "{Color.Primitive.Blue.300}"
             },
             name: "ColorPrimitiveBlue300",
             attributes: {
@@ -80,13 +88,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "300"]
           },
           400: {
+            key: "{Color.Primitive.Blue.400}",
             $type: "color",
             $value: "#7096f8",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#7096f8"
+              $value: "#7096f8",
+              key: "{Color.Primitive.Blue.400}"
             },
             name: "ColorPrimitiveBlue400",
             attributes: {
@@ -98,13 +108,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "400"]
           },
           500: {
+            key: "{Color.Primitive.Blue.500}",
             $type: "color",
             $value: "#4979f5",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#4979f5"
+              $value: "#4979f5",
+              key: "{Color.Primitive.Blue.500}"
             },
             name: "ColorPrimitiveBlue500",
             attributes: {
@@ -116,13 +128,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "500"]
           },
           600: {
+            key: "{Color.Primitive.Blue.600}",
             $type: "color",
             $value: "#3460fb",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#3460fb"
+              $value: "#3460fb",
+              key: "{Color.Primitive.Blue.600}"
             },
             name: "ColorPrimitiveBlue600",
             attributes: {
@@ -134,13 +148,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "600"]
           },
           700: {
+            key: "{Color.Primitive.Blue.700}",
             $type: "color",
             $value: "#264af4",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#264af4"
+              $value: "#264af4",
+              key: "{Color.Primitive.Blue.700}"
             },
             name: "ColorPrimitiveBlue700",
             attributes: {
@@ -152,13 +168,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "700"]
           },
           800: {
+            key: "{Color.Primitive.Blue.800}",
             $type: "color",
             $value: "#0031d8",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#0031d8"
+              $value: "#0031d8",
+              key: "{Color.Primitive.Blue.800}"
             },
             name: "ColorPrimitiveBlue800",
             attributes: {
@@ -170,13 +188,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "800"]
           },
           900: {
+            key: "{Color.Primitive.Blue.900}",
             $type: "color",
             $value: "#0017c1",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#0017c1"
+              $value: "#0017c1",
+              key: "{Color.Primitive.Blue.900}"
             },
             name: "ColorPrimitiveBlue900",
             attributes: {
@@ -188,13 +208,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Blue.1000}",
             $type: "color",
             $value: "#00118f",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#00118f"
+              $value: "#00118f",
+              key: "{Color.Primitive.Blue.1000}"
             },
             name: "ColorPrimitiveBlue1000",
             attributes: {
@@ -206,13 +228,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Blue.1100}",
             $type: "color",
             $value: "#000071",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#000071"
+              $value: "#000071",
+              key: "{Color.Primitive.Blue.1100}"
             },
             name: "ColorPrimitiveBlue1100",
             attributes: {
@@ -224,13 +248,15 @@ function f() {
             path: ["Color", "Primitive", "Blue", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Blue.1200}",
             $type: "color",
             $value: "#000060",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#000060"
+              $value: "#000060",
+              key: "{Color.Primitive.Blue.1200}"
             },
             name: "ColorPrimitiveBlue1200",
             attributes: {
@@ -244,13 +270,15 @@ function f() {
         },
         LightBlue: {
           50: {
+            key: "{Color.Primitive.LightBlue.50}",
             $type: "color",
             $value: "#f0f9ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#f0f9ff"
+              $value: "#f0f9ff",
+              key: "{Color.Primitive.LightBlue.50}"
             },
             name: "ColorPrimitiveLightBlue50",
             attributes: {
@@ -262,13 +290,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "50"]
           },
           100: {
+            key: "{Color.Primitive.LightBlue.100}",
             $type: "color",
             $value: "#dcf0ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#dcf0ff"
+              $value: "#dcf0ff",
+              key: "{Color.Primitive.LightBlue.100}"
             },
             name: "ColorPrimitiveLightBlue100",
             attributes: {
@@ -280,13 +310,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "100"]
           },
           200: {
+            key: "{Color.Primitive.LightBlue.200}",
             $type: "color",
             $value: "#c0e4ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#c0e4ff"
+              $value: "#c0e4ff",
+              key: "{Color.Primitive.LightBlue.200}"
             },
             name: "ColorPrimitiveLightBlue200",
             attributes: {
@@ -298,13 +330,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "200"]
           },
           300: {
+            key: "{Color.Primitive.LightBlue.300}",
             $type: "color",
             $value: "#97d3ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#97d3ff"
+              $value: "#97d3ff",
+              key: "{Color.Primitive.LightBlue.300}"
             },
             name: "ColorPrimitiveLightBlue300",
             attributes: {
@@ -316,13 +350,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "300"]
           },
           400: {
+            key: "{Color.Primitive.LightBlue.400}",
             $type: "color",
             $value: "#57b8ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#57b8ff"
+              $value: "#57b8ff",
+              key: "{Color.Primitive.LightBlue.400}"
             },
             name: "ColorPrimitiveLightBlue400",
             attributes: {
@@ -334,13 +370,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "400"]
           },
           500: {
+            key: "{Color.Primitive.LightBlue.500}",
             $type: "color",
             $value: "#39abff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#39abff"
+              $value: "#39abff",
+              key: "{Color.Primitive.LightBlue.500}"
             },
             name: "ColorPrimitiveLightBlue500",
             attributes: {
@@ -352,13 +390,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "500"]
           },
           600: {
+            key: "{Color.Primitive.LightBlue.600}",
             $type: "color",
             $value: "#008bf2",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#008bf2"
+              $value: "#008bf2",
+              key: "{Color.Primitive.LightBlue.600}"
             },
             name: "ColorPrimitiveLightBlue600",
             attributes: {
@@ -370,13 +410,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "600"]
           },
           700: {
+            key: "{Color.Primitive.LightBlue.700}",
             $type: "color",
             $value: "#0877d7",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#0877d7"
+              $value: "#0877d7",
+              key: "{Color.Primitive.LightBlue.700}"
             },
             name: "ColorPrimitiveLightBlue700",
             attributes: {
@@ -388,13 +430,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "700"]
           },
           800: {
+            key: "{Color.Primitive.LightBlue.800}",
             $type: "color",
             $value: "#0066be",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#0066be"
+              $value: "#0066be",
+              key: "{Color.Primitive.LightBlue.800}"
             },
             name: "ColorPrimitiveLightBlue800",
             attributes: {
@@ -406,13 +450,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "800"]
           },
           900: {
+            key: "{Color.Primitive.LightBlue.900}",
             $type: "color",
             $value: "#0055ad",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#0055ad"
+              $value: "#0055ad",
+              key: "{Color.Primitive.LightBlue.900}"
             },
             name: "ColorPrimitiveLightBlue900",
             attributes: {
@@ -424,13 +470,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.LightBlue.1000}",
             $type: "color",
             $value: "#00428c",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#00428c"
+              $value: "#00428c",
+              key: "{Color.Primitive.LightBlue.1000}"
             },
             name: "ColorPrimitiveLightBlue1000",
             attributes: {
@@ -442,13 +490,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.LightBlue.1100}",
             $type: "color",
             $value: "#00316a",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#00316a"
+              $value: "#00316a",
+              key: "{Color.Primitive.LightBlue.1100}"
             },
             name: "ColorPrimitiveLightBlue1100",
             attributes: {
@@ -460,13 +510,15 @@ function f() {
             path: ["Color", "Primitive", "LightBlue", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.LightBlue.1200}",
             $type: "color",
             $value: "#00234b",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#00234b"
+              $value: "#00234b",
+              key: "{Color.Primitive.LightBlue.1200}"
             },
             name: "ColorPrimitiveLightBlue1200",
             attributes: {
@@ -480,13 +532,15 @@ function f() {
         },
         Cyan: {
           50: {
+            key: "{Color.Primitive.Cyan.50}",
             $type: "color",
             $value: "#e9f7f9",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#e9f7f9"
+              $value: "#e9f7f9",
+              key: "{Color.Primitive.Cyan.50}"
             },
             name: "ColorPrimitiveCyan50",
             attributes: {
@@ -498,13 +552,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "50"]
           },
           100: {
+            key: "{Color.Primitive.Cyan.100}",
             $type: "color",
             $value: "#c8f8ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#c8f8ff"
+              $value: "#c8f8ff",
+              key: "{Color.Primitive.Cyan.100}"
             },
             name: "ColorPrimitiveCyan100",
             attributes: {
@@ -516,13 +572,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "100"]
           },
           200: {
+            key: "{Color.Primitive.Cyan.200}",
             $type: "color",
             $value: "#99f2ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#99f2ff"
+              $value: "#99f2ff",
+              key: "{Color.Primitive.Cyan.200}"
             },
             name: "ColorPrimitiveCyan200",
             attributes: {
@@ -534,13 +592,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "200"]
           },
           300: {
+            key: "{Color.Primitive.Cyan.300}",
             $type: "color",
             $value: "#79e2f2",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#79e2f2"
+              $value: "#79e2f2",
+              key: "{Color.Primitive.Cyan.300}"
             },
             name: "ColorPrimitiveCyan300",
             attributes: {
@@ -552,13 +612,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "300"]
           },
           400: {
+            key: "{Color.Primitive.Cyan.400}",
             $type: "color",
             $value: "#2bc8e4",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#2bc8e4"
+              $value: "#2bc8e4",
+              key: "{Color.Primitive.Cyan.400}"
             },
             name: "ColorPrimitiveCyan400",
             attributes: {
@@ -570,13 +632,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "400"]
           },
           500: {
+            key: "{Color.Primitive.Cyan.500}",
             $type: "color",
             $value: "#01b7d6",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#01b7d6"
+              $value: "#01b7d6",
+              key: "{Color.Primitive.Cyan.500}"
             },
             name: "ColorPrimitiveCyan500",
             attributes: {
@@ -588,13 +652,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "500"]
           },
           600: {
+            key: "{Color.Primitive.Cyan.600}",
             $type: "color",
             $value: "#00a3bf",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#00a3bf"
+              $value: "#00a3bf",
+              key: "{Color.Primitive.Cyan.600}"
             },
             name: "ColorPrimitiveCyan600",
             attributes: {
@@ -606,13 +672,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "600"]
           },
           700: {
+            key: "{Color.Primitive.Cyan.700}",
             $type: "color",
             $value: "#008da6",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#008da6"
+              $value: "#008da6",
+              key: "{Color.Primitive.Cyan.700}"
             },
             name: "ColorPrimitiveCyan700",
             attributes: {
@@ -624,13 +692,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "700"]
           },
           800: {
+            key: "{Color.Primitive.Cyan.800}",
             $type: "color",
             $value: "#008299",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#008299"
+              $value: "#008299",
+              key: "{Color.Primitive.Cyan.800}"
             },
             name: "ColorPrimitiveCyan800",
             attributes: {
@@ -642,13 +712,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "800"]
           },
           900: {
+            key: "{Color.Primitive.Cyan.900}",
             $type: "color",
             $value: "#006f83",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#006f83"
+              $value: "#006f83",
+              key: "{Color.Primitive.Cyan.900}"
             },
             name: "ColorPrimitiveCyan900",
             attributes: {
@@ -660,13 +732,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Cyan.1000}",
             $type: "color",
             $value: "#006173",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#006173"
+              $value: "#006173",
+              key: "{Color.Primitive.Cyan.1000}"
             },
             name: "ColorPrimitiveCyan1000",
             attributes: {
@@ -678,13 +752,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Cyan.1100}",
             $type: "color",
             $value: "#004c59",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#004c59"
+              $value: "#004c59",
+              key: "{Color.Primitive.Cyan.1100}"
             },
             name: "ColorPrimitiveCyan1100",
             attributes: {
@@ -696,13 +772,15 @@ function f() {
             path: ["Color", "Primitive", "Cyan", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Cyan.1200}",
             $type: "color",
             $value: "#003741",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#003741"
+              $value: "#003741",
+              key: "{Color.Primitive.Cyan.1200}"
             },
             name: "ColorPrimitiveCyan1200",
             attributes: {
@@ -716,13 +794,15 @@ function f() {
         },
         Green: {
           50: {
+            key: "{Color.Primitive.Green.50}",
             $type: "color",
             $value: "#e6f5ec",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#e6f5ec"
+              $value: "#e6f5ec",
+              key: "{Color.Primitive.Green.50}"
             },
             name: "ColorPrimitiveGreen50",
             attributes: {
@@ -734,13 +814,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "50"]
           },
           100: {
+            key: "{Color.Primitive.Green.100}",
             $type: "color",
             $value: "#c2e5d1",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#c2e5d1"
+              $value: "#c2e5d1",
+              key: "{Color.Primitive.Green.100}"
             },
             name: "ColorPrimitiveGreen100",
             attributes: {
@@ -752,13 +834,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "100"]
           },
           200: {
+            key: "{Color.Primitive.Green.200}",
             $type: "color",
             $value: "#9bd4b5",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#9bd4b5"
+              $value: "#9bd4b5",
+              key: "{Color.Primitive.Green.200}"
             },
             name: "ColorPrimitiveGreen200",
             attributes: {
@@ -770,13 +854,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "200"]
           },
           300: {
+            key: "{Color.Primitive.Green.300}",
             $type: "color",
             $value: "#71c598",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#71c598"
+              $value: "#71c598",
+              key: "{Color.Primitive.Green.300}"
             },
             name: "ColorPrimitiveGreen300",
             attributes: {
@@ -788,13 +874,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "300"]
           },
           400: {
+            key: "{Color.Primitive.Green.400}",
             $type: "color",
             $value: "#51b883",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#51b883"
+              $value: "#51b883",
+              key: "{Color.Primitive.Green.400}"
             },
             name: "ColorPrimitiveGreen400",
             attributes: {
@@ -806,13 +894,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "400"]
           },
           500: {
+            key: "{Color.Primitive.Green.500}",
             $type: "color",
             $value: "#2cac6e",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#2cac6e"
+              $value: "#2cac6e",
+              key: "{Color.Primitive.Green.500}"
             },
             name: "ColorPrimitiveGreen500",
             attributes: {
@@ -824,13 +914,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "500"]
           },
           600: {
+            key: "{Color.Primitive.Green.600}",
             $type: "color",
             $value: "#259d63",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#259d63"
+              $value: "#259d63",
+              key: "{Color.Primitive.Green.600}"
             },
             name: "ColorPrimitiveGreen600",
             attributes: {
@@ -842,13 +934,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "600"]
           },
           700: {
+            key: "{Color.Primitive.Green.700}",
             $type: "color",
             $value: "#1d8b56",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#1d8b56"
+              $value: "#1d8b56",
+              key: "{Color.Primitive.Green.700}"
             },
             name: "ColorPrimitiveGreen700",
             attributes: {
@@ -860,13 +954,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "700"]
           },
           800: {
+            key: "{Color.Primitive.Green.800}",
             $type: "color",
             $value: "#197a4b",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#197a4b"
+              $value: "#197a4b",
+              key: "{Color.Primitive.Green.800}"
             },
             name: "ColorPrimitiveGreen800",
             attributes: {
@@ -878,13 +974,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "800"]
           },
           900: {
+            key: "{Color.Primitive.Green.900}",
             $type: "color",
             $value: "#115a36",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#115a36"
+              $value: "#115a36",
+              key: "{Color.Primitive.Green.900}"
             },
             name: "ColorPrimitiveGreen900",
             attributes: {
@@ -896,13 +994,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Green.1000}",
             $type: "color",
             $value: "#0c472a",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#0c472a"
+              $value: "#0c472a",
+              key: "{Color.Primitive.Green.1000}"
             },
             name: "ColorPrimitiveGreen1000",
             attributes: {
@@ -914,13 +1014,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Green.1100}",
             $type: "color",
             $value: "#08351f",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#08351f"
+              $value: "#08351f",
+              key: "{Color.Primitive.Green.1100}"
             },
             name: "ColorPrimitiveGreen1100",
             attributes: {
@@ -932,13 +1034,15 @@ function f() {
             path: ["Color", "Primitive", "Green", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Green.1200}",
             $type: "color",
             $value: "#032213",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#032213"
+              $value: "#032213",
+              key: "{Color.Primitive.Green.1200}"
             },
             name: "ColorPrimitiveGreen1200",
             attributes: {
@@ -952,13 +1056,15 @@ function f() {
         },
         Lime: {
           50: {
+            key: "{Color.Primitive.Lime.50}",
             $type: "color",
             $value: "#ebfad9",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ebfad9"
+              $value: "#ebfad9",
+              key: "{Color.Primitive.Lime.50}"
             },
             name: "ColorPrimitiveLime50",
             attributes: {
@@ -970,13 +1076,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "50"]
           },
           100: {
+            key: "{Color.Primitive.Lime.100}",
             $type: "color",
             $value: "#d0f5a2",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#d0f5a2"
+              $value: "#d0f5a2",
+              key: "{Color.Primitive.Lime.100}"
             },
             name: "ColorPrimitiveLime100",
             attributes: {
@@ -988,13 +1096,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "100"]
           },
           200: {
+            key: "{Color.Primitive.Lime.200}",
             $type: "color",
             $value: "#c0f354",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#c0f354"
+              $value: "#c0f354",
+              key: "{Color.Primitive.Lime.200}"
             },
             name: "ColorPrimitiveLime200",
             attributes: {
@@ -1006,13 +1116,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "200"]
           },
           300: {
+            key: "{Color.Primitive.Lime.300}",
             $type: "color",
             $value: "#ade830",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ade830"
+              $value: "#ade830",
+              key: "{Color.Primitive.Lime.300}"
             },
             name: "ColorPrimitiveLime300",
             attributes: {
@@ -1024,13 +1136,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "300"]
           },
           400: {
+            key: "{Color.Primitive.Lime.400}",
             $type: "color",
             $value: "#9ddd15",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#9ddd15"
+              $value: "#9ddd15",
+              key: "{Color.Primitive.Lime.400}"
             },
             name: "ColorPrimitiveLime400",
             attributes: {
@@ -1042,13 +1156,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "400"]
           },
           500: {
+            key: "{Color.Primitive.Lime.500}",
             $type: "color",
             $value: "#8cc80c",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#8cc80c"
+              $value: "#8cc80c",
+              key: "{Color.Primitive.Lime.500}"
             },
             name: "ColorPrimitiveLime500",
             attributes: {
@@ -1060,13 +1176,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "500"]
           },
           600: {
+            key: "{Color.Primitive.Lime.600}",
             $type: "color",
             $value: "#7eb40d",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#7eb40d"
+              $value: "#7eb40d",
+              key: "{Color.Primitive.Lime.600}"
             },
             name: "ColorPrimitiveLime600",
             attributes: {
@@ -1078,13 +1196,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "600"]
           },
           700: {
+            key: "{Color.Primitive.Lime.700}",
             $type: "color",
             $value: "#6fa104",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#6fa104"
+              $value: "#6fa104",
+              key: "{Color.Primitive.Lime.700}"
             },
             name: "ColorPrimitiveLime700",
             attributes: {
@@ -1096,13 +1216,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "700"]
           },
           800: {
+            key: "{Color.Primitive.Lime.800}",
             $type: "color",
             $value: "#618e00",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#618e00"
+              $value: "#618e00",
+              key: "{Color.Primitive.Lime.800}"
             },
             name: "ColorPrimitiveLime800",
             attributes: {
@@ -1114,13 +1236,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "800"]
           },
           900: {
+            key: "{Color.Primitive.Lime.900}",
             $type: "color",
             $value: "#507500",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#507500"
+              $value: "#507500",
+              key: "{Color.Primitive.Lime.900}"
             },
             name: "ColorPrimitiveLime900",
             attributes: {
@@ -1132,13 +1256,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Lime.1000}",
             $type: "color",
             $value: "#3e5a00",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#3e5a00"
+              $value: "#3e5a00",
+              key: "{Color.Primitive.Lime.1000}"
             },
             name: "ColorPrimitiveLime1000",
             attributes: {
@@ -1150,13 +1276,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Lime.1100}",
             $type: "color",
             $value: "#2c4100",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#2c4100"
+              $value: "#2c4100",
+              key: "{Color.Primitive.Lime.1100}"
             },
             name: "ColorPrimitiveLime1100",
             attributes: {
@@ -1168,13 +1296,15 @@ function f() {
             path: ["Color", "Primitive", "Lime", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Lime.1200}",
             $type: "color",
             $value: "#1e2d00",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#1e2d00"
+              $value: "#1e2d00",
+              key: "{Color.Primitive.Lime.1200}"
             },
             name: "ColorPrimitiveLime1200",
             attributes: {
@@ -1188,13 +1318,15 @@ function f() {
         },
         Yellow: {
           50: {
+            key: "{Color.Primitive.Yellow.50}",
             $type: "color",
             $value: "#fbf5e0",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#fbf5e0"
+              $value: "#fbf5e0",
+              key: "{Color.Primitive.Yellow.50}"
             },
             name: "ColorPrimitiveYellow50",
             attributes: {
@@ -1206,13 +1338,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "50"]
           },
           100: {
+            key: "{Color.Primitive.Yellow.100}",
             $type: "color",
             $value: "#fff0b3",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#fff0b3"
+              $value: "#fff0b3",
+              key: "{Color.Primitive.Yellow.100}"
             },
             name: "ColorPrimitiveYellow100",
             attributes: {
@@ -1224,13 +1358,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "100"]
           },
           200: {
+            key: "{Color.Primitive.Yellow.200}",
             $type: "color",
             $value: "#ffe380",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffe380"
+              $value: "#ffe380",
+              key: "{Color.Primitive.Yellow.200}"
             },
             name: "ColorPrimitiveYellow200",
             attributes: {
@@ -1242,13 +1378,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "200"]
           },
           300: {
+            key: "{Color.Primitive.Yellow.300}",
             $type: "color",
             $value: "#ffd43d",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffd43d"
+              $value: "#ffd43d",
+              key: "{Color.Primitive.Yellow.300}"
             },
             name: "ColorPrimitiveYellow300",
             attributes: {
@@ -1260,13 +1398,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "300"]
           },
           400: {
+            key: "{Color.Primitive.Yellow.400}",
             $type: "color",
             $value: "#ffc700",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffc700"
+              $value: "#ffc700",
+              key: "{Color.Primitive.Yellow.400}"
             },
             name: "ColorPrimitiveYellow400",
             attributes: {
@@ -1278,13 +1418,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "400"]
           },
           500: {
+            key: "{Color.Primitive.Yellow.500}",
             $type: "color",
             $value: "#ebb700",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ebb700"
+              $value: "#ebb700",
+              key: "{Color.Primitive.Yellow.500}"
             },
             name: "ColorPrimitiveYellow500",
             attributes: {
@@ -1296,13 +1438,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "500"]
           },
           600: {
+            key: "{Color.Primitive.Yellow.600}",
             $type: "color",
             $value: "#d2a400",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#d2a400"
+              $value: "#d2a400",
+              key: "{Color.Primitive.Yellow.600}"
             },
             name: "ColorPrimitiveYellow600",
             attributes: {
@@ -1314,13 +1458,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "600"]
           },
           700: {
+            key: "{Color.Primitive.Yellow.700}",
             $type: "color",
             $value: "#b78f00",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#b78f00"
+              $value: "#b78f00",
+              key: "{Color.Primitive.Yellow.700}"
             },
             name: "ColorPrimitiveYellow700",
             attributes: {
@@ -1332,13 +1478,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "700"]
           },
           800: {
+            key: "{Color.Primitive.Yellow.800}",
             $type: "color",
             $value: "#a58000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#a58000"
+              $value: "#a58000",
+              key: "{Color.Primitive.Yellow.800}"
             },
             name: "ColorPrimitiveYellow800",
             attributes: {
@@ -1350,13 +1498,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "800"]
           },
           900: {
+            key: "{Color.Primitive.Yellow.900}",
             $type: "color",
             $value: "#927200",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#927200"
+              $value: "#927200",
+              key: "{Color.Primitive.Yellow.900}"
             },
             name: "ColorPrimitiveYellow900",
             attributes: {
@@ -1368,13 +1518,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Yellow.1000}",
             $type: "color",
             $value: "#806300",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#806300"
+              $value: "#806300",
+              key: "{Color.Primitive.Yellow.1000}"
             },
             name: "ColorPrimitiveYellow1000",
             attributes: {
@@ -1386,13 +1538,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Yellow.1100}",
             $type: "color",
             $value: "#6e5600",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#6e5600"
+              $value: "#6e5600",
+              key: "{Color.Primitive.Yellow.1100}"
             },
             name: "ColorPrimitiveYellow1100",
             attributes: {
@@ -1404,13 +1558,15 @@ function f() {
             path: ["Color", "Primitive", "Yellow", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Yellow.1200}",
             $type: "color",
             $value: "#604b00",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#604b00"
+              $value: "#604b00",
+              key: "{Color.Primitive.Yellow.1200}"
             },
             name: "ColorPrimitiveYellow1200",
             attributes: {
@@ -1424,13 +1580,15 @@ function f() {
         },
         Orange: {
           50: {
+            key: "{Color.Primitive.Orange.50}",
             $type: "color",
             $value: "#ffeee2",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffeee2"
+              $value: "#ffeee2",
+              key: "{Color.Primitive.Orange.50}"
             },
             name: "ColorPrimitiveOrange50",
             attributes: {
@@ -1442,13 +1600,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "50"]
           },
           100: {
+            key: "{Color.Primitive.Orange.100}",
             $type: "color",
             $value: "#ffdfca",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffdfca"
+              $value: "#ffdfca",
+              key: "{Color.Primitive.Orange.100}"
             },
             name: "ColorPrimitiveOrange100",
             attributes: {
@@ -1460,13 +1620,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "100"]
           },
           200: {
+            key: "{Color.Primitive.Orange.200}",
             $type: "color",
             $value: "#ffc199",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffc199"
+              $value: "#ffc199",
+              key: "{Color.Primitive.Orange.200}"
             },
             name: "ColorPrimitiveOrange200",
             attributes: {
@@ -1478,13 +1640,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "200"]
           },
           300: {
+            key: "{Color.Primitive.Orange.300}",
             $type: "color",
             $value: "#ffa66d",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffa66d"
+              $value: "#ffa66d",
+              key: "{Color.Primitive.Orange.300}"
             },
             name: "ColorPrimitiveOrange300",
             attributes: {
@@ -1496,13 +1660,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "300"]
           },
           400: {
+            key: "{Color.Primitive.Orange.400}",
             $type: "color",
             $value: "#ff8d44",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ff8d44"
+              $value: "#ff8d44",
+              key: "{Color.Primitive.Orange.400}"
             },
             name: "ColorPrimitiveOrange400",
             attributes: {
@@ -1514,13 +1680,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "400"]
           },
           500: {
+            key: "{Color.Primitive.Orange.500}",
             $type: "color",
             $value: "#ff7628",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ff7628"
+              $value: "#ff7628",
+              key: "{Color.Primitive.Orange.500}"
             },
             name: "ColorPrimitiveOrange500",
             attributes: {
@@ -1532,13 +1700,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "500"]
           },
           600: {
+            key: "{Color.Primitive.Orange.600}",
             $type: "color",
             $value: "#fb5b01",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#fb5b01"
+              $value: "#fb5b01",
+              key: "{Color.Primitive.Orange.600}"
             },
             name: "ColorPrimitiveOrange600",
             attributes: {
@@ -1550,13 +1720,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "600"]
           },
           700: {
+            key: "{Color.Primitive.Orange.700}",
             $type: "color",
             $value: "#e25100",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#e25100"
+              $value: "#e25100",
+              key: "{Color.Primitive.Orange.700}"
             },
             name: "ColorPrimitiveOrange700",
             attributes: {
@@ -1568,13 +1740,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "700"]
           },
           800: {
+            key: "{Color.Primitive.Orange.800}",
             $type: "color",
             $value: "#c74700",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#c74700"
+              $value: "#c74700",
+              key: "{Color.Primitive.Orange.800}"
             },
             name: "ColorPrimitiveOrange800",
             attributes: {
@@ -1586,13 +1760,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "800"]
           },
           900: {
+            key: "{Color.Primitive.Orange.900}",
             $type: "color",
             $value: "#ac3e00",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ac3e00"
+              $value: "#ac3e00",
+              key: "{Color.Primitive.Orange.900}"
             },
             name: "ColorPrimitiveOrange900",
             attributes: {
@@ -1604,13 +1780,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Orange.1000}",
             $type: "color",
             $value: "#8b3200",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#8b3200"
+              $value: "#8b3200",
+              key: "{Color.Primitive.Orange.1000}"
             },
             name: "ColorPrimitiveOrange1000",
             attributes: {
@@ -1622,13 +1800,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Orange.1100}",
             $type: "color",
             $value: "#6d2700",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#6d2700"
+              $value: "#6d2700",
+              key: "{Color.Primitive.Orange.1100}"
             },
             name: "ColorPrimitiveOrange1100",
             attributes: {
@@ -1640,13 +1820,15 @@ function f() {
             path: ["Color", "Primitive", "Orange", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Orange.1200}",
             $type: "color",
             $value: "#541e00",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#541e00"
+              $value: "#541e00",
+              key: "{Color.Primitive.Orange.1200}"
             },
             name: "ColorPrimitiveOrange1200",
             attributes: {
@@ -1660,13 +1842,15 @@ function f() {
         },
         Red: {
           50: {
+            key: "{Color.Primitive.Red.50}",
             $type: "color",
             $value: "#fdeeee",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#fdeeee"
+              $value: "#fdeeee",
+              key: "{Color.Primitive.Red.50}"
             },
             name: "ColorPrimitiveRed50",
             attributes: {
@@ -1678,13 +1862,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "50"]
           },
           100: {
+            key: "{Color.Primitive.Red.100}",
             $type: "color",
             $value: "#ffdada",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffdada"
+              $value: "#ffdada",
+              key: "{Color.Primitive.Red.100}"
             },
             name: "ColorPrimitiveRed100",
             attributes: {
@@ -1696,13 +1882,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "100"]
           },
           200: {
+            key: "{Color.Primitive.Red.200}",
             $type: "color",
             $value: "#ffbbbb",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffbbbb"
+              $value: "#ffbbbb",
+              key: "{Color.Primitive.Red.200}"
             },
             name: "ColorPrimitiveRed200",
             attributes: {
@@ -1714,13 +1902,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "200"]
           },
           300: {
+            key: "{Color.Primitive.Red.300}",
             $type: "color",
             $value: "#ff9696",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ff9696"
+              $value: "#ff9696",
+              key: "{Color.Primitive.Red.300}"
             },
             name: "ColorPrimitiveRed300",
             attributes: {
@@ -1732,13 +1922,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "300"]
           },
           400: {
+            key: "{Color.Primitive.Red.400}",
             $type: "color",
             $value: "#ff7171",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ff7171"
+              $value: "#ff7171",
+              key: "{Color.Primitive.Red.400}"
             },
             name: "ColorPrimitiveRed400",
             attributes: {
@@ -1750,13 +1942,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "400"]
           },
           500: {
+            key: "{Color.Primitive.Red.500}",
             $type: "color",
             $value: "#ff5454",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ff5454"
+              $value: "#ff5454",
+              key: "{Color.Primitive.Red.500}"
             },
             name: "ColorPrimitiveRed500",
             attributes: {
@@ -1768,13 +1962,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "500"]
           },
           600: {
+            key: "{Color.Primitive.Red.600}",
             $type: "color",
             $value: "#fe3939",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#fe3939"
+              $value: "#fe3939",
+              key: "{Color.Primitive.Red.600}"
             },
             name: "ColorPrimitiveRed600",
             attributes: {
@@ -1786,13 +1982,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "600"]
           },
           700: {
+            key: "{Color.Primitive.Red.700}",
             $type: "color",
             $value: "#fa0000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#fa0000"
+              $value: "#fa0000",
+              key: "{Color.Primitive.Red.700}"
             },
             name: "ColorPrimitiveRed700",
             attributes: {
@@ -1804,13 +2002,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "700"]
           },
           800: {
+            key: "{Color.Primitive.Red.800}",
             $type: "color",
             $value: "#ec0000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ec0000"
+              $value: "#ec0000",
+              key: "{Color.Primitive.Red.800}"
             },
             name: "ColorPrimitiveRed800",
             attributes: {
@@ -1822,13 +2022,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "800"]
           },
           900: {
+            key: "{Color.Primitive.Red.900}",
             $type: "color",
             $value: "#ce0000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ce0000"
+              $value: "#ce0000",
+              key: "{Color.Primitive.Red.900}"
             },
             name: "ColorPrimitiveRed900",
             attributes: {
@@ -1840,13 +2042,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Red.1000}",
             $type: "color",
             $value: "#a90000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#a90000"
+              $value: "#a90000",
+              key: "{Color.Primitive.Red.1000}"
             },
             name: "ColorPrimitiveRed1000",
             attributes: {
@@ -1858,13 +2062,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Red.1100}",
             $type: "color",
             $value: "#850000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#850000"
+              $value: "#850000",
+              key: "{Color.Primitive.Red.1100}"
             },
             name: "ColorPrimitiveRed1100",
             attributes: {
@@ -1876,13 +2082,15 @@ function f() {
             path: ["Color", "Primitive", "Red", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Red.1200}",
             $type: "color",
             $value: "#620000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#620000"
+              $value: "#620000",
+              key: "{Color.Primitive.Red.1200}"
             },
             name: "ColorPrimitiveRed1200",
             attributes: {
@@ -1896,13 +2104,15 @@ function f() {
         },
         Magenta: {
           50: {
+            key: "{Color.Primitive.Magenta.50}",
             $type: "color",
             $value: "#f3e5f4",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#f3e5f4"
+              $value: "#f3e5f4",
+              key: "{Color.Primitive.Magenta.50}"
             },
             name: "ColorPrimitiveMagenta50",
             attributes: {
@@ -1914,13 +2124,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "50"]
           },
           100: {
+            key: "{Color.Primitive.Magenta.100}",
             $type: "color",
             $value: "#ffd0ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffd0ff"
+              $value: "#ffd0ff",
+              key: "{Color.Primitive.Magenta.100}"
             },
             name: "ColorPrimitiveMagenta100",
             attributes: {
@@ -1932,13 +2144,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "100"]
           },
           200: {
+            key: "{Color.Primitive.Magenta.200}",
             $type: "color",
             $value: "#ffaeff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ffaeff"
+              $value: "#ffaeff",
+              key: "{Color.Primitive.Magenta.200}"
             },
             name: "ColorPrimitiveMagenta200",
             attributes: {
@@ -1950,13 +2164,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "200"]
           },
           300: {
+            key: "{Color.Primitive.Magenta.300}",
             $type: "color",
             $value: "#ff8eff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ff8eff"
+              $value: "#ff8eff",
+              key: "{Color.Primitive.Magenta.300}"
             },
             name: "ColorPrimitiveMagenta300",
             attributes: {
@@ -1968,13 +2184,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "300"]
           },
           400: {
+            key: "{Color.Primitive.Magenta.400}",
             $type: "color",
             $value: "#f661f6",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#f661f6"
+              $value: "#f661f6",
+              key: "{Color.Primitive.Magenta.400}"
             },
             name: "ColorPrimitiveMagenta400",
             attributes: {
@@ -1986,13 +2204,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "400"]
           },
           500: {
+            key: "{Color.Primitive.Magenta.500}",
             $type: "color",
             $value: "#f137f1",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#f137f1"
+              $value: "#f137f1",
+              key: "{Color.Primitive.Magenta.500}"
             },
             name: "ColorPrimitiveMagenta500",
             attributes: {
@@ -2004,13 +2224,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "500"]
           },
           600: {
+            key: "{Color.Primitive.Magenta.600}",
             $type: "color",
             $value: "#db00db",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#db00db"
+              $value: "#db00db",
+              key: "{Color.Primitive.Magenta.600}"
             },
             name: "ColorPrimitiveMagenta600",
             attributes: {
@@ -2022,13 +2244,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "600"]
           },
           700: {
+            key: "{Color.Primitive.Magenta.700}",
             $type: "color",
             $value: "#c000c0",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#c000c0"
+              $value: "#c000c0",
+              key: "{Color.Primitive.Magenta.700}"
             },
             name: "ColorPrimitiveMagenta700",
             attributes: {
@@ -2040,13 +2264,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "700"]
           },
           800: {
+            key: "{Color.Primitive.Magenta.800}",
             $type: "color",
             $value: "#aa00aa",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#aa00aa"
+              $value: "#aa00aa",
+              key: "{Color.Primitive.Magenta.800}"
             },
             name: "ColorPrimitiveMagenta800",
             attributes: {
@@ -2058,13 +2284,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "800"]
           },
           900: {
+            key: "{Color.Primitive.Magenta.900}",
             $type: "color",
             $value: "#8b008b",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#8b008b"
+              $value: "#8b008b",
+              key: "{Color.Primitive.Magenta.900}"
             },
             name: "ColorPrimitiveMagenta900",
             attributes: {
@@ -2076,13 +2304,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Magenta.1000}",
             $type: "color",
             $value: "#6c006c",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#6c006c"
+              $value: "#6c006c",
+              key: "{Color.Primitive.Magenta.1000}"
             },
             name: "ColorPrimitiveMagenta1000",
             attributes: {
@@ -2094,13 +2324,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Magenta.1100}",
             $type: "color",
             $value: "#500050",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#500050"
+              $value: "#500050",
+              key: "{Color.Primitive.Magenta.1100}"
             },
             name: "ColorPrimitiveMagenta1100",
             attributes: {
@@ -2112,13 +2344,15 @@ function f() {
             path: ["Color", "Primitive", "Magenta", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Magenta.1200}",
             $type: "color",
             $value: "#3b003b",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#3b003b"
+              $value: "#3b003b",
+              key: "{Color.Primitive.Magenta.1200}"
             },
             name: "ColorPrimitiveMagenta1200",
             attributes: {
@@ -2132,13 +2366,15 @@ function f() {
         },
         Purple: {
           50: {
+            key: "{Color.Primitive.Purple.50}",
             $type: "color",
             $value: "#f1eafa",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#f1eafa"
+              $value: "#f1eafa",
+              key: "{Color.Primitive.Purple.50}"
             },
             name: "ColorPrimitivePurple50",
             attributes: {
@@ -2150,13 +2386,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "50"]
           },
           100: {
+            key: "{Color.Primitive.Purple.100}",
             $type: "color",
             $value: "#ecddff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ecddff"
+              $value: "#ecddff",
+              key: "{Color.Primitive.Purple.100}"
             },
             name: "ColorPrimitivePurple100",
             attributes: {
@@ -2168,13 +2406,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "100"]
           },
           200: {
+            key: "{Color.Primitive.Purple.200}",
             $type: "color",
             $value: "#ddc2ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#ddc2ff"
+              $value: "#ddc2ff",
+              key: "{Color.Primitive.Purple.200}"
             },
             name: "ColorPrimitivePurple200",
             attributes: {
@@ -2186,13 +2426,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "200"]
           },
           300: {
+            key: "{Color.Primitive.Purple.300}",
             $type: "color",
             $value: "#cda6ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#cda6ff"
+              $value: "#cda6ff",
+              key: "{Color.Primitive.Purple.300}"
             },
             name: "ColorPrimitivePurple300",
             attributes: {
@@ -2204,13 +2446,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "300"]
           },
           400: {
+            key: "{Color.Primitive.Purple.400}",
             $type: "color",
             $value: "#bb87ff",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#bb87ff"
+              $value: "#bb87ff",
+              key: "{Color.Primitive.Purple.400}"
             },
             name: "ColorPrimitivePurple400",
             attributes: {
@@ -2222,13 +2466,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "400"]
           },
           500: {
+            key: "{Color.Primitive.Purple.500}",
             $type: "color",
             $value: "#a565f8",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#a565f8"
+              $value: "#a565f8",
+              key: "{Color.Primitive.Purple.500}"
             },
             name: "ColorPrimitivePurple500",
             attributes: {
@@ -2240,13 +2486,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "500"]
           },
           600: {
+            key: "{Color.Primitive.Purple.600}",
             $type: "color",
             $value: "#8843e1",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#8843e1"
+              $value: "#8843e1",
+              key: "{Color.Primitive.Purple.600}"
             },
             name: "ColorPrimitivePurple600",
             attributes: {
@@ -2258,13 +2506,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "600"]
           },
           700: {
+            key: "{Color.Primitive.Purple.700}",
             $type: "color",
             $value: "#6f23d0",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#6f23d0"
+              $value: "#6f23d0",
+              key: "{Color.Primitive.Purple.700}"
             },
             name: "ColorPrimitivePurple700",
             attributes: {
@@ -2276,13 +2526,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "700"]
           },
           800: {
+            key: "{Color.Primitive.Purple.800}",
             $type: "color",
             $value: "#5c10be",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#5c10be"
+              $value: "#5c10be",
+              key: "{Color.Primitive.Purple.800}"
             },
             name: "ColorPrimitivePurple800",
             attributes: {
@@ -2294,13 +2546,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "800"]
           },
           900: {
+            key: "{Color.Primitive.Purple.900}",
             $type: "color",
             $value: "#5109ad",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#5109ad"
+              $value: "#5109ad",
+              key: "{Color.Primitive.Purple.900}"
             },
             name: "ColorPrimitivePurple900",
             attributes: {
@@ -2312,13 +2566,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "900"]
           },
           1e3: {
+            key: "{Color.Primitive.Purple.1000}",
             $type: "color",
             $value: "#41048e",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#41048e"
+              $value: "#41048e",
+              key: "{Color.Primitive.Purple.1000}"
             },
             name: "ColorPrimitivePurple1000",
             attributes: {
@@ -2330,13 +2586,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "1000"]
           },
           1100: {
+            key: "{Color.Primitive.Purple.1100}",
             $type: "color",
             $value: "#30016c",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#30016c"
+              $value: "#30016c",
+              key: "{Color.Primitive.Purple.1100}"
             },
             name: "ColorPrimitivePurple1100",
             attributes: {
@@ -2348,13 +2606,15 @@ function f() {
             path: ["Color", "Primitive", "Purple", "1100"]
           },
           1200: {
+            key: "{Color.Primitive.Purple.1200}",
             $type: "color",
             $value: "#21004b",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#21004b"
+              $value: "#21004b",
+              key: "{Color.Primitive.Purple.1200}"
             },
             name: "ColorPrimitivePurple1200",
             attributes: {
@@ -2369,13 +2629,15 @@ function f() {
       },
       Neutral: {
         White: {
+          key: "{Color.Neutral.White}",
           $type: "color",
           $value: "#ffffff",
           filePath: "../figma/tokens.json",
           isSource: !0,
           original: {
             $type: "color",
-            $value: "#ffffff"
+            $value: "#ffffff",
+            key: "{Color.Neutral.White}"
           },
           name: "ColorNeutralWhite",
           attributes: {
@@ -2386,13 +2648,15 @@ function f() {
           path: ["Color", "Neutral", "White"]
         },
         Black: {
+          key: "{Color.Neutral.Black}",
           $type: "color",
           $value: "#000000",
           filePath: "../figma/tokens.json",
           isSource: !0,
           original: {
             $type: "color",
-            $value: "#000000"
+            $value: "#000000",
+            key: "{Color.Neutral.Black}"
           },
           name: "ColorNeutralBlack",
           attributes: {
@@ -2404,13 +2668,15 @@ function f() {
         },
         SolidGray: {
           50: {
+            key: "{Color.Neutral.SolidGray.50}",
             $type: "color",
             $value: "#f2f2f2",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#f2f2f2"
+              $value: "#f2f2f2",
+              key: "{Color.Neutral.SolidGray.50}"
             },
             name: "ColorNeutralSolidGray50",
             attributes: {
@@ -2422,13 +2688,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "50"]
           },
           100: {
+            key: "{Color.Neutral.SolidGray.100}",
             $type: "color",
             $value: "#e6e6e6",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#e6e6e6"
+              $value: "#e6e6e6",
+              key: "{Color.Neutral.SolidGray.100}"
             },
             name: "ColorNeutralSolidGray100",
             attributes: {
@@ -2440,13 +2708,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "100"]
           },
           200: {
+            key: "{Color.Neutral.SolidGray.200}",
             $type: "color",
             $value: "#cccccc",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#cccccc"
+              $value: "#cccccc",
+              key: "{Color.Neutral.SolidGray.200}"
             },
             name: "ColorNeutralSolidGray200",
             attributes: {
@@ -2458,13 +2728,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "200"]
           },
           300: {
+            key: "{Color.Neutral.SolidGray.300}",
             $type: "color",
             $value: "#b3b3b3",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#b3b3b3"
+              $value: "#b3b3b3",
+              key: "{Color.Neutral.SolidGray.300}"
             },
             name: "ColorNeutralSolidGray300",
             attributes: {
@@ -2476,13 +2748,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "300"]
           },
           400: {
+            key: "{Color.Neutral.SolidGray.400}",
             $type: "color",
             $value: "#999999",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#999999"
+              $value: "#999999",
+              key: "{Color.Neutral.SolidGray.400}"
             },
             name: "ColorNeutralSolidGray400",
             attributes: {
@@ -2494,13 +2768,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "400"]
           },
           420: {
+            key: "{Color.Neutral.SolidGray.420}",
             $type: "color",
             $value: "#949494",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#949494"
+              $value: "#949494",
+              key: "{Color.Neutral.SolidGray.420}"
             },
             name: "ColorNeutralSolidGray420",
             attributes: {
@@ -2512,13 +2788,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "420"]
           },
           500: {
+            key: "{Color.Neutral.SolidGray.500}",
             $type: "color",
             $value: "#7f7f7f",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#7f7f7f"
+              $value: "#7f7f7f",
+              key: "{Color.Neutral.SolidGray.500}"
             },
             name: "ColorNeutralSolidGray500",
             attributes: {
@@ -2530,13 +2808,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "500"]
           },
           536: {
+            key: "{Color.Neutral.SolidGray.536}",
             $type: "color",
             $value: "#767676",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#767676"
+              $value: "#767676",
+              key: "{Color.Neutral.SolidGray.536}"
             },
             name: "ColorNeutralSolidGray536",
             attributes: {
@@ -2548,13 +2828,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "536"]
           },
           600: {
+            key: "{Color.Neutral.SolidGray.600}",
             $type: "color",
             $value: "#666666",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#666666"
+              $value: "#666666",
+              key: "{Color.Neutral.SolidGray.600}"
             },
             name: "ColorNeutralSolidGray600",
             attributes: {
@@ -2566,13 +2848,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "600"]
           },
           700: {
+            key: "{Color.Neutral.SolidGray.700}",
             $type: "color",
             $value: "#4d4d4d",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#4d4d4d"
+              $value: "#4d4d4d",
+              key: "{Color.Neutral.SolidGray.700}"
             },
             name: "ColorNeutralSolidGray700",
             attributes: {
@@ -2584,13 +2868,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "700"]
           },
           800: {
+            key: "{Color.Neutral.SolidGray.800}",
             $type: "color",
             $value: "#333333",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#333333"
+              $value: "#333333",
+              key: "{Color.Neutral.SolidGray.800}"
             },
             name: "ColorNeutralSolidGray800",
             attributes: {
@@ -2602,13 +2888,15 @@ function f() {
             path: ["Color", "Neutral", "SolidGray", "800"]
           },
           900: {
+            key: "{Color.Neutral.SolidGray.900}",
             $type: "color",
             $value: "#1a1a1a",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "#1a1a1a"
+              $value: "#1a1a1a",
+              key: "{Color.Neutral.SolidGray.900}"
             },
             name: "ColorNeutralSolidGray900",
             attributes: {
@@ -2622,13 +2910,15 @@ function f() {
         },
         OpacityGray: {
           50: {
+            key: "{Color.Neutral.OpacityGray.50}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.05)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.05)"
+              $value: "rgba(0,0,0,0.05)",
+              key: "{Color.Neutral.OpacityGray.50}"
             },
             name: "ColorNeutralOpacityGray50",
             attributes: {
@@ -2640,13 +2930,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "50"]
           },
           100: {
+            key: "{Color.Neutral.OpacityGray.100}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.1)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.1)"
+              $value: "rgba(0,0,0,0.1)",
+              key: "{Color.Neutral.OpacityGray.100}"
             },
             name: "ColorNeutralOpacityGray100",
             attributes: {
@@ -2658,13 +2950,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "100"]
           },
           200: {
+            key: "{Color.Neutral.OpacityGray.200}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.2)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.2)"
+              $value: "rgba(0,0,0,0.2)",
+              key: "{Color.Neutral.OpacityGray.200}"
             },
             name: "ColorNeutralOpacityGray200",
             attributes: {
@@ -2676,13 +2970,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "200"]
           },
           300: {
+            key: "{Color.Neutral.OpacityGray.300}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.3)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.3)"
+              $value: "rgba(0,0,0,0.3)",
+              key: "{Color.Neutral.OpacityGray.300}"
             },
             name: "ColorNeutralOpacityGray300",
             attributes: {
@@ -2694,13 +2990,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "300"]
           },
           400: {
+            key: "{Color.Neutral.OpacityGray.400}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.4)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.4)"
+              $value: "rgba(0,0,0,0.4)",
+              key: "{Color.Neutral.OpacityGray.400}"
             },
             name: "ColorNeutralOpacityGray400",
             attributes: {
@@ -2712,13 +3010,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "400"]
           },
           420: {
+            key: "{Color.Neutral.OpacityGray.420}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.42)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.42)"
+              $value: "rgba(0,0,0,0.42)",
+              key: "{Color.Neutral.OpacityGray.420}"
             },
             name: "ColorNeutralOpacityGray420",
             attributes: {
@@ -2730,13 +3030,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "420"]
           },
           500: {
+            key: "{Color.Neutral.OpacityGray.500}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.5)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.5)"
+              $value: "rgba(0,0,0,0.5)",
+              key: "{Color.Neutral.OpacityGray.500}"
             },
             name: "ColorNeutralOpacityGray500",
             attributes: {
@@ -2748,13 +3050,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "500"]
           },
           536: {
+            key: "{Color.Neutral.OpacityGray.536}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.54)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.536)"
+              $value: "rgba(0,0,0,0.536)",
+              key: "{Color.Neutral.OpacityGray.536}"
             },
             name: "ColorNeutralOpacityGray536",
             attributes: {
@@ -2766,13 +3070,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "536"]
           },
           600: {
+            key: "{Color.Neutral.OpacityGray.600}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.6)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.6)"
+              $value: "rgba(0,0,0,0.6)",
+              key: "{Color.Neutral.OpacityGray.600}"
             },
             name: "ColorNeutralOpacityGray600",
             attributes: {
@@ -2784,13 +3090,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "600"]
           },
           700: {
+            key: "{Color.Neutral.OpacityGray.700}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.7)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.7)"
+              $value: "rgba(0,0,0,0.7)",
+              key: "{Color.Neutral.OpacityGray.700}"
             },
             name: "ColorNeutralOpacityGray700",
             attributes: {
@@ -2802,13 +3110,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "700"]
           },
           800: {
+            key: "{Color.Neutral.OpacityGray.800}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.8)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.8)"
+              $value: "rgba(0,0,0,0.8)",
+              key: "{Color.Neutral.OpacityGray.800}"
             },
             name: "ColorNeutralOpacityGray800",
             attributes: {
@@ -2820,13 +3130,15 @@ function f() {
             path: ["Color", "Neutral", "OpacityGray", "800"]
           },
           900: {
+            key: "{Color.Neutral.OpacityGray.900}",
             $type: "color",
             $value: "rgba(0, 0, 0, 0.9)",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "rgba(0,0,0,0.9)"
+              $value: "rgba(0,0,0,0.9)",
+              key: "{Color.Neutral.OpacityGray.900}"
             },
             name: "ColorNeutralOpacityGray900",
             attributes: {
@@ -2842,13 +3154,15 @@ function f() {
       Semantic: {
         Success: {
           1: {
+            key: "{Color.Semantic.Success.1}",
             $type: "color",
             $value: "#259d63",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "{Color.Primitive.Green.600}"
+              $value: "{Color.Primitive.Green.600}",
+              key: "{Color.Semantic.Success.1}"
             },
             name: "ColorSemanticSuccess1",
             attributes: {
@@ -2860,13 +3174,15 @@ function f() {
             path: ["Color", "Semantic", "Success", "1"]
           },
           2: {
+            key: "{Color.Semantic.Success.2}",
             $type: "color",
             $value: "#197a4b",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "{Color.Primitive.Green.800}"
+              $value: "{Color.Primitive.Green.800}",
+              key: "{Color.Semantic.Success.2}"
             },
             name: "ColorSemanticSuccess2",
             attributes: {
@@ -2880,13 +3196,15 @@ function f() {
         },
         Error: {
           1: {
+            key: "{Color.Semantic.Error.1}",
             $type: "color",
             $value: "#ec0000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "{Color.Primitive.Red.800}"
+              $value: "{Color.Primitive.Red.800}",
+              key: "{Color.Semantic.Error.1}"
             },
             name: "ColorSemanticError1",
             attributes: {
@@ -2898,13 +3216,15 @@ function f() {
             path: ["Color", "Semantic", "Error", "1"]
           },
           2: {
+            key: "{Color.Semantic.Error.2}",
             $type: "color",
             $value: "#ce0000",
             filePath: "../figma/tokens.json",
             isSource: !0,
             original: {
               $type: "color",
-              $value: "{Color.Primitive.Red.900}"
+              $value: "{Color.Primitive.Red.900}",
+              key: "{Color.Semantic.Error.2}"
             },
             name: "ColorSemanticError2",
             attributes: {
@@ -2919,13 +3239,15 @@ function f() {
         Warning: {
           Yellow: {
             1: {
+              key: "{Color.Semantic.Warning.Yellow.1}",
               $type: "color",
               $value: "#b78f00",
               filePath: "../figma/tokens.json",
               isSource: !0,
               original: {
                 $type: "color",
-                $value: "{Color.Primitive.Yellow.700}"
+                $value: "{Color.Primitive.Yellow.700}",
+                key: "{Color.Semantic.Warning.Yellow.1}"
               },
               name: "ColorSemanticWarningYellow1",
               attributes: {
@@ -2938,13 +3260,15 @@ function f() {
               path: ["Color", "Semantic", "Warning", "Yellow", "1"]
             },
             2: {
+              key: "{Color.Semantic.Warning.Yellow.2}",
               $type: "color",
               $value: "#927200",
               filePath: "../figma/tokens.json",
               isSource: !0,
               original: {
                 $type: "color",
-                $value: "{Color.Primitive.Yellow.900}"
+                $value: "{Color.Primitive.Yellow.900}",
+                key: "{Color.Semantic.Warning.Yellow.2}"
               },
               name: "ColorSemanticWarningYellow2",
               attributes: {
@@ -2959,13 +3283,15 @@ function f() {
           },
           Orange: {
             1: {
+              key: "{Color.Semantic.Warning.Orange.1}",
               $type: "color",
               $value: "#fb5b01",
               filePath: "../figma/tokens.json",
               isSource: !0,
               original: {
                 $type: "color",
-                $value: "{Color.Primitive.Orange.600}"
+                $value: "{Color.Primitive.Orange.600}",
+                key: "{Color.Semantic.Warning.Orange.1}"
               },
               name: "ColorSemanticWarningOrange1",
               attributes: {
@@ -2978,13 +3304,15 @@ function f() {
               path: ["Color", "Semantic", "Warning", "Orange", "1"]
             },
             2: {
+              key: "{Color.Semantic.Warning.Orange.2}",
               $type: "color",
               $value: "#c74700",
               filePath: "../figma/tokens.json",
               isSource: !0,
               original: {
                 $type: "color",
-                $value: "{Color.Primitive.Orange.800}"
+                $value: "{Color.Primitive.Orange.800}",
+                key: "{Color.Semantic.Warning.Orange.2}"
               },
               name: "ColorSemanticWarningOrange2",
               attributes: {
@@ -3002,6 +3330,7 @@ function f() {
     },
     FontWeight: {
       400: {
+        key: "{FontWeight.400}",
         $type: "fontWeight",
         $value: "400",
         filePath: "../figma/tokens.json",
@@ -3018,7 +3347,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontWeights"
             }
-          }
+          },
+          key: "{FontWeight.400}"
         },
         name: "FontWeight400",
         attributes: {
@@ -3028,6 +3358,7 @@ function f() {
         path: ["FontWeight", "400"]
       },
       700: {
+        key: "{FontWeight.700}",
         $type: "fontWeight",
         $value: "700",
         filePath: "../figma/tokens.json",
@@ -3044,7 +3375,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontWeights"
             }
-          }
+          },
+          key: "{FontWeight.700}"
         },
         name: "FontWeight700",
         attributes: {
@@ -3056,6 +3388,7 @@ function f() {
     },
     FontFamily: {
       Sans: {
+        key: "{FontFamily.Sans}",
         $type: "fontFamily",
         $value: "'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif",
         filePath: "../figma/tokens.json",
@@ -3072,7 +3405,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontFamilies"
             }
-          }
+          },
+          key: "{FontFamily.Sans}"
         },
         name: "FontFamilySans",
         attributes: {
@@ -3082,6 +3416,7 @@ function f() {
         path: ["FontFamily", "Sans"]
       },
       Mono: {
+        key: "{FontFamily.Mono}",
         $type: "fontFamily",
         $value: "'Noto Sans Mono', monospace",
         filePath: "../figma/tokens.json",
@@ -3098,7 +3433,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontFamilies"
             }
-          }
+          },
+          key: "{FontFamily.Mono}"
         },
         name: "FontFamilyMono",
         attributes: {
@@ -3110,6 +3446,7 @@ function f() {
     },
     FontSize: {
       14: {
+        key: "{FontSize.14}",
         $type: "fontSize",
         $value: "0.875rem",
         filePath: "../figma/tokens.json",
@@ -3126,7 +3463,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.14}"
         },
         name: "FontSize14",
         attributes: {
@@ -3136,6 +3474,7 @@ function f() {
         path: ["FontSize", "14"]
       },
       16: {
+        key: "{FontSize.16}",
         $type: "fontSize",
         $value: "1rem",
         filePath: "../figma/tokens.json",
@@ -3152,7 +3491,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.16}"
         },
         name: "FontSize16",
         attributes: {
@@ -3162,6 +3502,7 @@ function f() {
         path: ["FontSize", "16"]
       },
       17: {
+        key: "{FontSize.17}",
         $type: "fontSize",
         $value: "1.0625rem",
         filePath: "../figma/tokens.json",
@@ -3178,7 +3519,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.17}"
         },
         name: "FontSize17",
         attributes: {
@@ -3188,6 +3530,7 @@ function f() {
         path: ["FontSize", "17"]
       },
       18: {
+        key: "{FontSize.18}",
         $type: "fontSize",
         $value: "1.125rem",
         filePath: "../figma/tokens.json",
@@ -3204,7 +3547,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.18}"
         },
         name: "FontSize18",
         attributes: {
@@ -3214,6 +3558,7 @@ function f() {
         path: ["FontSize", "18"]
       },
       20: {
+        key: "{FontSize.20}",
         $type: "fontSize",
         $value: "1.25rem",
         filePath: "../figma/tokens.json",
@@ -3230,7 +3575,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.20}"
         },
         name: "FontSize20",
         attributes: {
@@ -3240,6 +3586,7 @@ function f() {
         path: ["FontSize", "20"]
       },
       22: {
+        key: "{FontSize.22}",
         $type: "fontSize",
         $value: "1.375rem",
         filePath: "../figma/tokens.json",
@@ -3256,7 +3603,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.22}"
         },
         name: "FontSize22",
         attributes: {
@@ -3266,6 +3614,7 @@ function f() {
         path: ["FontSize", "22"]
       },
       24: {
+        key: "{FontSize.24}",
         $type: "fontSize",
         $value: "1.5rem",
         filePath: "../figma/tokens.json",
@@ -3282,7 +3631,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.24}"
         },
         name: "FontSize24",
         attributes: {
@@ -3292,6 +3642,7 @@ function f() {
         path: ["FontSize", "24"]
       },
       26: {
+        key: "{FontSize.26}",
         $type: "fontSize",
         $value: "1.625rem",
         filePath: "../figma/tokens.json",
@@ -3308,7 +3659,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.26}"
         },
         name: "FontSize26",
         attributes: {
@@ -3318,6 +3670,7 @@ function f() {
         path: ["FontSize", "26"]
       },
       28: {
+        key: "{FontSize.28}",
         $type: "fontSize",
         $value: "1.75rem",
         filePath: "../figma/tokens.json",
@@ -3334,7 +3687,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.28}"
         },
         name: "FontSize28",
         attributes: {
@@ -3344,6 +3698,7 @@ function f() {
         path: ["FontSize", "28"]
       },
       32: {
+        key: "{FontSize.32}",
         $type: "fontSize",
         $value: "2rem",
         filePath: "../figma/tokens.json",
@@ -3360,7 +3715,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.32}"
         },
         name: "FontSize32",
         attributes: {
@@ -3370,6 +3726,7 @@ function f() {
         path: ["FontSize", "32"]
       },
       36: {
+        key: "{FontSize.36}",
         $type: "fontSize",
         $value: "2.25rem",
         filePath: "../figma/tokens.json",
@@ -3386,7 +3743,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.36}"
         },
         name: "FontSize36",
         attributes: {
@@ -3396,6 +3754,7 @@ function f() {
         path: ["FontSize", "36"]
       },
       45: {
+        key: "{FontSize.45}",
         $type: "fontSize",
         $value: "2.8125rem",
         filePath: "../figma/tokens.json",
@@ -3412,7 +3771,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.45}"
         },
         name: "FontSize45",
         attributes: {
@@ -3422,6 +3782,7 @@ function f() {
         path: ["FontSize", "45"]
       },
       48: {
+        key: "{FontSize.48}",
         $type: "fontSize",
         $value: "3rem",
         filePath: "../figma/tokens.json",
@@ -3438,7 +3799,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.48}"
         },
         name: "FontSize48",
         attributes: {
@@ -3448,6 +3810,7 @@ function f() {
         path: ["FontSize", "48"]
       },
       57: {
+        key: "{FontSize.57}",
         $type: "fontSize",
         $value: "3.5625rem",
         filePath: "../figma/tokens.json",
@@ -3464,7 +3827,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.57}"
         },
         name: "FontSize57",
         attributes: {
@@ -3474,6 +3838,7 @@ function f() {
         path: ["FontSize", "57"]
       },
       64: {
+        key: "{FontSize.64}",
         $type: "fontSize",
         $value: "4rem",
         filePath: "../figma/tokens.json",
@@ -3490,7 +3855,8 @@ function f() {
             "studio.tokens": {
               originalType: "fontSizes"
             }
-          }
+          },
+          key: "{FontSize.64}"
         },
         name: "FontSize64",
         attributes: {
@@ -3502,6 +3868,7 @@ function f() {
     },
     LineHeight: {
       100: {
+        key: "{LineHeight.100}",
         $type: "lineHeight",
         $value: 1,
         filePath: "../figma/tokens.json",
@@ -3518,7 +3885,8 @@ function f() {
             "studio.tokens": {
               originalType: "lineHeights"
             }
-          }
+          },
+          key: "{LineHeight.100}"
         },
         name: "LineHeight100",
         attributes: {
@@ -3528,6 +3896,7 @@ function f() {
         path: ["LineHeight", "100"]
       },
       120: {
+        key: "{LineHeight.120}",
         $type: "lineHeight",
         $value: 1.2,
         filePath: "../figma/tokens.json",
@@ -3544,7 +3913,8 @@ function f() {
             "studio.tokens": {
               originalType: "lineHeights"
             }
-          }
+          },
+          key: "{LineHeight.120}"
         },
         name: "LineHeight120",
         attributes: {
@@ -3554,6 +3924,7 @@ function f() {
         path: ["LineHeight", "120"]
       },
       130: {
+        key: "{LineHeight.130}",
         $type: "lineHeight",
         $value: 1.3,
         filePath: "../figma/tokens.json",
@@ -3570,7 +3941,8 @@ function f() {
             "studio.tokens": {
               originalType: "lineHeights"
             }
-          }
+          },
+          key: "{LineHeight.130}"
         },
         name: "LineHeight130",
         attributes: {
@@ -3580,6 +3952,7 @@ function f() {
         path: ["LineHeight", "130"]
       },
       140: {
+        key: "{LineHeight.140}",
         $type: "lineHeight",
         $value: 1.4,
         filePath: "../figma/tokens.json",
@@ -3596,7 +3969,8 @@ function f() {
             "studio.tokens": {
               originalType: "lineHeights"
             }
-          }
+          },
+          key: "{LineHeight.140}"
         },
         name: "LineHeight140",
         attributes: {
@@ -3606,6 +3980,7 @@ function f() {
         path: ["LineHeight", "140"]
       },
       150: {
+        key: "{LineHeight.150}",
         $type: "lineHeight",
         $value: 1.5,
         filePath: "../figma/tokens.json",
@@ -3622,7 +3997,8 @@ function f() {
             "studio.tokens": {
               originalType: "lineHeights"
             }
-          }
+          },
+          key: "{LineHeight.150}"
         },
         name: "LineHeight150",
         attributes: {
@@ -3632,6 +4008,7 @@ function f() {
         path: ["LineHeight", "150"]
       },
       160: {
+        key: "{LineHeight.160}",
         $type: "lineHeight",
         $value: 1.6,
         filePath: "../figma/tokens.json",
@@ -3648,7 +4025,8 @@ function f() {
             "studio.tokens": {
               originalType: "lineHeights"
             }
-          }
+          },
+          key: "{LineHeight.160}"
         },
         name: "LineHeight160",
         attributes: {
@@ -3658,6 +4036,7 @@ function f() {
         path: ["LineHeight", "160"]
       },
       170: {
+        key: "{LineHeight.170}",
         $type: "lineHeight",
         $value: 1.7,
         filePath: "../figma/tokens.json",
@@ -3674,7 +4053,8 @@ function f() {
             "studio.tokens": {
               originalType: "lineHeights"
             }
-          }
+          },
+          key: "{LineHeight.170}"
         },
         name: "LineHeight170",
         attributes: {
@@ -3684,6 +4064,7 @@ function f() {
         path: ["LineHeight", "170"]
       },
       175: {
+        key: "{LineHeight.175}",
         $type: "lineHeight",
         $value: 1.75,
         filePath: "../figma/tokens.json",
@@ -3700,7 +4081,8 @@ function f() {
             "studio.tokens": {
               originalType: "lineHeights"
             }
-          }
+          },
+          key: "{LineHeight.175}"
         },
         name: "LineHeight175",
         attributes: {
@@ -3712,6 +4094,7 @@ function f() {
     },
     BorderRadius: {
       4: {
+        key: "{BorderRadius.4}",
         $type: "dimension",
         $value: "0.25rem",
         filePath: "../figma/tokens.json",
@@ -3728,7 +4111,8 @@ function f() {
             "studio.tokens": {
               originalType: "borderRadius"
             }
-          }
+          },
+          key: "{BorderRadius.4}"
         },
         name: "BorderRadius4",
         attributes: {
@@ -3738,6 +4122,7 @@ function f() {
         path: ["BorderRadius", "4"]
       },
       6: {
+        key: "{BorderRadius.6}",
         $type: "dimension",
         $value: "0.375rem",
         filePath: "../figma/tokens.json",
@@ -3754,7 +4139,8 @@ function f() {
             "studio.tokens": {
               originalType: "borderRadius"
             }
-          }
+          },
+          key: "{BorderRadius.6}"
         },
         name: "BorderRadius6",
         attributes: {
@@ -3764,6 +4150,7 @@ function f() {
         path: ["BorderRadius", "6"]
       },
       8: {
+        key: "{BorderRadius.8}",
         $type: "dimension",
         $value: "0.5rem",
         filePath: "../figma/tokens.json",
@@ -3780,7 +4167,8 @@ function f() {
             "studio.tokens": {
               originalType: "borderRadius"
             }
-          }
+          },
+          key: "{BorderRadius.8}"
         },
         name: "BorderRadius8",
         attributes: {
@@ -3790,6 +4178,7 @@ function f() {
         path: ["BorderRadius", "8"]
       },
       12: {
+        key: "{BorderRadius.12}",
         $type: "dimension",
         $value: "0.75rem",
         filePath: "../figma/tokens.json",
@@ -3806,7 +4195,8 @@ function f() {
             "studio.tokens": {
               originalType: "borderRadius"
             }
-          }
+          },
+          key: "{BorderRadius.12}"
         },
         name: "BorderRadius12",
         attributes: {
@@ -3816,6 +4206,7 @@ function f() {
         path: ["BorderRadius", "12"]
       },
       16: {
+        key: "{BorderRadius.16}",
         $type: "dimension",
         $value: "1rem",
         filePath: "../figma/tokens.json",
@@ -3832,7 +4223,8 @@ function f() {
             "studio.tokens": {
               originalType: "borderRadius"
             }
-          }
+          },
+          key: "{BorderRadius.16}"
         },
         name: "BorderRadius16",
         attributes: {
@@ -3842,6 +4234,7 @@ function f() {
         path: ["BorderRadius", "16"]
       },
       24: {
+        key: "{BorderRadius.24}",
         $type: "dimension",
         $value: "1.5rem",
         filePath: "../figma/tokens.json",
@@ -3858,7 +4251,8 @@ function f() {
             "studio.tokens": {
               originalType: "borderRadius"
             }
-          }
+          },
+          key: "{BorderRadius.24}"
         },
         name: "BorderRadius24",
         attributes: {
@@ -3868,6 +4262,7 @@ function f() {
         path: ["BorderRadius", "24"]
       },
       32: {
+        key: "{BorderRadius.32}",
         $type: "dimension",
         $value: "2rem",
         filePath: "../figma/tokens.json",
@@ -3884,7 +4279,8 @@ function f() {
             "studio.tokens": {
               originalType: "borderRadius"
             }
-          }
+          },
+          key: "{BorderRadius.32}"
         },
         name: "BorderRadius32",
         attributes: {
@@ -3894,6 +4290,7 @@ function f() {
         path: ["BorderRadius", "32"]
       },
       Full: {
+        key: "{BorderRadius.Full}",
         $type: "dimension",
         $value: "624.9375rem",
         filePath: "../figma/tokens.json",
@@ -3910,7 +4307,8 @@ function f() {
             "studio.tokens": {
               originalType: "borderRadius"
             }
-          }
+          },
+          key: "{BorderRadius.Full}"
         },
         name: "BorderRadiusFull",
         attributes: {
@@ -3922,6 +4320,7 @@ function f() {
     },
     Elevation: {
       1: {
+        key: "{Elevation.1}",
         $type: "shadow",
         $value: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",
         filePath: "../figma/tokens.json",
@@ -3955,7 +4354,8 @@ function f() {
             "studio.tokens": {
               originalType: "boxShadow"
             }
-          }
+          },
+          key: "{Elevation.1}"
         },
         name: "Elevation1",
         attributes: {
@@ -3965,6 +4365,7 @@ function f() {
         path: ["Elevation", "1"]
       },
       2: {
+        key: "{Elevation.2}",
         $type: "shadow",
         $value: "0 2px 12px 2px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
         filePath: "../figma/tokens.json",
@@ -3998,7 +4399,8 @@ function f() {
             "studio.tokens": {
               originalType: "boxShadow"
             }
-          }
+          },
+          key: "{Elevation.2}"
         },
         name: "Elevation2",
         attributes: {
@@ -4008,6 +4410,7 @@ function f() {
         path: ["Elevation", "2"]
       },
       3: {
+        key: "{Elevation.3}",
         $type: "shadow",
         $value: "0 4px 16px 3px rgba(0,0,0,0.1), 0 1px 6px 0 rgba(0,0,0,0.3)",
         filePath: "../figma/tokens.json",
@@ -4041,7 +4444,8 @@ function f() {
             "studio.tokens": {
               originalType: "boxShadow"
             }
-          }
+          },
+          key: "{Elevation.3}"
         },
         name: "Elevation3",
         attributes: {
@@ -4051,6 +4455,7 @@ function f() {
         path: ["Elevation", "3"]
       },
       4: {
+        key: "{Elevation.4}",
         $type: "shadow",
         $value: "0 6px 20px 4px rgba(0,0,0,0.1), 0 2px 6px 0 rgba(0,0,0,0.3)",
         filePath: "../figma/tokens.json",
@@ -4084,7 +4489,8 @@ function f() {
             "studio.tokens": {
               originalType: "boxShadow"
             }
-          }
+          },
+          key: "{Elevation.4}"
         },
         name: "Elevation4",
         attributes: {
@@ -4094,6 +4500,7 @@ function f() {
         path: ["Elevation", "4"]
       },
       5: {
+        key: "{Elevation.5}",
         $type: "shadow",
         $value: "0 8px 24px 5px rgba(0,0,0,0.1), 0 2px 10px 0 rgba(0,0,0,0.3)",
         filePath: "../figma/tokens.json",
@@ -4127,7 +4534,8 @@ function f() {
             "studio.tokens": {
               originalType: "boxShadow"
             }
-          }
+          },
+          key: "{Elevation.5}"
         },
         name: "Elevation5",
         attributes: {
@@ -4137,6 +4545,7 @@ function f() {
         path: ["Elevation", "5"]
       },
       6: {
+        key: "{Elevation.6}",
         $type: "shadow",
         $value: "0 10px 30px 6px rgba(0,0,0,0.1), 0 3px 12px 0 rgba(0,0,0,0.3)",
         filePath: "../figma/tokens.json",
@@ -4170,7 +4579,8 @@ function f() {
             "studio.tokens": {
               originalType: "boxShadow"
             }
-          }
+          },
+          key: "{Elevation.6}"
         },
         name: "Elevation6",
         attributes: {
@@ -4180,6 +4590,7 @@ function f() {
         path: ["Elevation", "6"]
       },
       7: {
+        key: "{Elevation.7}",
         $type: "shadow",
         $value: "0 12px 36px 7px rgba(0,0,0,0.1), 0 3px 14px 0 rgba(0,0,0,0.3)",
         filePath: "../figma/tokens.json",
@@ -4213,7 +4624,8 @@ function f() {
             "studio.tokens": {
               originalType: "boxShadow"
             }
-          }
+          },
+          key: "{Elevation.7}"
         },
         name: "Elevation7",
         attributes: {
@@ -4223,6 +4635,7 @@ function f() {
         path: ["Elevation", "7"]
       },
       8: {
+        key: "{Elevation.8}",
         $type: "shadow",
         $value: "0 14px 40px 7px rgba(0,0,0,0.1), 0 3px 16px 0 rgba(0,0,0,0.3)",
         filePath: "../figma/tokens.json",
@@ -4256,7 +4669,8 @@ function f() {
             "studio.tokens": {
               originalType: "boxShadow"
             }
-          }
+          },
+          key: "{Elevation.8}"
         },
         name: "Elevation8",
         attributes: {
@@ -4268,17 +4682,17 @@ function f() {
     }
   }), u;
 }
-var h = f();
-const e = /* @__PURE__ */ c(h);
-var s = {}, m = {}, $;
-function P() {
-  return $ || ($ = 1, function(i) {
+var C = c();
+const e = /* @__PURE__ */ P(C);
+var m = {}, y = {}, g;
+function f() {
+  return g || (g = 1, function(i) {
     Object.defineProperty(i, "__esModule", {
       value: !0
     }), Object.defineProperty(i, "default", {
       enumerable: !0,
       get: function() {
-        return l;
+        return a;
       }
     });
     function r(o, t) {
@@ -4288,21 +4702,21 @@ function P() {
       };
     }
     r.withOptions = function(o, t = () => ({})) {
-      const a = function(n) {
+      const l = function(n) {
         return {
           __options: n,
           handler: o(n),
           config: t(n)
         };
       };
-      return a.__isOptionsFunction = !0, a.__pluginFunction = o, a.__configFunction = t, a;
+      return l.__isOptionsFunction = !0, l.__pluginFunction = o, l.__configFunction = t, l;
     };
-    const l = r;
-  }(m)), m;
+    const a = r;
+  }(y)), y;
 }
-var p;
-function C() {
-  return p || (p = 1, function(i) {
+var $;
+function h() {
+  return $ || ($ = 1, function(i) {
     Object.defineProperty(i, "__esModule", {
       value: !0
     }), Object.defineProperty(i, "default", {
@@ -4311,24 +4725,24 @@ function C() {
         return o;
       }
     });
-    const r = /* @__PURE__ */ l(P());
-    function l(t) {
+    const r = /* @__PURE__ */ a(f());
+    function a(t) {
       return t && t.__esModule ? t : {
         default: t
       };
     }
     const o = r.default;
-  }(s)), s;
+  }(m)), m;
 }
-var v, y;
-function b() {
-  if (y) return v;
-  y = 1;
-  let i = C();
-  return v = (i.__esModule ? i : { default: i }).default, v;
+var s, p;
+function k() {
+  if (p) return s;
+  p = 1;
+  let i = h();
+  return s = (i.__esModule ? i : { default: i }).default, s;
 }
-var d = b();
-const S = /* @__PURE__ */ c(d), k = S(() => {
+var d = k();
+const S = /* @__PURE__ */ P(d), b = S(() => {
 }, {
   theme: {
     extend: {
@@ -5005,5 +5419,5 @@ const S = /* @__PURE__ */ c(d), k = S(() => {
   }
 });
 export {
-  k as default
+  b as default
 };

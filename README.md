@@ -10,17 +10,36 @@
 npm install @digital-go-jp/tailwind-theme-plugin
 ```
 
+## プラグイン設定方法
+
+### Tailwind CSS v3
+
 `tailwind.config.js` の `plugins` 部分を以下のように設定してください。
 
 ```js
 {
-    content: [...],
-    theme: {
-       extend: {
-           ...
-       },
+  content: [...],
+  theme: {
+    extend: {
+      ...
     },
-    plugins: [require('@digital-go-jp/tailwind-theme-plugin')],
+  },
+  plugins: [require('@digital-go-jp/tailwind-theme-plugin')],
+}
+```
+
+### Tailwind CSS v4
+
+Tailwind CSS の設定をしている CSS ファイルで `@plugin` を使って以下のように設定してください。
+
+```css
+
+@import 'tailwindcss';
+
+@plugin '@digital-go-jp/tailwind-theme-plugin';
+
+@theme {
+  ...
 }
 ```
 
@@ -33,8 +52,11 @@ npm install @digital-go-jp/tailwind-theme-plugin
 
 | Figma のバージョン | パッケージのバージョン |
 | ------------------ | ---------------- |
-| 2.4.0              | 0.3.1            |
-| 2.3.0              | 0.3.1            |
+| 2.6.0              | 0.3.2            |
+| 2.5.1              | 0.3.2            |
+| 2.5.0              | 0.3.2            |
+| 2.4.0              | 0.3.2            |
+| 2.3.0              | 0.3.2            |
 | 2.2.0              | 0.2.5            |
 | 2.1.3              | 0.2.5            |
 | 2.1.2              | 0.2.5            |
@@ -50,4 +72,5 @@ npm install @digital-go-jp/tailwind-theme-plugin
 
 デジタル庁デザインシステムのチームメンバーを募集しています。行政のデジタル環境を支える基盤づくりに、あなたのスキルや経験を活かしてみませんか？　求人ページからご応募ください。
 
-- [プロダクトデザイナー（デザインシステム） - デジタル庁](https://herp.careers/v1/digitalsaiyo/IjQ4ovK9BFPl)
+- [プロダクトデザイナー](https://herp.careers/v1/digitalsaiyo/IjQ4ovK9BFPl)
+- [プロダクトデザイナー（アソシエイト）](https://herp.careers/v1/digitalsaiyo/yzcCCZJ9UY-f)

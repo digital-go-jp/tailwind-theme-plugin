@@ -1,16 +1,14 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.1.3/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
     "useIgnoreFile": true
   },
   "files": {
-    "ignore": ["dist", "examples"]
+    "includes": ["**", "!**/dist"]
   },
-  "organizeImports": {
-    "enabled": true
-  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "formatter": {
     "enabled": true,
     "indentWidth": 2,

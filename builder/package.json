@@ -9,19 +9,19 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@digital-go-jp/design-tokens": "^1.1.0",
-    "@tsconfig/node20": "^20.1.5",
-    "@types/node": "^22.15.29",
+    "@tsconfig/node20": "^20.1.6",
+    "@types/node": "^24.2.0",
     "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.4",
+    "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
-    "vite": "^6.3.5"
+    "vite": "^7.0.6"
   },
   "peerDependencies": {
     "tailwindcss": "^3.4.17 || ^4.0.0"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "engineStrict": true
 }

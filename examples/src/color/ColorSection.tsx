@@ -217,8 +217,6 @@ export const ColorSection = () => {
         title='Warning（Orange）'
         colorClasses={['bg-warning-orange-1', 'bg-warning-orange-2']}
       />
-      <Colors title='Focus（Yellow）' colorClasses={['bg-focus-yellow']} />
-      <Colors title='Focus（Blue）' colorClasses={['bg-focus-blue']} />
     </section>
   );
 };

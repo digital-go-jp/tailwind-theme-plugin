@@ -19,7 +19,7 @@
     "@biomejs/biome": "^2.3.5",
     "@types/react": "^19.2.4",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
+    "@vitejs/plugin-react": "^5.1.2",
     "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",

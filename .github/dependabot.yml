@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/builder/" # Location of package manifests
+    directory: "/" # Location of package manifests
     schedule:
       interval: "monthly"
   - package-ecosystem: "npm"

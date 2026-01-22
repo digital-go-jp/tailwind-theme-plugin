@@ -1,5 +1,6 @@
 name: Publish package to npmjs
 permissions:
+  id-token: write
   contents: read
 on:
   release:

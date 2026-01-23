@@ -26,7 +26,8 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "vite build && tsc",
+    "generate": "node scripts/generate-theme.js",
+    "build": "npm run generate && vite build && tsc",
     "format": "biome format --write src/*.ts",
     "lint": "biome lint **/*.ts **/*.js"
   },

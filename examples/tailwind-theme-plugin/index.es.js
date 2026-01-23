@@ -4686,7 +4686,7 @@ var C = c();
 const e = /* @__PURE__ */ P(C);
 var m = {}, y = {}, g;
 function f() {
-  return g || (g = 1, function(i) {
+  return g || (g = 1, (function(i) {
     Object.defineProperty(i, "__esModule", {
       value: !0
     }), Object.defineProperty(i, "default", {
@@ -4712,11 +4712,11 @@ function f() {
       return l.__isOptionsFunction = !0, l.__pluginFunction = o, l.__configFunction = t, l;
     };
     const a = r;
-  }(y)), y;
+  })(y)), y;
 }
 var $;
 function h() {
-  return $ || ($ = 1, function(i) {
+  return $ || ($ = 1, (function(i) {
     Object.defineProperty(i, "__esModule", {
       value: !0
     }), Object.defineProperty(i, "default", {
@@ -4732,7 +4732,7 @@ function h() {
       };
     }
     const o = r.default;
-  }(m)), m;
+  })(m)), m;
 }
 var s, p;
 function k() {

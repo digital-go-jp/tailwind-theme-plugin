@@ -1,9 +1,10 @@
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import tokens from "@digital-go-jp/design-tokens";
+import type { Config } from "tailwindcss";
 
 // テーマオブジェクトを構築（$valueだけを抽出）
-const themeConfig = {
+const themeConfig: Config["theme"] = {
   colors: {
     white: tokens.Color.Neutral.White.$value,
     black: tokens.Color.Neutral.Black.$value,

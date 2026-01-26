@@ -26,7 +26,7 @@
     "dist/**"
   ],
   "scripts": {
-    "generate": "node scripts/generate-theme.js",
+    "generate": "tsx scripts/generate-theme.js",
     "build": "npm run generate && vite build && tsc",
     "format": "biome format --write src/*.ts",
     "lint": "biome lint **/*.ts **/*.js"
@@ -39,6 +39,7 @@
     "autoprefixer": "^10.4.23",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.0"
   },

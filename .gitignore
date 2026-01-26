@@ -21,3 +21,6 @@ node_modules
 *.sw?
 
 dist
+
+# Generated files
+src/index.ts

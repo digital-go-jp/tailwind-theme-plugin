@@ -1,5 +1,5 @@
-import { writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { writeFileSync, mkdirSync } from "node:fs";
+import { join, dirname } from "node:path";
 import tokens from "@digital-go-jp/design-tokens";
 import type { Config } from "tailwindcss";
 
@@ -693,5 +693,10 @@ export default daPlugin;
 `;
 
 const outputPath = join(process.cwd(), "src/index.ts");
+const outputDir = dirname(outputPath);
+
+// ディレクトリを作成（既に存在する場合はエラーにならない）
+mkdirSync(outputDir, { recursive: true });
+
 writeFileSync(outputPath, output);
 console.log(`Generated ${outputPath}`);

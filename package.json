@@ -7,7 +7,8 @@
     ".": {
       "require": "./dist/index.cjs.js",
       "import": "./dist/index.es.js"
-    }
+    },
+    "./v4": "./dist/v4.css"
   },
   "author": "Digital Agency",
   "homepage": "https://github.com/digital-go-jp/tailwind-theme-plugin#readme",
@@ -26,8 +27,9 @@
     "dist/**"
   ],
   "scripts": {
-    "generate": "tsx scripts/generate-theme.js",
-    "build": "npm run generate && vite build && tsc",
+    "generate": "tsx scripts/generate-theme.ts",
+    "generate:v4": "tsx scripts/generate-v4-theme.ts",
+    "build": "npm run generate && vite build && tsc && npm run generate:v4",
     "format": "biome format --write src/*.ts",
     "lint": "biome lint **/*.ts **/*.js"
   },

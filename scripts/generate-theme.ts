@@ -630,15 +630,6 @@ const themeConfig: Config["theme"] = {
     160: String(tokens.LineHeight[160].$value),
     170: String(tokens.LineHeight[170].$value),
     175: String(tokens.LineHeight[175].$value),
-    // NOTE: Remove the old keys later
-    "1-0": String(tokens.LineHeight[100].$value),
-    "1-2": String(tokens.LineHeight[120].$value),
-    "1-3": String(tokens.LineHeight[130].$value),
-    "1-4": String(tokens.LineHeight[140].$value),
-    "1-5": String(tokens.LineHeight[150].$value),
-    "1-6": String(tokens.LineHeight[160].$value),
-    "1-7": String(tokens.LineHeight[170].$value),
-    "1-75": String(tokens.LineHeight[175].$value),
   },
   borderRadius: {
     4: tokens.BorderRadius[4].$value,
@@ -649,20 +640,6 @@ const themeConfig: Config["theme"] = {
     24: tokens.BorderRadius[24].$value,
     32: tokens.BorderRadius[32].$value,
     full: tokens.BorderRadius.Full.$value,
-  },
-  screens: {
-    desktop: "48em",
-    "desktop-admin": "62em",
-  },
-  listStyleType: {
-    "lower-latin": "lower-latin",
-    circle: "circle",
-    square: "square",
-  },
-  aspectRatio: {
-    "1/1": "1 / 1",
-    "3/2": "3 / 2",
-    "16/9": "16 / 9",
   },
   boxShadow: {
     1: tokens.Elevation[1].$value,

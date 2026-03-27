@@ -1,7 +1,3 @@
-/* このファイルは自動生成されています。直接編集しないでください。 */
-/* 生成元: scripts/generate-v4-theme.ts */
-/* 生成日時: 2026-01-27T00:24:28.991Z */
-
 @theme {
   /* Colors */
   --color-white: #ffffff;
@@ -188,14 +184,6 @@
   --leading-160: 1.6;
   --leading-170: 1.7;
   --leading-175: 1.75;
-  --leading-1-0: 1;
-  --leading-1-2: 1.2;
-  --leading-1-3: 1.3;
-  --leading-1-4: 1.4;
-  --leading-1-5: 1.5;
-  --leading-1-6: 1.6;
-  --leading-1-7: 1.7;
-  --leading-1-75: 1.75;
 
   /* Border radius */
   --radius-4: 0.25rem;
@@ -576,17 +564,4 @@
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-}
-
-/* List style type utilities */
-@utility list-lower-latin {
-  list-style-type: lower-latin;
-}
-
-@utility list-circle {
-  list-style-type: circle;
-}
-
-@utility list-square {
-  list-style-type: square;
 }

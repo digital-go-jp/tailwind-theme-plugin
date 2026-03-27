@@ -9,7 +9,7 @@ function p() {
     }), Object.defineProperty(e, "default", {
       enumerable: !0,
       get: function() {
-        return f;
+        return r;
       }
     });
     function i(n, t) {
@@ -19,21 +19,21 @@ function p() {
       };
     }
     i.withOptions = function(n, t = () => ({})) {
-      const r = function(g) {
+      const f = function(g) {
         return {
           __options: g,
           handler: n(g),
           config: t(g)
         };
       };
-      return r.__isOptionsFunction = !0, r.__pluginFunction = n, r.__configFunction = t, r;
+      return f.__isOptionsFunction = !0, f.__pluginFunction = n, f.__configFunction = t, f;
     };
-    const f = i;
+    const r = i;
   })(l)), l;
 }
-var c;
-function s() {
-  return c || (c = 1, (function(e) {
+var h;
+function b() {
+  return h || (h = 1, (function(e) {
     Object.defineProperty(e, "__esModule", {
       value: !0
     }), Object.defineProperty(e, "default", {
@@ -42,8 +42,8 @@ function s() {
         return n;
       }
     });
-    const i = /* @__PURE__ */ f(p());
-    function f(t) {
+    const i = /* @__PURE__ */ r(p());
+    function r(t) {
       return t && t.__esModule ? t : {
         default: t
       };
@@ -51,15 +51,15 @@ function s() {
     const n = i.default;
   })(a)), a;
 }
-var o, h;
+var o, c;
 function u() {
-  if (h) return o;
-  h = 1;
-  let e = s();
+  if (c) return o;
+  c = 1;
+  let e = b();
   return o = (e.__esModule ? e : { default: e }).default, o;
 }
-var b = u();
-const H = /* @__PURE__ */ m(b), W = H(() => {
+var s = u();
+const H = /* @__PURE__ */ m(s), W = H(() => {
 }, {
   theme: {
     extend: {
@@ -687,15 +687,7 @@ const H = /* @__PURE__ */ m(b), W = H(() => {
         150: "1.5",
         160: "1.6",
         170: "1.7",
-        175: "1.75",
-        "1-0": "1",
-        "1-2": "1.2",
-        "1-3": "1.3",
-        "1-4": "1.4",
-        "1-5": "1.5",
-        "1-6": "1.6",
-        "1-7": "1.7",
-        "1-75": "1.75"
+        175: "1.75"
       },
       borderRadius: {
         4: "0.25rem",
@@ -706,20 +698,6 @@ const H = /* @__PURE__ */ m(b), W = H(() => {
         24: "1.5rem",
         32: "2rem",
         full: "624.9375rem"
-      },
-      screens: {
-        desktop: "48em",
-        "desktop-admin": "62em"
-      },
-      listStyleType: {
-        "lower-latin": "lower-latin",
-        circle: "circle",
-        square: "square"
-      },
-      aspectRatio: {
-        "1/1": "1 / 1",
-        "3/2": "3 / 2",
-        "16/9": "16 / 9"
       },
       boxShadow: {
         1: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",

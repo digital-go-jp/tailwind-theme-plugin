@@ -528,14 +528,6 @@ const lineHeight = {
   160: String(tokens.LineHeight[160].$value),
   170: String(tokens.LineHeight[170].$value),
   175: String(tokens.LineHeight[175].$value),
-  "1-0": String(tokens.LineHeight[100].$value),
-  "1-2": String(tokens.LineHeight[120].$value),
-  "1-3": String(tokens.LineHeight[130].$value),
-  "1-4": String(tokens.LineHeight[140].$value),
-  "1-5": String(tokens.LineHeight[150].$value),
-  "1-6": String(tokens.LineHeight[160].$value),
-  "1-7": String(tokens.LineHeight[170].$value),
-  "1-75": String(tokens.LineHeight[175].$value),
 };
 
 const borderRadius = {
@@ -558,12 +550,6 @@ const boxShadow = {
   6: tokens.Elevation[6].$value,
   7: tokens.Elevation[7].$value,
   8: tokens.Elevation[8].$value,
-};
-
-const listStyleType = {
-  "lower-latin": "lower-latin",
-  circle: "circle",
-  square: "square",
 };
 
 function generateColorVariables(): string {
@@ -650,19 +636,6 @@ function generateFontSizeUtilities(): string {
   return lines.join("\n");
 }
 
-function generateListStyleTypeUtilities(): string {
-  const lines: string[] = [];
-
-  for (const [name, value] of Object.entries(listStyleType)) {
-    lines.push(`@utility list-${name} {`);
-    lines.push(`  list-style-type: ${value};`);
-    lines.push(`}`);
-    lines.push(``);
-  }
-
-  return lines.join("\n");
-}
-
 function generateV4CSS(): string {
   return `@theme {
   /* Colors */
@@ -685,9 +658,7 @@ ${generateShadowVariables()}
 }
 
 /* Font size utilities */
-${generateFontSizeUtilities()}
-/* List style type utilities */
-${generateListStyleTypeUtilities()}`;
+${generateFontSizeUtilities()}`;
 }
 
 const output = generateV4CSS();

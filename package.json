@@ -30,7 +30,7 @@
     "generate": "tsx scripts/generate-theme.ts",
     "generate:v4": "tsx scripts/generate-v4-theme.ts",
     "build": "npm run generate && vite build && tsc && npm run generate:v4",
-    "format": "biome format --write src/*.ts",
+    "format": "biome format --write scripts/*.ts",
     "lint": "biome lint **/*.ts **/*.js"
   },
   "devDependencies": {

@@ -9,7 +9,19 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "monthly"
+    ignore:
+      - dependency-name: 'tailwindcss'
+        update-types: ['version-update:semver-major']
+        versions: ['4.x']
   - package-ecosystem: "npm"
     directory: "/examples/" # Location of package manifests
+    schedule:
+      interval: "monthly"
+    ignore:
+      - dependency-name: 'tailwindcss'
+        update-types: ['version-update:semver-major']
+        versions: ['4.x']
+  - package-ecosystem: "npm"
+    directory: "/examples-v4/" # Location of package manifests
     schedule:
       interval: "monthly"

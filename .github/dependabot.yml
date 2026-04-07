@@ -9,7 +9,17 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "monthly"
+    ignore:
+      - dependency-name: 'tailwindcss'
+        versions: ['4.x']
   - package-ecosystem: "npm"
     directory: "/examples/" # Location of package manifests
+    schedule:
+      interval: "monthly"
+    ignore:
+      - dependency-name: 'tailwindcss'
+        versions: ['4.x']
+  - package-ecosystem: "npm"
+    directory: "/examples-v4/" # Location of package manifests
     schedule:
       interval: "monthly"

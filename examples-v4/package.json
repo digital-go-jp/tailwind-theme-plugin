@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.10",
-    "@tailwindcss/vite": "^4.1.8",
+    "@tailwindcss/vite": "^4.2.4",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.4",

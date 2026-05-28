@@ -11,6 +11,24 @@ export const ColorSection = () => {
       </div>
 
       <Colors
+        title='Key'
+        colorClasses={[
+          'bg-key-50',
+          'bg-key-100',
+          'bg-key-200',
+          'bg-key-300',
+          'bg-key-400',
+          'bg-key-500',
+          'bg-key-600',
+          'bg-key-700',
+          'bg-key-800',
+          'bg-key-900',
+          'bg-key-1000',
+          'bg-key-1100',
+          'bg-key-1200',
+        ]}
+      />
+      <Colors
         title='Blue'
         colorClasses={[
           'bg-blue-50',

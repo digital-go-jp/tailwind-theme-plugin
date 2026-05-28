@@ -1,11 +1,20 @@
-/* このファイルは自動生成されています。直接編集しないでください。 */
-/* 生成元: scripts/generate-v4-theme.ts */
-/* 生成日時: 2026-01-27T00:24:28.991Z */
-
 @theme {
   /* Colors */
   --color-white: #ffffff;
   --color-black: #000000;
+  --color-key-50: #e8f1fe;
+  --color-key-100: #d9e6ff;
+  --color-key-200: #c5d7fb;
+  --color-key-300: #9db7f9;
+  --color-key-400: #7096f8;
+  --color-key-500: #4979f5;
+  --color-key-600: #3460fb;
+  --color-key-700: #264af4;
+  --color-key-800: #0031d8;
+  --color-key-900: #0017c1;
+  --color-key-1000: #00118f;
+  --color-key-1100: #000071;
+  --color-key-1200: #000060;
   --color-blue-50: #e8f1fe;
   --color-blue-100: #d9e6ff;
   --color-blue-200: #c5d7fb;

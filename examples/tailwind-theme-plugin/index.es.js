@@ -9,7 +9,7 @@ function p() {
     }), Object.defineProperty(e, "default", {
       enumerable: !0,
       get: function() {
-        return f;
+        return r;
       }
     });
     function i(n, t) {
@@ -19,16 +19,16 @@ function p() {
       };
     }
     i.withOptions = function(n, t = () => ({})) {
-      const r = function(g) {
+      const f = function(g) {
         return {
           __options: g,
           handler: n(g),
           config: t(g)
         };
       };
-      return r.__isOptionsFunction = !0, r.__pluginFunction = n, r.__configFunction = t, r;
+      return f.__isOptionsFunction = !0, f.__pluginFunction = n, f.__configFunction = t, f;
     };
-    const f = i;
+    const r = i;
   })(l)), l;
 }
 var c;
@@ -42,8 +42,8 @@ function s() {
         return n;
       }
     });
-    const i = /* @__PURE__ */ f(p());
-    function f(t) {
+    const i = /* @__PURE__ */ r(p());
+    function r(t) {
       return t && t.__esModule ? t : {
         default: t
       };
@@ -52,20 +52,35 @@ function s() {
   })(a)), a;
 }
 var o, h;
-function u() {
+function b() {
   if (h) return o;
   h = 1;
   let e = s();
   return o = (e.__esModule ? e : { default: e }).default, o;
 }
-var b = u();
-const H = /* @__PURE__ */ m(b), W = H(() => {
+var u = b();
+const H = /* @__PURE__ */ m(u), W = H(() => {
 }, {
   theme: {
     extend: {
       colors: {
         white: "#ffffff",
         black: "#000000",
+        key: {
+          50: "#e8f1fe",
+          100: "#d9e6ff",
+          200: "#c5d7fb",
+          300: "#9db7f9",
+          400: "#7096f8",
+          500: "#4979f5",
+          600: "#3460fb",
+          700: "#264af4",
+          800: "#0031d8",
+          900: "#0017c1",
+          1e3: "#00118f",
+          1100: "#000071",
+          1200: "#000060"
+        },
         blue: {
           50: "#e8f1fe",
           100: "#d9e6ff",

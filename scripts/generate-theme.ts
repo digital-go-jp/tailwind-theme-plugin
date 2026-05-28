@@ -8,6 +8,21 @@ const themeConfig: Config['theme'] = {
   colors: {
     white: tokens.Color.Neutral.White.$value,
     black: tokens.Color.Neutral.Black.$value,
+    key: {
+      50: tokens.Color.Key[50].$value,
+      100: tokens.Color.Key[100].$value,
+      200: tokens.Color.Key[200].$value,
+      300: tokens.Color.Key[300].$value,
+      400: tokens.Color.Key[400].$value,
+      500: tokens.Color.Key[500].$value,
+      600: tokens.Color.Key[600].$value,
+      700: tokens.Color.Key[700].$value,
+      800: tokens.Color.Key[800].$value,
+      900: tokens.Color.Key[900].$value,
+      1000: tokens.Color.Key[1000].$value,
+      1100: tokens.Color.Key[1100].$value,
+      1200: tokens.Color.Key[1200].$value,
+    },
     blue: {
       50: tokens.Color.Primitive.Blue[50].$value,
       100: tokens.Color.Primitive.Blue[100].$value,

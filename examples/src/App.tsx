@@ -16,7 +16,7 @@ export default function App() {
   }, []);
 
   return (
-    <main className="p-8 flex flex-col gap-14">
+    <main className='p-8 flex flex-col gap-14'>
       <ColorSection />
 
       <TypographySection />

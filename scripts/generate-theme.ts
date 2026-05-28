@@ -1,13 +1,28 @@
-import { writeFileSync, mkdirSync } from "node:fs";
-import { join, dirname } from "node:path";
-import tokens from "@digital-go-jp/design-tokens";
-import type { Config } from "tailwindcss";
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import tokens from '@digital-go-jp/design-tokens';
+import type { Config } from 'tailwindcss';
 
 // テーマオブジェクトを構築（$valueだけを抽出）
-const themeConfig: Config["theme"] = {
+const themeConfig: Config['theme'] = {
   colors: {
     white: tokens.Color.Neutral.White.$value,
     black: tokens.Color.Neutral.Black.$value,
+    key: {
+      50: tokens.Color.Key[50].$value,
+      100: tokens.Color.Key[100].$value,
+      200: tokens.Color.Key[200].$value,
+      300: tokens.Color.Key[300].$value,
+      400: tokens.Color.Key[400].$value,
+      500: tokens.Color.Key[500].$value,
+      600: tokens.Color.Key[600].$value,
+      700: tokens.Color.Key[700].$value,
+      800: tokens.Color.Key[800].$value,
+      900: tokens.Color.Key[900].$value,
+      1000: tokens.Color.Key[1000].$value,
+      1100: tokens.Color.Key[1100].$value,
+      1200: tokens.Color.Key[1200].$value,
+    },
     blue: {
       50: tokens.Color.Primitive.Blue[50].$value,
       100: tokens.Color.Primitive.Blue[100].$value,
@@ -23,7 +38,7 @@ const themeConfig: Config["theme"] = {
       1100: tokens.Color.Primitive.Blue[1100].$value,
       1200: tokens.Color.Primitive.Blue[1200].$value,
     },
-    "light-blue": {
+    'light-blue': {
       50: tokens.Color.Primitive.LightBlue[50].$value,
       100: tokens.Color.Primitive.LightBlue[100].$value,
       200: tokens.Color.Primitive.LightBlue[200].$value,
@@ -158,7 +173,7 @@ const themeConfig: Config["theme"] = {
       1100: tokens.Color.Primitive.Purple[1100].$value,
       1200: tokens.Color.Primitive.Purple[1200].$value,
     },
-    "solid-gray": {
+    'solid-gray': {
       50: tokens.Color.Neutral.SolidGray[50].$value,
       100: tokens.Color.Neutral.SolidGray[100].$value,
       200: tokens.Color.Neutral.SolidGray[200].$value,
@@ -172,7 +187,7 @@ const themeConfig: Config["theme"] = {
       800: tokens.Color.Neutral.SolidGray[800].$value,
       900: tokens.Color.Neutral.SolidGray[900].$value,
     },
-    "opacity-gray": {
+    'opacity-gray': {
       50: tokens.Color.Neutral.OpacityGray[50].$value,
       100: tokens.Color.Neutral.OpacityGray[100].$value,
       200: tokens.Color.Neutral.OpacityGray[200].$value,
@@ -186,426 +201,426 @@ const themeConfig: Config["theme"] = {
       800: tokens.Color.Neutral.OpacityGray[800].$value,
       900: tokens.Color.Neutral.OpacityGray[900].$value,
     },
-    "success-1": tokens.Color.Semantic.Success[1].$value,
-    "success-2": tokens.Color.Semantic.Success[2].$value,
-    "error-1": tokens.Color.Semantic.Error[1].$value,
-    "error-2": tokens.Color.Semantic.Error[2].$value,
-    "warning-yellow-1": tokens.Color.Semantic.Warning.Yellow[1].$value,
-    "warning-yellow-2": tokens.Color.Semantic.Warning.Yellow[2].$value,
-    "warning-orange-1": tokens.Color.Semantic.Warning.Orange[1].$value,
-    "warning-orange-2": tokens.Color.Semantic.Warning.Orange[2].$value,
-    "focus-yellow": tokens.Color.Primitive.Yellow[700].$value,
-    "focus-blue": tokens.Color.Primitive.LightBlue[700].$value,
+    'success-1': tokens.Color.Semantic.Success[1].$value,
+    'success-2': tokens.Color.Semantic.Success[2].$value,
+    'error-1': tokens.Color.Semantic.Error[1].$value,
+    'error-2': tokens.Color.Semantic.Error[2].$value,
+    'warning-yellow-1': tokens.Color.Semantic.Warning.Yellow[1].$value,
+    'warning-yellow-2': tokens.Color.Semantic.Warning.Yellow[2].$value,
+    'warning-orange-1': tokens.Color.Semantic.Warning.Orange[1].$value,
+    'warning-orange-2': tokens.Color.Semantic.Warning.Orange[2].$value,
+    'focus-yellow': tokens.Color.Primitive.Yellow[700].$value,
+    'focus-blue': tokens.Color.Primitive.LightBlue[700].$value,
   },
   fontSize: {
-    "dsp-64B-140": [
+    'dsp-64B-140': [
       tokens.FontSize[64].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
       },
     ],
-    "dsp-57B-140": [
+    'dsp-57B-140': [
       tokens.FontSize[57].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
       },
     ],
-    "dsp-48B-140": [
+    'dsp-48B-140': [
       tokens.FontSize[48].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
       },
     ],
-    "dsp-64N-140": [
+    'dsp-64N-140': [
       tokens.FontSize[64].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
       },
     ],
-    "dsp-57N-140": [
+    'dsp-57N-140': [
       tokens.FontSize[57].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
       },
     ],
-    "dsp-48N-140": [
+    'dsp-48N-140': [
       tokens.FontSize[48].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
       },
     ],
-    "std-45B-140": [
+    'std-45B-140': [
       tokens.FontSize[45].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
       },
     ],
-    "std-36B-140": [
+    'std-36B-140': [
       tokens.FontSize[36].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
-        letterSpacing: "0.01em",
+        letterSpacing: '0.01em',
       },
     ],
-    "std-32B-150": [
+    'std-32B-150': [
       tokens.FontSize[32].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.01em",
+        letterSpacing: '0.01em',
       },
     ],
-    "std-28B-150": [
+    'std-28B-150': [
       tokens.FontSize[28].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.01em",
+        letterSpacing: '0.01em',
       },
     ],
-    "std-26B-150": [
+    'std-26B-150': [
       tokens.FontSize[26].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-24B-150": [
+    'std-24B-150': [
       tokens.FontSize[24].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-22B-150": [
+    'std-22B-150': [
       tokens.FontSize[22].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-20B-160": [
+    'std-20B-160': [
       tokens.FontSize[20].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[160].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-20B-150": [
+    'std-20B-150': [
       tokens.FontSize[20].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-18B-160": [
+    'std-18B-160': [
       tokens.FontSize[18].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[160].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-17B-170": [
+    'std-17B-170': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[170].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-16B-170": [
+    'std-16B-170': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[170].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-16B-175": [
+    'std-16B-175': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[175].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-45N-140": [
+    'std-45N-140': [
       tokens.FontSize[45].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
       },
     ],
-    "std-36N-140": [
+    'std-36N-140': [
       tokens.FontSize[36].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
-        letterSpacing: "0.01em",
+        letterSpacing: '0.01em',
       },
     ],
-    "std-32N-150": [
+    'std-32N-150': [
       tokens.FontSize[32].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.01em",
+        letterSpacing: '0.01em',
       },
     ],
-    "std-28N-150": [
+    'std-28N-150': [
       tokens.FontSize[28].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.01em",
+        letterSpacing: '0.01em',
       },
     ],
-    "std-26N-150": [
+    'std-26N-150': [
       tokens.FontSize[26].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-24N-150": [
+    'std-24N-150': [
       tokens.FontSize[24].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-22N-150": [
+    'std-22N-150': [
       tokens.FontSize[22].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-20N-150": [
+    'std-20N-150': [
       tokens.FontSize[20].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-18N-160": [
+    'std-18N-160': [
       tokens.FontSize[18].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[160].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-17N-170": [
+    'std-17N-170': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[170].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-16N-170": [
+    'std-16N-170': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[170].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "std-16N-175": [
+    'std-16N-175': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[175].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "dns-17B-130": [
+    'dns-17B-130': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
       },
     ],
-    "dns-17B-120": [
+    'dns-17B-120': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
       },
     ],
-    "dns-16B-130": [
+    'dns-16B-130': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
       },
     ],
-    "dns-16B-120": [
+    'dns-16B-120': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
       },
     ],
-    "dns-14B-130": [
+    'dns-14B-130': [
       tokens.FontSize[14].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
       },
     ],
-    "dns-14B-120": [
+    'dns-14B-120': [
       tokens.FontSize[14].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
       },
     ],
-    "dns-17N-130": [
+    'dns-17N-130': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
       },
     ],
-    "dns-17N-120": [
+    'dns-17N-120': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
       },
     ],
-    "dns-16N-130": [
+    'dns-16N-130': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
       },
     ],
-    "dns-16N-120": [
+    'dns-16N-120': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
       },
     ],
-    "dns-14N-130": [
+    'dns-14N-130': [
       tokens.FontSize[14].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
       },
     ],
-    "dns-14N-120": [
+    'dns-14N-120': [
       tokens.FontSize[14].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
       },
     ],
-    "oln-17B-100": [
+    'oln-17B-100': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[100].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "oln-16B-100": [
+    'oln-16B-100': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[100].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "oln-14B-100": [
+    'oln-14B-100': [
       tokens.FontSize[14].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[100].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "oln-17N-100": [
+    'oln-17N-100': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[100].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "oln-16N-100": [
+    'oln-16N-100': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[100].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "oln-14N-100": [
+    'oln-14N-100': [
       tokens.FontSize[14].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[100].$value),
-        letterSpacing: "0.02em",
+        letterSpacing: '0.02em',
       },
     ],
-    "mono-17B-150": [
+    'mono-17B-150': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
       },
     ],
-    "mono-16B-150": [
+    'mono-16B-150': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
       },
     ],
-    "mono-14B-150": [
+    'mono-14B-150': [
       tokens.FontSize[14].$value,
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
       },
     ],
-    "mono-17N-150": [
+    'mono-17N-150': [
       tokens.FontSize[17].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
       },
     ],
-    "mono-16N-150": [
+    'mono-16N-150': [
       tokens.FontSize[16].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
       },
     ],
-    "mono-14N-150": [
+    'mono-14N-150': [
       tokens.FontSize[14].$value,
       {
         fontWeight: tokens.FontWeight[400].$value,
@@ -631,14 +646,14 @@ const themeConfig: Config["theme"] = {
     170: String(tokens.LineHeight[170].$value),
     175: String(tokens.LineHeight[175].$value),
     // NOTE: Remove the old keys later
-    "1-0": String(tokens.LineHeight[100].$value),
-    "1-2": String(tokens.LineHeight[120].$value),
-    "1-3": String(tokens.LineHeight[130].$value),
-    "1-4": String(tokens.LineHeight[140].$value),
-    "1-5": String(tokens.LineHeight[150].$value),
-    "1-6": String(tokens.LineHeight[160].$value),
-    "1-7": String(tokens.LineHeight[170].$value),
-    "1-75": String(tokens.LineHeight[175].$value),
+    '1-0': String(tokens.LineHeight[100].$value),
+    '1-2': String(tokens.LineHeight[120].$value),
+    '1-3': String(tokens.LineHeight[130].$value),
+    '1-4': String(tokens.LineHeight[140].$value),
+    '1-5': String(tokens.LineHeight[150].$value),
+    '1-6': String(tokens.LineHeight[160].$value),
+    '1-7': String(tokens.LineHeight[170].$value),
+    '1-75': String(tokens.LineHeight[175].$value),
   },
   borderRadius: {
     4: tokens.BorderRadius[4].$value,
@@ -651,18 +666,18 @@ const themeConfig: Config["theme"] = {
     full: tokens.BorderRadius.Full.$value,
   },
   screens: {
-    desktop: "48em",
-    "desktop-admin": "62em",
+    desktop: '48em',
+    'desktop-admin': '62em',
   },
   listStyleType: {
-    "lower-latin": "lower-latin",
-    circle: "circle",
-    square: "square",
+    'lower-latin': 'lower-latin',
+    circle: 'circle',
+    square: 'square',
   },
   aspectRatio: {
-    "1/1": "1 / 1",
-    "3/2": "3 / 2",
-    "16/9": "16 / 9",
+    '1/1': '1 / 1',
+    '3/2': '3 / 2',
+    '16/9': '16 / 9',
   },
   boxShadow: {
     1: tokens.Elevation[1].$value,
@@ -692,7 +707,7 @@ const daPlugin = plugin(() => {}, {
 export default daPlugin;
 `;
 
-const outputPath = join(process.cwd(), "src/index.ts");
+const outputPath = join(process.cwd(), 'src/index.ts');
 const outputDir = dirname(outputPath);
 
 // ディレクトリを作成（既に存在する場合はエラーにならない）

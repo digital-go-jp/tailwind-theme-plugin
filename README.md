@@ -30,17 +30,11 @@ npm install @digital-go-jp/tailwind-theme-plugin
 
 ### Tailwind CSS v4
 
-Tailwind CSS の設定をしている CSS ファイルで `@plugin` を使って以下のように設定してください。
+Tailwind CSS の設定をしている CSS ファイルで以下のように設定してください。
 
 ```css
-
 @import 'tailwindcss';
-
-@plugin '@digital-go-jp/tailwind-theme-plugin';
-
-@theme {
-  ...
-}
+@import '@digital-go-jp/tailwind-theme-plugin/v4';
 ```
 
 ## 使用例
@@ -52,17 +46,7 @@ Tailwind CSS の設定をしている CSS ファイルで `@plugin` を使って
 
 | Figma のバージョン | パッケージのバージョン |
 | ------------------ | ---------------- |
-| 2.10.1             | 0.3.4            |
-| 2.10.0             | 0.3.4            |
-| 2.9.0              | 0.3.4            |
-| 2.8.1              | 0.3.4            |
-| 2.8.0              | 0.3.4            |
-| 2.7.0              | 0.3.4            |
-| 2.6.0              | 0.3.4            |
-| 2.5.1              | 0.3.4            |
-| 2.5.0              | 0.3.4            |
-| 2.4.0              | 0.3.4            |
-| 2.3.0              | 0.3.4            |
+| 2.3.0〜2.14.0       | 1.0.0            |
 | 2.2.0              | 0.2.5            |
 | 2.1.3              | 0.2.5            |
 | 2.1.2              | 0.2.5            |

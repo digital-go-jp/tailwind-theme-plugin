@@ -218,6 +218,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
+        letterSpacing: '0',
       },
     ],
     'dsp-57B-140': [
@@ -225,6 +226,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
+        letterSpacing: '0',
       },
     ],
     'dsp-48B-140': [
@@ -232,6 +234,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
+        letterSpacing: '0',
       },
     ],
     'dsp-64N-140': [
@@ -239,6 +242,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
+        letterSpacing: '0',
       },
     ],
     'dsp-57N-140': [
@@ -246,6 +250,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
+        letterSpacing: '0',
       },
     ],
     'dsp-48N-140': [
@@ -253,6 +258,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
+        letterSpacing: '0',
       },
     ],
     'std-45B-140': [
@@ -260,6 +266,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
+        letterSpacing: '0',
       },
     ],
     'std-36B-140': [
@@ -363,6 +370,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[140].$value),
+        letterSpacing: '0',
       },
     ],
     'std-36N-140': [
@@ -458,6 +466,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-17B-120': [
@@ -465,6 +474,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-16B-130': [
@@ -472,6 +482,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-16B-120': [
@@ -479,6 +490,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-14B-130': [
@@ -486,6 +498,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-14B-120': [
@@ -493,6 +506,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-17N-130': [
@@ -500,6 +514,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-17N-120': [
@@ -507,6 +522,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-16N-130': [
@@ -514,6 +530,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-16N-120': [
@@ -521,6 +538,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-14N-130': [
@@ -528,6 +546,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[130].$value),
+        letterSpacing: '0',
       },
     ],
     'dns-14N-120': [
@@ -535,6 +554,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[120].$value),
+        letterSpacing: '0',
       },
     ],
     'oln-17B-100': [
@@ -590,6 +610,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
+        letterSpacing: '0',
       },
     ],
     'mono-16B-150': [
@@ -597,6 +618,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
+        letterSpacing: '0',
       },
     ],
     'mono-14B-150': [
@@ -604,6 +626,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[700].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
+        letterSpacing: '0',
       },
     ],
     'mono-17N-150': [
@@ -611,6 +634,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
+        letterSpacing: '0',
       },
     ],
     'mono-16N-150': [
@@ -618,6 +642,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
+        letterSpacing: '0',
       },
     ],
     'mono-14N-150': [
@@ -625,6 +650,7 @@ const themeConfig: Config['theme'] = {
       {
         fontWeight: tokens.FontWeight[400].$value,
         lineHeight: String(tokens.LineHeight[150].$value),
+        letterSpacing: '0',
       },
     ],
   },

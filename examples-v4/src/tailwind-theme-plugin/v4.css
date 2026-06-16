@@ -232,42 +232,49 @@
   font-size: 4rem;
   font-weight: 700;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 @utility text-dsp-57B-140 {
   font-size: 3.5625rem;
   font-weight: 700;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 @utility text-dsp-48B-140 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 @utility text-dsp-64N-140 {
   font-size: 4rem;
   font-weight: 400;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 @utility text-dsp-57N-140 {
   font-size: 3.5625rem;
   font-weight: 400;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 @utility text-dsp-48N-140 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 @utility text-std-45B-140 {
   font-size: 2.8125rem;
   font-weight: 700;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 @utility text-std-36B-140 {
@@ -358,6 +365,7 @@
   font-size: 2.8125rem;
   font-weight: 400;
   line-height: 1.4;
+  letter-spacing: 0;
 }
 
 @utility text-std-36N-140 {
@@ -441,72 +449,84 @@
   font-size: 1.0625rem;
   font-weight: 700;
   line-height: 1.3;
+  letter-spacing: 0;
 }
 
 @utility text-dns-17B-120 {
   font-size: 1.0625rem;
   font-weight: 700;
   line-height: 1.2;
+  letter-spacing: 0;
 }
 
 @utility text-dns-16B-130 {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.3;
+  letter-spacing: 0;
 }
 
 @utility text-dns-16B-120 {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.2;
+  letter-spacing: 0;
 }
 
 @utility text-dns-14B-130 {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.3;
+  letter-spacing: 0;
 }
 
 @utility text-dns-14B-120 {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.2;
+  letter-spacing: 0;
 }
 
 @utility text-dns-17N-130 {
   font-size: 1.0625rem;
   font-weight: 400;
   line-height: 1.3;
+  letter-spacing: 0;
 }
 
 @utility text-dns-17N-120 {
   font-size: 1.0625rem;
   font-weight: 400;
   line-height: 1.2;
+  letter-spacing: 0;
 }
 
 @utility text-dns-16N-130 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.3;
+  letter-spacing: 0;
 }
 
 @utility text-dns-16N-120 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2;
+  letter-spacing: 0;
 }
 
 @utility text-dns-14N-130 {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.3;
+  letter-spacing: 0;
 }
 
 @utility text-dns-14N-120 {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.2;
+  letter-spacing: 0;
 }
 
 @utility text-oln-17B-100 {
@@ -555,36 +575,42 @@
   font-size: 1.0625rem;
   font-weight: 700;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 @utility text-mono-16B-150 {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 @utility text-mono-14B-150 {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 @utility text-mono-17N-150 {
   font-size: 1.0625rem;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 @utility text-mono-16N-150 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 @utility text-mono-14N-150 {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0;
 }
 
 /* List style type utilities */

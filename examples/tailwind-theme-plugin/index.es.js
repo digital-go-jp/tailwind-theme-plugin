@@ -1,15 +1,15 @@
-function m(e) {
+function h(e) {
   return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, "default") ? e.default : e;
 }
-var a = {}, l = {}, d;
-function p() {
-  return d || (d = 1, (function(e) {
+var a = {}, l = {}, o;
+function m() {
+  return o || (o = 1, (function(e) {
     Object.defineProperty(e, "__esModule", {
       value: !0
     }), Object.defineProperty(e, "default", {
       enumerable: !0,
       get: function() {
-        return r;
+        return f;
       }
     });
     function i(n, t) {
@@ -19,21 +19,21 @@ function p() {
       };
     }
     i.withOptions = function(n, t = () => ({})) {
-      const f = function(g) {
+      const r = function(g) {
         return {
           __options: g,
           handler: n(g),
           config: t(g)
         };
       };
-      return f.__isOptionsFunction = !0, f.__pluginFunction = n, f.__configFunction = t, f;
+      return r.__isOptionsFunction = !0, r.__pluginFunction = n, r.__configFunction = t, r;
     };
-    const r = i;
+    const f = i;
   })(l)), l;
 }
-var c;
+var d;
 function s() {
-  return c || (c = 1, (function(e) {
+  return d || (d = 1, (function(e) {
     Object.defineProperty(e, "__esModule", {
       value: !0
     }), Object.defineProperty(e, "default", {
@@ -42,8 +42,8 @@ function s() {
         return n;
       }
     });
-    const i = /* @__PURE__ */ r(p());
-    function r(t) {
+    const i = /* @__PURE__ */ f(m());
+    function f(t) {
       return t && t.__esModule ? t : {
         default: t
       };
@@ -51,15 +51,15 @@ function s() {
     const n = i.default;
   })(a)), a;
 }
-var o, h;
+var c, p;
 function b() {
-  if (h) return o;
-  h = 1;
+  if (p) return c;
+  p = 1;
   let e = s();
-  return o = (e.__esModule ? e : { default: e }).default, o;
+  return c = (e.__esModule ? e : { default: e }).default, c;
 }
 var u = b();
-const H = /* @__PURE__ */ m(u), W = H(() => {
+const S = /* @__PURE__ */ h(u), H = S(() => {
 }, {
   theme: {
     extend: {
@@ -275,49 +275,56 @@ const H = /* @__PURE__ */ m(u), W = H(() => {
           "4rem",
           {
             fontWeight: "700",
-            lineHeight: "1.4"
+            lineHeight: "1.4",
+            letterSpacing: "0"
           }
         ],
         "dsp-57B-140": [
           "3.5625rem",
           {
             fontWeight: "700",
-            lineHeight: "1.4"
+            lineHeight: "1.4",
+            letterSpacing: "0"
           }
         ],
         "dsp-48B-140": [
           "3rem",
           {
             fontWeight: "700",
-            lineHeight: "1.4"
+            lineHeight: "1.4",
+            letterSpacing: "0"
           }
         ],
         "dsp-64N-140": [
           "4rem",
           {
             fontWeight: "400",
-            lineHeight: "1.4"
+            lineHeight: "1.4",
+            letterSpacing: "0"
           }
         ],
         "dsp-57N-140": [
           "3.5625rem",
           {
             fontWeight: "400",
-            lineHeight: "1.4"
+            lineHeight: "1.4",
+            letterSpacing: "0"
           }
         ],
         "dsp-48N-140": [
           "3rem",
           {
             fontWeight: "400",
-            lineHeight: "1.4"
+            lineHeight: "1.4",
+            letterSpacing: "0"
           }
         ],
         "std-45B-140": [
           "2.8125rem",
           {
             fontWeight: "700",
-            lineHeight: "1.4"
+            lineHeight: "1.4",
+            letterSpacing: "0"
           }
         ],
         "std-36B-140": [
@@ -420,7 +427,8 @@ const H = /* @__PURE__ */ m(u), W = H(() => {
           "2.8125rem",
           {
             fontWeight: "400",
-            lineHeight: "1.4"
+            lineHeight: "1.4",
+            letterSpacing: "0"
           }
         ],
         "std-36N-140": [
@@ -515,84 +523,96 @@ const H = /* @__PURE__ */ m(u), W = H(() => {
           "1.0625rem",
           {
             fontWeight: "700",
-            lineHeight: "1.3"
+            lineHeight: "1.3",
+            letterSpacing: "0"
           }
         ],
         "dns-17B-120": [
           "1.0625rem",
           {
             fontWeight: "700",
-            lineHeight: "1.2"
+            lineHeight: "1.2",
+            letterSpacing: "0"
           }
         ],
         "dns-16B-130": [
           "1rem",
           {
             fontWeight: "700",
-            lineHeight: "1.3"
+            lineHeight: "1.3",
+            letterSpacing: "0"
           }
         ],
         "dns-16B-120": [
           "1rem",
           {
             fontWeight: "700",
-            lineHeight: "1.2"
+            lineHeight: "1.2",
+            letterSpacing: "0"
           }
         ],
         "dns-14B-130": [
           "0.875rem",
           {
             fontWeight: "700",
-            lineHeight: "1.3"
+            lineHeight: "1.3",
+            letterSpacing: "0"
           }
         ],
         "dns-14B-120": [
           "0.875rem",
           {
             fontWeight: "700",
-            lineHeight: "1.2"
+            lineHeight: "1.2",
+            letterSpacing: "0"
           }
         ],
         "dns-17N-130": [
           "1.0625rem",
           {
             fontWeight: "400",
-            lineHeight: "1.3"
+            lineHeight: "1.3",
+            letterSpacing: "0"
           }
         ],
         "dns-17N-120": [
           "1.0625rem",
           {
             fontWeight: "400",
-            lineHeight: "1.2"
+            lineHeight: "1.2",
+            letterSpacing: "0"
           }
         ],
         "dns-16N-130": [
           "1rem",
           {
             fontWeight: "400",
-            lineHeight: "1.3"
+            lineHeight: "1.3",
+            letterSpacing: "0"
           }
         ],
         "dns-16N-120": [
           "1rem",
           {
             fontWeight: "400",
-            lineHeight: "1.2"
+            lineHeight: "1.2",
+            letterSpacing: "0"
           }
         ],
         "dns-14N-130": [
           "0.875rem",
           {
             fontWeight: "400",
-            lineHeight: "1.3"
+            lineHeight: "1.3",
+            letterSpacing: "0"
           }
         ],
         "dns-14N-120": [
           "0.875rem",
           {
             fontWeight: "400",
-            lineHeight: "1.2"
+            lineHeight: "1.2",
+            letterSpacing: "0"
           }
         ],
         "oln-17B-100": [
@@ -647,42 +667,48 @@ const H = /* @__PURE__ */ m(u), W = H(() => {
           "1.0625rem",
           {
             fontWeight: "700",
-            lineHeight: "1.5"
+            lineHeight: "1.5",
+            letterSpacing: "0"
           }
         ],
         "mono-16B-150": [
           "1rem",
           {
             fontWeight: "700",
-            lineHeight: "1.5"
+            lineHeight: "1.5",
+            letterSpacing: "0"
           }
         ],
         "mono-14B-150": [
           "0.875rem",
           {
             fontWeight: "700",
-            lineHeight: "1.5"
+            lineHeight: "1.5",
+            letterSpacing: "0"
           }
         ],
         "mono-17N-150": [
           "1.0625rem",
           {
             fontWeight: "400",
-            lineHeight: "1.5"
+            lineHeight: "1.5",
+            letterSpacing: "0"
           }
         ],
         "mono-16N-150": [
           "1rem",
           {
             fontWeight: "400",
-            lineHeight: "1.5"
+            lineHeight: "1.5",
+            letterSpacing: "0"
           }
         ],
         "mono-14N-150": [
           "0.875rem",
           {
             fontWeight: "400",
-            lineHeight: "1.5"
+            lineHeight: "1.5",
+            letterSpacing: "0"
           }
         ]
       },
@@ -750,5 +776,5 @@ const H = /* @__PURE__ */ m(u), W = H(() => {
   }
 });
 export {
-  W as default
+  H as default
 };

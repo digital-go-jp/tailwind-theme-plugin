@@ -1,4 +1,4 @@
-function h(e) {
+function p(e) {
   return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, "default") ? e.default : e;
 }
 var a = {}, l = {}, o;
@@ -32,7 +32,7 @@ function m() {
   })(l)), l;
 }
 var d;
-function s() {
+function b() {
   return d || (d = 1, (function(e) {
     Object.defineProperty(e, "__esModule", {
       value: !0
@@ -51,15 +51,15 @@ function s() {
     const n = i.default;
   })(a)), a;
 }
-var c, p;
-function b() {
-  if (p) return c;
-  p = 1;
-  let e = s();
+var c, h;
+function u() {
+  if (h) return c;
+  h = 1;
+  let e = b();
   return c = (e.__esModule ? e : { default: e }).default, c;
 }
-var u = b();
-const S = /* @__PURE__ */ h(u), H = S(() => {
+var s = u();
+const S = /* @__PURE__ */ p(s), H = S(() => {
 }, {
   theme: {
     extend: {
@@ -728,15 +728,7 @@ const S = /* @__PURE__ */ h(u), H = S(() => {
         150: "1.5",
         160: "1.6",
         170: "1.7",
-        175: "1.75",
-        "1-0": "1",
-        "1-2": "1.2",
-        "1-3": "1.3",
-        "1-4": "1.4",
-        "1-5": "1.5",
-        "1-6": "1.6",
-        "1-7": "1.7",
-        "1-75": "1.75"
+        175: "1.75"
       },
       borderRadius: {
         4: "0.25rem",
@@ -747,20 +739,6 @@ const S = /* @__PURE__ */ h(u), H = S(() => {
         24: "1.5rem",
         32: "2rem",
         full: "624.9375rem"
-      },
-      screens: {
-        desktop: "48em",
-        "desktop-admin": "62em"
-      },
-      listStyleType: {
-        "lower-latin": "lower-latin",
-        circle: "circle",
-        square: "square"
-      },
-      aspectRatio: {
-        "1/1": "1 / 1",
-        "3/2": "3 / 2",
-        "16/9": "16 / 9"
       },
       boxShadow: {
         1: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",

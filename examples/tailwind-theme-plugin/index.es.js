@@ -548,15 +548,7 @@ var e = Object.create, t = Object.defineProperty, n = Object.getOwnPropertyDescr
 		150: "1.5",
 		160: "1.6",
 		170: "1.7",
-		175: "1.75",
-		"1-0": "1",
-		"1-2": "1.2",
-		"1-3": "1.3",
-		"1-4": "1.4",
-		"1-5": "1.5",
-		"1-6": "1.6",
-		"1-7": "1.7",
-		"1-75": "1.75"
+		175: "1.75"
 	},
 	borderRadius: {
 		4: "0.25rem",
@@ -567,20 +559,6 @@ var e = Object.create, t = Object.defineProperty, n = Object.getOwnPropertyDescr
 		24: "1.5rem",
 		32: "2rem",
 		full: "624.9375rem"
-	},
-	screens: {
-		desktop: "48em",
-		"desktop-admin": "62em"
-	},
-	listStyleType: {
-		"lower-latin": "lower-latin",
-		circle: "circle",
-		square: "square"
-	},
-	aspectRatio: {
-		"1/1": "1 / 1",
-		"3/2": "3 / 2",
-		"16/9": "16 / 9"
 	},
 	boxShadow: {
 		1: "0 2px 8px 1px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.3)",

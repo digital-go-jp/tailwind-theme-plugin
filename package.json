@@ -1,10 +1,11 @@
 {
   "name": "@digital-go-jp/tailwind-theme-plugin",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs.js",
       "import": "./dist/index.es.js"
     },
@@ -24,26 +25,28 @@
   },
   "license": "MIT",
   "files": [
-    "dist/**"
+    "dist/**",
+    "MIGRATION.md"
   ],
   "scripts": {
     "generate": "tsx scripts/generate-theme.ts",
     "generate:v4": "tsx scripts/generate-v4-theme.ts",
     "build": "npm run generate && vite build && tsc && npm run generate:v4",
+    "prepack": "npm run build",
     "format": "biome format --write scripts/*.ts",
     "lint": "biome lint **/*.ts **/*.js"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.10",
-    "@digital-go-jp/design-tokens": "^2.0.1",
-    "@tsconfig/node22": "^22.0.5",
-    "@types/node": "^25.5.2",
-    "autoprefixer": "^10.4.27",
-    "postcss": "^8.5.8",
-    "tailwindcss": "^3.4.17",
-    "tsx": "^4.21.0",
-    "typescript": "^6.0.2",
-    "vite": "^7.3.2"
+    "@biomejs/biome": "^2.5.15",
+    "@digital-go-jp/design-tokens": "^2.1.0",
+    "@tsconfig/node22": "^22.0.6",
+    "@types/node": "^26.6.5",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.19",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
   },
   "peerDependencies": {
     "tailwindcss": "^3.4.17 || ^4.0.0"
@@ -51,7 +54,7 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": ">=22",
+      "version": "^26.12.1",
       "onFail": "error"
     }
   }

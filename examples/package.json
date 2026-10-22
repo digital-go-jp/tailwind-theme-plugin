@@ -11,19 +11,26 @@
     "fix": "biome check --write --unsafe src/**/*.tsx",
     "preview": "vite preview"
   },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^26.12.1",
+      "onFail": "error"
+    }
+  },
   "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.10",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.4",
-    "autoprefixer": "^10.4.27",
-    "postcss": "^8.5.8",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^6.0.2",
-    "vite": "^7.3.2"
+    "@biomejs/biome": "^2.5.15",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
   }
 }

@@ -164,7 +164,7 @@
   --color-opacity-gray-400: rgba(0, 0, 0, 0.4);
   --color-opacity-gray-420: rgba(0, 0, 0, 0.42);
   --color-opacity-gray-500: rgba(0, 0, 0, 0.5);
-  --color-opacity-gray-536: rgba(0, 0, 0, 0.54);
+  --color-opacity-gray-536: rgba(0, 0, 0, 0.536);
   --color-opacity-gray-600: rgba(0, 0, 0, 0.6);
   --color-opacity-gray-700: rgba(0, 0, 0, 0.7);
   --color-opacity-gray-800: rgba(0, 0, 0, 0.8);
@@ -181,7 +181,7 @@
   --color-focus-blue: #0877d7;
 
   /* Font families */
-  --font-sans: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Noto Sans JP', sans-serif;
   --font-mono: 'Noto Sans Mono', monospace;
 
   /* Font weights */
@@ -197,14 +197,6 @@
   --leading-160: 1.6;
   --leading-170: 1.7;
   --leading-175: 1.75;
-  --leading-1-0: 1;
-  --leading-1-2: 1.2;
-  --leading-1-3: 1.3;
-  --leading-1-4: 1.4;
-  --leading-1-5: 1.5;
-  --leading-1-6: 1.6;
-  --leading-1-7: 1.7;
-  --leading-1-75: 1.75;
 
   /* Border radius */
   --radius-4: 0.25rem;
@@ -611,17 +603,4 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0;
-}
-
-/* List style type utilities */
-@utility list-lower-latin {
-  list-style-type: lower-latin;
-}
-
-@utility list-circle {
-  list-style-type: circle;
-}
-
-@utility list-square {
-  list-style-type: square;
 }

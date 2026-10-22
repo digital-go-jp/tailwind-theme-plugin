@@ -11,6 +11,13 @@
     "fix": "biome check --write --unsafe src/**/*.tsx",
     "preview": "vite preview"
   },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^26.12.1",
+      "onFail": "error"
+    }
+  },
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4"

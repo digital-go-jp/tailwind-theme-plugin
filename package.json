@@ -1,10 +1,11 @@
 {
   "name": "@digital-go-jp/tailwind-theme-plugin",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs.js",
       "import": "./dist/index.es.js"
     },
@@ -24,12 +25,14 @@
   },
   "license": "MIT",
   "files": [
-    "dist/**"
+    "dist/**",
+    "MIGRATION.md"
   ],
   "scripts": {
     "generate": "tsx scripts/generate-theme.ts",
     "generate:v4": "tsx scripts/generate-v4-theme.ts",
     "build": "npm run generate && vite build && tsc && npm run generate:v4",
+    "prepack": "npm run build",
     "format": "biome format --write scripts/*.ts",
     "lint": "biome lint **/*.ts **/*.js"
   },

@@ -1,6 +1,12 @@
-# 次期メジャーバージョンへの移行ガイド
+# v2 への移行ガイド
 
-このガイドでは、`@digital-go-jp/tailwind-theme-plugin` の v1.x から次期メジャーバージョンへ移行する際に必要な対応をまとめています。
+このガイドでは、`@digital-go-jp/tailwind-theme-plugin` の v1.x から v2.0.0 へ移行する際に必要な対応をまとめています。
+
+```sh
+npm install @digital-go-jp/tailwind-theme-plugin@^2
+```
+
+Tailwind CSS v3 / v4 の読み込み方法は変更ありません。以下の削除対象を使用している場合は、更新とあわせて置き換えてください。
 
 ## 1. 旧形式の `lineHeight` トークンの削除（Tailwind CSS v3 / v4）
 

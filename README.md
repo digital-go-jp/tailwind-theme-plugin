@@ -37,9 +37,11 @@ Tailwind CSS の設定をしている CSS ファイルで以下のように設�
 @import '@digital-go-jp/tailwind-theme-plugin/v4';
 ```
 
-## 次期メジャーバージョンへの移行
+## v2 への移行
 
 v1.x からの破壊的変更と対応方法は、[移行ガイド](./MIGRATION.md)を参照してください。
+
+v2.0.0 は `@digital-go-jp/design-tokens` v2.1.0 をベースにしています。Tailwind CSS の対応バージョンは v3.4.17 以降の v3 系、および v4 系です。
 
 ## 使用例
 

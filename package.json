@@ -40,7 +40,7 @@
     "@biomejs/biome": "^2.5.15",
     "@digital-go-jp/design-tokens": "^2.1.0",
     "@tsconfig/node22": "^22.0.6",
-    "@types/node": "^26.6.5",
+    "@types/node": "^26.6.6",
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.31",
     "tailwindcss": "^3.4.19",

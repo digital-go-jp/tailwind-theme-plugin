@@ -37,7 +37,7 @@
     "lint": "biome lint **/*.ts **/*.js"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.15",
+    "@biomejs/biome": "^2.6.4",
     "@digital-go-jp/design-tokens": "^2.1.0",
     "@tsconfig/node22": "^22.0.6",
     "@types/node": "^26.6.5",
